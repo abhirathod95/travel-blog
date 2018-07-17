@@ -17,7 +17,7 @@ const wrapperStyles = {
 }
 
 const maxStep = 5
-const colorScale = chroma.scale(["#A3B96E", "#007994"]).domain([1, maxStep]).mode('lab')
+const colorScale = chroma.scale(["#3A6186", "#89253E"]).domain([1, maxStep]).mode('lab')
 console.log(colorScale(1).hex())
 
 

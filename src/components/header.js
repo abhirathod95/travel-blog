@@ -47,11 +47,11 @@ export default class Header extends React.Component {
     return (
       <div className="top-navbar">
         <Navbar fixed="top" expand="md">
-          <NavbarBrand className="d-md-none text-center" tag={Link} to="/"><img src={Logo} width="250" height="60" alt=""/></NavbarBrand>
+          <NavbarBrand className="d-md-none text-center" tag={Link} to="/"><img src={Logo} width="275" height="auto" alt=""/></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <div className="container custom-raleway">
             <Collapse isOpen={this.state.isOpen} navbar>
-              <Nav  navbar>
+              <Nav navbar>
                 {
                   navbarItemsLeft.map((item) => {
                     return (
@@ -61,7 +61,7 @@ export default class Header extends React.Component {
                   })
                 }
               </Nav>
-              <NavbarBrand className="d-none d-md-block text-center" tag={Link} to="/"><img src={Logo} width="300" height="60" alt=""/></NavbarBrand>
+              <NavbarBrand className="d-none d-md-block text-center" tag={Link} to="/"><img src={Logo} width="275" height="auto" alt=""/></NavbarBrand>
               <Nav navbar>
                 {
                   navbarItemsRight.map((item) => {

@@ -85,7 +85,7 @@ class HomeCarousel extends React.Component {
           onExited={this.onExited}
           key={item.key}
         >
-        <img src={item.src} className="img-fluid" style={wrapper} alt={item.altText} />
+        <img src={item.src} style={wrapper} alt={item.altText} />
           <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
         </CarouselItem>
       );
