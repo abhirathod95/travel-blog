@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Header from '../components/header'
-import HeaderLeft from '../components/side_header'
+import HeaderLeft from '../components/side_header.js'
 //import './index.css'
 //import '../static/bootstrap.min.css';
 import '../scss/index.scss';

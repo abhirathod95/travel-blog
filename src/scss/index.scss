@@ -1,11 +1,39 @@
-@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Raleway|Alice');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Raleway|Playfair+Display');
+
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1920px,
+  xxxl: 2560px,
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1620px,
+  xxxl: 2060px,
+);
+
 
 $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $font-family-base: EB Garamond, $font-family-sans-serif;
-$headings-font-family: Alice, $font-family-base;
-$font-size-base: 1.25rem;
+$headings-font-family: Playfair Display, $font-family-base;
+$font-size-base: 1.1rem;
 $hr-border-color: rgba(#000, .3);
 $hr-border-width: 1px;
+
+
+// Shared CSS properties
 
 // Zero margin and padding
 %no-margin-padding {
@@ -13,15 +41,53 @@ $hr-border-width: 1px;
     padding: 0 !important;
 }
 
+// Scale and center a background image
+%image-scale {
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+%align-center {
+	justify-content: center;
+	align-items: center;
+}
+
+
+// Mixins
+
+// Create div for background image based on given height
+@mixin scale-height($property) {
+	min-height: $property !important;
+	min-width: 100vw !important;
+	height: auto !important;
+	width: auto !important;
+}
+
+// Global applying CSS
 
 .custom-raleway {
 	font-family: Raleway, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
 }
 
+
+.test-test {
+	@extend %image-scale;
+}
 
 // Set margins for headings
 h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 2rem !important;	
+	font-weight: bold !important;
+}
+
+// Set margins for headings
+h1.custom-raleway, h2.custom-raleway, h3.custom-raleway, h4.custom-raleway, h5.custom-raleway, h6.custom-raleway{
+	font-weight: normal !important;
 }
 
 // Set spacing after each row in the grid 
@@ -29,80 +95,129 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 5rem !important;	
 }
 
-// Home page full page picture
+// Remove column margins and paddings
+.col {
+	@extend %no-margin-padding;
+}
 
-.img-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.wrapper:after {
+  content: '';
+  display: block;
+  padding-top: 70%;
+}
+
+.wrapper img {
   width: 100%;
   height: 100%;
-  background-color: rgba(255,255,255,0.15);
-}
-
-.bg {
-    /* The image used */
-    background-image: url("http://localhost:8000/static/chicago.fdb3f661.jpg");
-
-    /* Full height */
-    height: 100vh;
-    width: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-	margin-bottom: 5rem !important;	
+  max-width: none;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
 }
 
 
-// Carousel 
+// CSS for the banner. 
 
-.carousel-item {
-    height: 50vh;
-
-}
-
-.carousel-inner img{
-	width: 100%;
+// Container for the banner. 
+// Initial Width and height are decided inline using min-width and min-height
+.banner{
+	display: flex;
+	@extend %no-margin-padding;
+	@extend %align-center;
 	position: relative;
-	// Remove the following to get bottom 
-	top: 50%;
-  	transform: translateY(-50%);
+	width: auto; 
+	height: auto;
 }
 
-// End to end carousel for home
-.top-carousel *{
+// Set CSS for image tag within banner container 
+// Position absolute so we can put text over it
+// object-fit cover to scale/zoom picture correctly
+// height/width to 100% to fit container
+// z-index -1 to stay behind all items
+.banner > img {
+	position: absolute;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	z-index: -5;
+} 
+
+// Set CSS for the textbox and it's colored background
+.banner > .text-box {
+	display: inline-block;
+	padding: 2rem;
+	background-color: rgba(211,211,211,.55);
+}
+
+// Set no margin/padding and align content center in text box 
+.banner > .text-box > .row{
 	@extend %no-margin-padding;
+	@extend %align-center;
 }
 
-.top-carousel .row {
-	margin-bottom: 2rem !important;
+
+// Carousel CSS
+
+// Set Carousel to full width, and full viewpoint height
+// also set height/width to auto so it doesn't scale smaller than content
+.carousel-item, .carousel-inner {
+	min-height: 100vh !important;
+	min-width: 100vw !important;
+	height: auto !important;
+	width: auto !important;
 }
 
-// Top navigation bar related CSS
+// Top navigation bar 
+
+.top-navbar .container {
+	width:100% !important;
+}
+
+// Set background color
 .top-navbar .navbar {
-    background-color: rgba(220,220,220,.7);
+	@extend %no-margin-padding;
+    background-color: rgba(211,211,211,.55);
 }
 
-.top-navbar .navbar .navbar-brand,.navbar-nav * {
+// Set no margins for everything but dropdown menus
+.top-navbar .navbar-brand,.navbar-nav, .nav-link {
 	@extend %no-margin-padding;
 }
 
-.top-navbar .navbar .navbar-brand,.navbar-nav,.nav-link {
+// Use flex, and assign to type 1. This allows each part of navbar to be same space.
+// text-align center aligns each item to be centered in the space. 
+.top-navbar .navbar,.navbar-brand,.navbar-nav,.nav-link,.dropdown-toggle, .dropdown{
 	display: flex;
 	flex: 1;
+	text-align: center;
+}
+
+// Set color to black for the navbar items that are technically links
+.top-navbar .nav-link {
+	color: black;
 }
 
 // Left side navigation bar related CSS
-.sidebar .navbar{
+
+// Remove margins for navbar
+.sidebar > .navbar {
 	@extend %no-margin-padding;
 }
 
+// Apply custom margins for each icon
+.sidebar svg{
+	margin: .5rem;
+	padding: 0;
+}
 
-@import "bootstrap/bootstrap";
-
-// Left side navigation bar related CSS. Set after bootstrap to use the zindex-fixed variable
+// Left side navigation bar related CSS.
 .sidebar {
 	position: fixed !important;
 	top: 50% !important;
@@ -111,3 +226,17 @@ h1, h2, h3, h4, h5, h6 {
 	transform: translateY(-50%) !important;
 	z-index: $zindex-fixed;
 }
+
+
+// Scrolling banner
+.test123 {
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    left: calc(-50vw + 50%);
+    position: relative;
+    width: 100vw;
+}
+@import "bootstrap/bootstrap";

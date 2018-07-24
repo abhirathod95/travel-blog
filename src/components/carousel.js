@@ -1,43 +1,35 @@
 import React from 'react';
 import {
+  Button,
   Carousel,
   CarouselItem,
   CarouselControl,
   CarouselIndicators,
   CarouselCaption
 } from 'reactstrap';
-import ChicagoImage from '../images/chicago.jpg'
-
-
-console.log(ChicagoImage)
+import Banner from '../components/banner.js'
+import Chicago0 from '../images/United States of America/Illinois/Chicago_0.jpg'
+import Page0 from '../images/United States of America/Arizona/Page_0.jpg'
+import Amsterdam0 from '../images/Netherlands/Amsterdam_0.jpg'
+import SantaFe0 from '../images/United States of America/New Mexico/Santa_Fe_0.jpg'
 
 const items = [
   {
-    key: 1,
-    src: ChicagoImage,
-    altText: 'Slide 1',
-    caption: 'Slide 1'
+    src: Amsterdam0,
+    alt: 'Amsterdam',
+    heading: 'Amsterdam'
   },
   {
-    key: 2,
-    src: ChicagoImage,
-    altText: 'Slide 2',
-    caption: 'Slide 2'
+    src: Chicago0,
+    alt: 'Chicago',
+    heading: 'Chicago'
   },
   {
-    key: 3,
-    src: ChicagoImage,
-    altText: 'Slide 3',
-    caption: 'Slide 3'
+    src: SantaFe0,
+    alt: 'Santa Fe',
+    heading: 'Santa Fe'
   }
 ];
-
-const wrapper = {
-  width: "100%",
-  height: "auto",
-}
-
-console.log(items)
 
 class HomeCarousel extends React.Component {
   constructor(props) {
@@ -78,15 +70,14 @@ class HomeCarousel extends React.Component {
   render() {
     const { activeIndex } = this.state;
 
-    const slides = items.map((item) => {
+    const slides = items.map((item, i) => {
       return (
         <CarouselItem
           onExiting={this.onExiting}
           onExited={this.onExited}
-          key={item.key}
+          key={i}
         >
-        <img src={item.src} style={wrapper} alt={item.altText} />
-          <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+          <Banner item={{'src':item.src, 'alt': item.alt, 'width':'100vw', 'height':'100vh','subHeading':'Explore','heading':item.heading, 'buttonText':'Read More'}}/>
         </CarouselItem>
       );
     });
