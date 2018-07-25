@@ -16,6 +16,7 @@ import Banner from '../components/banner.js'
 import Chicago0 from '../images/United States of America/Illinois/Chicago_0.jpg'
 import Page0 from '../images/United States of America/Arizona/Page_0.jpg'
 import Amsterdam0 from '../images/Netherlands/Amsterdam_0.jpg'
+import NewZealand0 from '../images/New Zealand/NA_0.jpg'
 
 const CustomCol = (props) => <Col widths={['xs', 'sm', 'md', 'lg', 'xl', 'xxl']} {...props} />;
 const items = [
@@ -38,27 +39,13 @@ const items = [
 
 const BlogPage = () => (
 	<div>
-		<Banner item={{'src':Amsterdam0, 'alt': 'Amsterdam', 'width':'100vw', 'height':'50vh','subHeading':'Better Ways To','heading':'Travel Smarter', 'buttonText':'Read More'}}/>
-		<Container fluid>
-			<Row className="mt-5 justify-content-center">
-	  			<Col sm="8">
-	  				<div className="d-flex flex-row">
-	    				<div style={{'flexGrow': '1'}}>
-	    					<hr/>
-	    				</div>
-	    				<div className="pl-5 pr-5" style={{'flexBasis': 'auto'}}> 
-	    					March 12, 2018 
-	    				</div>
-	    				<div style={{'flexGrow': '1'}}>
-	    					<hr/>
-	    				</div>
-	    			</div>
-	  			</Col>
-			</Row>
-
-			<Row className="m-0 justify-content-center" >
-				<CustomCol sm="auto">
-					<CardImg src={Amsterdam0} className="img-fluid" alt="Card image cap" style={{'objectFit':'cover','width': '300px', 'height': '250px'}}/>
+		<Container fluid className="m-0 p-0">
+			<Row className="m-0 p-0 mb-5">
+				<Banner showTextBox={false} item={{'src':NewZealand0, 'alt': 'Amsterdam', 'width':'100vw', 'height':'50vh','subHeading':'Better Ways To','heading':'Travel Smarter', 'buttonText':'Read More'}}/>
+			</Row> 
+			<Row className="justify-content-center m-0 mb-5">
+				<CustomCol sm="3" className="wrapper">
+					<CardImg src={Amsterdam0} className="img-fluid" alt="Card image cap" />
 				</CustomCol>
 				<Col sm="6">
 		            <CardBody >
@@ -69,10 +56,15 @@ const BlogPage = () => (
 	            	</CardBody>
 				</Col>
 			</Row>
-			<Row className="m-0 justify-content-center " >
-				<Col sm="auto">
-					<div className="test-test" style={{'backgroundImage': 'url(' + Amsterdam0 + ')'}}></div>
+			<Row className="justify-content-center m-0 mb-5" >
+				<Col sm="10">
+					<hr/>
 				</Col>
+			</Row>
+			<Row className="justify-content-center m-0 mb-5" >
+				<CustomCol sm="3" className="wrapper">
+					<CardImg src={Amsterdam0} className="img-fluid" alt="Card image cap" />
+				</CustomCol>
 				<Col sm="6">
 		            <CardBody >
 		                <CardTitle>Card title</CardTitle>

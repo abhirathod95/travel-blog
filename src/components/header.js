@@ -23,7 +23,7 @@ const navbarItemsLeft = [
   ]
 
 const navbarItemsRight = [
-  {"name" : "blog", "path" : "/page-2", "visibleName": "BLOG POSTS"},
+  {"name" : "blog", "path" : "/blog", "visibleName": "BLOG POSTS"},
   {"name" : "travelTips", "path" : "/", "visibleName": "TRAVEL TIPS"}
   ]
 

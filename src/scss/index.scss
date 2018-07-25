@@ -100,6 +100,9 @@ h1.custom-raleway, h2.custom-raleway, h3.custom-raleway, h4.custom-raleway, h5.c
 	@extend %no-margin-padding;
 }
 
+hr {
+	@extend %no-margin-padding; 
+}
 
 .wrapper {
   position: relative;

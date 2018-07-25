@@ -12,11 +12,13 @@ export default class Banner extends React.Component {
     super(props);
   }
 
+
+
   render() {
   	return (
-			<Container fluid className="banner " style={{'minHeight': this.props.item.height, 'minWidth': this.props.item.width}} >
+			<Container fluid className="banner" style={{'minHeight': this.props.item.height, 'minWidth': this.props.item.width}} >
 					<img src={this.props.item.src} alt={this.props.item.alt}/>
-					<div className="text-box ">
+					<div className={this.props.showTextBox ? "text-box" : "d-none"}>
 						<Row>
 							<Col>
 								<hr/>
@@ -44,3 +46,7 @@ export default class Banner extends React.Component {
 	)
   }
 }
+
+Banner.defaultProps = {
+	showTextBox: true
+};

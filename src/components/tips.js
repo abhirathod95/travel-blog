@@ -27,34 +27,49 @@ const Tips = (props) => {
           <CustomCol sm="12" md="3" >    
             <CardBody className="m-0 p-0">
               <div className="wrapper">
-              <CardImg top  src={Amsterdam0} alt="Card image cap" style={{'objectFit':'cover'}}/>
+                <CardImg top  src={Amsterdam0} alt="Card image cap" style={{'objectFit':'cover'}}/>
               </div>
-                <CardTitle tag="h2" className="mb-4">Card title</CardTitle>
-                <CardSubtitle tag="div" className="custom-raleway mb-4">Card subtitle</CardSubtitle>
-                <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                <Button style={{'backgroundColor':'#229990'}}>Button</Button>
+              <div className="custom-raleway m-0 mt-2 mb-2 pl-2 pr-2 pt-1 pb-1" style={{'display':'inline-block', 'backgroundColor':'#229990'}}>
+                March 10, 2018
+              </div>
+              <h2 className="m-0 mb-2 p-0"> 
+                OUR FAVORITE 10 DESIGN HOTELS WORLDWIDE
+              </h2>
+              <div>
+                This is some quick example text to build on the card title and yeah. This is some quick example text to build on the card title and yeah.This is some quick example text to build on the card title and yeah. This is some quick example text to build on the card title and yeah.This is some quick example text to build on the card title and yeah.
+              </div>
             </CardBody>
           </CustomCol>
           <CustomCol sm="12" md="3" >    
             <CardBody className="m-0 p-0">
               <div className="wrapper">
-              <CardImg top  src={ImageTips} alt="Card image cap" style={{'objectFit':'cover'}}/>
+                <CardImg top  src={Chicago0} alt="Card image cap" style={{'objectFit':'cover'}}/>
               </div>
-                <CardTitle tag="h2" className="mb-4">Card title</CardTitle>
-                <CardSubtitle tag="div" className="custom-raleway mb-4">Card subtitle</CardSubtitle>
-                <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                <Button style={{'backgroundColor':'#229990'}}>Button</Button>
+              <div className="custom-raleway m-0 mt-2 mb-2 pl-2 pr-2 pt-1 pb-1" style={{'display':'inline-block', 'backgroundColor':'#229990'}}>
+                March 10, 2018
+              </div>
+              <h2 className="m-0 mb-2 p-0"> 
+                OUR FAVORITE 10 DESIGN HOTELS WORLDWIDE
+              </h2>
+              <div>
+                This is some quick example text to build on the card title and yeah. This is some quick example text to build on the card title and yeah.This is some quick example text to build on the card title and yeah. This is some quick example text to build on the card title and yeah.This is some quick example text to build on the card title and yeah.
+              </div>
             </CardBody>
           </CustomCol>
-          <CustomCol sm="12" md="3">   
+          <CustomCol sm="12" md="3" >    
             <CardBody className="m-0 p-0">
               <div className="wrapper">
-              <CardImg top  src={SantaFe0} alt="Card image cap" style={{'objectFit':'cover'}}/>
+                <CardImg top  src={SantaFe0} alt="Card image cap" style={{'objectFit':'cover'}}/>
               </div>
-                <CardTitle tag="h2" className="mb-4">Card title</CardTitle>
-                <CardSubtitle tag="div" className="custom-raleway mb-4">Card subtitle</CardSubtitle>
-                <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                <Button style={{'backgroundColor':'#229990'}}>Button</Button>
+              <div className="custom-raleway m-0 mt-2 mb-2 pl-2 pr-2 pt-1 pb-1" style={{'display':'inline-block', 'backgroundColor':'#229990'}}>
+                March 10, 2018
+              </div>
+              <h2 className="m-0 mb-2 p-0"> 
+                OUR FAVORITE 10 DESIGN HOTELS WORLDWIDE
+              </h2>
+              <div>
+                This is some quick example text to build on the card title and yeah. This is some quick example text to build on the card title and yeah.This is some quick example text to build on the card title and yeah. This is some quick example text to build on the card title and yeah.This is some quick example text to build on the card title and yeah.
+              </div>
             </CardBody>
           </CustomCol>
         </Row>
