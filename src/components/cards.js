@@ -49,9 +49,12 @@ export default class CustomCard extends React.Component {
         <div className="custom-raleway m-0 mt-2 mb-2 pl-2 pr-2 pt-1 pb-1" style={{'display':'inline-block', 'backgroundColor':'#229990'}}>
           {this.props.item.date}
         </div>
-        <h2 className="m-0 mb-2 p-0"> 
+        <h4 className="d-none d-lg-block m-0 mb-2 p-0"> 
           {this.props.item.title}
-        </h2>
+        </h4>
+        <h6 className="d-block d-lg-none m-0 mb-2 p-0"> 
+          {this.props.item.title}
+        </h6>
         {this.props.item.subtitle ? <div>{this.props.subtitle}</div> : false}
         <div>
           {this.props.item.content}
@@ -67,8 +70,8 @@ export default class CustomCard extends React.Component {
             <img src={this.props.item.src} alt="Card image cap" style={{'objectFit':'cover'}}/>
           <div className="aspect-ratio-box-inside d-flex flex-row">
             <div className="text-box">
-            <h4 className="d-block d-md-none m-0 p-4">{this.props.item.title}</h4>
-            <h4 className="d-none d-md-block m-0 p-4">{this.props.item.title}</h4>
+            <h6 className="d-block d-lg-none m-0 p-4">{this.props.item.title}</h6>
+            <h4 className="d-none d-lg-block m-0 p-4">{this.props.item.title}</h4>
             </div>
           </div>
       </div>

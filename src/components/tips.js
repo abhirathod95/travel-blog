@@ -34,7 +34,7 @@ const Tips = (props) => {
         <Row className="justify-content-center align-items-stretch" >
           { items.map((item) => {
               return (
-                <CustomCol sm="3">
+                <CustomCol sm="12" md="4" lg="4" xl="3">
                   <CustomCard loc={'top'} item={item}/>    
                 </CustomCol>
               )

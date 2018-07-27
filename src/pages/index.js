@@ -34,7 +34,7 @@ const IndexPage = () => (
 			<Row className="justify-content-center m-0 mb-5 p-5" style={{'backgroundColor':'#229990'}}>
 	  			<Col lg="12" xl="6" className="text-center">
 	    			<blockquote className="blockquote">
-	  					<p className="mb-0 font-weight-bold h2" style={{'color':'white'}}>“Let us step into the night and pursue that flighty temptress, adventure.” </p>
+	  					<p className="mb-0 font-weight-bold h4" style={{'color':'white'}}>“Let us step into the night and pursue that flighty temptress, adventure.” </p>
 	  					<footer className="blockquote-footer" style={{'color':'white'}}>Albus Dumbledore, <cite >Harry Potter and the Half Blood Prince</cite></footer>
 					</blockquote>
   				</Col>
@@ -42,7 +42,7 @@ const IndexPage = () => (
 			<Row className="justify-content-center p-0 m-0 mb-5">
 				{ items.map((item, i) => {
 				  return (
-				    <CustomCol key={i}  sm="3">
+				    <CustomCol key={i} sm="12" md="4" lg="4" xl="3">
 				      <CustomCard loc={'overlay'} item={item}/>    
 				    </CustomCol>
 				  )
@@ -59,7 +59,7 @@ const IndexPage = () => (
 			</Row>
 			<Row className="justify-content-center p-0 m-0 mb-5 p-5" style={{'backgroundColor':'#229990'}}>
 	  			<Col>
-	    			<h1 className="text-center display-4 m-0 p-0" style={{'color':'white'}}> Where I Have Been </h1>
+	    			<h1 className="text-center m-0 p-0" style={{'color':'white'}}> Where I Have Been </h1>
 	  			</Col>
 			</Row>
 			<Row className="justify-content-center p-0 m-0 mb-5">
