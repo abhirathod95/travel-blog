@@ -12,10 +12,16 @@ import HomeCarousel from '../components/carousel.js'
 import Tips from  '../components/tips.js'
 import TipsBackgroundImg from '../images/tips.jpg'
 import Amsterdam0 from '../images/Netherlands/Amsterdam_0.jpg'
+import CustomCard from '../components/cards.js'
 
 
 const CustomCol = (props) => <Col widths={['xs', 'sm', 'md', 'lg', 'xl', 'xxl']} {...props} />;
 
+const items = [
+  {'title':'TRAVEL GUIDES', 'src':Amsterdam0, 'date': 'March 10, 2018', 'content': 'This is some quick example text to build on the card title and yeah.'},
+  {'title':'ITINERARIES', 'src':Amsterdam0, 'date': 'March 10, 2018', 'content': 'This is some quick example text to build on the card title and yeah.'},
+  {'title':'TRAVEL JOURNAL', 'src':TipsBackgroundImg, 'date': 'March 10, 2018', 'content': 'This is some quick example text to build on the card title and yeah.'},
+]
 
 const IndexPage = () => (
 	<div>
@@ -34,21 +40,14 @@ const IndexPage = () => (
   				</Col>
 			</Row>
 			<Row className="justify-content-center p-0 m-0 mb-5">
-				<Col lg="12" xl="3" className="text-center p-0" style={{'margin':'0', 'marginRight':'.75rem', 'marginLeft':'.75rem'}}>
-					<div className="wrapper">
-              			<img src={TipsBackgroundImg} alt="Card image cap" style={{'objectFit':'cover'}}/>
-              		</div>
-				</Col>
-				<Col lg="12" xl="3" className="text-center p-0"  style={{'margin':'0', 'marginRight':'.75rem', 'marginLeft':'.75rem'}}>
-					<div className="wrapper">
-              			<img src={TipsBackgroundImg} alt="Card image cap" style={{'objectFit':'cover'}}/>
-              		</div>
-				</Col>
-				<Col lg="12" xl="3" className="text-center p-0"  style={{'margin':'0', 'marginRight':'.75rem', 'marginLeft':'.75rem'}}>
-					<div className="wrapper">
-              			<img src={TipsBackgroundImg} alt="Card image cap" style={{'objectFit':'cover'}}/>
-              		</div>
-				</Col>
+				{ items.map((item, i) => {
+				  return (
+				    <CustomCol key={i}  sm="3">
+				      <CustomCard loc={'overlay'} item={item}/>    
+				    </CustomCol>
+				  )
+				})
+				}
 			</Row>
 			<Row className="justify-content-center p-0 m-0 mb-5">
 				<Col lg="12" xl="8" className="text-center">
