@@ -31,10 +31,10 @@ const IndexPage = () => (
 	    			<HomeCarousel></HomeCarousel>
 	  			</Col>
 			</Row>
-			<Row className="justify-content-center m-0 mb-5 p-5" style={{'backgroundColor':'#229990'}}>
+			<Row className="justify-content-center m-0 mb-5 p-5" style={{'backgroundColor':'#000000'}}>
 	  			<Col lg="12" xl="6" className="text-center">
 	    			<blockquote className="blockquote">
-	  					<p className="mb-0 font-weight-bold h4" style={{'color':'white'}}>“Let us step into the night and pursue that flighty temptress, adventure.” </p>
+	  					<p className="mb-0 font-weight-bold h4" style={{'color':'#FFDF00'}}>“Let us step into the night and pursue that flighty temptress, adventure.” </p>
 	  					<footer className="blockquote-footer" style={{'color':'white'}}>Albus Dumbledore, <cite >Harry Potter and the Half Blood Prince</cite></footer>
 					</blockquote>
   				</Col>

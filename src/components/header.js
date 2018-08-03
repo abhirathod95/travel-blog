@@ -64,15 +64,16 @@ export default class Header extends React.Component {
   render() {
     return (
       <div className="top-navbar">
-        <Navbar fixed="top" expand="md">
-          <NavbarBrand className="d-md-none" tag={Link} to="/"><img src={Logo} width="275" height="auto" alt=""/></NavbarBrand>
+        <Navbar fixed="top" expand="lg">
+          <NavbarBrand className="d-sm-none" tag={Link} to="/"><img src={Logo} width="230" height="auto" alt=""/></NavbarBrand>
+          <NavbarBrand className="d-none d-sm-block d-lg-none" tag={Link} to="/"><img src={Logo} width="350" height="auto" alt=""/></NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} />
           <div className="container">
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav navbar className="align-items-center justify-content-center">
                 <Dropdown nav inNavbar isOpen={this.state.dropdownOpen} toggle={this.toggleDropDown} className="align-items-center justify-content-center">
                   <DropdownToggle nav> DESTINATIONS </DropdownToggle>
-                  <DropdownMenu style={{'left':''}}>
+                  <DropdownMenu >
                     {
                       dropdownItems.map((item) => {
                         return (
@@ -91,7 +92,7 @@ export default class Header extends React.Component {
                   })
                 }
               </Nav>
-              <NavbarBrand className="d-none d-md-block" tag={Link} to="/"><img src={Logo} width="275" height="auto" alt=""/></NavbarBrand>
+              <NavbarBrand className="d-none d-lg-block" tag={Link} to="/"><img src={Logo} width="350" height="auto" alt=""/></NavbarBrand>
               <Nav navbar className="align-items-center justify-content-center">
 
                 {

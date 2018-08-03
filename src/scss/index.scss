@@ -213,7 +213,7 @@ hr {
 // Set background color
 .top-navbar .navbar {
 	@extend %no-margin-padding;
-    background-color: rgba(211,211,211,.55);
+    background-color: rgba(0,0,0,1);
 }
 
 // Set no margins for everything but dropdown menus
@@ -231,7 +231,7 @@ hr {
 
 // Set color to black for the navbar items that are technically links
 .top-navbar .nav-link {
-	color: black;
+	color: white;
 }
 
 // Left side navigation bar related CSS
