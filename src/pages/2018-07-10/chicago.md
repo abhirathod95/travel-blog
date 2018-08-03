@@ -137,11 +137,11 @@ For those of you who would like to use the bus/train system, I’ve included hel
 
 **Other Things to Do I Missed**
 
--[Adler Planetarium](https://www.adlerplanetarium.org/)  
--[Art Institute of Chicago](http://www.artic.edu/)
--[Field Museum](https://www.fieldmuseum.org/)  
--[Frank Lloyd Wright Home and Studio](https://flwright.org/visit/homeandstudio)  
--[Shedd Aquarium](https://www.sheddaquarium.org/)  
--[Sky Deck](http://m.theskydeck.com/)  
--Wicker Park/606 Trail  
--Wrigley Field
+- [Adler Planetarium](https://www.adlerplanetarium.org/)  
+- [Art Institute of Chicago](http://www.artic.edu/)
+- [Field Museum](https://www.fieldmuseum.org/)  
+- [Frank Lloyd Wright Home and Studio](https://flwright.org/visit/homeandstudio)  
+- [Shedd Aquarium](https://www.sheddaquarium.org/)  
+- [Sky Deck](http://m.theskydeck.com/)  
+- Wicker Park/606 Trail  
+- Wrigley Field
