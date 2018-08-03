@@ -17,17 +17,27 @@ const items = [
   {
     src: Amsterdam0,
     alt: 'Amsterdam',
-    heading: 'Amsterdam'
+    heading: 'Amsterdam',
+    link: '/',
+    subHeading: 'Explore',
+    buttonText: 'Read More'
   },
   {
     src: Chicago0,
     alt: 'Chicago',
-    heading: 'Chicago'
+    heading: 'Chicago',
+    link: '/chicago-itinerary',
+    subHeading: 'Explore',
+    buttonText: 'Read More'
   },
   {
     src: SantaFe0,
     alt: 'Santa Fe',
-    heading: 'Santa Fe'
+    heading: 'Santa Fe',
+    link: '/',
+    subHeading: 'Explore',
+    buttonText: 'Read More'
+
   }
 ];
 
@@ -77,7 +87,7 @@ class HomeCarousel extends React.Component {
           onExited={this.onExited}
           key={i}
         >
-          <Banner item={{'src':item.src, 'alt': item.alt, 'width':'100vw', 'height':'100vh','subHeading':'Explore','heading':item.heading, 'buttonText':'Read More'}}/>
+          <Banner width="100%" height="100vh" item={item}/>
         </CarouselItem>
       );
     });

@@ -34,8 +34,8 @@ const IndexPage = () => (
 			<Row className="justify-content-center m-0 mb-5 p-5" style={{'backgroundColor':'#000000'}}>
 	  			<Col lg="12" xl="6" className="text-center">
 	    			<blockquote className="blockquote">
-	  					<p className="mb-0 font-weight-bold h4" style={{'color':'#FFDF00'}}>“Let us step into the night and pursue that flighty temptress, adventure.” </p>
-	  					<footer className="blockquote-footer" style={{'color':'white'}}>Albus Dumbledore, <cite >Harry Potter and the Half Blood Prince</cite></footer>
+	  					<p className="mb-0 font-weight-bold h4" style={{'color':'white'}}>“Let us step into the night and pursue that flighty temptress, adventure.” </p>
+	  					<footer className="blockquote-footer" style={{'color':'#FFDF00'}}>Albus Dumbledore, <cite >Harry Potter and the Half Blood Prince</cite></footer>
 					</blockquote>
   				</Col>
 			</Row>
@@ -57,7 +57,7 @@ const IndexPage = () => (
 					<p className="m-0 p-0">All I have left to ask is, <br/> <span className="font-weight-bold">Where to next, friend?</span></p>
 				</Col>
 			</Row>
-			<Row className="justify-content-center p-0 m-0 mb-5 p-5" style={{'backgroundColor':'#229990'}}>
+			<Row className="justify-content-center p-0 m-0 mb-5 p-5" style={{'backgroundColor':'#000000'}}>
 	  			<Col>
 	    			<h1 className="text-center m-0 p-0" style={{'color':'white'}}> Where I Have Been </h1>
 	  			</Col>
@@ -69,7 +69,7 @@ const IndexPage = () => (
 			</Row>
 			<Row className="p-0 m-0 mb-5">
 	  			<Col>
-	  				<Banner item={{'src':TipsBackgroundImg, 'width':'100vw', 'height':'500px','subHeading':'Better Ways To','heading':'Travel Smarter', 'buttonText':'Read More'}}/>
+	  				<Banner width="100%" height="500px" item={{'src':TipsBackgroundImg, 'subHeading':'Better Ways To','heading':'Travel Smarter', 'buttonText':'Read More', 'link':'/'}}/>
 	  			</Col>
 			</Row>
 			<Row className="justify-content-center p-0 m-0 mb-5">

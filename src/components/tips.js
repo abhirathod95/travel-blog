@@ -32,9 +32,9 @@ const Tips = (props) => {
   return (
       <Container fluid className="m-0 p-0">
         <Row className="justify-content-center align-items-stretch" >
-          { items.map((item) => {
+          { items.map((item, i) => {
               return (
-                <CustomCol sm="12" md="4" lg="4" xl="3">
+                <CustomCol key={i} sm="12" md="4" lg="4" xl="3">
                   <CustomCard loc={'top'} item={item}/>    
                 </CustomCol>
               )

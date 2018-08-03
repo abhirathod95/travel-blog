@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'gatsby-link';
 import { 
 	Button,
 	Container, 
@@ -16,8 +17,9 @@ export default class Banner extends React.Component {
 
   render() {
   	return (
-			<Container fluid className="banner" style={{'minHeight': this.props.item.height, 'minWidth': this.props.item.width}} >
+			<Container fluid className="banner" style={{'minHeight': this.props.height, 'minWidth': this.props.width}} >
 					<img src={this.props.item.src} alt={this.props.item.alt}/>
+					<span className={this.props.showBottomText ? false : "d-none"} style={{'fontSize':'100px', 'position':'absolute', 'bottom':'0', 'marginBottom':'-65px'}}>{"Chicago".toUpperCase()}</span>
 					<div className={this.props.showTextBox ? "text-box" : "d-none"}>
 						<Row>
 							<Col>
@@ -38,7 +40,7 @@ export default class Banner extends React.Component {
 						</Row>
 						<Row>
 							<Col className="text-center">
-		    					<Button outline color="dark" size="lg">{this.props.item.buttonText}</Button>
+		    					<Button outline color="dark" size="lg" tag={Link} to={this.props.item.link}>{this.props.item.buttonText}</Button>
 							</Col>
 						</Row>
 					</div>
@@ -48,5 +50,6 @@ export default class Banner extends React.Component {
 }
 
 Banner.defaultProps = {
-	showTextBox: true
+	showTextBox: true,
+	showBottomText: false
 };

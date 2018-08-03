@@ -64,7 +64,7 @@ export default class Header extends React.Component {
   render() {
     return (
       <div className="top-navbar">
-        <Navbar fixed="top" expand="lg">
+        <Navbar expand="lg">
           <NavbarBrand className="d-sm-none" tag={Link} to="/"><img src={Logo} width="230" height="auto" alt=""/></NavbarBrand>
           <NavbarBrand className="d-none d-sm-block d-lg-none" tag={Link} to="/"><img src={Logo} width="350" height="auto" alt=""/></NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} />

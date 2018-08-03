@@ -90,8 +90,13 @@ h1.custom-raleway, h2.custom-raleway, h3.custom-raleway, h4.custom-raleway, h5.c
 	font-weight: normal !important;
 }
 
+.container-fluid{
+	@extend %no-margin-padding;
+}
+
 // Set spacing after each row in the grid 
 .row {
+	@extend %no-margin-padding;
 	margin-bottom: 5rem !important;	
 }
 
@@ -199,12 +204,19 @@ hr {
 // also set height/width to auto so it doesn't scale smaller than content
 .carousel-item, .carousel-inner {
 	min-height: 100vh !important;
-	min-width: 100vw !important;
+	min-width: 100% !important;
 	height: auto !important;
 	width: auto !important;
 }
 
 // Top navigation bar 
+
+.top-navbar {
+	z-index: $zindex-fixed;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
 
 .top-navbar .container {
 	width:100% !important;
@@ -267,6 +279,6 @@ hr {
     height: 800px;
     left: calc(-50vw + 50%);
     position: relative;
-    width: 100vw;
+    width: 100%;
 }
 @import "bootstrap/bootstrap";
