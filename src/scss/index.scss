@@ -32,6 +32,13 @@ $font-size-base: 1.1rem;
 $hr-border-color: rgba(#000, .3);
 $hr-border-width: 1px;
 
+$navbar-dark-color:                 rgba($white, .9);
+$navbar-dark-hover-color:           rgba($white, 1);
+$navbar-dark-disabled-color:        rgba($white, .9);
+$navbar-dark-toggler-icon-bg:       str-replace(url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{$navbar-dark-color}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"), "#", "%23");
+$navbar-dark-toggler-border-color:  rgba($white, .9);
+
+
 
 // Shared CSS properties
 
@@ -241,9 +248,13 @@ hr {
 	text-align: center;
 }
 
-// Set color to black for the navbar items that are technically links
-.top-navbar .nav-link {
-	color: white;
+.top-navbar .small-icon {
+	padding: .1rem .2rem;
+	margin: .5rem;
+}
+
+.top-navbar  .large-icon {
+	margin: .5rem;
 }
 
 // Left side navigation bar related CSS
