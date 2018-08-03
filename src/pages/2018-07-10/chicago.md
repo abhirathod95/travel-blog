@@ -55,7 +55,7 @@ We went to **Three Dots and a Dash**, **Bub City**, **The Boss Bar**, and **Fado
 
 ##### **DAY 2** 
 
-\*Optional - 8 AM [Morning Yoga](https://www.cityofchicago.org/city/en/depts/dca/supp_info/millennium_park4.html "Fitness Class at Millenium Park")
+*Optional - 8 AM [Morning Yoga](https://www.cityofchicago.org/city/en/depts/dca/supp_info/millennium_park4.html "Fitness Class at Millenium Park")*
 
 During the summer, the Millennium Park hosts several fitness classes in the mornings. If you’re an early bird or like to get in some exercise while out of town, this is a great opportunity to take advantage of a local Chicago perk.  
 
@@ -137,18 +137,4 @@ For those of you who would like to use the bus/train system, I’ve included hel
 
 **Other Things to Do I Missed**
 
-- [Adler Planetarium](https://www.adlerplanetarium.org/)
-
-- [Art Institute of Chicago](http://www.artic.edu/)
-
-- [Field Museum](https://www.fieldmuseum.org/)
-
-- [Frank Lloyd Wright Home and Studio](https://flwright.org/visit/homeandstudio)
-
-- [Shedd Aquarium](https://www.sheddaquarium.org/)
-
-- [Sky Deck](http://m.theskydeck.com/)
-
-- Wicker Park/606 Trail 
-
-- Wrigley Field
+- [Adler Planetarium](https://www.adlerplanetarium.org/)  - [Art Institute of Chicago](http://www.artic.edu/)  - [Field Museum](https://www.fieldmuseum.org/)  - [Frank Lloyd Wright Home and Studio](https://flwright.org/visit/homeandstudio)  - [Shedd Aquarium](https://www.sheddaquarium.org/)  - [Sky Deck](http://m.theskydeck.com/)  - Wicker Park/606 Trail  - Wrigley Field
