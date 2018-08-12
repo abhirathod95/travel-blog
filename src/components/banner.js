@@ -19,7 +19,7 @@ export default class Banner extends React.Component {
   	return (
 			<Container fluid className="banner" style={{'minHeight': this.props.height, 'minWidth': this.props.width}} >
 					<img src={this.props.item.src} alt={this.props.item.alt}/>
-					<span className={this.props.showBottomText ? "text-box" : "d-none"} style={{'fontSize':'100px', 'position':'absolute', 'bottom':'0', 'marginBottom':'-100px'}}>{"Chicago".toUpperCase()}</span>
+					<h1 className={this.props.showBottomText ? "d-block display-1" : "d-none"} style={{'position':'absolute', 'bottom':'0', 'marginBottom':'-3rem'}}>{"Chicago".toUpperCase()}</h1>
 					<div className={this.props.showTextBox ? "text-box" : "d-none"}>
 						<Row>
 							<Col>

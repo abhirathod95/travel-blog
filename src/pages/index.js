@@ -25,13 +25,13 @@ const items = [
 
 const IndexPage = () => (
 	<div>
-		<Container fluid className="m-0 p-0">
-			<Row className="top-carousel m-0">
+		<Container fluid className="p-0 m-0">
+			<Row className="top-carousel mb-0">
 				<Col>
 	    			<HomeCarousel></HomeCarousel>
 	  			</Col>
 			</Row>
-			<Row className="justify-content-center m-0 mb-5 p-5" style={{'backgroundColor':'#000000'}}>
+			<Row className="justify-content-center p-5" style={{'backgroundColor':'#000000'}}>
 	  			<Col lg="12" xl="6" className="text-center">
 	    			<blockquote className="blockquote">
 	  					<p className="mb-0 font-weight-bold h4" style={{'color':'white'}}>“Let us step into the night and pursue that flighty temptress, adventure.” </p>
@@ -39,7 +39,7 @@ const IndexPage = () => (
 					</blockquote>
   				</Col>
 			</Row>
-			<Row className="justify-content-center p-0 m-0 mb-5">
+			<Row className="justify-content-center p-0">
 				{ items.map((item, i) => {
 				  return (
 				    <CustomCol key={i} sm="12" md="4" lg="4" xl="3">
@@ -49,7 +49,7 @@ const IndexPage = () => (
 				})
 				}
 			</Row>
-			<Row className="justify-content-center p-0 m-0 mb-5">
+			<Row className="justify-content-center p-0">
 				<Col lg="12" xl="8" className="text-center">
 					<p> Welcome to “Where to Next, Doc?” your all-purpose travel guide and itinerary helper to make sure you get the most out of your every trip.</p>
 					<p> My name is Ramya, and I’m a second-year medical student (almost a doctor) that just can’t cure my own travel bug. Even though I’m very busy with school, I am here to tell you it is possible for you to plan a well thought out itinerary/budget plan for your adventure on top of school or a full-time job. <br/>Especially with a little bit of my help! </p>
@@ -62,7 +62,7 @@ const IndexPage = () => (
 	    			<h1 className="text-center m-0 p-0" style={{'color':'white'}}> Where I Have Been </h1>
 	  			</Col>
 			</Row>
-			<Row className="justify-content-center p-0 m-0 mb-5">
+			<Row className="justify-content-center p-0 ">
 	  			<Col lg="12" xl="8">
 	    			<WorldMap/>	
 	  			</Col>
@@ -72,7 +72,7 @@ const IndexPage = () => (
 	  				<Banner width="100%" height="500px" item={{'src':TipsBackgroundImg, 'subHeading':'Better Ways To','heading':'Travel Smarter', 'buttonText':'Read More', 'link':'/'}}/>
 	  			</Col>
 			</Row>
-			<Row className="justify-content-center p-0 m-0 mb-5">
+			<Row className="justify-content-center p-0">
 	  			<CustomCol>
 	    				<Tips/>
 	    		</CustomCol>

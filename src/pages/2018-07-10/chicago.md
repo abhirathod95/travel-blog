@@ -1,7 +1,7 @@
 ---
 path: "/chicago-itinerary"
 date: "2018-07-10"
-title: "Chicago: A 3 Day Itinerary"
+title: "A 3 Day Itinerary"
 excerpt: "Chicago is a wonderful city to spend a sunny weekend, and there's something to do for everyone whether it's biking the shoreline, picnicking at Millennium Park, or enjoying the art scene. Start planning your quick summer holiday in Chicago!"
 tags: ["Itinerary", "Summer", "City", "Girl's Trip"]
 country: "United States of America"

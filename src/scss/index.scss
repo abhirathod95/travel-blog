@@ -81,21 +81,10 @@ $navbar-dark-toggler-border-color:  rgba($white, .9);
 
 }
 
-
 .test-test {
 	@extend %image-scale;
 }
 
-// Set margins for headings
-h1, h2, h3, h4, h5, h6 {
-	margin-bottom: 2rem !important;	
-	font-weight: bold !important;
-}
-
-// Set margins for headings
-h1.custom-raleway, h2.custom-raleway, h3.custom-raleway, h4.custom-raleway, h5.custom-raleway, h6.custom-raleway{
-	font-weight: normal !important;
-}
 
 .container-fluid{
 	@extend %no-margin-padding;
@@ -104,7 +93,15 @@ h1.custom-raleway, h2.custom-raleway, h3.custom-raleway, h4.custom-raleway, h5.c
 // Set spacing after each row in the grid 
 .row {
 	@extend %no-margin-padding;
-	margin-bottom: 5rem !important;	
+	margin-bottom: 3rem !important;	
+}
+
+.row > * > :first-child {
+	margin-top: 0 !important;
+}
+
+.row > * > :last-child {
+	margin-bottom: 0 !important;
 }
 
 // Remove column margins and paddings
