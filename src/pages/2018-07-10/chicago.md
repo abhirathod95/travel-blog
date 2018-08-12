@@ -26,13 +26,13 @@ In case you were wondering what size or how many pizzas to order, a large pizza 
 
 The walk from Gino’s to the museum took about 5 minutes. The museum was a great place to wander around, learn something new, and burn off some of those calories from the pizza. If you have your student ID, admission is $8. Flash photography is not allowed, and some exhibits are definitely not PG safe. Make sure to check out the **Marsipol café** on the first floor which is supposed to be really good and pick up your pin to get a 10% discount in the gift store. 
 
-Of course, there is a more famous art museum in Chicago called the Art Institute of Chicago. Go check it out if you have more time or if contemporary art isn’t really your thing. I’ve heard that the collection is quite impressive.
+Of course, there is a more famous art museum in Chicago called the Art Institute of Chicago. Go visit if you have more time or if contemporary art isn’t really your thing. I’ve heard that the collection is quite impressive.
 
 *5:30 PM Signature Lounge at the 96th*        
 
 The John Hancock Tower, where the Signature Lounge is located, is just a 5-minute walk from the museum. There was a short line to get to the top, but only 10-20 minutes wait tops. Dressing can be casual to get into the lounge. To be seated in the lounge, you are required to **buy an item per person in your party**. Since there were four of us, we were able to get two deserts and two coffees to meet the rule ($40 total for all four of us). Still so much cheaper and much more delicious than waiting in a long line at the Skydeck! If your heart is set on getting that classic picture in the box, then check out the Things I Missed Section. 
 
-Before heading out, check out the ladies’ bathroom. Kind of strange advice, but it also has a stunning view of the city’s downtown without many people in the way. Surprisingly, some of our best group pictures came out really well in the bathroom. 
+Before heading out, peek into the ladies’ bathroom. Kind of strange advice, but it also has a stunning view of the city’s downtown without many people in the way. Surprisingly, some of our best group pictures came out really well in the bathroom. 
 
 *7:00 PM Cloud Gate/Millennium Park*
 
@@ -55,7 +55,7 @@ We went to **Three Dots and a Dash**, **Bub City**, **The Boss Bar**, and **Fado
 
 ##### **DAY 2** 
 
-\*Optional - 8 AM [Morning Yoga](https://www.cityofchicago.org/city/en/depts/dca/supp_info/millennium_park4.html "Fitness Class at Millenium Park")
+*Optional - 8 AM [Morning Yoga](https://www.cityofchicago.org/city/en/depts/dca/supp_info/millennium_park4.html "Fitness Class at Millenium Park")*
 
 During the summer, the Millennium Park hosts several fitness classes in the mornings. If you’re an early bird or like to get in some exercise while out of town, this is a great opportunity to take advantage of a local Chicago perk.  
 
@@ -137,18 +137,11 @@ For those of you who would like to use the bus/train system, I’ve included hel
 
 **Other Things to Do I Missed**
 
-- [Adler Planetarium](https://www.adlerplanetarium.org/)
-
+- [Adler Planetarium](https://www.adlerplanetarium.org/)  
 - [Art Institute of Chicago](http://www.artic.edu/)
-
-- [Field Museum](https://www.fieldmuseum.org/)
-
-- [Frank Lloyd Wright Home and Studio](https://flwright.org/visit/homeandstudio)
-
-- [Shedd Aquarium](https://www.sheddaquarium.org/)
-
-- [Sky Deck](http://m.theskydeck.com/)
-
-- Wicker Park/606 Trail 
-
+- [Field Museum](https://www.fieldmuseum.org/)  
+- [Frank Lloyd Wright Home and Studio](https://flwright.org/visit/homeandstudio)  
+- [Shedd Aquarium](https://www.sheddaquarium.org/)  
+- [Sky Deck](http://m.theskydeck.com/)  
+- Wicker Park/606 Trail  
 - Wrigley Field
