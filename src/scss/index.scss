@@ -28,7 +28,7 @@ $container-max-widths: (
 $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $font-family-base: EB Garamond, $font-family-sans-serif;
 $headings-font-family: Playfair Display, $font-family-base;
-$font-size-base: 1.1rem;
+$font-size-base: 125%;
 $hr-border-color: rgba(#000, .3);
 $hr-border-width: 1px;
 
@@ -96,6 +96,7 @@ $navbar-dark-toggler-border-color:  rgba($white, .9);
 	margin-bottom: 3rem !important;	
 }
 
+// Remove spacing from last item in a row
 .row > * > :first-child {
 	margin-top: 0 !important;
 }
@@ -138,9 +139,7 @@ hr {
 	height: 100%;
 	max-width: none;
 	position: absolute;
-	left: 50%;
 	top: 0;
-	transform: translateX(-50%);
 }
 
 .aspect-ratio-box-inside {
@@ -180,7 +179,7 @@ hr {
 // object-fit cover to scale/zoom picture correctly
 // height/width to 100% to fit container
 // z-index -1 to stay behind all items
-.banner > img {
+.banner  img {
 	position: absolute;
 	object-fit: cover;
 	width: 100%;
@@ -277,6 +276,27 @@ hr {
 	z-index: $zindex-fixed;
 }
 
+// Container that holds blog post. Used to apply settings 
+// to all blog post pages.
+.blog-post{
+	@extend %no-margin-padding;
+}
+
+.blog-post > .row {
+	justify-content: center;
+}
+
+
+.gatsby-img-outter {
+	position:absolute !important;
+	width:100%;
+	height:100%;
+} 
+.gatsby-img {
+	position:absolute !important; 
+	width:100%;
+	height:100%;
+}
 
 // Scrolling banner
 .test123 {

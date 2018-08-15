@@ -8,38 +8,76 @@
 
 const path = require ('path');
 
-exports.createPages = ({boundActionCreators, graphql}) => {
-  const {createPage} = boundActionCreators;
-  const blogPostTemplate = path.resolve (`src/templates/blog_post.js`);
 
+exports.onCreateNode = ({node, boundActionCreators }) => {
+  const { createNode, createNodeField } = boundActionCreators
+  // Transform the new node here and create a new node or
+  // create a new node field.
+
+  if (node.internal.type === "JavascriptFrontmatter") {
+    console.log("Found jsfm node")
+    createNodeField({
+      node: node,
+      name: "imageNode",
+      value: "sample"
+    })
+  }
+}
+
+exports.createPages = ({getNode, boundActionCreators, graphql}) => {
+  const {createPage, createNodeField} = boundActionCreators;
+  
   return graphql (
     `{
-    allMarkdownRemark {
-      edges {
-        node {
-          html
-          id
-          frontmatter {
-            date
-            path
-            title
-            excerpt
-            tags
+      allJavascriptFrontmatter {
+        edges {
+          node {
+            id 
+            frontmatter {
+              component
+              title
+              date
+              path
+              excerpt
+              tags
+              country
+              city
+              featuredImage
+            }
+            fileAbsolutePath
           }
         }
       }
-    }
-  }`
+    }`
   ).then (result => {
     if (result.errors) {
       return Promise.reject (result.errors);
     }
 
-    result.data.allMarkdownRemark.edges.forEach (({node}, index) => {
-      createPage ({
-        path: node.frontmatter.path,
-        component: blogPostTemplate,
-      });
+    result.data.allJavascriptFrontmatter.edges.forEach (({node}, index) => {
+
+      graphql(   
+       `query FindImage($image: String!) {
+          imageSharp (id: {regex: $image}) {
+            id
+          }
+        }`
+        , {image: "/" + node.frontmatter.featuredImage + "/"}).then (imageResult => {
+          //console.log(imageResult.data.imageSharp)
+          
+          const blogPostTemplate = path.resolve(node.frontmatter.component);
+
+          createNodeField({
+            node: getNode(node.id),
+            name: "imageNode",
+            value: imageResult.data.imageSharp.id
+          })
+
+          createPage ({
+            path: node.frontmatter.path,
+            component: blogPostTemplate,
+          });
+        })
     });
   });
 };

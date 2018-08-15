@@ -5,7 +5,7 @@ import {
   Col,
   Button
  } from 'reactstrap';
-
+import Img from "gatsby-image";
 
 const CustomCol = (props) => <Col widths={['xs', 'sm', 'md', 'lg', 'xl', 'xxl', 'xxxl']} {...props} />;
 
@@ -17,9 +17,9 @@ export default class CustomCard extends React.Component {
   getHorizontalCard() {
     return(
       <Row className="justify-content-center m-0 mb-5">
-        <CustomCol md="6" lg="6" xl="3">
+        <CustomCol md="6" lg="6" xl="4" xxl="3">
           <div className="aspect-ratio-box">
-            <img src={this.props.item.src} alt={this.props.item.alt} style={{'objectFit':'cover'}}/>
+            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={this.props.item.sizes} alt={this.props.item.alt}/>
           </div>
         </CustomCol>
         <Col md="6" lg="6" className="">
@@ -33,7 +33,7 @@ export default class CustomCard extends React.Component {
             <div>
               {this.props.item.content}
             </div>
-            {this.props.item.buttonText ? <Button outline style={{'margin-top':'auto', 'flex':'0 0 auto'}}>{this.props.item.buttonText}</Button> : false}
+            {this.props.item.buttonText ? <Button outline style={{'marginTop':'auto', 'flex':'0 0 auto'}}>{this.props.item.buttonText}</Button> : false}
 
         </Col>
       </Row>
@@ -44,7 +44,7 @@ export default class CustomCard extends React.Component {
     return (
       <div className="m-0 p-0">
         <div className="aspect-ratio-box">
-          <img src={this.props.item.src} alt="Card image cap" style={{'objectFit':'cover'}}/>
+          <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={this.props.item.sizes} alt={this.props.item.alt}/>
         </div>
         <div className="custom-raleway m-0 mt-2 mb-2 pl-2 pr-2 pt-1 pb-1" style={{'display':'inline-block', 'backgroundColor':'#229990'}}>
           {this.props.item.date}
@@ -67,7 +67,7 @@ export default class CustomCard extends React.Component {
     return (
       <div className="m-0 p-0">
         <div className="aspect-ratio-box">
-            <img src={this.props.item.src} alt="Card image cap" style={{'objectFit':'cover'}}/>
+            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={this.props.item.sizes} alt={this.props.item.alt}/>
           <div className="aspect-ratio-box-inside d-flex flex-row">
             <div className="text-box">
             <h6 className="d-block d-lg-none m-0 p-4">{this.props.item.title}</h6>
