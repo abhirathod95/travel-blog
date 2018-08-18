@@ -15,7 +15,7 @@ exports.onCreateNode = ({node, boundActionCreators }) => {
   // create a new node field.
 
   if (node.internal.type === "JavascriptFrontmatter") {
-    console.log("Found jsfm node")
+    //console.log("Found jsfm node")
     createNodeField({
       node: node,
       name: "imageNode",
@@ -56,6 +56,7 @@ exports.createPages = ({getNode, boundActionCreators, graphql}) => {
 
     result.data.allJavascriptFrontmatter.edges.forEach (({node}, index) => {
 
+      console.log(node.frontmatter.featuredImage)
       graphql(   
        `query FindImage($image: String!) {
           imageSharp (id: {regex: $image}) {
@@ -63,7 +64,7 @@ exports.createPages = ({getNode, boundActionCreators, graphql}) => {
           }
         }`
         , {image: "/" + node.frontmatter.featuredImage + "/"}).then (imageResult => {
-          //console.log(imageResult.data.imageSharp)
+          console.log(imageResult.data.imageSharp)
           
           const blogPostTemplate = path.resolve(node.frontmatter.component);
 
