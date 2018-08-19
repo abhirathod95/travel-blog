@@ -28,17 +28,29 @@ export default class BlogPage extends React.Component {
 
 		this.items = []
 
+		console.log(this.props.data.allJavascriptFrontmatter.edges)
+
 		this.props.data.allJavascriptFrontmatter.edges.forEach(item => {
-			this.items.push({sizes: item.node.fields.imageNode.sizes, alt: item.node.frontmatter.city, date: item.node.frontmatter.date, title: item.node.frontmatter.title, content: item.node.frontmatter.excerpt, buttonText: "Read More"})
+			this.items.push({
+				sizes: item.node.fields.imageNode.sizes, 
+				alt: item.node.frontmatter.city, 
+				date: item.node.frontmatter.date, 
+				title: item.node.frontmatter.title, 
+				content: item.node.frontmatter.excerpt, 
+				link: item.node.frontmatter.path, 
+				buttonText: "Read More"
+			})
 		});
 	}
 
 	render() {
 		return (
 			<div>
-				<Container fluid className="m-0 p-0">
-					<Row className="m-0 p-0 mb-5">
-						<Banner showTextBox={false} width='100vw' height='50vh' item={{'sizes':this.props.data.allJavascriptFrontmatter.edges[0].node.fields.imageNode.sizes, 'alt': 'Amsterdam', 'subHeading':'Better Ways To','heading':'Travel Smarter', 'buttonText':'Read More'}}/>
+				<Container fluid>
+					<Row>
+						<Banner showBottomText showTextBox={false} width='100%' height='50vh' item={{'sizes':this.props.data.allJavascriptFrontmatter.edges[0].node.fields.imageNode.sizes, 'alt': 'Amsterdam', 'subHeading':'Better Ways To','heading':'Blog Posts', 'buttonText':'Read More'}}/>
+					</Row> 
+					<Row>
 					</Row> 
 			        	{ 
 			        		this.items.map((item, i) => {

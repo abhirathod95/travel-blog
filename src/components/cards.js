@@ -33,7 +33,7 @@ export default class CustomCard extends React.Component {
             <div>
               {this.props.item.content}
             </div>
-            {this.props.item.buttonText ? <Button outline style={{'marginTop':'auto', 'flex':'0 0 auto'}}>{this.props.item.buttonText}</Button> : false}
+            {this.props.item.buttonText ? <Button outline tag={Link} to={this.props.item.link} style={{'marginTop':'auto', 'flex':'0 0 auto'}}>{this.props.item.buttonText}</Button> : false}
 
         </Col>
       </Row>
@@ -74,7 +74,7 @@ export default class CustomCard extends React.Component {
             <h4 className="d-none d-lg-block m-0 p-4">{this.props.item.title}</h4>
             </div>
           </div>
-      </div>
+        </div>
       </div>
     )
   }

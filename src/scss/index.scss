@@ -286,6 +286,9 @@ hr {
 	justify-content: center;
 }
 
+.blog-post > .row > .col-12 {
+	padding: 0;
+}
 
 .gatsby-img-outter {
 	position:absolute !important;
@@ -309,4 +312,14 @@ hr {
     position: relative;
     width: 100%;
 }
+
+.testthis {
+	display: flex;
+	flex: 1 1 auto;
+	justify-content: center;
+	align-items: center;
+	margin: 3rem;
+	background-color: rgba(245,245,245, .9);
+}
+
 @import "bootstrap/bootstrap";

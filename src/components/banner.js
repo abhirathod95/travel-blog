@@ -20,7 +20,7 @@ export default class Banner extends React.Component {
   	return (
 			<Container fluid className="banner" style={{'minHeight': this.props.height, 'minWidth': this.props.width}} >
 					<Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={this.props.item.sizes} alt={this.props.item.alt}/>
-					<h1 className={this.props.showBottomText ? "d-block display-1" : "d-none"} style={{'position':'absolute', 'bottom':'0', 'marginBottom':'-3rem'}}>{"Chicago".toUpperCase()}</h1>
+					<h1 className={this.props.showBottomText ? "d-block display-1" : "d-none"} style={{'position':'absolute', 'bottom':'0', 'marginBottom':'-3rem'}}>{this.props.item.heading.toUpperCase()}</h1>
 					<div className={this.props.showTextBox ? "text-box" : "d-none"}>
 						<Row>
 							<Col>
@@ -52,5 +52,9 @@ export default class Banner extends React.Component {
 
 Banner.defaultProps = {
 	showTextBox: true,
-	showBottomText: false
+	showBottomText: false,
+	height:0,
+	width:0,
+	sizes:null,
+	item: {alt:"", subHeading:"", heading:"", link:"/"}
 };

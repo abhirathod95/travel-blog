@@ -7,18 +7,7 @@ import {
   Button,
 } from 'reactstrap';
 import Banner from '../../components/banner.js';
-import Chicago0 from '../../images/United States of America/Illinois/Chicago_02.jpg';
-import Chicago3 from '../../images/United States of America/Illinois/Chicago_03.jpg';
-import Chicago4 from '../../images/United States of America/Illinois/Chicago_04.jpg';
-import Chicago1 from '../../images/United States of America/Illinois/Chicago_01.jpg';
-import Chicago8 from '../../images/United States of America/Illinois/Chicago_08.jpg';
-import Chicago9 from '../../images/United States of America/Illinois/Chicago_09.jpg';
-import Chicago10 from '../../images/United States of America/Illinois/Chicago_10.jpg';
-import Chicago11 from '../../images/United States of America/Illinois/Chicago_11.jpg';
-import Chicago12 from '../../images/United States of America/Illinois/Chicago_12.jpg';
-import Chicago13 from '../../images/United States of America/Illinois/Chicago_13.jpg';
-import Chicago15 from '../../images/United States of America/Illinois/Chicago_15.jpg';
-import Chicago16 from '../../images/United States of America/Illinois/Chicago_16.jpg';
+import Img from "gatsby-image";
 
 export const frontmatter = {
   component: "src/blog/2018-07-10/chicago.js",
@@ -32,13 +21,21 @@ export const frontmatter = {
   featuredImage: "Illinois/Chicago_02.jpg"
 };
 
-export default function post() {
+export default function post(props) {
+
+  var images = [];
+  console.log(props.data.allImageSharp.edges)
+  props.data.allImageSharp.edges.map((item, i) => {
+    images.push(item.node.sizes)
+  });
+  console.log(images)
+
   return (
     <div>
     <Helmet title={frontmatter.city + ": " + frontmatter.title} />
     <Container fluid className="blog-post">
       <Row>
-        <Banner showBottomText showTextBox={false} width="100%" height="50vh" item={{'src':Chicago0, 'subHeading':'Better Ways To','heading':'Travel Smarter', 'buttonText':'Read More', 'link':'/'}}/>
+        <Banner showBottomText showTextBox={false} width="100%" height="50vh" item={{'sizes':images[2], 'subHeading':'Better Ways To','heading':frontmatter.city, 'buttonText':'Read More', 'link':'/'}}/>
       </Row>
       <Row>
         <Col xs="12" sm="10" md="8" lg="6">
@@ -57,15 +54,17 @@ export default function post() {
         </Col>
       </Row>
       <Row> 
-        <Col xs="8">
-          <img src={Chicago3} style={{width:"100%"}}></img>
+        <Col xs="8" >
+            <div className="aspect-ratio-box">
+              <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={images[3]} />
+            </div>
         </Col>
       </Row>
       <Row>
         <Col xs="6">
-          <p>
+
           <h5 id="day1"><strong>Day 1</strong></h5>
-          </p>
+
           <p>
           <em>12:00 PM Arrive at hotel</em>
           </p>
@@ -80,7 +79,9 @@ export default function post() {
       </Row>
       <Row>
         <Col xs="6">
-          <img src={Chicago4} style={{width:"100%"}}></img>
+          <div className="aspect-ratio-box">
+            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={images[4]} />
+          </div>
         </Col>
       </Row>
       <Row>
@@ -117,7 +118,9 @@ export default function post() {
       </Row>
       <Row>
         <Col xs="12">
-          <img src={Chicago1} style={{width:"100%"}}></img>
+          <div className="aspect-ratio-box">
+            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={images[1]} />
+          </div>
         </Col>
       </Row>
       <Row>
@@ -145,9 +148,7 @@ export default function post() {
           <p>
             We went to <strong>Three Dots and a Dash</strong>, <strong>Bub City</strong>, <strong>The Boss Bar</strong>, and <strong>Fado</strong> which were all pretty much on the same street, making it easy to barhop. Each one had its own unique vibe, but all were lots of fun! After 12 AM, expect to pay a cover at the more packed bars, aka carry some cash. 
           </p>
-          <p>
             <h5 id="day2"><strong>Day 2</strong></h5>
-          </p>
           <p>
             <em>Optional - 8 AM <a href="https://www.cityofchicago.org/city/en/depts/dca/supp_info/millennium_park4.html" title="Fitness Class at Millenium Park">Morning Yoga</a></em>
           </p>
@@ -158,7 +159,9 @@ export default function post() {
       </Row>
        <Row> 
         <Col xs="8">
-          <img src={Chicago8} style={{width:"100%"}}></img>
+          <div className="aspect-ratio-box">
+            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={images[8]} />
+          </div>
         </Col>
       </Row>
       <Row>
@@ -194,27 +197,35 @@ export default function post() {
 
           <p>Buy tickets in advance online; they sold out pretty quickly for every show on the weekends. Even though the website said the show lasts from 11 PM-1 AM, our show went until 2 AM. </p>
 
-          <h5 id="day3"><strong>Day 3</strong></h5>
+          <h5 id="day3" className="text-center"><strong>Day 3</strong></h5>
 
           <p><em>10 AM Chicago Architecture Tour</em></p>
 
           <p>This tour is one of those classic must dos while in Chicago for the first time. We quickly grabbed some breakfast to go from Argo Tea Café close to the meet point on Michigan Ave at the DuSable bridge. The tour group we went with was <strong>Shoreline Sightseeing</strong>, and our tour guide was hilarious! More importantly, he was really informative about the history of Chicago and how it got its name as the Second City and as the Windy City. You can expect to be on board for 1 hour and 3o minutes for the whole tour from boarding to getting off.</p>
         </Col>
       </Row>
-      <Row className="mb-2">
-        <Col xs="12" md="4" className="pr-1">
-          <img src={Chicago9} style={{width:"100%"}}></img>
+      <Row className="m-0">
+        <Col xs="12" md="4" className="p-1">
+          <div className="aspect-ratio-box">
+            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={images[9]} />
+          </div>
         </Col>
-        <Col xs="12" md="4"  className="pl-1">
-          <img src={Chicago10} style={{width:"100%"}}></img>
+        <Col xs="12" md="4" className="p-1">
+          <div className="aspect-ratio-box">
+            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={images[10]} />
+          </div>
         </Col>
       </Row>
       <Row>
-        <Col xs="12" md="4"  className="pr-1">
-          <img src={Chicago11} style={{width:"100%"}}></img>
+        <Col xs="12" md="4" className="p-1">
+          <div className="aspect-ratio-box">
+            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={images[11]} />
+          </div>
         </Col>
-        <Col xs="12" md="4"  className="pl-1">
-          <img src={Chicago12} style={{width:"100%"}}></img>
+        <Col xs="12" md="4" className="p-1">
+          <div className="aspect-ratio-box">
+            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={images[12]} />
+          </div>
         </Col>
       </Row>
       <Row>
@@ -229,7 +240,9 @@ export default function post() {
       </Row>
       <Row >
         <Col xs="6">
-          <img src={Chicago13} style={{width:"100%"}}></img>
+          <div className="aspect-ratio-box">
+            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={images[13]} />
+          </div>
         </Col>
       </Row>          
       <Row>
@@ -258,11 +271,15 @@ export default function post() {
         </Col>
       </Row>
       <Row>
-        <Col xs="4">
-          <img src={Chicago15} style={{width:"100%"}}></img>
+        <Col xs="4" className="p-1">
+          <div className="aspect-ratio-box">
+            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={images[15]} />
+          </div>
         </Col>
-        <Col xs="4">
-          <img src={Chicago16} style={{width:"100%"}}></img>
+        <Col xs="4" className="p-1">
+          <div className="aspect-ratio-box">
+            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={images[16]} />
+          </div>
         </Col>
       </Row>          
       <Row>
@@ -304,17 +321,17 @@ export default function post() {
 
 
 export const query = graphql`
-  query IndexImagesQuery {
-  allImageSharp  (filter : {id : {regex : "/Chicago/"} }, sort: {fields : [id]} ) {
+  query ChicagoImagesQuery {
+    allImageSharp  (filter : {id : {regex : "/Chicago/"} }, sort: {fields : [id]} ) {
       edges {
-          node{
-        id
-            sizes(maxWidth: 2060, cropFocus:SOUTH) {
-                ...GatsbyImageSharpSizes
-                originalName
-            }
+        node{
+          id
+          sizes(maxWidth: 2060, cropFocus:SOUTH) {
+              ...GatsbyImageSharpSizes
+              originalName
           }
+        }
       }
-  }
+    }
   }
 `

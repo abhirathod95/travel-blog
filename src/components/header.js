@@ -19,7 +19,7 @@ import Link from 'gatsby-link'
 import Logo from '../images/logo.png'
 
 const navbarItemsLeft = [
-  {"name" : "aboutMe", "path" : "/", "visibleName": "ABOUT ME"}
+  {"name" : "aboutMe", "path" : "/about_me", "visibleName": "ABOUT ME"}
   ]
 
 const navbarItemsRight = [
