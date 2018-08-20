@@ -16,8 +16,8 @@ export const frontmatter = {
   path: "/chichen_itza_travel_journal",
   excerpt: "Seeing one of the seven world wonders, El Castillo Pyramid, was a much needed break from all the relaxing I was doing in Cancun. Unlike my normal way of planning, I went on a day tour with a guide to learn about the Mayan history and culture from someone educated in it. However, the trip didn't just include Chichen Itza, but they also took us to a cenote and the colonial city of Vallodolid.",
   tags: ["Travel Journal", "Summer", "Family Trip", "World Wonder"],
-  country: "Mexico",
-  city: "Chichen Itza",
+  country: ["Mexico"],
+  city: ["Chichen Itza"],
   featuredImage: "Mexico/Chichen_Itza_0.jpg"
 };
 
@@ -30,12 +30,19 @@ export default function post(props) {
   });
   console.log(images)
 
+  var bannerTitle;
+  if (!Array.isArray(frontmatter.city) || !frontmatter.city.length) {
+    bannerTitle = frontmatter.title
+  } else {
+    bannerTitle = frontmatter.city[0]
+  }
+
   return (
     <div>
-    <Helmet title={frontmatter.city + ": " + frontmatter.title} />
+    <Helmet title={frontmatter.city[0] + ": " + frontmatter.title} />
     <Container fluid className="blog-post">
       <Row>
-        <Banner showBottomText showTextBox={false} width="100%" height="50vh" item={{'sizes':images[0], 'subHeading':'Better Ways To','heading':frontmatter.city, 'buttonText':'Read More', 'link':'/'}}/>
+        <Banner showBottomText showTextBox={false} width="100%" height="50vh" item={{'sizes':images[0], 'subHeading':'Better Ways To','heading':bannerTitle, 'buttonText':'Read More', 'link':'/'}}/>
       </Row>
       <Row>
         <Col xs="12" sm="10" md="8" lg="6">

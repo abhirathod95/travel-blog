@@ -16,8 +16,8 @@ export const frontmatter = {
   path: "/chicago-itinerary",
   excerpt: "Chicago is a wonderful city to spend a sunny weekend, and there's something to do for everyone whether it's biking the shoreline, picnicking at Millennium Park, or enjoying the art scene. Start planning your quick summer holiday in Chicago!",
   tags: ["Itinerary", "Summer", "City", "Girl's Trip"],
-  country: "United States of America",
-  city: "Chicago",
+  country: ["United States of America"],
+  city: ["Chicago"],
   featuredImage: "Illinois/Chicago_02.jpg"
 };
 
@@ -30,12 +30,20 @@ export default function post(props) {
   });
   console.log(images)
 
+
+  var bannerTitle;
+  if (!Array.isArray(frontmatter.city) || !frontmatter.city.length) {
+    bannerTitle = frontmatter.title
+  } else {
+    bannerTitle = frontmatter.city[0]
+  }
+
   return (
     <div>
-    <Helmet title={frontmatter.city + ": " + frontmatter.title} />
+    <Helmet title={frontmatter.city[0] + ": " + frontmatter.title} />
     <Container fluid className="blog-post">
       <Row>
-        <Banner showBottomText showTextBox={false} width="100%" height="50vh" item={{'sizes':images[2], 'subHeading':'Better Ways To','heading':frontmatter.city, 'buttonText':'Read More', 'link':'/'}}/>
+        <Banner showBottomText showTextBox={false} width="100%" height="50vh" item={{'sizes':images[2], 'subHeading':'Better Ways To','heading':bannerTitle, 'buttonText':'Read More', 'link':'/'}}/>
       </Row>
       <Row>
         <Col xs="12" sm="10" md="8" lg="6">

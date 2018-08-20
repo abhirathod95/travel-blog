@@ -13,10 +13,6 @@ import {
 	CardSubtitle, 
 } from 'reactstrap';
 import Banner from '../components/banner.js'
-import Chicago0 from '../images/United States of America/Illinois/Chicago_00.jpg'
-import Page0 from '../images/United States of America/Arizona/Page_0.jpg'
-import Amsterdam0 from '../images/Netherlands/Amsterdam_0.jpg'
-import NewZealand0 from '../images/New Zealand/NA_0.jpg'
 import CustomCard from '../components/cards.js'
 
 const CustomCol = (props) => <Col widths={['xs', 'sm', 'md', 'lg', 'xl', 'xxl']} {...props} />;
@@ -31,11 +27,18 @@ export default class BlogPage extends React.Component {
 		console.log(this.props.data.allJavascriptFrontmatter.edges)
 
 		this.props.data.allJavascriptFrontmatter.edges.forEach(item => {
+			var showTitle;
+			if (!Array.isArray(item.node.frontmatter.city) || !item.node.frontmatter.city.length) {
+				showTitle = item.node.frontmatter.title
+			} else {
+				showTitle = item.node.frontmatter.city[0] + ": " + item.node.frontmatter.title 
+			}
 			this.items.push({
 				sizes: item.node.fields.imageNode.sizes, 
-				alt: item.node.frontmatter.city, 
+				alt: item.node.frontmatter.city[0], 
 				date: item.node.frontmatter.date, 
-				title: item.node.frontmatter.title, 
+
+				title: showTitle, 
 				content: item.node.frontmatter.excerpt, 
 				link: item.node.frontmatter.path, 
 				buttonText: "Read More"
