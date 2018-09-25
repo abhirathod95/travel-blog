@@ -62,7 +62,7 @@ export default class DestinationTemplate extends React.Component {
 			<div>
 				<Container fluid>
 					<Row className="destinations-navbar">
-						<Col>
+						<Col className="p-5">
 							<Navbar expand="lg">
 								<NavbarToggler className="d-sm-none small-icon" onClick={this.toggleNavbar} />
 								<NavbarToggler className="d-none d-sm-block d-lg-none large-icon" onClick={this.toggleNavbar} />
@@ -70,7 +70,7 @@ export default class DestinationTemplate extends React.Component {
 									<Nav navbar className="align-items-center justify-content-center">
 										<NavLink key={"destinations"} to={"/destinations"} tag={Link}> All </NavLink>
 										{
-											this.props.pathContext.destinations.map((destination, index) =>
+											this.props.pathContext.additionalContext.destinations.map((destination, index) =>
 												<NavLink key={index} to={"/destinations/" + destination.toLowerCase().replace(" ", "-")} tag={Link}> {destination} </NavLink>
 											)
 										}
@@ -79,41 +79,8 @@ export default class DestinationTemplate extends React.Component {
 							</Navbar>
 						</Col>
 					</Row>
-					
 				</Container>
 			</div>
 		);
 	}
 }
-
-export const pageQuery = graphql`
-	query PaginatedBlogQuery($continent: String!, $skip: Int!, $limit: Int!) {
-		allMarkdownRemark(
-			filter: {frontmatter: {continent: {eq: $continent}}},
-			sort: { fields: [frontmatter___date], order: DESC },
-			skip: $skip,
-			limit: $limit, 
-		){
-			edges {
-				node {
-					frontmatter {
-						excerpt
-						date(formatString: "MMMM DD, YYYY")
-						path
-						title
-						tags
-						country
-						city
-						featuredImage {
-							childImageSharp{
-								sizes(maxWidth: 2060) {
-									...GatsbyImageSharpSizes
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-`

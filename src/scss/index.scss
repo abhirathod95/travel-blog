@@ -249,15 +249,19 @@ hr {
 	margin: .5rem;
 }
 
-.top-navbar  .large-icon {
+.top-navbar .large-icon {
 	margin: .5rem;
 }
 
 // Destinations page navbar
-.destinations-navbar .navbar {
-	@extend %no-margin-padding;
+.destinations-navbar > .col {
     background-color: #FADA5E;
 }
+
+.destinations-navbar .nav-link {
+    color: rgba($black, .9);
+}
+
 
 // Left side navigation bar related CSS
 
