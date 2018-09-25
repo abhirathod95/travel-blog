@@ -16,7 +16,7 @@ import CustomCard from '../components/cards.js'
 
 const CustomCol = (props) => <Col widths={['xs', 'sm', 'md', 'lg', 'xl', 'xxl', 'xxxl']} {...props} />;
 
-const Tips = (props) => {
+const CardDeck = (props) => {
   return (
       <Container fluid className="m-0 p-0">
         <Row className="justify-content-center align-items-stretch" >
@@ -33,4 +33,4 @@ const Tips = (props) => {
   );
 };
 
-export default Tips;
+export default CardDeck;

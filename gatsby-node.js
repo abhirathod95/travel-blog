@@ -6,79 +6,109 @@
 
  // You can delete this file if you're not using it
 
+const pagination = require('gatsby-awesome-pagination');
+
 const path = require ('path');
 
 
-exports.onCreateNode = ({node, boundActionCreators }) => {
-  const { createNode, createNodeField } = boundActionCreators
-  // Transform the new node here and create a new node or
-  // create a new node field.
+exports.createPages = ({ boundActionCreators, graphql }) => {
+  const { createPage } = boundActionCreators;
 
-  if (node.internal.type === "JavascriptFrontmatter") {
-    //console.log("Found jsfm node")
-    createNodeField({
-      node: node,
-      name: "imageNode",
-      value: "sample"
-    })
-  }
-}
+  // Templates for the blog posts and for the destination pages 
+  const blogPostTemplate = path.resolve(`src/templates/blog_post.js`);
+  const destinationTemplate = path.resolve(`src/templates/destination.js`);
 
-exports.createPages = ({getNode, boundActionCreators, graphql}) => {
-  const {createPage, createNodeField} = boundActionCreators;
+  // List of destinations
+  // Static, since continents don't change
+  const destinations = ["North America", "Europe", "Asia", "Africa", "Oceania", "South America"]
   
-  return graphql (
-    `{
-      allJavascriptFrontmatter {
+
+  // Create the overall destination page separately
+  // This page is different since it doesn't use a country filter 
+  graphql(`
+    query allArticles {
+      allMarkdownRemark(
+        sort: { order: DESC, fields: [frontmatter___date] }
+      ) {
         edges {
           node {
-            id 
             frontmatter {
-              component
-              title
-              date
               path
-              excerpt
-              tags
-              country
-              city
-              featuredImage
             }
-            fileAbsolutePath
           }
         }
       }
-    }`
-  ).then (result => {
-    if (result.errors) {
-      return Promise.reject (result.errors);
     }
+    `).then(result => {
 
-    result.data.allJavascriptFrontmatter.edges.forEach (({node}, index) => {
+      // Create all the blog post pages since we have them ready here
+      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+        createPage({
+          path: node.frontmatter.path,
+          component: blogPostTemplate,
+          context: {
+          }, // additional data can be passed via context
+        });
+      });
 
-      console.log(node.frontmatter.featuredImage)
-      graphql(   
-       `query FindImage($image: String!) {
-          imageSharp (id: {regex: $image}) {
-            id
+      // Create pages of destination page based on results above
+      pagination.paginate({
+        createPage, 
+        items: result.data.allMarkdownRemark.edges, 
+        itemsPerPage: 10, // How many items you want per page
+        pathPrefix: '/destinations/',
+        component: destinationTemplate,
+        context: {
+          continent: "All",
+          destinations: destinations
+        }
+      })
+    });
+
+  // Automatically create paginated versions of the destination page for each continent
+  destinations.forEach((destination) => {
+    console.log(destination)
+    graphql(`
+    query articlesByContinent($continent: String!) {
+      allMarkdownRemark(
+        filter: {frontmatter: {continent: {eq: $continent}}}
+        sort: { order: DESC, fields: [frontmatter___date] }
+      ) {
+        edges {
+          node {
+            frontmatter {
+              path
+            }
           }
-        }`
-        , {image: "/" + node.frontmatter.featuredImage + "/"}).then (imageResult => {
-          console.log(imageResult.data.imageSharp)
-          
-          const blogPostTemplate = path.resolve(node.frontmatter.component);
+        }
+      }
+    }
+    `, {continent: destination}).then(result => {
+      if (result.errors) {
+        //console.log("Bad result!!!");
+        //console.log(result.errors);
+        return;
+      }
 
-          createNodeField({
-            node: getNode(node.id),
-            name: "imageNode",
-            value: imageResult.data.imageSharp.id
-          })
+      // Check articles for this destination
+      // If so, use empty object for now so the first page gets created
+      if (result.data.allMarkdownRemark === undefined || result.data.allMarkdownRemark == null) {
+        //console.log("No markdown results found!")
+        result.data.allMarkdownRemark = {edges: [{}]}
+      }
 
-          createPage ({
-            path: node.frontmatter.path,
-            component: blogPostTemplate,
-          });
-        })
+      // Finally create pagination for this continent
+      pagination.paginate({
+        createPage, 
+        items: result.data.allMarkdownRemark.edges, 
+        itemsPerPage: 10, // How many items you want per page
+        pathPrefix: '/destinations/' + destination.toLowerCase().replace(" ", "-"),
+        component: destinationTemplate, 
+        context: {
+          continent: destination,
+          destinations: destinations
+        }
+      })
     });
   });
 };

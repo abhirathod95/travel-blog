@@ -253,6 +253,12 @@ hr {
 	margin: .5rem;
 }
 
+// Destinations page navbar
+.destinations-navbar .navbar {
+	@extend %no-margin-padding;
+    background-color: #FADA5E;
+}
+
 // Left side navigation bar related CSS
 
 // Remove margins for navbar

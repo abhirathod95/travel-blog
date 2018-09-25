@@ -9,7 +9,7 @@ import {
 import Banner from '../components/banner.js'
 import WorldMap from '../components/world_map.js'
 import HomeCarousel from '../components/carousel.js'
-import Tips from  '../components/tips.js'
+import CardDeck from  '../components/card_deck.js'
 import CustomCard from '../components/cards.js'
 
 import Img from "gatsby-image";
@@ -94,7 +94,7 @@ export default class IndexPage extends React.Component {
 					</Row>
 					<Row className="justify-content-center p-0">
 			  			<CustomCol>
-			    				<Tips items={this.tipCards}/>
+			    				<CardDeck items={this.tipCards}/>
 			    		</CustomCol>
 					</Row>
 					<Row className="">
