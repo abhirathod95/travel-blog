@@ -33,7 +33,30 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         edges {
           node {
             frontmatter {
-              path
+              title,
+              date(formatString: "MMMM DD, YYYY"),
+              path,
+              excerpt,
+              tags,
+              continent,
+              country,
+              city,
+              featuredImage {
+                childImageSharp {
+                  sizes(maxWidth: 2060) {
+                    base64
+                    tracedSVG
+                    aspectRatio
+                    src
+                    srcSet
+                    srcWebp
+                    srcSetWebp
+                    sizes
+                    originalImg
+                    originalName
+                  }
+                }
+              }
             }
           }
         }
@@ -77,7 +100,30 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         edges {
           node {
             frontmatter {
-              path
+              title,
+              date(formatString: "MMMM DD, YYYY"),
+              path,
+              excerpt,
+              tags,
+              continent,
+              country,
+              city,
+              featuredImage {
+                childImageSharp {
+                  sizes(maxWidth: 2060) {
+                    base64
+                    tracedSVG
+                    aspectRatio
+                    src
+                    srcSet
+                    srcWebp
+                    srcSetWebp
+                    sizes
+                    originalImg
+                    originalName
+                  }
+                }
+              }
             }
           }
         }
@@ -94,7 +140,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       // If so, use empty object for now so the first page gets created
       if (result.data.allMarkdownRemark === undefined || result.data.allMarkdownRemark == null) {
         //console.log("No markdown results found!")
-        result.data.allMarkdownRemark = {edges: [{}]}
+        result.data.allMarkdownRemark = {edges: [false]}
       }
 
       // Finally create pagination for this continent

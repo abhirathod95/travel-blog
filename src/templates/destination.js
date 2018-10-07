@@ -20,18 +20,17 @@ import {
 import Link from 'gatsby-link'
 import Banner from '../components/banner.js';
 import Img from "gatsby-image";
+import CardDeck from "../components/card_deck.js";
 
 export default class DestinationTemplate extends React.Component {
 	constructor(props) {
 		super(props);
 
+		this.posts = this.props.pathContext.group;
 		this.toggleNavbar = this.toggleNavbar.bind(this);
-		this.onMouseEnter = this.onMouseEnter.bind(this);
-		this.onMouseLeave = this.onMouseLeave.bind(this);
-		this.toggleDropDown = this.toggleDropDown.bind(this);
+		this.renderBlogPosts = this.renderBlogPosts.bind(this);
 		this.state = {
-			isOpen: false,
-			dropdownOpen: false
+			isOpen: false
 		};
 	}
 
@@ -41,20 +40,44 @@ export default class DestinationTemplate extends React.Component {
 		});
 	}
 
-	toggleDropDown() {
-		this.setState({
-			dropdownOpen: !this.state.dropdownOpen
-		});
-	}
+	renderBlogPosts() {
+		if (this.posts === undefined || this.posts == null || this.posts.length < 1 || this.posts[0] === false) {
+			console.log("I hit this")
+			return (
+				<Row>
+					<Col>
+						<h1>Articles coming soon...</h1>
+					</Col>
+				</Row>
+			); 
+		}
 
-	onMouseEnter() {
-		this.setState({dropdownOpen: true});
-	}
+		const j = this.posts.length;
+		const chunk = 3;
+		let finalPosts = [];
 
-	onMouseLeave() {
-		this.setState({dropdownOpen: false});
-	}
+		for(let i = 0; i < j; i += chunk) {
+			let postGroup = this.posts.slice(i, i + chunk);
+			postGroup = postGroup.map((item) => {
+				let post = item.node.frontmatter;
+				return(
+					{
+						sizes: post.featuredImage.childImageSharp.sizes,
+						alt: post.city[0],
+						title: post.title.toUpperCase(),
+						buttonText: "Read More",
+						content: post.excerpt,
+						link: post.path,
+					}
+				);
+			});
+			finalPosts.push(
+				<CardDeck key={i} items={postGroup}/>
+			)
+		}
 
+		return finalPosts;
+	}
 
 	render() {
 		console.log(this.props)
@@ -70,7 +93,7 @@ export default class DestinationTemplate extends React.Component {
 									<Nav navbar className="align-items-center justify-content-center">
 										<NavLink key={"destinations"} to={"/destinations"} tag={Link}> All </NavLink>
 										{
-											this.props.pathContext.additionalContext.destinations.map((destination, index) =>
+											this.props.pathContext.additionalContext.destinations.map((destination, index) => 
 												<NavLink key={index} to={"/destinations/" + destination.toLowerCase().replace(" ", "-")} tag={Link}> {destination} </NavLink>
 											)
 										}
@@ -79,6 +102,7 @@ export default class DestinationTemplate extends React.Component {
 							</Navbar>
 						</Col>
 					</Row>
+					{this.renderBlogPosts()}
 				</Container>
 			</div>
 		);
