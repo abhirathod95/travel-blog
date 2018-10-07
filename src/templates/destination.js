@@ -72,7 +72,7 @@ export default class DestinationTemplate extends React.Component {
 				);
 			});
 			finalPosts.push(
-				<CardDeck key={i} items={postGroup}/>
+				<CardDeck key={i} items={postGroup} type={"vertical"}/>
 			)
 		}
 
@@ -102,7 +102,11 @@ export default class DestinationTemplate extends React.Component {
 							</Navbar>
 						</Col>
 					</Row>
-					{this.renderBlogPosts()}
+					<Row className="m-0 p-0 justify-content-center">
+						<Col md="11" className="m-0 p-0">
+							{this.renderBlogPosts()}
+						</Col>
+					</Row>
 				</Container>
 			</div>
 		);

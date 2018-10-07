@@ -18,18 +18,16 @@ const CustomCol = (props) => <Col widths={['xs', 'sm', 'md', 'lg', 'xl', 'xxl', 
 
 const CardDeck = (props) => {
   return (
-      <Container fluid className="m-0 p-0">
-        <Row className="justify-content-center align-items-stretch" >
+        <Row className="align-items-stretch" >
           {props.items.map((item, index) => {
               return (
-                <CustomCol key={index} sm="12" md="4" lg="4" xl="3">
-                  <CustomCard loc={'top'} item={item}/>    
+                <CustomCol key={index} sm="4">
+                  <CustomCard cardType={props.type} item={item}/>    
                 </CustomCol>
               )
             })
           }
         </Row>
-      </Container>
   );
 };
 

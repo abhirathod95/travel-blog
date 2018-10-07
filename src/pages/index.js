@@ -20,13 +20,18 @@ const CustomCol = (props) => <Col widths={['xs', 'sm', 'md', 'lg', 'xl', 'xxl']}
 export default class IndexPage extends React.Component {
 	constructor(props) {
 		super(props);
-		var data = this.props.data;
+		let data = this.props.data;
 
-		this.carouselitems = [
-			{key: 1, sizes: data.allImageSharp.edges[0].node.sizes, alt: 'Amsterdam', heading: 'Amsterdam', link: '/', subHeading: 'Explore', buttonText: 'Read More'},
-			{key: 2, sizes: data.allImageSharp.edges[1].node.sizes, alt: 'Chicago', heading: 'Chicago', link: '/', subHeading: 'Explore', buttonText: 'Read More'},
-			{key: 3, sizes: data.allImageSharp.edges[2].node.sizes, alt: 'Dallas', heading: 'Dallas', link: '/', subHeading: 'Explore', buttonText: 'Read More'},
-		]
+		this.carouselItems = data.allMarkdownRemark.edges.map((item, index) => {
+			return ({
+				key: index, 
+				sizes: item.node.frontmatter.featuredImage.childImageSharp.sizes, 
+				alt: item.node.frontmatter.title, 
+				heading: item.node.frontmatter.title, 
+				link: item.node.frontmatter.path, 
+				subHeading: 'Explore', buttonText: 'Read More'
+			})
+		});
 
 		this.cardItems = [
 			{'title':'TRAVEL GUIDES', 'sizes':data.allImageSharp.edges[0].node.sizes, alt: 'Amsterdam', 'date': 'March 10, 2018', 'content': 'This is some quick example text to build on the card title and yeah.'},
@@ -48,7 +53,7 @@ export default class IndexPage extends React.Component {
 				<Container fluid className="p-0 m-0">
 					<Row className="top-carousel mb-0">
 						<Col>	
-			    			<HomeCarousel items={this.carouselitems}></HomeCarousel>
+			    			<HomeCarousel items={this.carouselItems}></HomeCarousel>
 			  			</Col>
 					</Row>
 					<Row className="justify-content-center p-5" style={{'backgroundColor':'#000000'}}>
@@ -60,14 +65,9 @@ export default class IndexPage extends React.Component {
 		  				</Col>
 					</Row>
 					<Row className="justify-content-center p-0">
-						{ this.cardItems.map((item, i) => {
-						  return (
-						    <CustomCol key={i} sm="12" md="4" lg="4" xl="3">
-						      <CustomCard loc={'overlay'} item={item}/>    
-						    </CustomCol>
-						  )
-						})
-						}
+						<Col lg="9">
+							<CardDeck items={this.cardItems} type={"overlay"}/>
+						</Col>
 					</Row>
 					<Row className="justify-content-center p-0">
 						<Col lg="12" xl="8" className="text-center">
@@ -93,9 +93,9 @@ export default class IndexPage extends React.Component {
 			  			</Col>
 					</Row>
 					<Row className="justify-content-center p-0">
-			  			<CustomCol>
-			    				<CardDeck items={this.tipCards}/>
-			    		</CustomCol>
+						<Col lg="9">
+							<CardDeck items={this.tipCards} type={"vertical"}/>
+						</Col>
 					</Row>
 					<Row className="">
 			  			<CustomCol>
@@ -122,5 +122,31 @@ export const query = graphql`
           			}
     			}
   			}
+		}
+		allMarkdownRemark(
+		    limit: 3
+			sort: { order: DESC, fields: [frontmatter___date] }
+		) {
+			edges {
+			  node {
+			    frontmatter {
+			      title,
+			      path,
+			      featuredImage {
+			        childImageSharp {
+			          sizes(maxWidth: 2060) {
+	                    base64
+	                    aspectRatio
+	                    src
+	                    srcSet
+	                    sizes
+	                    originalImg
+	                    originalName
+			          }
+			        }
+			      }
+			    }
+			  }
+			}
 		}
   	}`

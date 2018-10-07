@@ -35,8 +35,7 @@ export default class Banner extends React.Component {
 						</Row>
 						<Row >
 							<Col className="text-center">
-								<h1 className="text-center d-block d-md-none display-4 custom-raleway">{this.props.item.heading}</h1>
-								<h1 className="text-center d-none d-md-block display-2 custom-raleway">{this.props.item.heading}</h1>
+								<h1 className="text-center display-4 custom-raleway">{this.props.item.heading}</h1>
 							</Col>
 						</Row>
 						<Row>

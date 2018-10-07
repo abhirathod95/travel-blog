@@ -45,12 +45,9 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
                 childImageSharp {
                   sizes(maxWidth: 2060) {
                     base64
-                    tracedSVG
                     aspectRatio
                     src
                     srcSet
-                    srcWebp
-                    srcSetWebp
                     sizes
                     originalImg
                     originalName
@@ -112,12 +109,9 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
                 childImageSharp {
                   sizes(maxWidth: 2060) {
                     base64
-                    tracedSVG
                     aspectRatio
                     src
                     srcSet
-                    srcWebp
-                    srcSetWebp
                     sizes
                     originalImg
                     originalName

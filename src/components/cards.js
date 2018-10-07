@@ -18,9 +18,11 @@ export default class CustomCard extends React.Component {
     return(
       <Row className="justify-content-center m-0 mb-5">
         <CustomCol md="6" lg="6" xl="4" xxl="3">
-          <div className="aspect-ratio-box">
+        <div className="aspect-ratio-box">
+          <Link to={this.props.item.link}>
             <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={this.props.item.sizes} alt={this.props.item.alt}/>
-          </div>
+          </Link> 
+        </div>
         </CustomCol>
         <Col md="6" lg="6">
             {this.props.item.date ? <div className="custom-raleway m-0 mt-2 mb-2 pl-2 pr-2 pt-1 pb-1" style={{'display':'inline-block', 'backgroundColor':'#229990'}}>{this.props.item.date} </div> : false}
@@ -31,7 +33,7 @@ export default class CustomCard extends React.Component {
             <div>
               {this.props.item.content}
             </div>
-            {this.props.item.buttonText ? <Button outline tag={Link} to={this.props.item.link} style={{'marginTop':'auto', 'flex':'0 0 auto'}}>{this.props.item.buttonText}</Button> : <h4>heeeeeeeei</h4>}
+            {this.props.item.buttonText ? <Button outline size="sm" tag={Link} to={this.props.item.link} style={{'marginTop':'auto', 'flex':'0 0 auto'}}>{this.props.item.buttonText}</Button> : false}
         </Col>
       </Row>
     )
@@ -41,7 +43,9 @@ export default class CustomCard extends React.Component {
     return (
       <div className="m-0 p-0">
         <div className="aspect-ratio-box">
-          <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={this.props.item.sizes} alt={this.props.item.alt}/>
+          <Link to={this.props.item.link}>
+            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={this.props.item.sizes} alt={this.props.item.alt}> </Img>
+          </Link> 
         </div>
         {this.props.item.date ? <div className="custom-raleway m-0 mt-2 mb-2 pl-2 pr-2 pt-1 pb-1" style={{'display':'inline-block', 'backgroundColor':'#229990'}}>{this.props.item.date} </div> : false}
         <h4 className="d-none d-lg-block m-0 mb-2 p-0"> 
@@ -55,7 +59,7 @@ export default class CustomCard extends React.Component {
           {this.props.item.content}
         </div>
         <div>
-        {this.props.item.buttonText ? <Button outline tag={Link} to={this.props.item.link} style={{'marginTop':'auto', 'flex':'0 0 auto'}}>{this.props.item.buttonText}</Button> : false}
+        {this.props.item.buttonText ? <Button outline size="sm" tag={Link} to={this.props.item.link} style={{'marginTop':'auto', 'flex':'0 0 auto'}}>{this.props.item.buttonText}</Button> : false}
         </div>
       </div>
     )
@@ -78,9 +82,9 @@ export default class CustomCard extends React.Component {
   }
 
   getCard() {
-    if (this.props.loc == "top") {
+    if (this.props.cardType == "vertical") {
       return this.getVerticalCard();
-    } else if (this.props.loc == "left"){
+    } else if (this.props.cardType == "horizontal"){
       return this.getHorizontalCard();
     } else {
       return this.getOverlayCard();
@@ -97,5 +101,5 @@ export default class CustomCard extends React.Component {
 }
 
 CustomCard.defaultProps = {
-  loc: 'left',  
+  cardType: 'horizontal',  
 };
