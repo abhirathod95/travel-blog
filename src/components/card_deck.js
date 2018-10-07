@@ -20,9 +20,9 @@ const CardDeck = (props) => {
   return (
       <Container fluid className="m-0 p-0">
         <Row className="justify-content-center align-items-stretch" >
-          {props.items.map((item, i) => {
+          {props.items.map((item, index) => {
               return (
-                <CustomCol key={i} sm="12" md="4" lg="4" xl="3">
+                <CustomCol key={index} sm="12" md="4" lg="4" xl="3">
                   <CustomCard loc={'top'} item={item}/>    
                 </CustomCol>
               )

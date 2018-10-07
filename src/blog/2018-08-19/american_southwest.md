@@ -1,6 +1,6 @@
 ---
 title: "SUMMER ROADTRIP THROUGH THE AMERICAN SOUTHWEST"
-date: "2018-6-20"
+date: "2018-06-20"
 path: "/blog/american-southwest-roadtrip"
 excerpt: "The summer after graduating college was a time of living with a heightened sense of “I can do anything in the world!” for me. I wanted to be out there, exploring the world and making my mark. I used to think I had to go abroad to New..."
 tags: ["Travel Journal", "Summer", "Roadtrip", "Girls Trip","Camping","Nature"]

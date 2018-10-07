@@ -22,10 +22,8 @@ export default class CustomCard extends React.Component {
             <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={this.props.item.sizes} alt={this.props.item.alt}/>
           </div>
         </CustomCol>
-        <Col md="6" lg="6" className="">
-            <div className="custom-raleway m-0 mt-2 mb-2 pl-2 pr-2 pt-1 pb-1" style={{'display':'inline-block', 'backgroundColor':'#229990'}}>
-              {this.props.item.date}
-            </div>
+        <Col md="6" lg="6">
+            {this.props.item.date ? <div className="custom-raleway m-0 mt-2 mb-2 pl-2 pr-2 pt-1 pb-1" style={{'display':'inline-block', 'backgroundColor':'#229990'}}>{this.props.item.date} </div> : false}
             <h2 className="m-0 mb-2 p-0"> 
               {this.props.item.title}
             </h2>
@@ -33,8 +31,7 @@ export default class CustomCard extends React.Component {
             <div>
               {this.props.item.content}
             </div>
-            {this.props.item.buttonText ? <Button outline tag={Link} to={this.props.item.link} style={{'marginTop':'auto', 'flex':'0 0 auto'}}>{this.props.item.buttonText}</Button> : false}
-
+            {this.props.item.buttonText ? <Button outline tag={Link} to={this.props.item.link} style={{'marginTop':'auto', 'flex':'0 0 auto'}}>{this.props.item.buttonText}</Button> : <h4>heeeeeeeei</h4>}
         </Col>
       </Row>
     )
@@ -46,9 +43,7 @@ export default class CustomCard extends React.Component {
         <div className="aspect-ratio-box">
           <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={this.props.item.sizes} alt={this.props.item.alt}/>
         </div>
-        <div className="custom-raleway m-0 mt-2 mb-2 pl-2 pr-2 pt-1 pb-1" style={{'display':'inline-block', 'backgroundColor':'#229990'}}>
-          {this.props.item.date}
-        </div>
+        {this.props.item.date ? <div className="custom-raleway m-0 mt-2 mb-2 pl-2 pr-2 pt-1 pb-1" style={{'display':'inline-block', 'backgroundColor':'#229990'}}>{this.props.item.date} </div> : false}
         <h4 className="d-none d-lg-block m-0 mb-2 p-0"> 
           {this.props.item.title}
         </h4>
@@ -58,6 +53,9 @@ export default class CustomCard extends React.Component {
         {this.props.item.subtitle ? <div>{this.props.subtitle}</div> : false}
         <div>
           {this.props.item.content}
+        </div>
+        <div>
+        {this.props.item.buttonText ? <Button outline tag={Link} to={this.props.item.link} style={{'marginTop':'auto', 'flex':'0 0 auto'}}>{this.props.item.buttonText}</Button> : false}
         </div>
       </div>
     )
