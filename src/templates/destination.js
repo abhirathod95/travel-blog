@@ -1,25 +1,15 @@
 import React from "react";
-import Helmet from 'react-helmet';
 import { 
 	Container, 
 	Row, 
 	Col,
-	Button,  
 	Collapse,
 	Navbar,
 	NavbarToggler,
-	NavbarBrand,
 	Nav,
 	NavLink,
-	NavItem,
-	Dropdown,
-	DropdownToggle,
-	DropdownMenu,
-	DropdownItem,
 } from 'reactstrap';
-import Link from 'gatsby-link'
-import Banner from '../components/banner.js';
-import Img from "gatsby-image";
+import {Link} from 'gatsby';
 import CardDeck from "../components/card_deck.js";
 
 export default class DestinationTemplate extends React.Component {
@@ -62,7 +52,7 @@ export default class DestinationTemplate extends React.Component {
 				let post = item.node.frontmatter;
 				return(
 					{
-						sizes: post.featuredImage.childImageSharp.sizes,
+						fluid: post.featuredImage.childImageSharp.fluid,
 						alt: post.city[0],
 						title: post.title.toUpperCase(),
 						buttonText: "Read More",

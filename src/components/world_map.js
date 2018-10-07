@@ -1,8 +1,7 @@
 import React from 'react';
-import Link from 'gatsby-link'
-import ReactTooltip from 'react-tooltip'
-import Map_110m from "../static/world-110m.json"
-import chroma from 'chroma-js'
+import ReactTooltip from 'react-tooltip';
+import Map_110m from "../static/world-110m.json";
+import chroma from 'chroma-js';
 
 import {
   ComposableMap,
@@ -25,7 +24,6 @@ console.log(colorScale(1).hex())
 
 const noBlogCountries = ["France", "United Kingdom", "India", "Italy", "Canada"]
 const BlogCountries = ["United States of America", "Netherlands", "Portugal", "Turkey", "Morocco", "Mexico","Spain","Australia", "New Zealand"]
-const visitedCountryColors = ["#A7D2CB", "#F2D388","#C98474","#874C62"]
 
 class WorldMap extends React.Component {
   constructor() {

@@ -1,22 +1,9 @@
 import React from 'react';
 import {
-  Collapse,
   Navbar,
-  NavbarToggler,
-  NavbarBrand,
   Nav,
-  NavLink,
-  NavItem,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  InputGroup,
-  InputGroupAddon,
-  Button,
-  Input } from 'reactstrap';
-import Link from 'gatsby-link'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+} from 'reactstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const iconColor = "#000000"
 

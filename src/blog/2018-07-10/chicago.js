@@ -64,7 +64,7 @@ export default function post(props) {
       <Row> 
         <Col xs="8" >
             <div className="aspect-ratio-box">
-              <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={images[3]} />
+              <Img className="gatsby-img" position="absolute" fluid={images[3]} />
             </div>
         </Col>
       </Row>
@@ -88,7 +88,7 @@ export default function post(props) {
       <Row>
         <Col xs="6">
           <div className="aspect-ratio-box">
-            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={images[4]} />
+            <Img className="gatsby-img" position="absolute" fluid={images[4]} />
           </div>
         </Col>
       </Row>
@@ -127,7 +127,7 @@ export default function post(props) {
       <Row>
         <Col xs="12">
           <div className="aspect-ratio-box">
-            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={images[1]} />
+            <Img className="gatsby-img" position="absolute" fluid={images[1]} />
           </div>
         </Col>
       </Row>
@@ -168,7 +168,7 @@ export default function post(props) {
        <Row> 
         <Col xs="8">
           <div className="aspect-ratio-box">
-            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={images[8]} />
+            <Img className="gatsby-img" position="absolute" fluid={images[8]} />
           </div>
         </Col>
       </Row>
@@ -215,24 +215,24 @@ export default function post(props) {
       <Row className="m-0">
         <Col xs="12" md="4" className="p-1">
           <div className="aspect-ratio-box">
-            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={images[9]} />
+            <Img className="gatsby-img" position="absolute" fluid={images[9]} />
           </div>
         </Col>
         <Col xs="12" md="4" className="p-1">
           <div className="aspect-ratio-box">
-            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={images[10]} />
+            <Img className="gatsby-img" position="absolute" fluid={images[10]} />
           </div>
         </Col>
       </Row>
       <Row>
         <Col xs="12" md="4" className="p-1">
           <div className="aspect-ratio-box">
-            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={images[11]} />
+            <Img className="gatsby-img" position="absolute" fluid={images[11]} />
           </div>
         </Col>
         <Col xs="12" md="4" className="p-1">
           <div className="aspect-ratio-box">
-            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={images[12]} />
+            <Img className="gatsby-img" position="absolute" fluid={images[12]} />
           </div>
         </Col>
       </Row>
@@ -249,7 +249,7 @@ export default function post(props) {
       <Row >
         <Col xs="6">
           <div className="aspect-ratio-box">
-            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={images[13]} />
+            <Img className="gatsby-img" position="absolute" fluid={images[13]} />
           </div>
         </Col>
       </Row>          
@@ -281,12 +281,12 @@ export default function post(props) {
       <Row>
         <Col xs="4" className="p-1">
           <div className="aspect-ratio-box">
-            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={images[15]} />
+            <Img className="gatsby-img" position="absolute" fluid={images[15]} />
           </div>
         </Col>
         <Col xs="4" className="p-1">
           <div className="aspect-ratio-box">
-            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={images[16]} />
+            <Img className="gatsby-img" position="absolute" fluid={images[16]} />
           </div>
         </Col>
       </Row>          

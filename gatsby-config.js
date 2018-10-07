@@ -54,7 +54,6 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-javascript-frontmatter`,
   ],
   mapping: {
     'JavascriptFrontmatter.fields.imageNode' : 'ImageSharp',

@@ -1,18 +1,14 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Layout from "../components/layout";
 import { 
 	Container, 
 	Row, 
 	Col,
-	Button,
 } from 'reactstrap';
-import Banner from '../components/banner.js'
-import WorldMap from '../components/world_map.js'
-import HomeCarousel from '../components/carousel.js'
-import CardDeck from  '../components/card_deck.js'
-import CustomCard from '../components/cards.js'
-
-import Img from "gatsby-image";
+import Banner from '../components/banner.js';
+import WorldMap from '../components/world_map.js';
+import HomeCarousel from '../components/carousel.js';
+import CardDeck from  '../components/card_deck.js';
 
 const CustomCol = (props) => <Col widths={['xs', 'sm', 'md', 'lg', 'xl', 'xxl']} {...props} />;
 
@@ -20,12 +16,13 @@ const CustomCol = (props) => <Col widths={['xs', 'sm', 'md', 'lg', 'xl', 'xxl']}
 export default class IndexPage extends React.Component {
 	constructor(props) {
 		super(props);
+		console.log(this.props)
 		let data = this.props.data;
 
 		this.carouselItems = data.allMarkdownRemark.edges.map((item, index) => {
 			return ({
 				key: index, 
-				sizes: item.node.frontmatter.featuredImage.childImageSharp.sizes, 
+				fluid: item.node.frontmatter.featuredImage.childImageSharp.fluid, 
 				alt: item.node.frontmatter.title, 
 				heading: item.node.frontmatter.title, 
 				link: item.node.frontmatter.path, 
@@ -34,22 +31,22 @@ export default class IndexPage extends React.Component {
 		});
 
 		this.cardItems = [
-			{'title':'TRAVEL GUIDES', 'sizes':data.allImageSharp.edges[0].node.sizes, alt: 'Amsterdam', 'date': 'March 10, 2018', 'content': 'This is some quick example text to build on the card title and yeah.'},
-			{'title':'ITINERARIES', 'sizes':data.allImageSharp.edges[1].node.sizes, alt: 'Amsterdam', 'date': 'March 10, 2018', 'content': 'This is some quick example text to build on the card title and yeah.'},
-			{'title':'TRAVEL JOURNAL', 'sizes':data.allImageSharp.edges[2].node.sizes, alt: 'Amsterdam', 'date': 'March 10, 2018', 'content': 'This is some quick example text to build on the card title and yeah.'},
+			{'title':'TRAVEL GUIDES', 'fluid':data.allImageSharp.edges[0].node.fluid, alt: 'Amsterdam', 'date': 'March 10, 2018', 'content': 'This is some quick example text to build on the card title and yeah.'},
+			{'title':'ITINERARIES', 'fluid':data.allImageSharp.edges[1].node.fluid, alt: 'Amsterdam', 'date': 'March 10, 2018', 'content': 'This is some quick example text to build on the card title and yeah.'},
+			{'title':'TRAVEL JOURNAL', 'fluid':data.allImageSharp.edges[2].node.fluid, alt: 'Amsterdam', 'date': 'March 10, 2018', 'content': 'This is some quick example text to build on the card title and yeah.'},
 		];
 
 		this.tipCards = [
-			{sizes: data.allImageSharp.edges[0].node.sizes, alt: 'Amsterdam', 'title':'OUR FAVORITE 10 DESIGN HOTELS WORLDWIDE', 'date': 'March 10, 2018', 'content': 'This is some quick example text to build on the card title and yeah.'},
-			{sizes: data.allImageSharp.edges[0].node.sizes, alt: 'Amsterdam', 'title':'OUR FAVORITE 10 DESIGN HOTELS WORLDWIDE', 'date': 'March 10, 2018', 'content': 'This is some quick example text to build on the card title and yeah.'},
-			{sizes: data.allImageSharp.edges[0].node.sizes, alt: 'Amsterdam', 'title':'OUR FAVORITE 10 DESIGN HOTELS WORLDWIDE', 'date': 'March 10, 2018', 'content': 'This is some quick example text to build on the card title and yeah.'},
+			{fluid: data.allImageSharp.edges[0].node.fluid, alt: 'Amsterdam', 'title':'OUR FAVORITE 10 DESIGN HOTELS WORLDWIDE', 'date': 'March 10, 2018', 'content': 'This is some quick example text to build on the card title and yeah.'},
+			{fluid: data.allImageSharp.edges[0].node.fluid, alt: 'Amsterdam', 'title':'OUR FAVORITE 10 DESIGN HOTELS WORLDWIDE', 'date': 'March 10, 2018', 'content': 'This is some quick example text to build on the card title and yeah.'},
+			{fluid: data.allImageSharp.edges[0].node.fluid, alt: 'Amsterdam', 'title':'OUR FAVORITE 10 DESIGN HOTELS WORLDWIDE', 'date': 'March 10, 2018', 'content': 'This is some quick example text to build on the card title and yeah.'},
 		]
 
 	}
 
 	render() {
   		return(
-			<div>
+			<Layout>
 				<Container fluid className="p-0 m-0">
 					<Row className="top-carousel mb-0">
 						<Col>	
@@ -89,7 +86,7 @@ export default class IndexPage extends React.Component {
 					</Row>
 					<Row className="p-0 m-0 mb-5">
 			  			<Col>
-			  				<Banner width="100%" height="500px" item={{'sizes':this.props.data.allImageSharp.edges[1].node.sizes, 'subHeading':'Better Ways To','heading':'Travel Smarter', 'buttonText':'Read More', 'link':'/'}}/>
+			  				<Banner width="100%" height="500px" item={{'fluid':this.props.data.allImageSharp.edges[1].node.fluid, 'subHeading':'Better Ways To','heading':'Travel Smarter', 'buttonText':'Read More', 'link':'/'}}/>
 			  			</Col>
 					</Row>
 					<Row className="justify-content-center p-0">
@@ -99,12 +96,12 @@ export default class IndexPage extends React.Component {
 					</Row>
 					<Row className="">
 			  			<CustomCol>
-			    				<div className="test123" style={{'backgroundImage': "url('" + this.props.data.allImageSharp.edges[1].node.sizes + "')"}}/>
+			    				<div className="test123" style={{'backgroundImage': "url('" + this.props.data.allImageSharp.edges[1].node.fluid + "')"}}/>
 			    		</CustomCol>
 					</Row>
 			
 				</Container>
-			</div>
+			</Layout>
 		)
 	}
 }
@@ -112,12 +109,12 @@ export default class IndexPage extends React.Component {
 
 export const query = graphql`
 	query test {
-		allImageSharp  (filter : {id : {regex : "/Other/"} }, sort: {fields : [id]} ) {
+		allImageSharp(filter : {fluid : {originalName: {regex : "/Image_/"} }}, sort: {fields : [fluid___originalName]}){
     		edges {
       			node{
 					id
-        			sizes(maxWidth: 2060, cropFocus:SOUTH) {
-          				...GatsbyImageSharpSizes
+        			fluid(maxWidth: 2060, cropFocus:SOUTH) {
+          				...GatsbyImageSharpFluid
           				originalName
           			}
     			}
@@ -134,7 +131,7 @@ export const query = graphql`
 			      path,
 			      featuredImage {
 			        childImageSharp {
-			          sizes(maxWidth: 2060) {
+			          fluid(maxWidth: 2060) {
 	                    base64
 	                    aspectRatio
 	                    src

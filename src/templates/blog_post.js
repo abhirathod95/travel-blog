@@ -4,10 +4,8 @@ import {
 	Container, 
 	Row, 
 	Col,
-	Button,
 } from 'reactstrap';
 import Banner from '../components/banner.js';
-import Img from "gatsby-image";
 
 export default function Template({data,}) {
 
@@ -57,8 +55,8 @@ export const pageQuery = graphql`
 				city
 				featuredImage {
 					childImageSharp{
-						sizes(maxWidth: 2060) {
-							...GatsbyImageSharpSizes
+						fluid(maxWidth: 2060) {
+							...GatsbyImageSharpFluid
 						}
 					}
 				}

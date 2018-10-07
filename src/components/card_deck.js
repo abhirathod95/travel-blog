@@ -1,14 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
-import { Card, 
-  CardImg, 
-  CardLink,
-  CardText, 
-  CardBody,
-  CardTitle, 
-  CardSubtitle, 
-  Button,
-  Container, 
+import {
   Row, 
   Col  } from 'reactstrap';
 import CustomCard from '../components/cards.js'

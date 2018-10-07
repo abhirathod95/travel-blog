@@ -11,8 +11,8 @@ const createPaginatedPages = require("gatsby-paginate");
 const path = require ('path');
 
 
-exports.createPages = ({ boundActionCreators, graphql }) => {
-  const { createPage } = boundActionCreators;
+exports.createPages = ({ actions, graphql }) => {
+  const { createPage } = actions;
 
   // Templates for the blog posts and for the destination pages 
   const blogPostTemplate = path.resolve(`src/templates/blog_post.js`);
@@ -32,6 +32,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       ) {
         edges {
           node {
+            html
             frontmatter {
               title,
               date(formatString: "MMMM DD, YYYY"),
@@ -43,7 +44,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
               city,
               featuredImage {
                 childImageSharp {
-                  sizes(maxWidth: 2060) {
+                  fluid(maxWidth: 2060) {
                     base64
                     aspectRatio
                     src
@@ -107,7 +108,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
               city,
               featuredImage {
                 childImageSharp {
-                  sizes(maxWidth: 2060) {
+                  fluid(maxWidth: 2060) {
                     base64
                     aspectRatio
                     src

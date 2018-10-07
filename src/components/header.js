@@ -6,16 +6,12 @@ import {
   NavbarBrand,
   Nav,
   NavLink,
-  NavItem,
   Dropdown,
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  InputGroup,
-  InputGroupAddon,
-  Button,
-  Input } from 'reactstrap';
-import Link from 'gatsby-link'
+} from 'reactstrap';
+import {Link} from 'gatsby'
 import Logo from '../images/logo.png'
 
 const navbarItemsLeft = [
@@ -102,7 +98,7 @@ export default class Header extends React.Component {
                   })
                 }
                 <Dropdown nav inNavbar onMouseOver={this.onMouseEnter} onMouseLeave={this.onMouseLeave} isOpen={this.state.dropdownOpen} toggle={this.toggleDropDown} className="align-items-center justify-content-center">
-                  <DropdownToggle nav> <NavLink to="/destinations" tag={Link}> DESTINATIONS </NavLink> </DropdownToggle>
+                  <DropdownToggle nav> <NavLink key={"destinations"} to={"/destinations"} tag={Link}> DESTINATIONS </NavLink> </DropdownToggle>
                   <DropdownMenu >
                     {
                       dropdownItems.map((item) => {

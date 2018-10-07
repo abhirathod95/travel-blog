@@ -1,17 +1,11 @@
 import React from 'react';
 import {
-  Button,
   Carousel,
   CarouselItem,
   CarouselControl,
   CarouselIndicators,
-  CarouselCaption
 } from 'reactstrap';
-import Banner from '../components/banner.js'
-import Chicago0 from '../images/United States of America/Illinois/Chicago_00.jpg'
-import Page0 from '../images/United States of America/Arizona/Page_0.jpg'
-import Amsterdam0 from '../images/Netherlands/Amsterdam_0.jpg'
-import SantaFe0 from '../images/United States of America/New Mexico/Santa_Fe_0.jpg'
+import Banner from '../components/banner.js';
 
 
 class HomeCarousel extends React.Component {

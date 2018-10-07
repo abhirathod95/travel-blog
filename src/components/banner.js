@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import {Link} from 'gatsby';
 import { 
 	Button,
 	Container, 
@@ -10,16 +10,11 @@ import {
 import Img from "gatsby-image";
 
 export default class Banner extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
-
 
   render() {
   	return (
 			<Container fluid className="banner" style={{'minHeight': this.props.height, 'minWidth': this.props.width}} >
-					<Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={this.props.item.sizes} alt={this.props.item.alt}/>
+					<Img className="gatsby-img" position="absolute" fluid={this.props.item.fluid} alt={this.props.item.alt}/>
 					<h1 className={this.props.showBottomText ? "d-block display-1" : "d-none"} style={{'position':'absolute', 'bottom':'0', 'marginBottom':'-3rem'}}>{this.props.item.heading.toUpperCase()}</h1>
 					<div className={this.props.showTextBox ? "text-box" : "d-none"}>
 						<Row>
@@ -54,6 +49,6 @@ Banner.defaultProps = {
 	showBottomText: false,
 	height:0,
 	width:0,
-	sizes:null,
+	fluid:null,
 	item: {alt:"", subHeading:"", heading:"", link:"/"}
 };

@@ -62,7 +62,7 @@ export default function post(props) {
       <Row> 
         <Col xs="8">
           <div style={{height:"100%"}}>
-            <Img position="absolute" sizes={images[1]} />
+            <Img position="absolute" fluid={images[1]} />
           </div>
         </Col>
       </Row>
@@ -80,7 +80,7 @@ export default function post(props) {
       <Row> 
         <Col xs="12">
           <div style={{height:"100%"}}>
-            <Img position="absolute" sizes={images[2]} />
+            <Img position="absolute" fluid={images[2]} />
           </div>
         </Col>
       </Row>
@@ -92,24 +92,24 @@ export default function post(props) {
       <Row className="m-0">
         <Col xs="12" md="4" className="p-1">
           <div className="aspect-ratio-box">
-            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={images[3]} />
+            <Img className="gatsby-img" position="absolute" fluid={images[3]} />
           </div>
         </Col>
         <Col xs="12" md="4" className="p-1">
           <div className="aspect-ratio-box">
-            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={images[4]} />
+            <Img className="gatsby-img" position="absolute" fluid={images[4]} />
           </div>
         </Col>
       </Row>
       <Row>
         <Col xs="12" md="4" className="p-1">
           <div className="aspect-ratio-box">
-            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={images[5]} />
+            <Img className="gatsby-img" position="absolute" fluid={images[5]} />
           </div>
         </Col>
         <Col xs="12" md="4" className="p-1">
           <div className="aspect-ratio-box">
-            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={images[6]} />
+            <Img className="gatsby-img" position="absolute" fluid={images[6]} />
           </div>
         </Col>
       </Row>
@@ -126,7 +126,7 @@ export default function post(props) {
       <Row> 
         <Col xs="12">
           <div className="aspect-ratio-box">
-            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={images[7]} />
+            <Img className="gatsby-img" position="absolute" fluid={images[7]} />
           </div>
         </Col>
       </Row>
@@ -135,7 +135,7 @@ export default function post(props) {
     			<p>The last stop on our trip was the colorful town of Vallodolid, Yucatan. The bus dropped us off right in the city center for an hour and half to enjoy. Of course, an hour and a half isn’t much time to really say you’ve seen Vallodolid, but we covered what we could in the city center. </p>
     		
           <div style={{height:"auto"}}>
-            <Img position="absolute" sizes={images[8]} />
+            <Img position="absolute" fluid={images[8]} />
           </div>
 
     			<p>The <strong>Cathedral San Gervaiso</strong> was right there where we exited the bus, and then, we had some ice cream, relaxing in the <strong>Parque Francisco Canton Rosado</strong> before heading back to Cancun. On the way back, we were given a tequila shot made from the blue agave that grows in this region, which ended our day trip on a high note!</p>

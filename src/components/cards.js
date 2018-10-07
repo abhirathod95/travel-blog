@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import {Link} from 'gatsby';
 import { 
   Row,
   Col,
@@ -10,9 +10,6 @@ import Img from "gatsby-image";
 const CustomCol = (props) => <Col widths={['xs', 'sm', 'md', 'lg', 'xl', 'xxl', 'xxxl']} {...props} />;
 
 export default class CustomCard extends React.Component {
-  constructor(props) {
-    super(props);
-  }
 
   getHorizontalCard() {
     return(
@@ -20,7 +17,7 @@ export default class CustomCard extends React.Component {
         <CustomCol md="6" lg="6" xl="4" xxl="3">
         <div className="aspect-ratio-box">
           <Link to={this.props.item.link}>
-            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={this.props.item.sizes} alt={this.props.item.alt}/>
+            <Img className="gatsby-img" position="absolute" fluid={this.props.item.fluid} alt={this.props.item.alt}/>
           </Link> 
         </div>
         </CustomCol>
@@ -44,7 +41,7 @@ export default class CustomCard extends React.Component {
       <div className="m-0 p-0">
         <div className="aspect-ratio-box">
           <Link to={this.props.item.link}>
-            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={this.props.item.sizes} alt={this.props.item.alt}> </Img>
+            <Img className="gatsby-img" position="absolute" fluid={this.props.item.fluid} alt={this.props.item.alt}> </Img>
           </Link> 
         </div>
         {this.props.item.date ? <div className="custom-raleway m-0 mt-2 mb-2 pl-2 pr-2 pt-1 pb-1" style={{'display':'inline-block', 'backgroundColor':'#229990'}}>{this.props.item.date} </div> : false}
@@ -69,7 +66,7 @@ export default class CustomCard extends React.Component {
     return (
       <div className="m-0 p-0">
         <div className="aspect-ratio-box">
-            <Img outerWrapperClassName="gatsby-img-outter" className="gatsby-img" position="absolute" sizes={this.props.item.sizes} alt={this.props.item.alt}/>
+            <Img className="gatsby-img" position="absolute" fluid={this.props.item.fluid} alt={this.props.item.alt}/>
           <div className="aspect-ratio-box-inside d-flex flex-row">
             <div className="text-box">
             <h6 className="d-block d-lg-none m-0 p-4">{this.props.item.title}</h6>
@@ -82,9 +79,9 @@ export default class CustomCard extends React.Component {
   }
 
   getCard() {
-    if (this.props.cardType == "vertical") {
+    if (this.props.cardType === "vertical") {
       return this.getVerticalCard();
-    } else if (this.props.cardType == "horizontal"){
+    } else if (this.props.cardType === "horizontal"){
       return this.getHorizontalCard();
     } else {
       return this.getOverlayCard();
