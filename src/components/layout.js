@@ -1,5 +1,8 @@
 import React from 'react'
-import {StaticQuery} from 'gatsby';
+import {
+  graphql,
+  StaticQuery
+} from 'gatsby';
 import Helmet from 'react-helmet';
 import Header from '../components/header';
 import HeaderLeft from '../components/side_header.js';

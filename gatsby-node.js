@@ -68,6 +68,7 @@ exports.createPages = ({ actions, graphql }) => {
           path: node.frontmatter.path,
           component: blogPostTemplate,
           context: {
+            data: node,
           }, // additional data can be passed via context
         });
       });

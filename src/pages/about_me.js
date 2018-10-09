@@ -1,6 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import Layout from "../components/layout";
+import { graphql } from 'gatsby';
 import { 
   Container, 
   Row, 
@@ -9,15 +10,18 @@ import {
 import Banner from '../components/banner.js';
 
 export default function AboutMe(props) {
-  console.log(props)
+  
   return (
     <Layout>
       <Helmet title={"About Me"} />
       <Container fluid className="blog-post">
         <Row>
-          <Banner showBottomText showTextBox={false} width="100%" height="50vh" item={{'fluid':props.data.imageSharp.fluid,'heading':'About Me',}}/>
+          <Banner showTextBox={false} width="100%" height="50vh" item={{'fluid':props.data.imageSharp.fluid,'heading':'About Me',}}/>
         </Row>
         <Row>
+          <Col>
+            <h1 className="text-center display-3">About Me</h1>
+          </Col>
         </Row>
         <Row>
           <Col xs="6">

@@ -1,4 +1,5 @@
 import React from 'react';
+import { graphql } from 'gatsby';
 import Layout from "../components/layout";
 import { 
 	Container, 
@@ -16,7 +17,7 @@ const CustomCol = (props) => <Col widths={['xs', 'sm', 'md', 'lg', 'xl', 'xxl']}
 export default class IndexPage extends React.Component {
 	constructor(props) {
 		super(props);
-		console.log(this.props)
+		
 		let data = this.props.data;
 
 		this.carouselItems = data.allMarkdownRemark.edges.map((item, index) => {

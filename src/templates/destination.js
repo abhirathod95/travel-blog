@@ -11,6 +11,7 @@ import {
 } from 'reactstrap';
 import {Link} from 'gatsby';
 import CardDeck from "../components/card_deck.js";
+import Layout from "../components/layout";
 
 export default class DestinationTemplate extends React.Component {
 	constructor(props) {
@@ -32,7 +33,6 @@ export default class DestinationTemplate extends React.Component {
 
 	renderBlogPosts() {
 		if (this.posts === undefined || this.posts == null || this.posts.length < 1 || this.posts[0] === false) {
-			console.log("I hit this")
 			return (
 				<Row>
 					<Col>
@@ -72,7 +72,7 @@ export default class DestinationTemplate extends React.Component {
 	render() {
 		console.log(this.props)
 		return (
-			<div>
+			<Layout>
 				<Container fluid>
 					<Row className="destinations-navbar">
 						<Col className="p-5">
@@ -98,7 +98,7 @@ export default class DestinationTemplate extends React.Component {
 						</Col>
 					</Row>
 				</Container>
-			</div>
+			</Layout>
 		);
 	}
 }
