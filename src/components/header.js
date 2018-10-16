@@ -16,7 +16,7 @@ import Logo from '../images/logo.png'
 
 const navbarItemsLeft = [
   {"name" : "aboutMe", "path" : "/about_me", "visibleName": "ABOUT ME"},
-  {"name" : "travelTips", "path" : "/", "visibleName": "TRAVEL TIPS"}
+  {"name" : "travelTips", "path" : "/", "visibleName": "BUCKET LIST"}
   ]
 
 const navbarItemsRight = [

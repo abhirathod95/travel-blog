@@ -7,7 +7,7 @@ tags: ["Itinerary", "Summer", "City", "Girl Trip"]
 continent: ["North America"]
 country: ["United States of America"]
 city: ["Chicago"]
-featuredImage: "../../images/United States of America/Illinois/Chicago_02.jpg"
+featuredImage: "../../images/United States of America/Illinois/Chicago_01.jpg"
 ---
 
 I have been to a lot of cities in the U.S., but somehow, I never made it out to the very popular city of Chicago until now. As an architecture buff, I loved learning about the city and the way it has been rebuilt since a fire burned down a large part of the city more than a century ago. Hence, why Chicago is called the Second City. I had lots of fun doing all sorts of activities from browsing museums to bicycling to laughing at a comedy show with my girlfriends. If you’re here for a few days, this is a great itinerary to cover almost all the hot spots Chicago has to offer in an affordable, enjoyable, and jam-packed three-day vacation. Of course, feel free to mix up my itinerary to fit your needs! 
@@ -43,7 +43,7 @@ Before heading out, check out the ladies’ bathroom. Kind of strange advice, bu
 
 ####**7:00 PM Cloud Gate/Millennium Park**
 
-![test](../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_01.jpg)
+![test](../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_02.jpg)
 
 We reached Millennium Park just at the right time as the symphony was getting started. Lying there in the cool grass, looking up at the steel fixtures zigzagging, and listening to Tchaikovsky was probably the best memory I’ll have of Chicago. I love when a green space in the middle of the city is so successful at bringing a little bit of peace and community to a busy cityscape like Chicago, and Frank Gehry, who is the architect of Millennium Park, created just the right atmosphere for that. Check out this link for more information about what’s going on in [Millennium Park](https://www.cityofchicago.org/city/en/depts/dca/supp_info/mp_calendar.html) during your visit. 
 

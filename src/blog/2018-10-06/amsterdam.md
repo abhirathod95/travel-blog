@@ -1,6 +1,6 @@
 ---
 title: "The Complete Travel Guide for Amsterdam"
-date: "2018-07-10"
+date: "2017-07-10"
 path: "/blog/amsterdam-travel-guide"
 excerpt: "If you’re planning to visit Amsterdam, be prepared to never want to leave. While other European cities are quite impressive, the relaxing, laidback atmosphere found everywhere in the city’s buildings, cobblestone streets, and ..."
 tags: ["Itinerary", "Summer", "City", "Family"]

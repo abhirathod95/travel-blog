@@ -1,8 +1,8 @@
 ---
 title: "Day Trip to One of The Seven World Wonders: Chichen Itza"
-date: "2018-08-10"
+date: "2016-08-10"
 path: "/blog/chichen_itza_travel_journal"
-excerpt: "While I went to Cancun to enjoy the beaches and the cocktails, I had to take a break from relaxing to visit **Chichen Itza, one of the new seven wonders of the world**. It’s only a two-hour drive away and gives you a real taste of Mexico..."
+excerpt: "While I went to Cancun to enjoy the beaches and the cocktails, I had to take a break from relaxing to visit Chichen Itza, one of the new seven wonders of the world. It’s only a two-hour drive away and gives you a real taste of Mexico..."
 tags: ["Travel Journal", "Summer", "Cancun", "Family"]
 continent: ["North America"]
 country: ["Mexico"]
