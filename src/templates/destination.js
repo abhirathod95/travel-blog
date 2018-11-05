@@ -3,32 +3,17 @@ import {
 	Container, 
 	Row, 
 	Col,
-	Collapse,
-	Navbar,
-	NavbarToggler,
-	Nav,
-	NavLink,
 } from 'reactstrap';
-import {Link} from 'gatsby';
 import CardDeck from "../components/card_deck.js";
 import Layout from "../components/layout";
+import DestinationHeader from "../components/destination_header.js";
 
 export default class DestinationTemplate extends React.Component {
 	constructor(props) {
 		super(props);
 
 		this.posts = this.props.pathContext.group;
-		this.toggleNavbar = this.toggleNavbar.bind(this);
 		this.renderBlogPosts = this.renderBlogPosts.bind(this);
-		this.state = {
-			isOpen: false
-		};
-	}
-
-	toggleNavbar() {
-		this.setState({
-			isOpen: !this.state.isOpen
-		});
 	}
 
 	renderBlogPosts() {
@@ -75,21 +60,8 @@ export default class DestinationTemplate extends React.Component {
 			<Layout>
 				<Container fluid>
 					<Row className="destinations-navbar">
-						<Col className="p-5">
-							<Navbar expand="lg">
-								<NavbarToggler className="d-sm-none small-icon" onClick={this.toggleNavbar} />
-								<NavbarToggler className="d-none d-sm-block d-lg-none large-icon" onClick={this.toggleNavbar} />
-								<Collapse isOpen={this.state.isOpen} navbar>
-									<Nav navbar className="align-items-center justify-content-center">
-										<NavLink key={"destinations"} to={"/destinations"} tag={Link}> All </NavLink>
-										{
-											this.props.pathContext.additionalContext.destinations.map((destination, index) => 
-												<NavLink key={index} to={"/destinations/" + destination.toLowerCase().replace(" ", "-")} tag={Link}> {destination} </NavLink>
-											)
-										}
-									</Nav>
-								</Collapse>
-							</Navbar>
+						<Col className="p-3">
+							<DestinationHeader destinations={this.props.pathContext.additionalContext.destinations}/>
 						</Col>
 					</Row>
 					<Row className="m-0 p-0 justify-content-center">
