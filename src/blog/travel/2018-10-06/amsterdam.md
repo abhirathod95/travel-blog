@@ -7,7 +7,7 @@ tags: ["Itinerary", "Summer", "City", "Family"]
 continent: ["Europe"]
 country: ["Netherlands"]
 city: ["Amsterdam"]
-featuredImage: "../../images/Netherlands/Amsterdam_3.jpg"
+featuredImage: "../../../images/Netherlands/Amsterdam_3.jpg"
 ---
 
 If you’re planning to visit Amsterdam, be prepared to never want to leave. While other European cities are quite impressive, the relaxing, laidback atmosphere found everywhere in the city’s buildings, cobblestone streets, and canals is hard to find in other places. The citizens can be seen socializing at quaint cafes sprinkled along every canal after a work day while others are soaking up the sun on their boats. Bicycles line every corner and actually outnumber the cars in the city. Most impressive is seeing children of all ages bicycling confidently to school behind their parents without having to fear heavy traffic. Maybe this lifestyle doesn’t seem that different for those living in Europe, but it seems so ideal for those of us from America. Particularly us who are forced to have a car to get anywhere. 

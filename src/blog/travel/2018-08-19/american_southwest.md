@@ -7,7 +7,7 @@ tags: ["Travel Journal", "Summer", "Roadtrip", "Girls Trip","Camping","Nature"]
 continent: ["North America"]
 country: ["United States of America"]
 city: ["Southwest"]
-featuredImage: "../../images/United States of America/Southwest_1/22.jpg"
+featuredImage: "../../../images/United States of America/Southwest_1/22.jpg"
 ---
 
 The summer after graduating college was a time of living with a heightened sense of “I can do anything in the world!” for me. I wanted to be out there, exploring the world and making my mark. I used to think I had to go abroad to New Zealand or Iceland to be amazed by nature, but there’s a whole lot of beauty to explore right here in America. So, my friend, M, and I, both about to begin the scary adventure that is medical school, decided to tackle an even scarier road trip that would end up taking my tires along 4000 miles of dusty roads from start to end. 

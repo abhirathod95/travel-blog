@@ -10,7 +10,7 @@ import {
 import {Link} from 'gatsby';
 import Img from "gatsby-image";
 
-export default class DestinationHeader extends React.Component {
+export default class BlogHeader extends React.Component {
   constructor(props) {
     super(props);
 
@@ -40,7 +40,7 @@ export default class DestinationHeader extends React.Component {
       <StaticQuery
         query={graphql`
           {
-            allImageSharp (filter :{fluid : {originalName : {regex: "/destination_header/"}}}){
+            travel: allImageSharp (filter :{fluid : {originalName : {regex: "/travel_header/"}}}){
               edges {
                 node {
                   fixed(height: 100) {
@@ -49,7 +49,17 @@ export default class DestinationHeader extends React.Component {
                   }
                 }
               }
-            } 
+            }
+            medicine: allImageSharp (filter :{fluid : {originalName : {regex: "/medicine_header/"}}}){
+              edges {
+                node {
+                  fixed(height: 100) {
+                    ...GatsbyImageSharpFixed
+                    originalName
+                  }
+                }
+              }
+            }
           }
         `}
         render={function(data) {
@@ -57,13 +67,22 @@ export default class DestinationHeader extends React.Component {
           // to a dictionary where the keys are the continents
           // and the value is the image we want
           let images = {};
-          data.allImageSharp.edges.forEach(image => {
-            let name = image.node.fixed.originalName.replace("destination_header_","").replace(".png","")
+          let items, preamble;
+
+          if (props.blogType === "destinations") {
+            items = data.travel.edges;
+            preamble = "travel_header_";
+            images["north_america"] = items[0].node.fixed
+
+          } else {
+            items = data.medicine.edges;
+            preamble = "medicine_header_";
+          }
+
+          items.forEach(image => {
+            let name = image.node.fixed.originalName.replace(preamble,"").replace(".png","")
             images[name] = image.node.fixed
           })
-          images["north_america"] = data.allImageSharp.edges[0].node.fixed
-          images["all"] = data.allImageSharp.edges[0].node.fixed
-
 
           return (
             <Navbar expand="lg">
@@ -71,17 +90,17 @@ export default class DestinationHeader extends React.Component {
               <NavbarToggler className="d-none d-sm-block d-lg-none large-icon" onClick={toggleNavbar} />
               <Collapse isOpen={state.isOpen} navbar>
                 <Nav navbar >
-                  <NavLink key={"destinations"} to={"/destinations"} tag={Link}> 
+                  <NavLink key={props.blogType} to={"/" + props.blogType} tag={Link}> 
                     <div>
-                      <Img fixed={images["all"]} alt={"test"}/> 
+                      <Img fixed={images["all"]} alt={"All"}/> 
                       <div> All </div>
                     </div>
                   </NavLink>
                   {
-                    props.destinations.map((destination, index) => 
-                        <NavLink key={index} to={"/destinations/" + destination.toLowerCase().replace(" ", "-")} tag={Link}> 
-                              <Img fixed={images[destination.toLowerCase().replace(" ", "_")]} alt={"test"}/> 
-                              <div> {destination}</div>
+                    props.headers.map((header, index) => 
+                        <NavLink key={index} to={"/" + props.blogType + "/" + header.toLowerCase().replace(" ", "-")} tag={Link}> 
+                              <Img fixed={images[header.toLowerCase().replace(" ", "_")]} alt={header}/> 
+                              <div> {header}</div>
                         </NavLink>
                     )
                   }

@@ -20,16 +20,16 @@ const navbarItemsLeft = [
   ]
 
 const navbarItemsRight = [
-  {"name" : "medicine", "path" : "/", "visibleName": "MEDICINE"},
+  {"name" : "medicine", "path" : "/medicine", "visibleName": "MEDICINE"},
   ]
 
 const dropdownItems = [
-  {"name" : "northAmerica", "path" : "/page-2", "visibleName": "North America"},
-  {"name" : "europe", "path" : "/", "visibleName": "Europe"},
-  {"name" : "africa", "path" : "/", "visibleName": "Africa"},
-  {"name" : "asia", "path" : "/", "visibleName": "Asia"},
-  {"name" : "oceania", "path" : "/", "visibleName": "Oceania"},
-  {"name" : "southAmerica", "path" : "/", "visibleName": "South America"},
+  {"name" : "northAmerica", "path" : "/destinations/north-america", "visibleName": "North America"},
+  {"name" : "europe", "path" : "/destinations/europe", "visibleName": "Europe"},
+  {"name" : "africa", "path" : "/destinations/africa", "visibleName": "Africa"},
+  {"name" : "asia", "path" : "/destinations/asia", "visibleName": "Asia"},
+  {"name" : "oceania", "path" : "/destinations/oceania", "visibleName": "Oceania"},
+  {"name" : "southAmerica", "path" : "/destinations/south-america", "visibleName": "South America"},
   ]
 
 export default class Header extends React.Component {

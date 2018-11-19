@@ -22,7 +22,7 @@ console.log(colorScale(1).hex())
 
 
 
-const noBlogCountries = ["France", "United Kingdom", "India", "Italy", "Canada"]
+const noBlogCountries = ["France", "United Kingdom", "India", "Italy", "Canada", "Switzerland"]
 const BlogCountries = ["United States of America", "Netherlands", "Portugal", "Turkey", "Morocco", "Mexico","Spain","Australia", "New Zealand"]
 
 class WorldMap extends React.Component {
