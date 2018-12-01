@@ -17,7 +17,7 @@ If you’re planning to visit Amsterdam, be prepared to never want to leave. Whi
 ![test](../../images/Netherlands/Amsterdam_1.jpg)
 ```
 
-I landed on Monday afternoon, and flew out Friday noon, which gave me aboutfour days to squeeze in everything I wanted to see. Of course, there is so much more to see in the city that I was unable to cover, but here are the main highlights, the must-dos. The saddest part of my trip was the fact I just missed the famous rows of Netherland tulips by one day when I went in May. However, the tulips and the many fond memories I have made here give me reasons to eagerly look forward to my next Amsterdam trip. 
+I landed on Monday afternoon, and flew out Friday noon, which gave me about four days to squeeze in everything I wanted to see. Of course, there is so much more to see in the city that I was unable to cover, but here are the main highlights, the must-dos. The saddest part of my trip was the fact I just missed the famous rows of Netherland tulips by one day when I went in May. However, the tulips and the many fond memories I have made here give me reasons to eagerly look forward to my next Amsterdam trip. 
 
 
 ##<center>**What to SEE & DO**</center>
