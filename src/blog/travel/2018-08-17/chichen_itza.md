@@ -7,7 +7,7 @@ tags: ["Travel Journal", "Summer", "Cancun", "Family"]
 continent: ["North America"]
 country: ["Mexico"]
 city: ["Chichen Itza"]
-featuredImage: "../../images/Mexico/Chichen_Itza_0.jpg"
+featuredImage: "../../../images/Mexico/Chichen_Itza_0.jpg"
 ---
 
 

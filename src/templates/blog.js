@@ -6,13 +6,14 @@ import {
 } from 'reactstrap';
 import CardDeck from "../components/card_deck.js";
 import Layout from "../components/layout";
-import DestinationHeader from "../components/destination_header.js";
+import BlogHeader from "../components/blog_header.js";
 
 export default class DestinationTemplate extends React.Component {
 	constructor(props) {
 		super(props);
 
 		this.posts = this.props.pathContext.group;
+		this.blogType = this.props.pathContext.blogType;
 		this.renderBlogPosts = this.renderBlogPosts.bind(this);
 	}
 
@@ -35,10 +36,18 @@ export default class DestinationTemplate extends React.Component {
 			let postGroup = this.posts.slice(i, i + chunk);
 			postGroup = postGroup.map((item) => {
 				let post = item.node.frontmatter;
+				let alt;
+				
+				if (this.blogType === "destinations") {
+					alt = post.city[0]
+				} else {
+					alt = post.title
+				}
+
 				return(
 					{
 						fluid: post.featuredImage.childImageSharp.fluid,
-						alt: post.city[0],
+						alt: alt,
 						title: post.title.toUpperCase(),
 						buttonText: "Read More",
 						content: post.excerpt,
@@ -61,7 +70,7 @@ export default class DestinationTemplate extends React.Component {
 				<Container fluid>
 					<Row className="destinations-navbar">
 						<Col className="p-3">
-							<DestinationHeader destinations={this.props.pathContext.additionalContext.destinations}/>
+							<BlogHeader blogType={this.props.pathContext.additionalContext.blogType} headers={this.props.pathContext.additionalContext.headers}/>
 						</Col>
 					</Row>
 					<Row className="m-0 p-0 justify-content-center">

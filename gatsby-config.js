@@ -10,13 +10,6 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/pages`,
-        name: 'pages',
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
         path: `${__dirname}/src/images`,
         name: 'images',
       },
@@ -24,8 +17,22 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/blog/`,
-        name: 'blog',
+        path: `${__dirname}/src/pages`,
+        name: 'pages',
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/blog/travel`,
+        name: 'travel',
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/blog/medicine`,
+        name: 'medicine',
       },
     },
     {
@@ -55,7 +62,4 @@ module.exports = {
       },
     },
   ],
-  mapping: {
-    'JavascriptFrontmatter.fields.imageNode' : 'ImageSharp',
-  }
 }

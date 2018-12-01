@@ -29,7 +29,7 @@ export default class BlogPostTemplate extends React.Component {
 
 		return (
 			<Layout>
-				<Helmet title={this.frontmatter.city[0] + ": " + this.frontmatter.title} />
+				<Helmet title={this.frontmatter.title} />
 				<Container fluid className="blog-post">
 					<Row>
 						<Banner showTextBox={false} width="100%" height="50vh" item={{'fluid':this.frontmatter.featuredImage.childImageSharp.fluid, 'subHeading':'Better Ways To','heading':bannerTitle, 'buttonText':'Read More', 'link':'/'}}/>

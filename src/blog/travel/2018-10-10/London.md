@@ -7,7 +7,7 @@ tags: ["Itinerary", "Summer", "Family"]
 continent: ["Europe"]
 country: ["United Kingdom"]
 city: ["London"]
-featuredImage: "../../images/UK/London/London_0.jpg"
+featuredImage: "../../../images/UK/London/London_0.jpg"
 ---
 
 

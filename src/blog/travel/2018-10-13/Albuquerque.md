@@ -7,7 +7,7 @@ tags: ["Travel Guide", "Fall", "Roadtrip", "Family","Hot Air Balloon", "Bucket L
 continent: ["North America"]
 country: ["United States of America"]
 city: ["Albuquerque"]
-featuredImage: "../../images/United States of America/New Mexico/Albuquerque/3.jpg"
+featuredImage: "../../../images/United States of America/New Mexico/Albuquerque/3.jpg"
 ---
 
 Even though I've been living in Texas for almost my entire life, I was only now able to make it to the amazing one-of-a-kind festival in my neighboring state of New Mexico. Albuquerque's International Balloon Fiesta is a world-famous event that takes place in early October and attracts fans from all over the world! More than 600 different balloons take flight during this one-week festival. Also, it’s one of the only places where you can walk among the balloons as they are set up and talk to the pilots. If it's on your bucket list to ride a hot air balloon while in the United States, then Albuquerque's the place to come. 
