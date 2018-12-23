@@ -40,7 +40,7 @@ export default class BlogHeader extends React.Component {
       <StaticQuery
         query={graphql`
           {
-            travel: allImageSharp (filter :{fluid : {originalName : {regex: "/travel_header/"}}}){
+            travel: allImageSharp (filter :{fixed : {originalName : {regex: "/travel_header/"}}}){
               edges {
                 node {
                   fixed(height: 100) {
@@ -50,7 +50,7 @@ export default class BlogHeader extends React.Component {
                 }
               }
             }
-            medicine: allImageSharp (filter :{fluid : {originalName : {regex: "/medicine_header/"}}}){
+            medicine: allImageSharp (filter :{fixed : {originalName : {regex: "/medicine_header/"}}}){
               edges {
                 node {
                   fixed(height: 100) {
@@ -69,14 +69,18 @@ export default class BlogHeader extends React.Component {
           let images = {};
           let items, preamble;
 
+          console.log(data)
+
           if (props.blogType === "destinations") {
             items = data.travel.edges;
             preamble = "travel_header_";
             images["north_america"] = items[0].node.fixed
 
-          } else {
+          } else if (props.blogType === "medicine") {
             items = data.medicine.edges;
             preamble = "medicine_header_";
+          } else {
+            return
           }
 
           items.forEach(image => {

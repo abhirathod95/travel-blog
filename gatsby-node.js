@@ -10,7 +10,19 @@ const createPaginatedPages = require("gatsby-paginate");
 
 const path = require ('path');
 
+// Number of pages per blog page
 const postsPerPage = 9;
+
+// Template for page that shows a list of blogs
+const blogTemplate = path.resolve(`src/templates/blog.js`);
+// Template for a single blog post
+const blogPostTemplate = path.resolve(`src/templates/blog_post.js`);
+
+// List of destinations
+const destinations = ["North America", "Europe", "Asia", "Africa", "Oceania", "South America"]
+
+// Categories for medicine posts 
+const medCategories = ["Pre-Med", "Medical School", "Residency"]
 
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
@@ -32,31 +44,77 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   }
 }
 
+function paginate(createPage, numPages, path, blogType, graphqlFilter, headers) {
+  //console.log(path)
+  Array.from({ length: numPages }).forEach((_, i) => {
+    console.log(i === 0 ? path + "/" : path + "/" + (i + 1))
+
+    createPage({
+      path: i === 0 ? path + "/" : path + "/" + (i + 1),
+      component: blogTemplate,
+      context: { 
+        numPages,
+        filter: graphqlFilter,
+        limit:postsPerPage,
+        skip: i * postsPerPage,
+        currentPage: i + 1,
+        blogType: blogType,
+        headers: headers,
+      }
+    });
+  });
+}
+
+function createPagesForGroups(currItem, origItems, groupByObject, createPage, path, blogType, graphqlFilter) {
+
+  // Find the current item's object in the graphql query
+  // Used to collect the count of blog posts for this item
+  groupItem = groupByObject.filter(function(e) { return e.fieldValue === currItem; })
+
+  // If there are no blog posts for this continent, we only need 1 page
+  numPages = 1;   
+
+  // If the item showed up in the query results, we know there exists at least
+  // one blog post for that item. 
+  // Calculate the number of pages based on the count of blog posts
+  if (groupItem.length > 0) {
+    numPages = Math.ceil(groupItem[0].totalCount / postsPerPage);        
+  }
+
+  // Paginate this item's blog post page 
+  paginate(createPage, numPages, path, blogType, graphqlFilter, origItems);
+
+}
+
+function replaceAll(str,replaceWhat,replaceTo){
+    replaceWhat = replaceWhat.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+    var re = new RegExp(replaceWhat, 'g');
+    return str.replace(re,replaceTo);
+}
+
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
-
-  // Templates for the main blog page and the blog posts 
-  const blogTemplate = path.resolve(`src/templates/blog.js`);
-  const blogPostTemplate = path.resolve(`src/templates/blog_post.js`);
-
-
-  // List of destinations
-  // Static, since continents don't change
-  const destinations = ["North America", "Europe", "Asia", "Africa", "Oceania", "South America"]
   
-
-  // Categories for medicine posts 
-  const medCategories = ["Pre-Med", "Medical School", "Residency"]
-  
-
-  // Create the overall destination page separately
-  // This page is different since it doesn't use a country filter 
   graphql(`
-    query allArticles {
-      allMarkdownRemark(
-        filter: {fields : {collection: {eq : "travel"}}}
-        sort: { order: DESC, fields: [frontmatter___date] }
-      ) {
+    query travelArticlesCount{
+      allMarkdownRemark {
+        totalCount
+        groupByBlogType: group(field: fields___collection) {
+          fieldValue
+          totalCount
+        }
+        groupByContinent: group(field: frontmatter___continent) {
+          fieldValue
+          totalCount
+        }
+        groupByCategory: group(field: frontmatter___category) {
+          fieldValue
+          totalCount
+        }
+        groupByCountry: group(field: frontmatter___country) {
+          fieldValue
+          totalCount
+        }
         edges {
           node {
             html
@@ -87,231 +145,88 @@ exports.createPages = ({ actions, graphql }) => {
         }
       }
     }
-    `).then(result => {
-
-      // Create all the blog post pages since we have them ready here
-      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-        createPage({
-          path: node.frontmatter.path,
-          component: blogPostTemplate,
-          context: {
-            data: node,
-          }, // additional data can be passed via context
-        });
-      });
-
-      // Create pages of destination page based on results above
-      createPaginatedPages({
-        createPage: createPage, 
-        edges: result.data.allMarkdownRemark.edges, 
-        pageLength: postsPerPage, // How many items you want per page
-        pathPrefix: 'destinations',
-        pageTemplate: blogTemplate,
-        context: {
-          category: "Travel All",
-          headers: destinations,
-          blogType: "destinations",
-        }
-      })
-    });
-
-  // Automatically create paginated versions of the destination page for each continent
-  destinations.forEach((destination) => {
-    console.log(destination)
-    graphql(`
-    query articlesByContinent($continent: String!) {
-      allMarkdownRemark(
-        filter: {frontmatter: {continent: {eq: $continent}}}
-        sort: { order: DESC, fields: [frontmatter___date] }
-      ) {
-        edges {
-          node {
-            frontmatter {
-              title,
-              date(formatString: "MMMM DD, YYYY"),
-              path,
-              excerpt,
-              tags,
-              continent,
-              country,
-              city,
-              featuredImage {
-                childImageSharp {
-                  fluid(maxWidth: 2060) {
-                    base64
-                    aspectRatio
-                    src
-                    srcSet
-                    sizes
-                    originalImg
-                    originalName
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
+  `).then(result => {
+    if (result.errors) {
+      //console.log("Bad result!!!");
+      //console.log(result.errors);
+      return;
     }
-    `, {continent: destination}).then(result => {
-      if (result.errors) {
-        //console.log("Bad result!!!");
-        //console.log(result.errors);
-        return;
-      }
 
-      // Check articles for this destination
-      // If so, use empty object for now so the first page gets created
-      if (result.data.allMarkdownRemark === undefined || result.data.allMarkdownRemark == null) {
-        //console.log("No markdown results found!")
-        result.data.allMarkdownRemark = {edges: [false]}
-      }
-
-      // Finally create pagination for this continent
-      createPaginatedPages({
-        createPage: createPage, 
-        edges: result.data.allMarkdownRemark.edges, 
-        pageLength: postsPerPage, // How many items you want per page
-        pathPrefix: 'destinations/' + destination.toLowerCase().replace(" ", "-"),
-        pageTemplate: blogTemplate,
+    // Create all blog post pages
+    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+      createPage({
+        path: node.frontmatter.path,
+        component: blogPostTemplate,
         context: {
-          category: destination,
-          headers: destinations,
-          blogType: "destinations",
-        }
-      })
+          data: node,
+        }, // additional data can be passed via context
+      });
     });
+
+    // Create travel related blog pages
+
+    // Create and paginate main destinations page
+    createPagesForGroups(
+      "travel", 
+      destinations, 
+      result.data.allMarkdownRemark.groupByBlogType, 
+      createPage, 
+      "destinations", 
+      "destinations", 
+      {"fields" : {"collection": {"eq": "travel"}}}
+    )
+    
+
+    // Create and paginate for each continent's destination page
+    destinations.forEach((destination) => createPagesForGroups(
+      destination, 
+      destinations, 
+      result.data.allMarkdownRemark.groupByContinent, 
+      createPage, 
+      "destinations/" + replaceAll(destination.toLowerCase(), " ", "-"), 
+      "destinations", 
+      {"frontmatter" : {"continent": {"eq": destination}}}
+    ))
+
+    // Create medicine related blog pages
+
+    // Create and paginate main medicine page
+    createPagesForGroups(
+      "medicine", 
+      medCategories, 
+      result.data.allMarkdownRemark.groupByBlogType, 
+      createPage, 
+      "medicine", 
+      "medicine", 
+      {"fields" : {"collection": {"eq": "medicine"}}}
+    )
+
+    // Create and paginate for each medicine category 
+    medCategories.forEach((category) => createPagesForGroups(
+      category, 
+      medCategories, 
+      result.data.allMarkdownRemark.groupByCategory, 
+      createPage, 
+      "medicine/" + replaceAll(category.toLowerCase(), " ", "-"), 
+      "medicine", 
+      {"frontmatter" : {"category": {"eq": category}}}
+    ))
+
+    result.data.allMarkdownRemark.groupByCountry.forEach((countryItem) => {
+      numPages = Math.ceil(countryItem.totalCount / postsPerPage);        
+      
+      // Paginate this item's blog post page 
+      paginate(
+        createPage, 
+        numPages, 
+        "country/" + replaceAll(countryItem.fieldValue.toLowerCase(), " ", "-"), 
+        "country", 
+        {"frontmatter" : {"country": {"eq": countryItem.fieldValue}}}, 
+        null
+      );
+    })
+
   });
 
 
-  // Create the overall destination page separately
-  // This page is different since it doesn't use a country filter 
-  graphql(`
-    query allArticles {
-      allMarkdownRemark(
-        filter: {fields : {collection: {eq : "medicine"}}}
-        sort: { order: DESC, fields: [frontmatter___date] }
-      ) {
-        edges {
-          node {
-            html
-            frontmatter {
-              title,
-              date(formatString: "MMMM DD, YYYY"),
-              path,
-              excerpt,
-              tags,
-              category,
-              featuredImage {
-                childImageSharp {
-                  fluid(maxWidth: 2060) {
-                    base64
-                    aspectRatio
-                    src
-                    srcSet
-                    sizes
-                    originalImg
-                    originalName
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-    `).then(result => {
-
-      // Create all the blog post pages since we have them ready here
-      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-        createPage({
-          path: node.frontmatter.path,
-          component: blogPostTemplate,
-          context: {
-            data: node,
-          }, // additional data can be passed via context
-        });
-      });
-
-      // Create paginations for medicine page based on results above
-      createPaginatedPages({
-        createPage: createPage, 
-        edges: result.data.allMarkdownRemark.edges, 
-        pageLength: 9, // How many items you want per page
-        pathPrefix: 'medicine',
-        pageTemplate: blogTemplate,
-        context: {
-          category: "Medicine All",
-          headers: medCategories,
-          blogType: "medicine",
-        }
-      })
-    });
-
-  // Programatically create paginated versions of each category 
-  medCategories.forEach((category) => {
-    console.log(category)
-    graphql(`
-    query articlesByContinent($category: String!) {
-      allMarkdownRemark(
-        filter: {frontmatter: {category: {eq: $category}}}
-        sort: { order: DESC, fields: [frontmatter___date] }
-      ) {
-        edges {
-          node {
-            frontmatter {
-              title,
-              date(formatString: "MMMM DD, YYYY"),
-              path,
-              excerpt,
-              tags,
-              category,
-              featuredImage {
-                childImageSharp {
-                  fluid(maxWidth: 2060) {
-                    base64
-                    aspectRatio
-                    src
-                    srcSet
-                    sizes
-                    originalImg
-                    originalName
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-    `, {category: category}).then(result => {
-      if (result.errors) {
-        //console.log("Bad result!!!");
-        //console.log(result.errors);
-        return;
-      }
-
-      // Check if this category has articles
-      // If not, use empty object for now so the first page of pagination gets created
-      if (result.data.allMarkdownRemark === undefined || result.data.allMarkdownRemark == null) {
-        //console.log("No markdown results found!")
-        result.data.allMarkdownRemark = {edges: [false]}
-      }
-
-      // Finally paginate this category
-      createPaginatedPages({
-        createPage: createPage, 
-        edges: result.data.allMarkdownRemark.edges, 
-        pageLength: postsPerPage, // How many items you want per page
-        pathPrefix: 'medicine/' + category.toLowerCase().replace(" ", "-"),
-        pageTemplate: blogTemplate,
-        context: {
-          category: category,
-          headers: medCategories,
-          blogType: "medicine",
-        }
-      })
-    });
-  });
-
-};
+}
