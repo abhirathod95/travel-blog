@@ -18,12 +18,9 @@ const wrapperStyles = {
 const maxStep = 8
 //const colorScale = chroma.scale(["#3A6186", "#89253E"]).domain([1, maxStep]).mode('lab')
 const colorScale = chroma.scale(["#D3CD17", "#8DC05D", "#1369FB"]).domain([1, maxStep])
-console.log(colorScale(1).hex())
-
-
 
 const noBlogCountries = ["France", "United Kingdom", "India", "Italy", "Canada", "Switzerland"]
-const BlogCountries = ["United States of America", "Netherlands", "Portugal", "Turkey", "Morocco", "Mexico","Spain","Australia", "New Zealand"]
+//const BlogCountries = ["United States of America", "Netherlands", "Portugal", "Turkey", "Morocco", "Mexico","Spain","Australia", "New Zealand"]
 
 class WorldMap extends React.Component {
   constructor() {
@@ -33,12 +30,23 @@ class WorldMap extends React.Component {
     this.getDefaultColor = this.getDefaultColor.bind(this)
     this.getHoverColor = this.getHoverColor.bind(this)
     this.getPressedColor = this.getPressedColor.bind(this)
-    this.state = {location: ''};
+    this.state = {location: '', count: 0};
   }
 
   handleEnter(geography, evt) {
+    // Set count to zero
+    let count = "No Articles";
+
+    // If the country exists in the count dictionary as a key
+    // the country's got articles. Update count accordingly
+    if (geography.properties.NAME in this.props.articleCount) {
+      count = this.props.articleCount[geography.properties.NAME] + " Articles"
+    }
+
+    // Update state
     this.setState({
-      location: geography.properties.NAME
+      location: geography.properties.NAME,
+      count: count
     });
   }
 
@@ -49,7 +57,7 @@ class WorldMap extends React.Component {
     var defaultFill = "#ECEFF1"
     if (noBlogCountries.includes(country)) {
       defaultFill = "#8699A6"
-    } else if (BlogCountries.includes(country)) {
+    } else if (country in this.props.articleCount) {
       //console.log(Math.floor(Math.random() * visitedCountryColors.length))
       defaultFill = colorScale(Math.floor(Math.random() * maxStep) + 1).hex();
       //console.log(defaultFill)
@@ -107,7 +115,7 @@ class WorldMap extends React.Component {
             </Geographies>
           </ZoomableGroup>
         </ComposableMap>
-        <ReactTooltip type='error' getContent={() => <div className="custom-raleway">{this.state.location}<br/>2 Articles</div>}/>
+        <ReactTooltip type='error' getContent={() => <div className="custom-raleway">{this.state.location}<br/>{this.state.count}</div>}/>
       </div>
     )
   }

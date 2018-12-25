@@ -36,7 +36,7 @@ export default class BlogHeader extends React.Component {
     let state = this.state;
 
     return(
-      // Static query that grabs all the continent images
+      // Static query that grabs all the header images
       <StaticQuery
         query={graphql`
           {
@@ -71,6 +71,9 @@ export default class BlogHeader extends React.Component {
 
           console.log(data)
 
+          // Catch the appropriate data from the query result 
+          // and set the correct preamable shared by all the images for a
+          // blog type
           if (props.blogType === "destinations") {
             items = data.travel.edges;
             preamble = "travel_header_";
@@ -83,6 +86,8 @@ export default class BlogHeader extends React.Component {
             return
           }
 
+          // Create a dictionary where the key is the continent/category
+          // and value is the image icon for that continent/category 
           items.forEach(image => {
             let name = image.node.fixed.originalName.replace(preamble,"").replace(".png","")
             images[name] = image.node.fixed
