@@ -2,6 +2,7 @@ import React from 'react';
 import ReactTooltip from 'react-tooltip';
 import Map_110m from "../static/world-110m.json";
 import chroma from 'chroma-js';
+import { navigate } from "gatsby";
 
 import {
   ComposableMap,
@@ -30,6 +31,8 @@ class WorldMap extends React.Component {
     this.getDefaultColor = this.getDefaultColor.bind(this)
     this.getHoverColor = this.getHoverColor.bind(this)
     this.getPressedColor = this.getPressedColor.bind(this)
+    this.onClick = this.onClick.bind(this)
+    this.replaceAll = this.replaceAll.bind(this)
     this.state = {location: '', count: 0};
   }
 
@@ -50,7 +53,15 @@ class WorldMap extends React.Component {
     });
   }
 
+  onClick(geography, evt) {
+    // If we have a country page for this country, take the user there
+    if (geography.properties.NAME in this.props.articleCount) {
+      navigate('/country/' + this.replaceAll(geography.properties.NAME.toLowerCase(), " ", "-"))
+    } 
+  }
+
   handleLeave() {
+    
   }
 
   getDefaultColor(country) {
@@ -74,6 +85,13 @@ class WorldMap extends React.Component {
 
   }
 
+
+  replaceAll(str,replaceWhat,replaceTo){
+    replaceWhat = replaceWhat.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+    var re = new RegExp(replaceWhat, 'g');
+    return str.replace(re,replaceTo);
+  }
+
   render() {
     return (
       <div style={wrapperStyles}>
@@ -87,8 +105,9 @@ class WorldMap extends React.Component {
                     key={i}
                     geography={geography}
                     projection={projection}
-                    onMouseMove={this.handleEnter}
+                    onMouseEnter={this.handleEnter}
                     onMouseLeave={this.handleLeave}
+                    onClick={this.onClick}
                     style={{
                       default: {
                         fill: this.getDefaultColor(geography.properties.NAME),

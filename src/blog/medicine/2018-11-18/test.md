@@ -12,20 +12,20 @@ I have been to a lot of cities in the U.S., but somehow, I never made it out to 
 
 Note: I visited the weekend after July 4th, and the evenings were still a bit chilly for me! Plan accordingly if you get cold easily like I do. A light cardigan or jacket would be perfect.
 
-![test](../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_00.jpg)
+![test](../../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_00.jpg)
 
 ##<center>**DAY 1**</center>
 
 ####**1:00 PM Lunch at Gino’s East**   
 
-![test](../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_04.jpg)
+![test](../../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_04.jpg)
 
 We started our trip on a high note with some delicious Chicago style deep dish pizza, and it was totally worth every calorie. Since none of us really got breakfast before traveling, we were ravenous. Luckily, we were seated right before more people came in, but watch out for that lunch rush.  Also, don’t forget that deep dish pizza takes **45 minutes to cook**! We kept ourselves fully entertained during the wait watching the Belgium v. Brazil World Cup Match. 
 In case you were wondering what size or how many pizzas to order, a large pizza was just enough to feed four hungry girls and we’re not shy about digging in. 
 
 ####**3:00 PM Museum of Contemporary Art**
 
-![test](../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_06.jpg)
+![test](../../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_06.jpg)
 
 The walk from Gino’s to the museum took about 5 minutes. The museum was a great place to wander around, learn something new, and burn off some of those calories from the pizza. If you have your student ID, admission is $8. Flash photography is not allowed, and some exhibits are definitely not PG safe. Make sure to check out the **Marsipol café** on the first floor which is supposed to be really good and pick up your pin to get a 10% discount in the gift store. 
 
@@ -33,7 +33,7 @@ Of course, there is a more famous art museum in Chicago called the Art Institute
     
 ####**5:30 PM Signature Lounge at the 96th** 
 
-![test](../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_03.jpg)       
+![test](../../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_03.jpg)       
 
 The John Hancock Tower, where the Signature Lounge is located, is just a 5-minute walk from the museum. There was a short line to get to the top, but only 10-20 minutes wait tops. Dressing can be casual to get into the lounge. To be seated in the lounge, you are required to **buy an item per person in your party**. Since there were four of us, we were able to get two deserts and two coffees to meet the rule ($40 total for all four of us). Still so much cheaper and much more delicious than waiting in a long line at the Skydeck! If your heart is set on getting that classic picture in the box, then check out the Things I Missed Section. 
 
@@ -41,7 +41,7 @@ Before heading out, check out the ladies’ bathroom. Kind of strange advice, bu
 
 ####**7:00 PM Cloud Gate/Millennium Park**
 
-![test](../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_02.jpg)
+![test](../../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_02.jpg)
 
 We reached Millennium Park just at the right time as the symphony was getting started. Lying there in the cool grass, looking up at the steel fixtures zigzagging, and listening to Tchaikovsky was probably the best memory I’ll have of Chicago. I love when a green space in the middle of the city is so successful at bringing a little bit of peace and community to a busy cityscape like Chicago, and Frank Gehry, who is the architect of Millennium Park, created just the right atmosphere for that. Check out this link for more information about what’s going on in [Millennium Park](https://www.cityofchicago.org/city/en/depts/dca/supp_info/mp_calendar.html) during your visit. 
 
@@ -64,7 +64,7 @@ We went to **Three Dots and a Dash**, **Bub City**, **The Boss Bar**, and **Fado
 
 ##<center>**DAY 2**</center>
 
-![test](../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_08.jpg)
+![test](../../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_08.jpg)
 
 ####**Note: Optional - 8 AM [Morning Yoga](https://www.cityofchicago.org/city/en/depts/dca/supp_info/millennium_park4.html "Fitness Class at Millenium Park")**
 
@@ -76,7 +76,7 @@ To be totally honest, we didn’t make it to our reservations in time (4 girls g
 
 ####**1 PM Grab a [Divvy Bike](https://www.divvybikes.com/) & Explore the City and Shoreline**  
 
-![test](../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_16.jpg) 
+![test](../../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_16.jpg) 
 
 The Divvy bike was very convenient and a cool way to see the city. It costs **$15/day**, or **$3/use**. We started a little further south on the trail at the Indiana Ave. and Roosevelt station. The Divvy app makes it easy to figure out which stands are closer to you and if there are enough bikes for your entire group. Plan to bring a small backpack to hold water, snacks, and sunscreen to take breaks and recharge in between biking. 
     
@@ -108,10 +108,10 @@ Buy tickets in advance online; they sold out pretty quickly for every show on th
 ####**10 AM Chicago Architecture Tour**
 
 ```grid |1|
-![test](../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_09.jpg)
-![test](../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_10.jpg)
-![test](../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_12.jpg)
-![test](../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_15.jpg)
+![test](../../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_09.jpg)
+![test](../../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_10.jpg)
+![test](../../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_12.jpg)
+![test](../../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_15.jpg)
 ```
 
 This tour is one of those classic must dos while in Chicago for the first time. We quickly grabbed some breakfast to go from Argo Tea Café close to the meet point on Michigan Ave at the DuSable bridge. The tour group we went with was **Shoreline Sightseeing**, and our tour guide was hilarious! More importantly, he was really informative about the history of Chicago and how it got its name as the Second City and as the Windy City. You can expect to be on board for 1 hour and 3o minutes for the whole tour from boarding to getting off.
@@ -120,7 +120,7 @@ I would suggest **booking tickets online** if you chose this tour because they o
 
 ####**12 PM Chicago Cultural Center**
 
-![test](../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_13.jpg)
+![test](../../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_13.jpg)
 
 Close by to the tour drop off point is the Chicago Cultural Center. There were a few interesting art exhibits on display at the Center, but the main attraction was the beautiful **Tiffany stained glass dome** on the second floor. All exhibits in the building are **free** for the public to enjoy. 
 If you want, take the chance to revisit Millennium Park right across the street to see it in broad daylight. It’s a different lighting, atmosphere, and crowd to take pictures with.
