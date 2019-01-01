@@ -13,8 +13,8 @@ featuredImage: "../../../images/Netherlands/Amsterdam_3.jpg"
 If you’re planning to visit Amsterdam, be prepared to never want to leave. While other European cities are quite impressive, the relaxing, laidback atmosphere found everywhere in the city’s buildings, cobblestone streets, and canals is hard to find in other places. The citizens can be seen socializing at quaint cafes sprinkled along every canal after a work day while others are soaking up the sun on their boats. Bicycles line every corner and actually outnumber the cars in the city. Most impressive is seeing children of all ages bicycling confidently to school behind their parents without having to fear heavy traffic. Maybe this lifestyle doesn’t seem that different for those living in Europe, but it seems so ideal for those of us from America. Particularly us who are forced to have a car to get anywhere. 
 
 ```grid|1|
-![test](../../images/Netherlands/Amsterdam_16.jpg)
-![test](../../images/Netherlands/Amsterdam_1.jpg)
+![test](../../../images/Netherlands/Amsterdam_16.jpg)
+![test](../../../images/Netherlands/Amsterdam_1.jpg)
 ```
 
 I landed on Monday afternoon, and flew out Friday noon, which gave me about four days to squeeze in everything I wanted to see. Of course, there is so much more to see in the city that I was unable to cover, but here are the main highlights, the must-dos. The saddest part of my trip was the fact I just missed the famous rows of Netherland tulips by one day when I went in May. However, the tulips and the many fond memories I have made here give me reasons to eagerly look forward to my next Amsterdam trip. 
@@ -24,7 +24,7 @@ I landed on Monday afternoon, and flew out Friday noon, which gave me about four
 
 ####**Anne Frank Haus**
 
-![test](../../images/Netherlands/Amsterdam_22.jpg)
+![test](../../../images/Netherlands/Amsterdam_22.jpg)
 
 The second I knew I was going to Amsterdam, visiting the Anne Frank Haus was the first thing I planned to see. While I knew the museum was going to be a somber experience, I didn’t expect to feel as many emotions as I did walking through the house. If you have ever read Anne Frank’s diary, you will greatly appreciate this museum. Moving through the house puts into perspective how small the space that the two families were hiding in all those years ago. I thought the experience was carefully orchestrated to be informative, respectful, and thought provoking, and I really treasured my time here because of it. 
 
@@ -35,7 +35,7 @@ Times: 9 AM – 7 PM most days, check calendar if later openings
 
 ####**I Amsterdam Sign**
 
-![test](../../images/Netherlands/Amsterdam_7.jpg)
+![test](../../../images/Netherlands/Amsterdam_7.jpg)
 
 You can’t visit Amsterdam for the first time without the classic picture at the I Amsterdam sign. If you don’t want too many people in your picture, I would suggest you arrive early, take some photos, and enjoy the rest of the day close by at the Museumplein and Vondelpark. 
 
@@ -49,8 +49,8 @@ Times: Mon – Thurs, Sun 9 AM – 7 PM; Fri, Sat 9 AM – 9 PM
 ####**Rijksmuseum** 
 
 ```grid|1|
-![test](../../images/Netherlands/Amsterdam_9.jpg)
-![test](../../images/Netherlands/Amsterdam_8.jpg)
+![test](../../../images/Netherlands/Amsterdam_9.jpg)
+![test](../../../images/Netherlands/Amsterdam_8.jpg)
 ```
 
 The Rijksmuseum is the national museum of Amsterdam celebrating the rich art and history of this small but significant country. The museum hosts the artwork from famous artists like Rembrandt and Vermeer that are worth checking out. The best-known painting is The Night Watch by Rembrandt; don’t miss it!
@@ -60,13 +60,13 @@ Times: Mon-Sun 9 AM – 5 PM
 
 ####**Dam Square** 
 
-![test](../../images/Netherlands/Amsterdam_11.jpg)
+![test](../../../images/Netherlands/Amsterdam_11.jpg)
 
 As you walk into Dam Square, the Royal Palace of Amsterdam is on display. On this perfect summer day, there were lots of people socializing and enjoying the sun around this area. I wasn’t able to squeeze in a visit to see the interior of the palace during my short stay, and I wasn’t too upset about that. The most impressive part was the exterior standing tall over Dam square anyways. There were a lot of souvenir stores around here since it is a touristy spot if you want to do a little shopping. 
 
 ####**Oude Kerk**
 
-![test](../../images/Netherlands/Amsterdam_12.jpg)
+![test](../../../images/Netherlands/Amsterdam_12.jpg)
 
 I wandered into the Red Light District during the day to see the oldest building in Amsterdam. I just had to see the irony of a church standing in the middle of streets filled with temptations. The church was built in the 1500s, but it continues to leave a large influence by being one of the biggest art commissioners in the country. A modern art exhibit is unexpectedly housed in this church, juxtaposing old with new. Kind of like what’s going on outside with the church standing in the Red Light District. Check it out! 
 
@@ -76,8 +76,8 @@ Times: Mon – Sat, 10 AM – 6 PM; Sunday 1 – 5:30 PM
 ####**Bloemenmarkt**
 
 ```grid|1|
-![test](../../images/Netherlands/Amsterdam_15.jpg)
-![test](../../images/Netherlands/Amsterdam_14.jpg)
+![test](../../../images/Netherlands/Amsterdam_15.jpg)
+![test](../../../images/Netherlands/Amsterdam_14.jpg)
 ```
 
 It’s the world’s largest and only floating flower market! The local’s love of tulips and other flowers is on serious display here. Even when it is not tulip season, there are roses, ferns, and all other sorts of plants to buy. Photography inside the shops is not allowed (I may have sneaked a few), but you can take as many as you want from outside. 
@@ -86,13 +86,13 @@ Times: Mon - Sat 9 AM - 5:30 PM, Sun 11:30 AM - 5:30 PM
 
 ####**Jordaan District**
 
-![test](../../images/Netherlands/Amsterdam_4.jpg)
+![test](../../../images/Netherlands/Amsterdam_4.jpg)
 
 One of the more upscale neighborhoods of Amsterdam, the Jordaan district puts the canals on spotlight. If you want, this would be a wonderful place to hop on a bike and explore the district like a local. Also a great place to find good restaurants and cafes. 
 
 ####**Canal Tour**
 
-![test](../../images/Netherlands/Amsterdam_10.jpg)
+![test](../../../images/Netherlands/Amsterdam_10.jpg)
 
 Simply the best way to see the city and get a brief introduction and history of all the hotspots of Amsterdam. I did this last on my tour, but it might be smarter to do it on your first day to get oriented to the city better. The tour company I chose was Blue Boat Company leaving from a point close to the Hard Rock Café. 
 
@@ -104,7 +104,7 @@ Times: 75-minute cruise, Leaves every 30 minutes from 10 AM – 6 PM
 
 The one thing you have to try is a Dutch specialty, a **STROOPWAFEL**. My sweet tooth was incredibly satisfied with the thin wafer sandwich with caramel like you can’t imagine. I bought a bunch at the local grocery store near my hotel to snack on throughout the trip, especially with coffee in the morning. You can also find them in almost every café. 
 
-![test](../../images/Netherlands/Amsterdam_2.jpg) 
+![test](../../../images/Netherlands/Amsterdam_2.jpg) 
 
 ###**Pancake Bakery** 
 
@@ -143,8 +143,8 @@ We thought about doing this if we had just one more day (isn’t that always the
 ####**Zaanse Schans**
 
 ```grid|1|
-![test](../../images/Netherlands/Amsterdam_17.jpg)
-![test](../../images/Netherlands/Amsterdam_18.jpg)
+![test](../../../images/Netherlands/Amsterdam_17.jpg)
+![test](../../../images/Netherlands/Amsterdam_18.jpg)
 ```
 
 There are several places to visit in Amsterdam to see the iconic windmills. We picked to go to Zaanse, a small touristy village with five working windmills highlighting the simpler way of life in the 17th and 18th century. There are loads of cool shops, some of my favorite being the clog shop to watch how they make those wooden shoes, cheese shop to try many samples, and a chocolate shop. You can also enter the windmills for a small fee to see how they work at making dyes, flour, oil, and more!

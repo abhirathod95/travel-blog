@@ -36,11 +36,11 @@ export default class BlogHeader extends React.Component {
     let state = this.state;
 
     return(
-      // Static query that grabs all the continent images
+      // Static query that grabs all the header images
       <StaticQuery
         query={graphql`
           {
-            travel: allImageSharp (filter :{fluid : {originalName : {regex: "/travel_header/"}}}){
+            travel: allImageSharp (filter :{fixed : {originalName : {regex: "/travel_header/"}}}){
               edges {
                 node {
                   fixed(height: 100) {
@@ -50,7 +50,7 @@ export default class BlogHeader extends React.Component {
                 }
               }
             }
-            medicine: allImageSharp (filter :{fluid : {originalName : {regex: "/medicine_header/"}}}){
+            medicine: allImageSharp (filter :{fixed : {originalName : {regex: "/medicine_header/"}}}){
               edges {
                 node {
                   fixed(height: 100) {
@@ -69,16 +69,25 @@ export default class BlogHeader extends React.Component {
           let images = {};
           let items, preamble;
 
+          console.log(data)
+
+          // Catch the appropriate data from the query result 
+          // and set the correct preamable shared by all the images for a
+          // blog type
           if (props.blogType === "destinations") {
             items = data.travel.edges;
             preamble = "travel_header_";
             images["north_america"] = items[0].node.fixed
 
-          } else {
+          } else if (props.blogType === "medicine") {
             items = data.medicine.edges;
             preamble = "medicine_header_";
+          } else {
+            return
           }
 
+          // Create a dictionary where the key is the continent/category
+          // and value is the image icon for that continent/category 
           items.forEach(image => {
             let name = image.node.fixed.originalName.replace(preamble,"").replace(".png","")
             images[name] = image.node.fixed

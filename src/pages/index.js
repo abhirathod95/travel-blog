@@ -43,6 +43,11 @@ export default class IndexPage extends React.Component {
 			{fluid: data.allImageSharp.edges[0].node.fluid, alt: 'Amsterdam', 'title':'OUR FAVORITE 10 DESIGN HOTELS WORLDWIDE', 'date': 'March 10, 2018', 'content': 'This is some quick example text to build on the card title and yeah.'},
 		]
 
+		this.mapCountData = []
+		data.worldMap.groupByCountry.forEach((country) => {
+			this.mapCountData[country.fieldValue] = country.totalCount
+		});
+
 	}
 
 	render() {
@@ -82,7 +87,7 @@ export default class IndexPage extends React.Component {
 					</Row>
 					<Row className="justify-content-center p-0 ">
 			  			<Col lg="12" xl="8">
-			    			<WorldMap/>	
+			    			<WorldMap articleCount={this.mapCountData}/>	
 			  			</Col>
 					</Row>
 					<Row className="p-0 m-0 mb-5">
@@ -120,6 +125,12 @@ export const query = graphql`
           			}
     			}
   			}
+		}
+		worldMap: allMarkdownRemark {
+			groupByCountry: group(field: frontmatter___country) {
+			  fieldValue
+			  totalCount
+			}
 		}
 		allMarkdownRemark(
 		    limit: 3
