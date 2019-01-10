@@ -27,7 +27,7 @@ Figuring out transportation to your hotel and throughout your trip is important 
 #### **First Glimpse at Trafalgar Square**
 ![test](../../images/UK/London/London_11.jpg)
 
-Stretch out your legs at Trafalgar Square after that long flight if you flew like me from the US. Just sitting
+Stretch out your legs at Trafalgar Square after that long flight if you flew like me from the US. Just sitting 
 
 #### **Sunset on the London Eye**
 ![test](../../images/UK/London/London_3.jpg)
@@ -36,7 +36,7 @@ Walking from Trafalgar Square
 
 ##<center>**DAY 2: Day Trip**</center>
 
-I normally don't like to book day trips with a tour guide in a bus, but it seemed like the best option for seeing
+I normally don't like to book day trips with a tour guide in a bus, but it seemed like the best option for seeing the most in our one day out of the city. 
 
 #### **Windsor**
 ![test](../../images/UK/London/London_4.jpg)
