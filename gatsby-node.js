@@ -6,8 +6,6 @@
 
  // You can delete this file if you're not using it
 
-const createPaginatedPages = require("gatsby-paginate");
-
 const path = require ('path');
 
 // Number of pages per blog page

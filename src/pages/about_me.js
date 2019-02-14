@@ -32,9 +32,6 @@ export default function AboutMe(props) {
               My love to travel was something I learned from my parents who are also avid explorers themselves. You can say that the words, “Where to Next?”, are basically our family motto. Even though I am in medical school, I haven’t given up on seeing more of the world. In fact, the lessons I learn from traveling helps me be a better culturally informed and adaptable physician-to-be, but they are applicable everywhere in all areas of life. Don’t you think we could all learn to appreciate each other more if we could just understand each other’s way of life by experiencing it for ourselves. I certainly do. The skill to plan a good vacation is something that takes several trips to learn, and the research always takes hours to do. However, the hard work pays when I see the people I travel with enjoy the experiences, food, and city to the fullest. Maybe I can be of some assistance for you and your family, friends, and significant others to feel the same way. 
             </p>
             <p>
-              I also started to write about my journey through medical school as a way to remember experiences that I thought were important to me and would shape how I will think as a physician. Going through medical school is hard but fun, time consuming but rewarding, emotional but eye-opening. It has become a way of life far different from what I had before. I hope to share some of my thoughts with you about medicine as I learn more about it. 
-            </p>
-            <p>
               Some of the other things I like to do is play with my two cats, Minerva and Mika, eat tacos and Thai food, and find new TV shows to watch! 
             </p>
             <p className="text-center">
