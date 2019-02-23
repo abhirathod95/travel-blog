@@ -2,7 +2,7 @@
 title: "Weekend Trip to Gorgeous Lisbon"
 date: "2019-01-10"
 path: "/blog/two-days-in-lisbon"
-excerpt: ""
+excerpt: "Lisbon is a beautiful European town to visit during the winter months. While the rest of Europe is experiencing the wintery cold and snow, Lisbon weather is sunny, breezy, and just perfect for exploring. Between the colorful tiled walls and orange rooftops, the smell of salty water and fresh seafood, and..."
 tags: ["Winter","Family Trip","Itinerary","Journal"]
 continent: ["Europe"]
 country: ["Portugal"]
@@ -12,13 +12,15 @@ featuredImage: "../../../images/Portugal/Lisbon_21.jpg"
 
 Lisbon is a beautiful European town to visit during the winter months. While the rest of Europe is experiencing the wintery cold and snow, Lisbon weather is sunny, breezy, and just perfect for exploring. Between the colorful tiled walls and orange rooftops, the smell of salty water and fresh seafood, and the sound of musicians of all kinds wherever you go, Lisbon is simply amazing.  
 
+While most people go to Lisbon between March to October for the warm sunny summer, I thought visiting during December was perfect since there were fewer crowds and Christmas spirit everywhere we went. 
+
 ![test](../../../images/Portugal/Lisbon_4.jpg) 
 
 ####**What to See & Do:** Praca do Commercio, Alfama District, Jeronimos Monestery, Belem Tower
 
 ![test](../../../images/Portugal/Lisbon_7.jpg) 
 
-We stumbled across the <span style="color:red">**Convento do Carmo**</span> after seeing the Elevador de Santa Justa, and I highly recommend entering. The ceiling of the convent has fallen and left a direct view out to the sky. The entrance fee was only 4 euros, and we pretty much had the whole place for ourselves. 
+We stumbled across the **Convento do Carmo** after seeing the Elevador de Santa Justa, and I highly recommend entering. The ceiling of the convent has fallen and left a direct view out to the sky. The entrance fee was only 4 euros, and we pretty much had the whole place for ourselves. 
 
 ![test](../../../images/Portugal/Lisbon_2.jpg) 
 
@@ -26,16 +28,22 @@ If you ever come across a sign pointing towards a Miradouro in the **Alfama dist
 
 ![test](../../../images/Portugal/Lisbon_18.jpg)
 
-Jeronimos Monestery, Belem Tower, and the Monument of Discoveries are all really close to one another, so we visted all three in one day! This had to be my favorite day because we ended the day eating the famous Pasteis de Belem! 
+Jeronimos Monestery, Belem Tower, and the Monument of Discoveries are all really close to one another, so we visted all three in one day! This had to be my favorite day because we ended the day eating the famous **Pasteis de Belem**! 
 
+
+```grid|1|
 ![test](../../../images/Portugal/Lisbon_15.jpg)
+
+![test](../../../images/Portugal/Lisbon_14.jpg) 
+```
 
 The **Belem Tower** has to be the most famous structure near Lisbon, and it's easy to see why. The retired watch tower is striking sitting in the water at any time of day. However, I would recommend not visiting the inside of the tower if you are short pressed on time. While the exterior is stunning, the interior is not as interesting. Situated just less than a mile away is the **Monument of Discoveries** with Vasco de Gama at the forefront. 
 
+```grid|2|
 ![test](../../../images/Portugal/Lisbon_10.jpg) 
 
-
 ![test](../../../images/Portugal/Lisbon_11.jpg)
+```
 
 **Rossio Square** was the centerpoint that we passed through several times while walking, but also a great place to do some souvenir shopping, grap a meal, and take a break from exploring. During the night, a small Christmas market was even set up offering much needed hot wine and roasted chestnuts. 
 
@@ -51,11 +59,11 @@ Sintra is always a highly recommended day trip from Lisbon because of the romant
 
 ### **Places to Visit:** Quinta de Regalaira, Pena Palace, Town Center
 
-![test](../../../images/Portugal/Sintra_1.jpg) 
-
+```grid|2|
 ![test](../../../images/Portugal/Sintra_5.jpg) 
 
 ![test](../../../images/Portugal/Sintra_7.jpg) 
+```
 
 ##<center>**Where I Stayed**</center>
 
@@ -65,11 +73,10 @@ The location of the apartment was also ideal for sightseeing with many of the im
 
 ##<center>**Tips & Tricks**</center>
 
-- If you're wondering what souvenirs to take home, I would recommend colorful tiles or the famous packaged **salted sardines**. 
-
-- Best place to get a picture of the yellow **Tram 28** or to even ride it back to Praca do Commericio is right near Miradoura de Santa Luzia!
-
-- If you're too tired to walk, take a **tuk tuk** to your next destination. 
+> - If you're wondering what souvenirs to take home, I would recommend colorful tiles or the famous packaged **salted sardines**. 
+> - Best place to get a picture of the yellow **Tram 28** or to even ride it back to Praca do Commericio is right near Miradoura de Santa Luzia!
+> - If you're too tired to walk, take a **tuk tuk** to your next destination. 
+> - Take your student ID if you are still in school. I was able to get into several places such as the Convento do Carmo and Jeronimos Monestery at discounted prices. 
 
 
 

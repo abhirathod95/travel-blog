@@ -37,11 +37,11 @@ Times: 9 AM – 7 PM most days, check calendar if later openings
 
 ![test](../../../images/Netherlands/Amsterdam_7.jpg)
 
-You can’t visit Amsterdam for the first time without the classic picture at the I Amsterdam sign. If you don’t want too many people in your picture, I would suggest you arrive early, take some photos, and enjoy the rest of the day close by at the Museumplein and Vondelpark. 
+You can’t visit Amsterdam for the first time without the classic picture at the I Amsterdam sign. If you don’t want too many people in your picture, I would suggest arriving early, taking some photos, and enjoying the rest of the day close by at the **Museumplein and Vondelpark**. 
 
 ####**Van Gogh Museum**
 
-Vincent Van Gogh is a world-renowned artist now, even though he died thinking his paintings would be forgotten. He didn’t get the respect he deserved during his life, and I was really looking forward to the museum showcasing his talent now with the largest collection of Van Gogh’s art. Again, this museum also does a wonderful job at explaining Vincent Van Gogh and his life experiences. 
+Vincent Van Gogh is a world-renowned artist now, even though he died thinking his paintings would be forgotten. He didn’t get the respect he deserved during his life, and I was really looking forward to the museum showcasing his talent with the largest collection of Van Gogh’s art. Again, this museum also does a wonderful job at explaining Vincent Van Gogh and his life experiences. 
 
 Price: 18 Euros/Adult or FREE with City Card  
 Times: Mon – Thurs, Sun 9 AM – 7 PM; Fri, Sat 9 AM – 9 PM
@@ -53,7 +53,7 @@ Times: Mon – Thurs, Sun 9 AM – 7 PM; Fri, Sat 9 AM – 9 PM
 ![test](../../../images/Netherlands/Amsterdam_8.jpg)
 ```
 
-The Rijksmuseum is the national museum of Amsterdam celebrating the rich art and history of this small but significant country. The museum hosts the artwork from famous artists like Rembrandt and Vermeer that are worth checking out. The best-known painting is The Night Watch by Rembrandt; don’t miss it!
+The Rijksmuseum is the national museum of Amsterdam celebrating the rich art and history of this small but significant country. The museum hosts the artwork from famous artists like Rembrandt and Vermeer that are worth checking out. The best-known painting is **The Night Watch by Rembrandt**; don’t miss it!
 
 Price: 17.5 Euros/Adult or FREE with City Card  
 Times: Mon-Sun 9 AM – 5 PM
@@ -62,20 +62,20 @@ Times: Mon-Sun 9 AM – 5 PM
 
 ![test](../../../images/Netherlands/Amsterdam_11.jpg)
 
-As you walk into Dam Square, the Royal Palace of Amsterdam is on display. On this perfect summer day, there were lots of people socializing and enjoying the sun around this area. I wasn’t able to squeeze in a visit to see the interior of the palace during my short stay, and I wasn’t too upset about that. The most impressive part was the exterior standing tall over Dam square anyways. There were a lot of souvenir stores around here since it is a touristy spot if you want to do a little shopping. 
+As you walk into Dam Square, the **Royal Palace of Amsterdam** is on display. On this perfect summer day, there were lots of people socializing and enjoying the sun around this area. I wasn’t able to squeeze in a visit to see the interior of the palace during my short stay, and I wasn’t too upset about that. The most impressive part was the exterior standing tall over Dam square anyways. There were a lot of souvenir stores around here since it is a touristy spot if you want to do a little shopping. 
 
 ####**Oude Kerk**
 
 ![test](../../../images/Netherlands/Amsterdam_12.jpg)
 
-I wandered into the Red Light District during the day to see the oldest building in Amsterdam. I just had to see the irony of a church standing in the middle of streets filled with temptations. The church was built in the 1500s, but it continues to leave a large influence by being one of the biggest art commissioners in the country. A modern art exhibit is unexpectedly housed in this church, juxtaposing old with new. Kind of like what’s going on outside with the church standing in the Red Light District. Check it out! 
+I wandered into the **Red Light District** during the day to see the oldest building in Amsterdam. I just had to see the irony of a church standing in the middle of streets filled with temptations. The church was built in the 1500s, but it continues to leave a large influence by being one of the biggest art commissioners in the country. A modern art exhibit is unexpectedly housed in this church, juxtaposing old with new. Kind of like what’s going on outside with the church standing in the Red Light District. Check it out! 
 
 Price: 10 Euros/Adult or FREE with City Card   
 Times: Mon – Sat, 10 AM – 6 PM; Sunday 1 – 5:30 PM
 
 ####**Bloemenmarkt**
 
-```grid|1|
+```grid|2|
 ![test](../../../images/Netherlands/Amsterdam_15.jpg)
 ![test](../../../images/Netherlands/Amsterdam_14.jpg)
 ```
@@ -94,7 +94,7 @@ One of the more upscale neighborhoods of Amsterdam, the Jordaan district puts th
 
 ![test](../../../images/Netherlands/Amsterdam_10.jpg)
 
-Simply the best way to see the city and get a brief introduction and history of all the hotspots of Amsterdam. I did this last on my tour, but it might be smarter to do it on your first day to get oriented to the city better. The tour company I chose was Blue Boat Company leaving from a point close to the Hard Rock Café. 
+Simply the best way to see the city and get a brief introduction and history of all the hotspots of Amsterdam. I did this last on my tour, but it might be smarter to do it on your first day to get oriented to the city better. The tour company I chose was **Blue Boat Company** leaving from a point close to the Hard Rock Café. 
 
 Price: 16 Euros/Adult, 7.5 Euros/Child  
 Location: Stadhouderskade 501, 1071 ZD Amsterdam, Netherlands  
@@ -138,17 +138,18 @@ Address: mg, Nieuwendijk 175, 1012 MG Amsterdam, Netherlands
 
 ####**Brussels, Belgium**
 
-We thought about doing this if we had just one more day (isn’t that always the case) and knocking off another country on our long, long list. Except, we enjoyed Amsterdam too much to want to leave. Take a train from Centraal Station; they run pretty much all hours of the day. A quick 2-3 hours later, you are in Brussels admiring the famous Mannekan Pis 😉. 
+We thought about doing this if we had just one more day (isn’t that always the case) and knocking off another country on our long, long list. Except, we enjoyed Amsterdam too much to want to leave. Take a train from Centraal Station; they run pretty much all hours of the day. A quick 2-3 hours later, you are in Brussels admiring the famous **Mannekan Pis** 😉. 
 
 ####**Zaanse Schans**
 
-```grid|1|
+```grid|2|
 ![test](../../../images/Netherlands/Amsterdam_17.jpg)
 ![test](../../../images/Netherlands/Amsterdam_18.jpg)
 ```
 
 There are several places to visit in Amsterdam to see the iconic windmills. We picked to go to Zaanse, a small touristy village with five working windmills highlighting the simpler way of life in the 17th and 18th century. There are loads of cool shops, some of my favorite being the clog shop to watch how they make those wooden shoes, cheese shop to try many samples, and a chocolate shop. You can also enter the windmills for a small fee to see how they work at making dyes, flour, oil, and more!
-A local train from Amsterdam Centraal will take you the station Zaandijk-Zaanse Schans in 17 minutes, from which you walk 15 minutes to reach the town. There are tickets associated with each of the museums and windmills to enter if you want to pick and choose. The Amsterdam City Card does give you free admission to some of the sights 
+
+A local train from **Amsterdam Centraal** will take you the station **Zaandijk-Zaanse Schans** in 17 minutes, from which you walk 15 minutes to reach the town. There are tickets associated with each of the museums and windmills to enter if you want to pick and choose. The Amsterdam City Card does give you free admission to some of the sights 
 
 ####**The Keukenhof**
 
@@ -156,6 +157,7 @@ Located only 30 minutes from Amsterdam is the best gardens to see the tulips. Th
 
 
 ##<center>**TIPS & TRICKS**</center>
+
 1. There are coffeeshops, and there are cafes. They are two different things entirely. If you only want coffee, go to a café because it’s not all you’ll find any in a coffeeshop. 
 
 2. The I Amsterdam City Card is a really good deal for tourists with free entrance to many of the museums, free public transportation within the city, and lots of other discounts. 
