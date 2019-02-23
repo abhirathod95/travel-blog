@@ -13,7 +13,7 @@ featuredImage: "../../../images/Morocco/Morocco_16.jpg"
 
 ## **1 - “One thing leads to another.”**
 
-I was told this quote by a tourist couple I met while camping in the Sahara desert, and it made me laugh at how accurate it was. This sentence can seem relevant in many situations you might find yourself in while visiting Morocco. You will notice right away that people will be coming up to you constantly trying to sell you their merchandise, a hammam, to eat at their restaurant, etc. Even if you say "No thank you," expect that the conversation has not ended for the other individual. They will continue to try to sell to you, so don't be afraid to firmly say no and walk away. If you say yes, I 
+I was told this quote by a tourist couple I met while camping in the Sahara desert, and it made me laugh at how accurate it was. This sentence can seem relevant in many situations you might find yourself in while visiting Morocco. You will notice right away that people will be coming up to you constantly trying to sell you their merchandise, a hammam, to eat at their restaurant, etc. Even if you say "No thank you," expect that the conversation has not ended for the other individual. They will continue to try to sell to you, so don't be afraid to firmly say no and walk away. 
 
 ![test](../../../images/Morocco/Morocco_4.jpg) 
 
@@ -47,7 +47,7 @@ I was hesitant about driving a car in Morocco since this is the first time we've
 
 ## **8 - Don’t always believe it when he says he’s a “government official guide”**
 
-We're laughing about it now, but we unfortunately fell for this scheme by following a "guide" in Marrakesh. Instead of telling us any Marrakesh history as promised, we were taken to a Berber carpet shop and a pharmacy selling argan oil to be wooed/guilt tripped into buying something. When we had finally pulled ourself away from buying anything, the guide had abandoned us in a random alley. Luckily, we were close by to the main square, Jemaa al Fna, to find our way. 
+We're laughing about it now, but we unfortunately fell for this scheme by following a "guide" in Marrakesh. Instead of telling us any Marrakesh history as promised, we were taken to a Berber carpet shop and a pharmacy selling argan oil to be wooed/guilt tripped into buying something. When we had finally pulled ourself away from buying anything, the guide had abandoned us in a random alley. Luckily, we were close by to the main square, Jemaa al Fna, to find our way with the help of some locals. 
 
 ![test](../../../images/Morocco/Morocco_8.jpg)
 
