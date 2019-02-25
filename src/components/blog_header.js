@@ -50,7 +50,7 @@ export default class BlogHeader extends React.Component {
                 }
               }
             }
-            medicine: allImageSharp (filter :{fixed : {originalName : {regex: "/medicine_header/"}}}){
+            journal: allImageSharp (filter :{fixed : {originalName : {regex: "/journal_header/"}}}){
               edges {
                 node {
                   fixed(height: 100) {
@@ -77,11 +77,10 @@ export default class BlogHeader extends React.Component {
           if (props.blogType === "destinations") {
             items = data.travel.edges;
             preamble = "travel_header_";
-            images["north_america"] = items[0].node.fixed
 
-          } else if (props.blogType === "medicine") {
-            items = data.medicine.edges;
-            preamble = "medicine_header_";
+          } else if (props.blogType === "journal") {
+            items = data.journal.edges;
+            preamble = "journal_header_";
           } else {
             return
           }

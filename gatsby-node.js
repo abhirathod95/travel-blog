@@ -12,15 +12,15 @@ const path = require ('path');
 const postsPerPage = 9;
 
 // Template for page that shows a list of blogs
-const blogTemplate = path.resolve(`src/templates/blog.js`);
+const blogTemplate = path.resolve(`./src/templates/blog.js`);
 // Template for a single blog post
-const blogPostTemplate = path.resolve(`src/templates/blog_post.js`);
+const blogPostTemplate = path.resolve(`./src/templates/blog_post.js`);
 
 // List of destinations
 const destinations = ["North America", "Europe", "Asia", "Africa", "Oceania", "South America"]
 
-// Categories for medicine posts 
-const medCategories = ["Pre-Med", "Medical School", "Residency"]
+// Categories for journal posts 
+const journalCategories = ["Travel", "Life", "Medicine"]
 
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
@@ -33,7 +33,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     // Create a field on this node for the "collection" of the parent
     // This is necessary so we can filter `allMarkdownRemark` by
     // `collection` otherwise there is no way to filter for only markdown
-    // documents based on if they are medicine or travel related.
+    // documents based on if they are journal or travel related.
     createNodeField({
       node,
       name: 'collection',
@@ -184,30 +184,32 @@ exports.createPages = ({ actions, graphql }) => {
       {"frontmatter" : {"continent": {"eq": destination}}}
     ))
 
-    // Create medicine related blog pages
+    // Create journal related blog pages
 
-    // Create and paginate main medicine page
+    // Create and paginate main journal page
     createPagesForGroups(
-      "medicine", 
-      medCategories, 
+      "journal", 
+      journalCategories, 
       result.data.allMarkdownRemark.groupByBlogType, 
       createPage, 
-      "medicine", 
-      "medicine", 
-      {"fields" : {"collection": {"eq": "medicine"}}}
+      "journal", 
+      "journal", 
+      {"fields" : {"collection": {"eq": "journal"}}}
     )
 
-    // Create and paginate for each medicine category 
-    medCategories.forEach((category) => createPagesForGroups(
+    // Create and paginate for each journal category 
+    journalCategories.forEach((category) => createPagesForGroups(
       category, 
-      medCategories, 
+      journalCategories, 
       result.data.allMarkdownRemark.groupByCategory, 
       createPage, 
-      "medicine/" + replaceAll(category.toLowerCase(), " ", "-"), 
-      "medicine", 
+      "journal/" + replaceAll(category.toLowerCase(), " ", "-"), 
+      "journal", 
       {"frontmatter" : {"category": {"eq": category}}}
     ))
 
+
+    // Create pages for country tags (for the world map on home page)
     result.data.allMarkdownRemark.groupByCountry.forEach((countryItem) => {
       numPages = Math.ceil(countryItem.totalCount / postsPerPage);        
       

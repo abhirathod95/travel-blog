@@ -1,12 +1,17 @@
 ---
 title: "Test"
 date: "2018-07-10"
-path: "/blog/medicine/test"
+path: "/journal/test"
 excerpt: "I have been to a lot of cities in the U.S., but somehow, I never made it out to the very popular city of Chicago until now. As an architecture buff, I loved learning about the city and the way it has been rebuilt since a fire..."
 tags: ["Itinerary", "Summer", "City", "Girl Trip"]
-category: ["Pre-Med"]
+category: ["Travel"]
 featuredImage: "../../../images/United States of America/Illinois/Chicago_01.jpg"
 ---
+
+---
+
+> Blockquotes are very handy in email to emulate reply text.
+> This line is part of the same quote.
 
 I have been to a lot of cities in the U.S., but somehow, I never made it out to the very popular city of Chicago until now. As an architecture buff, I loved learning about the city and the way it has been rebuilt since a fire burned down a large part of the city more than a century ago. Hence, why Chicago is called the Second City. I had lots of fun doing all sorts of activities from browsing museums to bicycling to laughing at a comedy show with my girlfriends. If you’re here for a few days, this is a great itinerary to cover almost all the hot spots Chicago has to offer in an affordable, enjoyable, and jam-packed three-day vacation. Of course, feel free to mix up my itinerary to fit your needs! 
 

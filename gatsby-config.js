@@ -31,8 +31,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/blog/medicine`,
-        name: 'medicine',
+        path: `${__dirname}/src/blog/journal`,
+        name: 'journal',
       },
     },
     {
@@ -46,6 +46,14 @@ module.exports = {
       options: {
         plugins: [
           {
+            // CommonMark mode (default: true)
+            commonmark: true,
+            // Footnotes mode (default: true)
+            footnotes: true,
+            // Pedantic mode (default: true)
+            pedantic: true,
+            // GitHub Flavored Markdown mode (default: true)
+            gfm: true,
             resolve: `gatsby-remark-images-grid`,
             options: {
               gridGap: "20px",
