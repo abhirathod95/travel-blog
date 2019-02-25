@@ -1,5 +1,5 @@
 ---
-title: "The Perfect Itinerary to Make London Memories"
+title: "The Perfect Family Itinerary to Make London Memories"
 date: "2015-08-09"
 path: "/blog/london-memories"
 excerpt: "..."
@@ -10,38 +10,84 @@ city: ["London"]
 featuredImage: "../../../images/UK/London/London_0.jpg"
 ---
 
+After getting over the fact I was actually going to LONDON, I planned for long days of exploring as much as possible in the 4 days I was there. This definitely won't be my last visit. 
+
 ##<center>**DAY 1: Settling In**</center>
+
+![test](../../../images/UK/London/London_1.jpg)
 
 #### **Landing in London Heathrow**
 
+Heathrow is one of the largest airports in the world. Be sure to appreciate the modern amenities and
+
 #### **Find your way to the hotel**
 
-#### **First Taste at Trafalgar Square**
+Figuring out transportation to your hotel and throughout your trip is important before arriving to London. I suggest getting the **Oyster card** and taking advantage of the extensive metro and bus system that ties the whole city together. 
+
+#### **First Glimpse at Trafalgar Square**
+![test](../../../images/UK/London/London_11.jpg)
+
+Stretch out your legs at Trafalgar Square after that long flight if you flew like me from the US. Just sitting in Trafalgar square
 
 #### **Sunset on the London Eye**
+![test](../../../images/UK/London/London_3.jpg)
 
-##<center>**DAY 2: Day Trips**</center>
+Walking from Trafalgar Square to the London eye takes about 20-30 minutes. On the way you can stop to see the 
+
+##<center>**DAY 2: Day Trip**</center>
+
+I normally don't like to book day trips with a tour guide in a bus, but it seemed like the best option for seeing the most in our one day out of the city. I loved our tour guide. She kept using the word "lovely" just like a true Brit. 
 
 #### **Windsor**
+![test](../../../images/UK/London/London_4.jpg)
 
 #### **Stonehenge**
+![test](../../../images/UK/London/London_5.jpg)
+
+Definitely a bucket list item for me to visit Stonehenge. The story behind these giant rocks is a fascinating mystery, and the location for one of my favorite episodes on Doctor Who. 
 
 #### **Oxford**
+![test](../../../images/UK/London/London_6.jpg)
+
+Oxford is known as the city of dreaming spires where all the architecture seems to have you always looking up at the spires trying to reach the sky. 
 
 ##<center>**DAY 3: Heart of London**</center>
 
+We bought a ticket for the Hop On Hop Off Red bus to have easy access to all the major spots of London. The constant commentary you can listen to with your headphones was great for learning about the sites as well. 
+
 #### **Buckingham Palace**
+![test](../../../images/UK/London/London_12.jpg)
+
+We were able to see Buckingham Palace on our first day from the London Eye, but now we had the chance to see it up close. 
+
+#### **Westminster Abbey**
+![test](../../../images/UK/London/London_7.jpg)
+
+#### **Big Ben Clock**
+![test](../../../images/UK/London/London_8.jpg)
 
 #### **Tower of London**
+![test](../../../images/UK/London/London_16.jpg)
 
-#### **Tower Bridge** 
+#### **Tower Bridge**
+![test](../../../images/UK/London/London_13.jpg)
 
 #### **Piccadilly Circus**
+![test](../../../images/UK/London/London_10.jpg)
+
+Finally, we ended the day in Picadilly Circus which is kind of like Time Square in New York with the large LED billboards. It's so busy! This area was a good place to grab some dinner at a Thai restaurant nearby and had several subway stations to take advantage of to get back to our hotel. 
 
 ##<center>**DAY 4: Places I've Been Dying to See**</center>
 
 #### **King's Cross Station** 
 
+Huge Harry Potter nerd here! I had to go to King's Cross Station to see the trolley half sticking out of the wall for a picture since it was really the only Harry Potter thing I planned for in my trip. 
+
 #### **Madame Tussaud's**
 
-#### Museum of History 
+
+#### **Museum of History** 
+![test](../../../images/UK/London/London_14.jpg)
+
+#### **National Gallery**
+![test](../../../images/UK/London/London_15.jpg)
