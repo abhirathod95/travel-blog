@@ -2,19 +2,24 @@
 title: "Weekend Trip to Gorgeous Lisbon"
 date: "2019-01-10"
 path: "/blog/two-days-in-lisbon"
-excerpt: "Lisbon is a beautiful European town to visit during the winter months. While the rest of Europe is experiencing the wintery cold and snow, Lisbon weather is sunny, breezy, and just perfect for exploring. Between the colorful tiled walls and orange rooftops, the smell of salty water and fresh seafood, and..."
+excerpt: "Lisbon is a beautiful European town to visit during the winter months. While the rest of Europe is experiencing the wintery cold and snow, Lisbon weather is sunny, breezy, and just perfect for exploring. Between the colorful tiled walls and orange rooftops..."
 tags: ["Winter","Family Trip","Itinerary","Journal"]
 continent: ["Europe"]
 country: ["Portugal"]
 city: ["Lisbon"]
-featuredImage: "../../../images/Portugal/Lisbon_21.jpg"
+featuredImage: "../../../images/Portugal/Lisbon_12.jpg"
 ---
 
-Lisbon is a beautiful European town to visit during the winter months. While the rest of Europe is experiencing the wintery cold and snow, Lisbon weather is sunny, breezy, and just perfect for exploring. Between the colorful tiled walls and orange rooftops, the smell of salty water and fresh seafood, and the sound of musicians of all kinds wherever you go, Lisbon is simply amazing.  
+Lisbon is a beautiful European town to visit during the winter months. While the rest of Europe is experiencing the wintery cold and snow, Lisbon weather is sunny, breezy, and just perfect for exploring. Most people go to Lisbon between March to October for the warm sunny summer, but I thought visiting during December was perfect since there were fewer crowds and Christmas spirit everywhere we went. 
 
-While most people go to Lisbon between March to October for the warm sunny summer, I thought visiting during December was perfect since there were fewer crowds and Christmas spirit everywhere we went. 
+##### <center> Between the colorful tiled walls and orange rooftops, the smell of salty water and fresh seafood, and the sound of musicians of all kinds wherever you go, Lisbon is simply amazing.</center>
+
+&nbsp;
+&nbsp;
 
 ![test](../../../images/Portugal/Lisbon_4.jpg) 
+
+&nbsp;
 
 ####**What to See & Do:** Praca do Commercio, Alfama District, Jeronimos Monestery, Belem Tower
 
@@ -31,11 +36,12 @@ If you ever come across a sign pointing towards a Miradouro in the **Alfama dist
 Jeronimos Monestery, Belem Tower, and the Monument of Discoveries are all really close to one another, so we visted all three in one day! This had to be my favorite day because we ended the day eating the famous **Pasteis de Belem**! 
 
 
-```grid|1|
+```grid|2|
 ![test](../../../images/Portugal/Lisbon_15.jpg)
 
-![test](../../../images/Portugal/Lisbon_14.jpg) 
+![test](../../../images/Portugal/Lisbon_16.jpg) 
 ```
+![test](../../../images/Portugal/Lisbon_17.jpg) 
 
 The **Belem Tower** has to be the most famous structure near Lisbon, and it's easy to see why. The retired watch tower is striking sitting in the water at any time of day. However, I would recommend not visiting the inside of the tower if you are short pressed on time. While the exterior is stunning, the interior is not as interesting. Situated just less than a mile away is the **Monument of Discoveries** with Vasco de Gama at the forefront. 
 
@@ -53,11 +59,14 @@ The **Belem Tower** has to be the most famous structure near Lisbon, and it's ea
 
 ![test](../../../images/Portugal/Lisbon_9.jpg) 
 
+&nbsp;
+&nbsp;
+
 ##<center>**Day Trip to Sintra**</center>
 
-Sintra is always a highly recommended day trip from Lisbon because of the romantic mystical architecture of the many palaces and parks, Pena palace being the most famous. Check out my post **A Day in Sintra** for more information!
+Sintra is always a highly recommended day trip from Lisbon because of the romantic mystical architecture of the many palaces and parks, Pena palace being the most famous. Check out my post **A Day in Magical Sintra** for more information!
 
-### **Places to Visit:** Quinta de Regalaira, Pena Palace, Town Center
+#### **Places to Visit:** Quinta de Regalaira, Pena Palace, Montserrate Palace
 
 ```grid|2|
 ![test](../../../images/Portugal/Sintra_5.jpg) 
@@ -65,18 +74,26 @@ Sintra is always a highly recommended day trip from Lisbon because of the romant
 ![test](../../../images/Portugal/Sintra_7.jpg) 
 ```
 
+&nbsp;
+&nbsp;
+
 ##<center>**Where I Stayed**</center>
 
 I stayed in an apartment with **Hello Lisbon** right on the famous Pink Street. While this meant I had to hear faint discotech music every night even on the fifth floor, I really felt like I was a local Portuguese living in Lisbon. We even made breakfast everyday using the fully equipped kitchen with groceries we had bought on the first day from a local store. 
 
 The location of the apartment was also ideal for sightseeing with many of the important spots within walking range, such as Praca do Commercio, Time Out Market, and Elevador Santa Justa! 
 
+&nbsp;
+
 ##<center>**Tips & Tricks**</center>
 
-> - If you're wondering what souvenirs to take home, I would recommend colorful tiles or the famous packaged **salted sardines**. 
-> - Best place to get a picture of the yellow **Tram 28** or to even ride it back to Praca do Commericio is right near Miradoura de Santa Luzia!
-> - If you're too tired to walk, take a **tuk tuk** to your next destination. 
-> - Take your student ID if you are still in school. I was able to get into several places such as the Convento do Carmo and Jeronimos Monestery at discounted prices. 
+> If you're wondering what souvenirs to take home, I would recommend colorful tiles or the famous packaged **salted sardines**. 
+
+> Best place to get a picture of the yellow **Tram 28** or to even ride it back to Praca do Commericio is right near Miradoura de Santa Luzia!
+
+> If you're too tired to walk, take a **tuk tuk** to your next destination. 
+
+> Take your student ID if you are still in school. I was able to get into several places such as the Convento do Carmo and Jeronimos Monestery at discounted prices. 
 
 
 
