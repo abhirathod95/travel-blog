@@ -47,8 +47,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 function paginate(createPage, numPages, path, blogType, graphqlFilter, headers) {
   //console.log(path)
   Array.from({ length: numPages }).forEach((_, i) => {
-    console.log(i === 0 ? path + "/" : path + "/" + (i + 1))
-
     createPage({
       path: i === 0 ? path + "/" : path + "/" + (i + 1),
       component: blogTemplate,
