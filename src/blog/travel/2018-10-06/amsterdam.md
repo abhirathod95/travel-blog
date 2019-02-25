@@ -158,7 +158,7 @@ Located only 30 minutes from Amsterdam is the best gardens to see the tulips. Th
 
 ##<center>**TIPS & TRICKS**</center>
 
-1. There are coffeeshops, and there are cafes. They are two different things entirely. If you only want coffee, go to a café because it’s not all you’ll find any in a coffeeshop. 
+- There are coffeeshops, and there are cafes. They are two different things entirely. If you only want coffee, go to a café because it’s not all you’ll find any in a coffeeshop. 
 
-2. The I Amsterdam City Card is a really good deal for tourists with free entrance to many of the museums, free public transportation within the city, and lots of other discounts. 
+- The I Amsterdam City Card is a really good deal for tourists with free entrance to many of the museums, free public transportation within the city, and lots of other discounts. 
 
