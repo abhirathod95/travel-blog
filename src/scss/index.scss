@@ -288,6 +288,16 @@ hr {
 	z-index: $zindex-fixed;
 }
 
+// First set of cards on home page
+
+.no-marg-pad.row {
+	@extend %no-margin-padding;
+}
+.no-marg-pad.row > .spaced-col {	
+	margin-bottom: 3rem;
+}
+
+
 // Container that holds blog post. Used to apply settings 
 // to all blog post pages.
 .blog-post{

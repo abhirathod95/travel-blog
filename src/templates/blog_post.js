@@ -37,7 +37,7 @@ export default class BlogPostTemplate extends React.Component {
 					</Row>
 					<Row>
 						<Col xs="12" sm="10" md="8" lg="6">
-							<h1 className="text-center display-3">{this.frontmatter.title}</h1>
+							<h1 className="text-center h1">{this.frontmatter.title}</h1>
 							<h5 className="text-center">{this.frontmatter.date}</h5>
 						</Col>
 					</Row>

@@ -91,7 +91,7 @@ export default class Header extends React.Component {
                     {
                       dropdownItems.map((item) => {
                         return (
-                          <DropdownItem key={item.name} tag={Link} to={item.path}> <h5> {item.visibleName}</h5> </DropdownItem>
+                          <DropdownItem key={item.name} tag={Link} to={item.path}> <h6> {item.visibleName}</h6> </DropdownItem>
                         )
                       })
                     }

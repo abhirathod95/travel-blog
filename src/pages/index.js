@@ -53,7 +53,7 @@ export default class IndexPage extends React.Component {
 	render() {
   		return(
 			<Layout>
-				<Container fluid className="p-0 m-0">
+				<Container fluid className="index-container">
 					<Row className="top-carousel mb-0">
 						<Col>	
 			    			<HomeCarousel items={this.carouselItems}></HomeCarousel>
@@ -67,7 +67,7 @@ export default class IndexPage extends React.Component {
 							</blockquote>
 		  				</Col>
 					</Row>
-					<Row className="justify-content-center p-0">
+					<Row className="justify-content-center no-marg-pad">
 						<Col lg="9">
 							<CardDeck items={this.cardItems} type={"overlay"}/>
 						</Col>

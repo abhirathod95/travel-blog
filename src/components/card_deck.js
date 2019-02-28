@@ -5,11 +5,11 @@ import {
 import CustomCard from '../components/cards.js'
 
 
-const CustomCol = (props) => <Col widths={['xs', 'sm', 'md', 'lg', 'xl', 'xxl', 'xxxl']} {...props} />;
+const CustomCol = (props) => <Col className="spaced-col" widths={['xs', 'sm', 'md', 'lg', 'xl', 'xxl', 'xxxl']} {...props} />;
 
 const CardDeck = (props) => {
   return (
-        <Row className="align-items-stretch" >
+        <Row className="align-items-stretch no-marg-pad">
           {props.items.map((item, index) => {
               return (
                 <CustomCol key={index} sm="4">

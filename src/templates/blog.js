@@ -89,14 +89,14 @@ export default class DestinationTemplate extends React.Component {
 	render() {
 		return (
 			<Layout>
-				<Container fluid>
+				<Container fluid className="blog-list">
 					<Row className="destinations-navbar">
-						<Col className="p-3">
+						<Col>
 							<BlogHeader blogType={this.blogType} headers={this.props.pageContext.headers}/>
 						</Col>
 					</Row>
-					<Row className="m-0 p-0 justify-content-center">
-						<Col md="11" className="m-0 p-0">
+					<Row className="no-marg-pad justify-content-center">
+						<Col md="11">
 							{this.renderBlogPosts()}
 						</Col>
 					</Row>
