@@ -6,6 +6,7 @@ import {
 	Row, 
 	Col,
 } from 'reactstrap';
+import { graphql } from 'gatsby';
 import Banner from '../components/banner.js';
 
 export default class BlogPostTemplate extends React.Component {
@@ -13,8 +14,8 @@ export default class BlogPostTemplate extends React.Component {
 	constructor(props) {
 		super(props);
 		
-		this.frontmatter = props.pageContext.data.frontmatter;
-		this.html = props.pageContext.data.html;
+		this.frontmatter = props.data.markdownRemark.frontmatter;
+		this.html = props.data.markdownRemark.html;
 
 	}
 
@@ -51,3 +52,35 @@ export default class BlogPostTemplate extends React.Component {
 	}
 
 }
+
+export const query = graphql`
+query getArticleById ($id:String!) {
+	markdownRemark(id: {eq: $id}) {
+	id
+    html
+		frontmatter {
+			title,
+			date(formatString: "MMMM DD, YYYY"),
+			path,
+			excerpt,
+			tags,
+			continent,
+			country,
+			city,
+			featuredImage {
+				childImageSharp {
+					fluid(maxWidth: 2060) {
+						base64
+						aspectRatio
+						src
+						srcSet
+						sizes
+						originalImg
+						originalName
+					}
+				}
+			}
+		}
+    }
+}
+`

@@ -8,6 +8,10 @@ category: ["Travel"]
 featuredImage: "../../../images/United States of America/Illinois/Chicago_01.jpg"
 ---
 
+<blockquote class="blockquote">
+  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+</blockquote>
+
 ---
 
 > Blockquotes are very handy in email to emulate reply text.

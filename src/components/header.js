@@ -85,13 +85,13 @@ export default class Header extends React.Component {
                     )
                   })
                 }
-                <Dropdown nav inNavbar onMouseOver={this.onMouseEnter} onMouseLeave={this.onMouseLeave} isOpen={this.state.dropdownOpen} toggle={this.toggleDropDown} className="align-items-center justify-content-center">
-                  <DropdownToggle nav> <NavLink key={"destinations"} to={"/destinations"} tag={Link}> DESTINATIONS </NavLink> </DropdownToggle>
-                  <DropdownMenu >
+                <Dropdown size="sm" nav inNavbar onMouseOver={this.onMouseEnter} onMouseLeave={this.onMouseLeave} isOpen={this.state.dropdownOpen} toggle={this.toggleDropDown} className="align-items-center justify-content-center">
+                  <DropdownToggle nav to={"/destinations"} tag={Link}> DESTINATIONS </DropdownToggle>
+                  <DropdownMenu>
                     {
                       dropdownItems.map((item) => {
                         return (
-                          <DropdownItem key={item.name} tag={Link} to={item.path}> {item.visibleName} </DropdownItem>
+                          <DropdownItem key={item.name} tag={Link} to={item.path}> <h5> {item.visibleName}</h5> </DropdownItem>
                         )
                       })
                     }

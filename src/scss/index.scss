@@ -4,7 +4,6 @@
 @import "bootstrap/variables";
 @import "bootstrap/mixins";
 
-
 $grid-breakpoints: (
   xs: 0,
   sm: 576px,
@@ -23,7 +22,6 @@ $container-max-widths: (
   xxl: 1620px,
   xxxl: 2060px,
 );
-
 
 $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $font-family-base: EB Garamond, $font-family-sans-serif;
@@ -44,8 +42,14 @@ $navbar-dark-toggler-border-color:  rgba($white, .9);
 
 // Zero margin and padding
 %no-margin-padding {
-	margin: 0 !important;
-    padding: 0 !important;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
 }
 
 // Scale and center a background image
@@ -85,17 +89,6 @@ $navbar-dark-toggler-border-color:  rgba($white, .9);
 	@extend %image-scale;
 }
 
-
-.container-fluid{
-	@extend %no-margin-padding;
-}
-
-// Set spacing after each row in the grid 
-.row {
-	@extend %no-margin-padding;
-	margin-bottom: 3rem !important;	
-}
-
 // Remove spacing from last item in a row
 .row > * > :first-child {
 	margin-top: 0 !important;
@@ -103,11 +96,6 @@ $navbar-dark-toggler-border-color:  rgba($white, .9);
 
 .row > * > :last-child {
 	margin-bottom: 0 !important;
-}
-
-// Remove column margins and paddings
-.col {
-	@extend %no-margin-padding;
 }
 
 hr {
@@ -254,6 +242,19 @@ hr {
 	margin: .5rem;
 }
 
+// top value set so the dropdown doesn't go away too fast if mouse is moving slow
+// left value allows it to be centered since our text is centered
+.top-navbar .dropdown-menu {
+	top: 90%;
+	left: initial;
+}
+
+
+// Index caraousel. Set the column to nothing
+.top-carousel > .col {
+	@extend %no-margin-padding;
+}
+
 // Destinations page navbar
 .destinations-navbar > .col {
     background-color: #FADA5E;
@@ -312,6 +313,18 @@ hr {
 	height:100%;
 }
 
+// Footer
+
+.footer {
+	background-color:#000000;
+	color: white;
+}
+
+.footer .row {
+	margin: 0;
+}
+
+
 // Scrolling banner
 .test123 {
     background-attachment: fixed;
@@ -334,3 +347,20 @@ hr {
 }
 
 @import "bootstrap/bootstrap";
+
+// Override margin/padding set by bootstrap
+// We want end to end application
+.container-fluid, .row{
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.row {
+	margin-bottom: 3rem;
+}

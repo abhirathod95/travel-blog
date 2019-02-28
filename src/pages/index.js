@@ -90,6 +90,7 @@ export default class IndexPage extends React.Component {
 			    			<WorldMap articleCount={this.mapCountData}/>	
 			  			</Col>
 					</Row>
+					{/*
 					<Row className="p-0 m-0 mb-5">
 			  			<Col>
 			  				<Banner width="100%" height="500px" item={{'fluid':this.props.data.allImageSharp.edges[1].node.fluid, 'subHeading':'Better Ways To','heading':'Travel Smarter', 'buttonText':'Read More', 'link':'/'}}/>
@@ -105,6 +106,7 @@ export default class IndexPage extends React.Component {
 			    				<div className="test123" style={{'backgroundImage': "url('" + this.props.data.allImageSharp.edges[1].node.fluid + "')"}}/>
 			    		</CustomCol>
 					</Row>
+					*/}
 			
 				</Container>
 			</Layout>

@@ -91,7 +91,7 @@ function replaceAll(str,replaceWhat,replaceTo){
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
   
-  graphql(`
+  return graphql(`
     query travelArticlesCount{
       allMarkdownRemark {
         totalCount
@@ -113,6 +113,7 @@ exports.createPages = ({ actions, graphql }) => {
         }
         edges {
           node {
+            id
             html
             frontmatter {
               title,
@@ -154,7 +155,7 @@ exports.createPages = ({ actions, graphql }) => {
         path: node.frontmatter.path,
         component: blogPostTemplate,
         context: {
-          data: node,
+          id: node.id,
         }, // additional data can be passed via context
       });
     });

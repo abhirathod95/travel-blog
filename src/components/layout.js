@@ -6,8 +6,7 @@ import {
 import Helmet from 'react-helmet';
 import Header from '../components/header';
 import HeaderLeft from '../components/side_header.js';
-//import './index.css'
-//import '../static/bootstrap.min.css';
+import Footer from '../components/footer.js'
 import '../scss/index.scss';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -42,6 +41,7 @@ export default ({ children }) =>
         <div>
           {children}
         </div>
+        <Footer />
       </div>
     )}
   />
