@@ -1,8 +1,8 @@
 ---
 title: "Roadtrip to the Sahara Desert"
-date: "2019-01-09"
+date: "2019-01-15"
 path: "/blog/roadtrip-to-the-sahara-desert"
-excerpt: "The roadtrip to the Sahara was a bucket list experience I was excited to do. Camping was quite unlike anything I've done before, and I got to see a lot of Morrocco from the most touristy of places, such as Ait Ben Haddou, to more real life Moroccan villages..."
+excerpt: "The roadtrip to the Sahara was a bucket list experience I was excited to do. Camping was quite unlike anything I've done before, and I got to see a lot of Morrocco from the most touristy of places, such as Ait..."
 tags: ["Journal", "Winter", "Roadtrip", "Family Trip","Travel Tips"]
 continent: ["Africa"]
 country: ["Morocco"]
@@ -79,15 +79,13 @@ All I could think of seeing the Sahara desert was how vast it was. The camels dr
 
 ![test](../../../images/Morocco/Sahara_18.jpg) 
 
-If you think you're going to be prepared for the night, think again. There were so many aspects of my night in the Sahara that left me unexpectedly amazed but also wishing I had been more prepared.
-
-##### <center> To me, seeing the millions of stars and being able to faintly make out the Milky way in the night sky was incredible and stole the spotlight.</center>
+If you think you're going to be prepared for the night, think again. There were so many aspects of my night in the Sahara that left me unexpectedly amazed but also wishing I had been more prepared. To me, seeing the millions of stars and being able to faintly make out the Milky way in the night sky was incredible and stole the spotlight.
 
 After dinner with our fellow campers, we all spent quite a while standing together in awe of the sight. Then, the campsite had arranged night of listening to Berber men play the drums and sing local songs around a warm campfire. Spending the night in a tent with no heater in the Sahara desert in December was an experience to say the least. BE PREPARED and pack lots of warm layers to sleep in. The campsite also provides four thick blankets to sleep with. I pretty much felt like a sardine packed under all those heavy blankets and warm clothes, and I found it hard to fall asleep being stuck in one position under the weight of it all. And somehow I was still cold. Whatever you think you might need to stay warm, double it. 
 
 The campsite I stayed in had a working toilet and plenty of toilet paper, so bringing toilet paper was not necessary. However, other campsites might be different. There was also a shower, but the water was freezing cold. I also had access to one working outlet, but I still recommend bringing a power bank to use. 
 
-Sunrise in the winter was at 8:15 AM. If you want to have an awesome experience on top of a tall sand dune with an unfettered view of the desert and the sunrise, the hike will take about 45 minutes if your campsite is near the edge. Don't forget to take some water!
+Sunrise in the winter was at 8:15 AM. Even though I did have an alarm to wake up on time, the braying of the camels woke me up too. If you want to have an awesome experience on top of a tall sand dune with an unfettered view of the desert and the sunrise, the hike will take about 45 minutes if your campsite is near the edge. Don't forget to take some water! Dunes we had passed by the evening before didn't have the footprints of camels and people anymore but tiny tracks of all sorts of creatures that must have come out at night or early morning. 
  
 ![test](../../../images/Morocco/Sahara_17.jpg) 
 

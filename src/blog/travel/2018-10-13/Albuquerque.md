@@ -2,7 +2,7 @@
 title: "Flying High at Albuquerque's International Balloon Fiesta"
 date: "2018-10-13"
 path: "/blog/albuquerque-balloon-fiesta"
-excerpt: "Even though I've been living in Texas for almost my entire life, I was only now able to make it to the amazing one-of-a-kind festival in my neighboring state of New Mexico. Albuquerque's International Balloon Fiesta is a world..."
+excerpt: "Even though I've been living in Texas for almost my entire life, I was only now able to make it to the amazing one-of-a-kind festival in my neighboring state of New Mexico. Albuquerque's..."
 tags: ["Travel Guide", "Fall", "Roadtrip", "Family","Hot Air Balloon", "Bucket List"]
 continent: ["North America"]
 country: ["United States of America"]

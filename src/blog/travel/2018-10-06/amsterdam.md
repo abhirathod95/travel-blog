@@ -14,7 +14,7 @@ If you’re planning to visit Amsterdam, be prepared to never want to leave. Whi
 
 ```grid|1|
 ![test](../../../images/Netherlands/Amsterdam_16.jpg)
-![test](../../../images/Netherlands/Amsterdam_1.jpg)
+![test](../../../images/Netherlands/Amsterdam_0.jpg)
 ```
 
 I landed on Monday afternoon, and flew out Friday noon, which gave me about four days to squeeze in everything I wanted to see. Of course, there is so much more to see in the city that I was unable to cover, but here are the main highlights, the must-dos. The saddest part of my trip was the fact I just missed the famous rows of Netherland tulips by one day when I went in May. However, the tulips and the many fond memories I have made here give me reasons to eagerly look forward to my next Amsterdam trip. 
@@ -32,8 +32,8 @@ The second I knew I was going to Amsterdam, visiting the Anne Frank Haus was the
 
 Tickets must be bought online. They become available two months in advance and sell out quickly. Plan to buy your tickets the day they get released for the date you want to go! You can still find some tickets available on the day of, but chances are less likely you will get the number of tickets or times you want.  There is no photography allowed inside to respect other visitor’s museum experience and the artifacts. 
 
-Price: 10 Euros/Adult & 5 Euros/Child   
-Times: 9 AM – 7 PM most days, check calendar if later openings 
+**Tickets|** 10 Euros/Adult & 5 Euros/Child   
+**Times|** 9 AM – 7 PM most days, check calendar if later openings 
 
 ####**I Amsterdam Sign**
 
@@ -45,26 +45,23 @@ You can’t visit Amsterdam for the first time without the classic picture at th
 
 Vincent Van Gogh is a world-renowned artist now, even though he died thinking his paintings would be forgotten. He didn’t get the respect he deserved during his life, and I was really looking forward to the museum showcasing his talent with the largest collection of Van Gogh’s art. Again, this museum also does a wonderful job at explaining Vincent Van Gogh and his life experiences. 
 
-Price: 18 Euros/Adult or FREE with City Card  
-Times: Mon – Thurs, Sun 9 AM – 7 PM; Fri, Sat 9 AM – 9 PM
+**Tickets|** 18 Euros/Adult or FREE with City Card  
+**Times|** Mon – Thurs, Sun 9 AM – 7 PM; Fri, Sat 9 AM – 9 PM
 
 ####**Rijksmuseum** 
 
-```grid|1|
-![test](../../../images/Netherlands/Amsterdam_9.jpg)
 ![test](../../../images/Netherlands/Amsterdam_8.jpg)
-```
 
 The Rijksmuseum is the national museum of Amsterdam celebrating the rich art and history of this small but significant country. The museum hosts the artwork from famous artists like Rembrandt and Vermeer that are worth checking out. The best-known painting is **The Night Watch by Rembrandt**; don’t miss it!
 
-Price: 17.5 Euros/Adult or FREE with City Card  
-Times: Mon-Sun 9 AM – 5 PM
+**Tickets|** 17.5 Euros/Adult or FREE with City Card  
+**Times|** Mon-Sun 9 AM – 5 PM
 
 ####**Dam Square** 
 
 ![test](../../../images/Netherlands/Amsterdam_11.jpg)
 
-As you walk into Dam Square, the **Royal Palace of Amsterdam** is on display. On this perfect summer day, there were lots of people socializing and enjoying the sun around this area. I wasn’t able to squeeze in a visit to see the interior of the palace during my short stay, and I wasn’t too upset about that. The most impressive part was the exterior standing tall over Dam square anyways. There were a lot of souvenir stores around here since it is a touristy spot if you want to do a little shopping. 
+As you walk into Dam Square, the **Royal Palace of Amsterdam** is on display. On this perfect summer day, there were lots of people socializing and enjoying the sun around this area. I wasn’t able to squeeze in a visit to see the interior of the palace during my short stay, and I wasn’t too upset about that. The most impressive part was the exterior standing tall over Dam Square anyways. There were a lot of souvenir stores around here since it is a touristy spot if you want to do a little shopping. 
 
 ####**Oude Kerk**
 
@@ -72,19 +69,21 @@ As you walk into Dam Square, the **Royal Palace of Amsterdam** is on display. On
 
 I wandered into the **Red Light District** during the day to see the oldest building in Amsterdam. I just had to see the irony of a church standing in the middle of streets filled with temptations. The church was built in the 1500s, but it continues to leave a large influence by being one of the biggest art commissioners in the country. A modern art exhibit is unexpectedly housed in this church, juxtaposing old with new. Kind of like what’s going on outside with the church standing in the Red Light District. Check it out! 
 
-Price: 10 Euros/Adult or FREE with City Card   
-Times: Mon – Sat, 10 AM – 6 PM; Sunday 1 – 5:30 PM
+**Tickets|** 10 Euros/Adult or FREE with City Card   
+**Times|** Mon – Sat, 10 AM – 6 PM; Sunday 1 – 5:30 PM
 
 ####**Bloemenmarkt**
 
-```grid|2|
 ![test](../../../images/Netherlands/Amsterdam_15.jpg)
+
+```grid|2|
+![test](../../../images/Netherlands/Amsterdam_13.jpg)
 ![test](../../../images/Netherlands/Amsterdam_14.jpg)
 ```
 
 It’s the world’s largest and only floating flower market! The local’s love of tulips and other flowers is on serious display here. Even when it is not tulip season, there are roses, ferns, and all other sorts of plants to buy. Photography inside the shops is not allowed (I may have sneaked a few), but you can take as many as you want from outside. 
 
-Times: Mon - Sat 9 AM - 5:30 PM, Sun 11:30 AM - 5:30 PM
+**Times|** Mon - Sat 9 AM - 5:30 PM, Sun 11:30 AM - 5:30 PM
 
 ####**Jordaan District**
 
@@ -98,9 +97,11 @@ One of the more upscale neighborhoods of Amsterdam, the Jordaan district puts th
 
 Simply the best way to see the city and get a brief introduction and history of all the hotspots of Amsterdam. I did this last on my tour, but it might be smarter to do it on your first day to get oriented to the city better. The tour company I chose was **Blue Boat Company** leaving from a point close to the Hard Rock Café. 
 
-Price: 16 Euros/Adult, 7.5 Euros/Child  
-Location: Stadhouderskade 501, 1071 ZD Amsterdam, Netherlands  
-Times: 75-minute cruise, Leaves every 30 minutes from 10 AM – 6 PM
+**Tickets|** 16 Euros/Adult, 7.5 Euros/Child  
+**Location|** Stadhouderskade 501, 1071 ZD Amsterdam, Netherlands  
+**Times|** 75-minute cruise, Leaves every 30 minutes from 10 AM – 6 PM
+
+&nbsp;
 
 ****************************************************
 ###**Where to EAT**
@@ -113,30 +114,36 @@ The one thing you have to try is a Dutch specialty, a **STROOPWAFEL**. My sweet 
 
 Located close to the Anne Frank Haus, we stopped by to grab some lunch only to be turned away due to the high number of customers there already. Instead, we made a reservation to come back the next day. Totally worth it. They make both sweet and savory pancakes of all sorts for you to enjoy.
 
-Address: Prinsengracht 191, 1015 DS Amsterdam, Netherlands
+**Address|** Prinsengracht 191, 1015 DS Amsterdam, Netherlands
     
 ####**Moeders Restaurant**
 
 This was a really good restaurant with Dutch recipes to try! 
 
-Address: Singel, 1012 DH Amsterdam, Netherlands
+**Address|** Singel, 1012 DH Amsterdam, Netherlands
     
 ####**Café MADS**
 
 This café was located close to our hotel and was a great place to eat dinner when we arrived. 
 
-Address: Zoutkeetsplein 1h, 1013 LD Amsterdam, Netherlands
+**Address|** Zoutkeetsplein 1h, 1013 LD Amsterdam, Netherlands
     
 ####**Ice Bakery by Nutella** 
 
 If you love all things chocolate, then this one’s for you. 
 
-Address: mg, Nieuwendijk 175, 1012 MG Amsterdam, Netherlands
+**Address|** mg, Nieuwendijk 175, 1012 MG Amsterdam, Netherlands
+
+&nbsp;
 
 ***************************************************** 
 ###**Where to STAY**
 
-**Yays Concierged Boutique Hotel** – I stayed in this adorable two-story apartment with a full kitchen right on the canal, located in the Zootkeetsgracht neighborhood. While the location was a little further from some of the main attractions, the chance to live more like a local was too good to pass up. Also, a nearby bus stop was enough to get places without having to spend more.  In the evenings, they even gave us a bicycle to borrow and take around the street. Yays have several locations around the city if you want to stay closer to a certain attraction. 
+**Yays Concierged Boutique Hotel** – I stayed in this adorable two-story apartment with a full kitchen right on the canal, located in the Zootkeetsgracht neighborhood. While the location was a little further from some of the main attractions, the chance to live more like a local was too good to pass up. Also, a nearby bus stop was enough to get places without having to spend more.  In the evenings, they even gave us a bicycle to borrow and take around the street. Yays have several locations around the city if you want to stay closer to a certain attraction.
+
+![test](../../../images/Netherlands/Amsterdam_1.jpg) 
+
+&nbsp;
 
 ****************************************************
 ###**DAY TRIPS**
@@ -147,8 +154,10 @@ We thought about doing this if we had just one more day (isn’t that always the
 
 ####**Zaanse Schans**
 
-```grid|2|
 ![test](../../../images/Netherlands/Amsterdam_17.jpg)
+
+```grid|2|
+![test](../../../images/Netherlands/Amsterdam_19.jpg)
 ![test](../../../images/Netherlands/Amsterdam_18.jpg)
 ```
 

@@ -1,16 +1,16 @@
 ---
-title: "Weekend Trip to Gorgeous Lisbon"
-date: "2019-01-10"
-path: "/blog/weekend-trip-to-gorgeous-lisbon"
-excerpt: "Lisbon is a beautiful European town to visit during the winter months. While the rest of Europe is experiencing the wintery cold and snow, Lisbon weather is sunny, breezy, and just perfect for..."
+title: "A Weekend in Lisbon"
+date: "2019-01-08"
+path: "/blog/weekend-in-lisbon"
+excerpt: "Lisbon is a beautiful European town to visit during the winter months, especially after a long semester of studying about the gastrointestinal system and neurology. Halfway through second year..."
 tags: ["Winter","Family Trip","Guide","Journal"]
 continent: ["Europe"]
 country: ["Portugal"]
 city: ["Lisbon"]
-featuredImage: "../../../images/Portugal/Lisbon_22.jpg"
+featuredImage: "../../../images/Portugal/Lisbon_16.jpg"
 ---
 
-Lisbon is a beautiful European town to visit during the winter months. While the rest of Europe is experiencing the wintery cold and snow, Lisbon weather is sunny, breezy, and just perfect for exploring. Most people go to Lisbon between March to October for the warm sunny summer, but I thought visiting during December was perfect since there were fewer crowds and Christmas spirit everywhere we went. Between the colorful tiled walls and orange rooftops, the smell of salty water and fresh seafood, and the sound of musicians of all kinds wherever you go, Lisbon is simply amazing.
+Lisbon is a beautiful European town to visit during the winter months, especially after a long semester of studying about the gastrointestinal system and neurology and etc. Halfway through second year and only a million more to go. While the rest of Europe is experiencing the wintery cold and snow, Lisbon weather was sunny, breezy, and just perfect for exploring. Most people go to Lisbon between March to October for the warm sunny summer, but I thought visiting during December was perfect since there were fewer crowds and Christmas spirit everywhere we went. Between the colorful tiled walls and orange rooftops, the smell of salty water and fresh seafood, and the sound of musicians of all kinds wherever you go, Lisbon is simply amazing. It was exactly the kind of relaxing I needed before the new semester. 
 
 ![test](../../../images/Portugal/Lisbon_4.jpg) 
 
@@ -19,9 +19,7 @@ Lisbon is a beautiful European town to visit during the winter months. While the
 **************************************************
 ####**What to See & Do:** Praca do Commercio, Alfama District, Jeronimos Monestery, Belem Tower
 
-Praca do Commercio is the main center of the city, and one of the first places we saw. 
-
-Don't eat near Praca do Commercio because I've heard that the food isn't as great and quite expensive.
+Praca do Commercio is the main center of the city, and one of the first places we saw. The center is facing towards the Tagus River and signifies the power Portugal once had in exploration. Ships leaving to sail all over the world used to leave from this area. The main arch, called **Arco da Rua Augusta**, does allow for vistors to enter and view Praca do Commercio from above. 
 
 ![test](../../../images/Portugal/Lisbon_7.jpg) 
 
@@ -29,7 +27,9 @@ We stumbled across the **Convento do Carmo** after seeing the Elevador de Santa 
 
 ![test](../../../images/Portugal/Lisbon_2.jpg) 
 
-If you ever come across a sign pointing towards a Miradouro in the **Alfama district**, take the time to follow it. The path usually will lead to an impressive lookout of the hilly city. My favorite was **Miradoura de Santa Luzia** right at sunset. A band was playing jazz music to fill the air as the sun reflected rays off of the orange rooftops so characteristic of Lisbon. The moment was just so classic of a European vacation. Nearby, there's a well known wine spot called Porto do Sol which is great place to order a bottle and watch the sun set. There's also a famous drink called **ginza** sold all over the Alfama district to try!
+If you ever come across a sign pointing towards a Miradouro in the **Alfama district**, take the time to follow it. The path usually will lead to an impressive lookout of the hilly city. My favorite was **Miradoura de Santa Luzia** right at sunset. A band was playing jazz music to fill the air as the sun reflected rays off of the orange rooftops so characteristic of Lisbon. The moment was just so classic of a European vacation. Nearby, there's a well known wine spot called Porto do Sol which is great place to order a bottle and watch the sun set. There's also a famous drink called **ginza** sold all over the Alfama district to try! 
+
+Dining at any of the small restaurants at every corner of Alfama district is never a bad idea. On certain nights, you'll even be able to hear the music, **fado,** without having to pay for a very touristy show. Fado is supposed to have a very melancholic tone and used to have lyrics filled with lines of longing and sad stories.  
 
 ```grid|2|
 ![test](../../../images/Portugal/Lisbon_18.jpg) 
@@ -48,7 +48,7 @@ This had to be my favorite day because we ended the day eating the famous **Past
 ```
 ![test](../../../images/Portugal/Lisbon_17.jpg) 
 
-The **Belem Tower** has to be the most famous structure near Lisbon, and it's easy to see why. The retired watch tower is striking sitting in the water at any time of day. Situated just less than a mile away is the **Monument of Discoveries,** also called Padrao dos Descobrientos, with Henry the Navigator at the forefront. Somehow, I had forgotten until I saw the Monument all about how Portugal had once been a powerful world player. 
+The **Belem Tower** has to be the most famous structure near Lisbon, and it's easy to see why. The retired watch tower is striking sitting in the water at any time of day. Situated just less than a mile away is the **Monument of Discoveries,** also called Padrao dos Descobrientos, with Henry the Navigator at the forefront. Somehow, I had forgotten until I saw the Monument all about how Portugal had once been such a powerful world player. 
 
 ```grid|2|
 ![test](../../../images/Portugal/Lisbon_10.jpg) 
@@ -60,7 +60,7 @@ The **Belem Tower** has to be the most famous structure near Lisbon, and it's ea
 
 ![test](../../../images/Portugal/Lisbon_8.jpg) 
 
-**Time Out Market** is a great place to eat. The market can seem a bit touristy, but the food is actually really good. The moment you enter, the busy atmosphere and smell of good food is enough to make you eager to eat. One of the benefit of eating here is that you're not restricted to one kind of cuisine and are able to pick and choose what dishes you would like from more than fifteen restaurants. The **codfish** is known to be one of the most famous dishes in Portugal, and a cab driver told us they even have a cookbook titled "1000 ways to cook Codfish." The Time Out Market is a great place to try some of the different ways the Portuguese cook codfish. My family and I truly loved the codfish and cream dish, so be sure to try it! 
+**Time Out Market** is a great place to eat. The market can seem a bit touristy, but the food is actually really good. The moment you enter, the busy atmosphere and smell of good food is enough to make you eager to eat. One of the benefit of eating here is that you're not restricted to one kind of cuisine and are able to pick and choose what dishes you would like from more than fifteen restaurants. The **codfish** is known to be one of the most famous dishes in Portugal, and a cab driver told us they even have a cookbook titled "1000 ways to cook Codfish." The Time Out Market is a great place to try some of the different ways the Portuguese cook codfish. I loved the codfish and cream a lot!
 
 ![test](../../../images/Portugal/Lisbon_9.jpg) 
 
@@ -68,33 +68,36 @@ The **Belem Tower** has to be the most famous structure near Lisbon, and it's ea
 
 **********************************************************
 
-##**Day Trip to Sintra**
+####**Day Trip to Sintra**
 
-Sintra is always a highly recommended day trip from Lisbon because of the romantic mystical architecture of the many palaces and parks, Pena palace being the most famous. The town is a quick 40 minute train ride from Rossio Station. 
+Sintra is always a highly recommended day trip from Lisbon because of the romantic and mystical architecture of the many palaces and parks, with Pena palace being the most famous. The town is a quick 40 minute train ride from Rossio Station. 
 
 **Read More|** [A Day in Magical Sintra](https://www.wheretonextdoc.com/blog/a-day-in-magical-sintra)
 
 
-##### **Places to Visit:** Quinta de Regalaira, Pena Palace, Montserrate Palace
+##### **Places to Visit:** Quinta da Regalaira, Pena Palace, Montserrate Palace
 
 ```grid|2|
-![test](../../../images/Portugal/Sintra_5.jpg) 
+![test](../../../images/Portugal/Sintra_4.jpg) 
 ![test](../../../images/Portugal/Sintra_7.jpg) 
 ```
-If I had more than three days near the Lisbon area, I would have also seen **Cascais,** the popular town near the sea. The Portuguese royals also used to vacation in Cascais and built huge villas and mansions dotting the coast. One of the main sites I wanted to see was the **Boca do Inferno.**
+If I had more than three days near the Lisbon area, I would have also seen **Cascais,** the popular town near the sea. The Portuguese royals also used to vacation in Cascais and built huge villas and mansions dotting the coast. One of the main attraction I wanted to see was the **Boca do Inferno,** but maybe next time. 
 
 &nbsp;
 
 *************************************************************
-##**Where I Stayed**
+####**Where I Stayed**
 
-I stayed in an apartment with **Hello Lisbon** right on the famous Pink Street. While this meant I had to hear faint discotech music every night even on the fifth floor, I really felt like I was a local Portuguese living in Lisbon. We even made breakfast everyday using the fully equipped kitchen with groceries we had bought on the first day from a local store. 
+I stayed in an apartment with **Hello Lisbon** right on the famous **Pink Street**. While this meant I had to hear faint discotech music every night even on the fifth floor, I really felt like I was a local Portuguese living in Lisbon. We even made breakfast everyday using the fully equipped kitchen with groceries we had bought on the first day from a local store. 
+
+
+![test](../../../images/Portugal/Lisbon_22.jpg) 
 
 The location of the apartment was also ideal for sightseeing with many of the important spots within walking range, such as Praca do Commercio, Time Out Market, and Elevador Santa Justa! 
 
 &nbsp;
 
-##<center>**Tips & Tricks**</center>
+####<center>**Tips & Tricks**</center>
 
 - If you're wondering what souvenirs to take home, I would recommend colorful tiles or the famous packaged **salted sardines**. 
 
