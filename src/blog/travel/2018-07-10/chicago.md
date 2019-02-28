@@ -12,11 +12,15 @@ featuredImage: "../../../images/United States of America/Illinois/Chicago_01.jpg
 
 I have been to a lot of cities in the U.S., but somehow, I never made it out to the very popular city of Chicago until now. As an architecture buff, I loved learning about the city and the way it has been rebuilt since a fire burned down a large part of the city more than a century ago. Hence, why Chicago is called the Second City. I had lots of fun doing all sorts of activities from browsing museums to bicycling to laughing at a comedy show with my girlfriends. If you’re here for a few days, this is a great itinerary to cover almost all the hot spots Chicago has to offer in an affordable, enjoyable, and jam-packed three-day vacation. Of course, feel free to mix up my itinerary to fit your needs! 
 
-Note: I visited the weekend after July 4th, and the evenings were still a bit chilly for me! Plan accordingly if you get cold easily like I do. A light cardigan or jacket would be perfect.
+**Note:** I visited the weekend after July 4th, and the evenings were still a bit chilly for me! Plan accordingly if you get cold easily like I do. A light cardigan or jacket would be perfect.
 
 ![test](../../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_00.jpg)
 
-##<center>**DAY 1**</center>
+&nbsp;
+
+************************************************
+
+###**DAY 1**
 
 ####**1:00 PM Lunch at Gino’s East**   
 
@@ -62,9 +66,11 @@ However, here are a few other options closer to Millennium Park for dinner. Some
 
 We went to **Three Dots and a Dash**, **Bub City**, **The Boss Bar**, and **Fado** which were all pretty much on the same street, making it easy to barhop. Each one had its own unique vibe, but all were lots of fun! After 12 AM, expect to pay a cover at the more packed bars, aka carry some cash. 
 
+&nbsp;
 
+*********************************************************************************
 
-##<center>**DAY 2**</center>
+###**DAY 2**
 
 ![test](../../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_08.jpg)
 
@@ -83,6 +89,7 @@ To be totally honest, we didn’t make it to our reservations in time (4 girls g
 The Divvy bike was very convenient and a cool way to see the city. It costs **$15/day**, or **$3/use**. We started a little further south on the trail at the Indiana Ave. and Roosevelt station. The Divvy app makes it easy to figure out which stands are closer to you and if there are enough bikes for your entire group. Plan to bring a small backpack to hold water, snacks, and sunscreen to take breaks and recharge in between biking. 
     
 From the bike station, we rode to **Adler Planetarium** which had the most gorgeous view of the Chicago skyline.  Unfortunately, I didn’t have my DSLR to capture it, so iPhone it is! The girls and I decided against going into the planetarium, but if you have children, then this might be a great spot to begin your second day. The **Shedd Aquarium** is also close by and a lot of fun for children. We parked our Divvy bikes at the Divvy station while we looked around, and just hopped back on. Once you get out of the Museum Campus area, there is a clear path to ride on. Don’t forget to ring your bell, follow traffic laws, and slow down around pedestrians. There’s a lot of them!
+
 After a 10-minute ride from the Planetarium, you will see a way to a big plaza with a large ornate fountain, called **Buckingham Fountain**. There is a **water show** that happens every hour (for most of the day) lasting for 20 minutes. After a few photos here and bathroom/water break, we got back on our bikes. From Buckingham Fountain, we rode for 15 minutes to reach the shoreline, and another 15 minutes on the shoreline to the Divvy station closest to the zoo. 
 
 Note: If you have kids, then using the Divvy bike might not be possible for you. The bikes are meant for adults and are rather heavy. I would suggest getting a ride using Uber/Lyft/Via or public transportation to get between the places you want to see.
@@ -105,11 +112,14 @@ The show we went to was called **Dream Freaks Fall from Space**. My friend knew 
 
 Buy tickets in advance online; they sold out pretty quickly for every show on the weekends. Even though the website said the show lasts from 11 PM-1 AM, our show went until 2 AM. 
 
-##<center>**DAY 3**</center>
+&nbsp;
+
+******************************************************************************
+###**DAY 3**
 
 ####**10 AM Chicago Architecture Tour**
 
-```grid |1|
+```grid |2|
 ![test](../../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_09.jpg)
 ![test](../../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_10.jpg)
 ![test](../../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_12.jpg)
@@ -143,14 +153,20 @@ Best way to end the vacation is grabbing some food for dinner from the Navy Pier
 
 Note: If you are in Chicago in the summer, the Navy Pier has fireworks at 9:30 PM on Wednesdays and 10:15 PM on Saturdays at the Navy Pier
 
-##<center>**DAY 4**</center>
+&nbsp;
+
+************************************************************************************
+###**DAY 4**
 
 ####**11 AM Check out of Hotel**
 
 Getting to the airport in Chicago is an event itself. Even though I left with 3 hours to spare before boarding, I was biting my nails throughout my Via ride about whether I would get there in time. The traffic was horrible! Luckily my flight was delayed by 40 minutes or I would have had to catch another flight. Apparently, the traffic to the airport is always a nightmare in Chicago, so I would take the Metro or leave with lots of time for the airport if I ever came back. 
 
+&nbsp;
 
-##<center>**Transportation**</center>
+****************************************************************************************
+
+###**Transportation**
 
 The girls and I mostly got around from place to place using **Uber, Lyft, or Via** based on prices, walking, and Divvy bikes. Unfortunately, I didn’t get to use the **public transportation** at all, which I usually like to do when I travel. The Metro probably would have been a much better option for getting to and from the airport on time instead sitting in traffic worrying. 
 For those of you who would like to use the bus/train system, I’ve included helpful links for you to start planning. Thanks for being environmentally conscious!
@@ -159,7 +175,11 @@ For those of you who would like to use the bus/train system, I’ve included hel
 
 [Train Maps](https://www.transitchicago.com/maps/)
 
-##<center>**Other Things to Do I Missed**</center>
+&nbsp;
+
+*********************************************************************
+
+###**Other Things to Do I Missed**
 
 - [Adler Planetarium](https://www.adlerplanetarium.org/)
 

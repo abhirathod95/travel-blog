@@ -11,6 +11,10 @@ featuredImage: "../../../images/Spain/Barcelona/Barcelona_1.jpg"
 ---
 
 My trip to Barcelona was inspired by the late Antoni Gaudi and his remarkable architecture. During my freshman year of college, I was lucky enough to take a very popular class called Architecture and Society lead by Professor Speck. He was so invested to make students who didn’t know much about architecture understand how architecture can really influence everyone’s lives. One of the main architects we learned about was Gaudi and his attention to form. Gaudi was known for emphasizing the natural aspects of Spain that he saw around him in his work. When I had the chance to go to Europe, I simply had to see Barcelona and Gaudi’s architecture for myself. The trip did not disappoint! Barcelona was like a dream that I leisurely spent enjoying the sights, eating tapas, and walking the Spanish streets.  
+
+&nbsp;
+&nbsp;
+
 #### **Basilica de la Sagrada Familia**
 
 ```grid|1|

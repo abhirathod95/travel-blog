@@ -10,9 +10,12 @@ city: ["London"]
 featuredImage: "../../../images/UK/London/London_0.jpg"
 ---
 
-After getting over the fact I was actually going to LONDON, I planned for long days of exploring as much as possible in the 4 days I was there. This definitely won't be my last visit. 
+After getting over the fact I was actually going to LONDON, I planned for long days of exploring as much as possible in the 4 days (more like 3 and a half days) I was there. Short trip but this definitely won't be my last visit. 
 
-##<center>**DAY 1: Settling In**</center>
+&nbsp;
+
+************************************************
+###**DAY 1: Settling In**
 
 ![test](../../../images/UK/London/London_1.jpg)
 
@@ -34,7 +37,10 @@ Stretch out your legs at Trafalgar Square after that long flight if you flew lik
 
 Walking from Trafalgar Square to the London eye takes about 20-30 minutes. On the way you can stop to see the 
 
-##<center>**DAY 2: Day Trip**</center>
+&nbsp;
+
+*********************************************************
+##**DAY 2: Day Trip**
 
 I normally don't like to book day trips with a tour guide in a bus, but it seemed like the best option for seeing the most in our one day out of the city. I loved our tour guide. She kept using the word "lovely" just like a true Brit. 
 
@@ -51,7 +57,10 @@ Definitely a bucket list item for me to visit Stonehenge. The story behind these
 
 Oxford is known as the city of dreaming spires where all the architecture seems to have you always looking up at the spires trying to reach the sky. 
 
-##<center>**DAY 3: Heart of London**</center>
+&nbsp;
+
+**********************************************************
+##**DAY 3: Heart of London**
 
 We bought a ticket for the Hop On Hop Off Red bus to have easy access to all the major spots of London. The constant commentary you can listen to with your headphones was great for learning about the sites as well. 
 
@@ -77,7 +86,10 @@ We were able to see Buckingham Palace on our first day from the London Eye, but 
 
 Finally, we ended the day in Picadilly Circus which is kind of like Time Square in New York with the large LED billboards. It's so busy! This area was a good place to grab some dinner at a Thai restaurant nearby and had several subway stations to take advantage of to get back to our hotel. 
 
-##<center>**DAY 4: Places I've Been Dying to See**</center>
+&nbsp;
+
+*****************************************************************************
+##**DAY 4: Places I've Been Dying to See**
 
 #### **King's Cross Station** 
 

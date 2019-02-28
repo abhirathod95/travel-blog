@@ -16,8 +16,9 @@ The roadtrip to the Sahara was a bucket list experience I was excited to do. Cam
 
 &nbsp;
 &nbsp;
+*********************************************
 
-### <center>**Places We Visited on the Way**</center>
+### **Places We Visited on the Way**
 
 ##### **Atlas Mountains**
 
@@ -64,7 +65,9 @@ Visiting the qanats was one of the more educational stops we made.
 &nbsp;
 &nbsp;
 
-### <center> **Camping in the Sahara**</center>
+**********************************************
+
+### **Camping in the Sahara**
 
 All I could think of seeing the Sahara desert was how vast it was. The camels dropped us off at a convenient location to watch the red sun set behind the tall orange sand dunes before heading to our camp. 
 

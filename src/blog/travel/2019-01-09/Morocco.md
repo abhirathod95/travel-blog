@@ -7,7 +7,7 @@ tags: ["Journal", "Winter", "Lessons", "Family Trip","Travel Tips"]
 continent: ["Africa"]
 country: ["Morocco"]
 city: [""]
-featuredImage: "../../../images/Morocco/Morocco_16.jpg"
+featuredImage: "../../../images/Morocco/Morocco_0.jpg"
 ---
 
 

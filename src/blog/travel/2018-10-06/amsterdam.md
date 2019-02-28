@@ -2,7 +2,7 @@
 title: "The Complete Travel Guide for Amsterdam"
 date: "2017-07-10"
 path: "/blog/amsterdam-travel-guide"
-excerpt: "If you’re planning to visit Amsterdam, be prepared to never want to leave. While other European cities are quite impressive, the relaxing, laidback atmosphere found everywhere in the city’s buildings, cobblestone streets, and ..."
+excerpt: "If you’re planning to visit Amsterdam, be prepared to never want to leave. While other European cities are quite impressive, the relaxing, laidback atmosphere found everywhere in the city’s buildings, cobblestone streets, and..."
 tags: ["Itinerary", "Summer", "City", "Family"]
 continent: ["Europe"]
 country: ["Netherlands"]
@@ -19,8 +19,10 @@ If you’re planning to visit Amsterdam, be prepared to never want to leave. Whi
 
 I landed on Monday afternoon, and flew out Friday noon, which gave me about four days to squeeze in everything I wanted to see. Of course, there is so much more to see in the city that I was unable to cover, but here are the main highlights, the must-dos. The saddest part of my trip was the fact I just missed the famous rows of Netherland tulips by one day when I went in May. However, the tulips and the many fond memories I have made here give me reasons to eagerly look forward to my next Amsterdam trip. 
 
+&nbsp;
 
-##<center>**What to SEE & DO**</center>
+********************************************
+###**What to SEE & DO**
 
 ####**Anne Frank Haus**
 
@@ -100,13 +102,14 @@ Price: 16 Euros/Adult, 7.5 Euros/Child
 Location: Stadhouderskade 501, 1071 ZD Amsterdam, Netherlands  
 Times: 75-minute cruise, Leaves every 30 minutes from 10 AM – 6 PM
 
-##<center>**Where to EAT**</center>
+****************************************************
+###**Where to EAT**
 
 The one thing you have to try is a Dutch specialty, a **STROOPWAFEL**. My sweet tooth was incredibly satisfied with the thin wafer sandwich with caramel like you can’t imagine. I bought a bunch at the local grocery store near my hotel to snack on throughout the trip, especially with coffee in the morning. You can also find them in almost every café. 
 
 ![test](../../../images/Netherlands/Amsterdam_2.jpg) 
 
-###**Pancake Bakery** 
+####**Pancake Bakery** 
 
 Located close to the Anne Frank Haus, we stopped by to grab some lunch only to be turned away due to the high number of customers there already. Instead, we made a reservation to come back the next day. Totally worth it. They make both sweet and savory pancakes of all sorts for you to enjoy.
 
@@ -129,12 +132,14 @@ Address: Zoutkeetsplein 1h, 1013 LD Amsterdam, Netherlands
 If you love all things chocolate, then this one’s for you. 
 
 Address: mg, Nieuwendijk 175, 1012 MG Amsterdam, Netherlands
-    
-##<center>**Where to STAY**</center>
+
+***************************************************** 
+###**Where to STAY**
 
 **Yays Concierged Boutique Hotel** – I stayed in this adorable two-story apartment with a full kitchen right on the canal, located in the Zootkeetsgracht neighborhood. While the location was a little further from some of the main attractions, the chance to live more like a local was too good to pass up. Also, a nearby bus stop was enough to get places without having to spend more.  In the evenings, they even gave us a bicycle to borrow and take around the street. Yays have several locations around the city if you want to stay closer to a certain attraction. 
 
-##<center>**DAY TRIPS**</center>
+****************************************************
+###**DAY TRIPS**
 
 ####**Brussels, Belgium**
 
@@ -155,6 +160,8 @@ A local train from **Amsterdam Centraal** will take you the station **Zaandijk-Z
 
 Located only 30 minutes from Amsterdam is the best gardens to see the tulips. The park is only open during a certain time of year, tulip season. From mid-March to late May, the Keukenhof sees millions of visitors who have come for the millions of tulips planted on the land. If you are in town during this time of year, I would highly suggest visiting. There are also several other locations around here to see the rows of tulips bicycling.   
 
+&nbsp;
+&nbsp;
 
 ##<center>**TIPS & TRICKS**</center>
 
