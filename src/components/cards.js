@@ -70,7 +70,7 @@ export default class CustomCard extends React.Component {
           <div className="aspect-ratio-box-inside d-flex flex-row">
             <div className="text-box">
             <h6 className="d-block d-lg-none m-0 p-4">{this.props.item.title}</h6>
-            <h4 className="d-none d-lg-block m-0 p-4">{this.props.item.title}</h4>
+            <h5 className="d-none d-lg-block m-0 p-4">{this.props.item.title}</h5>
             </div>
           </div>
         </div>

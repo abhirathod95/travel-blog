@@ -288,11 +288,16 @@ hr {
 	z-index: $zindex-fixed;
 }
 
-// First set of cards on home page
-
+// Cases where we don't want the row to have any padding at all
+// Used for last row, footer, cards, etc. 
 .no-marg-pad.row {
 	@extend %no-margin-padding;
 }
+
+
+// Sets the spacing to be handled by columns instead of rows
+// Allows us to scale to different window sizes when 
+// column overflows
 .no-marg-pad.row > .spaced-col {	
 	margin-bottom: 3rem;
 }
@@ -300,17 +305,28 @@ hr {
 
 // Container that holds blog post. Used to apply settings 
 // to all blog post pages.
-.blog-post{
-	@extend %no-margin-padding;
-}
 
 .blog-post > .row {
 	justify-content: center;
 }
 
-.blog-post > .row > .col-12 {
-	padding: 0;
+
+// The following two CSS configs define a
+// gray box around blockquotes in markdown.
+.blog-post blockquote {
+	display: flex;
+	color: black;
+	background-color: rgba(211,211,211,.4);
+	justify-content: center;
+	align-items: center;
 }
+
+.blog-post blockquote :first-child {
+	padding: 1rem;
+	margin: 0;
+}
+
+// Gatsby image CSS
 
 .gatsby-img-outter {
 	position:absolute !important;

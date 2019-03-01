@@ -42,7 +42,7 @@ export default class BlogPostTemplate extends React.Component {
 						</Col>
 					</Row>
 					<Row>
-						<Col xs="8">
+						<Col xs="9">
 							<div className="blog-post-content" dangerouslySetInnerHTML={{ __html: this.html }}/>
 						</Col>
 					</Row>

@@ -100,6 +100,10 @@ export default class DestinationTemplate extends React.Component {
 							{this.renderBlogPosts()}
 						</Col>
 					</Row>
+					<Row>
+						<Col>
+						</Col>
+					</Row>
 				</Container>
 			</Layout>
 		);
