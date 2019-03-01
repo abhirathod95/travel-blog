@@ -12,7 +12,7 @@ featuredImage: "../../../images/Portugal/Lisbon_16.jpg"
 
 Lisbon is a beautiful European town to visit during the winter months, especially after a long semester of studying about the gastrointestinal system and neurology and etc. Halfway through second year and only a million more to go. While the rest of Europe is experiencing the wintery cold and snow, Lisbon weather was sunny, breezy, and just perfect for exploring. Most people go to Lisbon between March to October for the warm sunny summer, but I thought visiting during December was perfect since there were fewer crowds and Christmas spirit everywhere we went. Between the colorful tiled walls and orange rooftops, the smell of salty water and fresh seafood, and the sound of musicians of all kinds wherever you go, Lisbon is simply amazing. It was exactly the kind of relaxing I needed before the new semester. 
 
-![test](../../../images/Portugal/Lisbon_4.jpg) 
+![test](../../../images/Portugal/Lisbon_20.jpg) 
 
 &nbsp;
 
@@ -22,6 +22,8 @@ Lisbon is a beautiful European town to visit during the winter months, especiall
 Praca do Commercio is the main center of the city, and one of the first places we saw. The center is facing towards the Tagus River and signifies the power Portugal once had in exploration. Ships leaving to sail all over the world used to leave from this area. The main arch, called **Arco da Rua Augusta**, does allow for vistors to enter and view Praca do Commercio from above. 
 
 ![test](../../../images/Portugal/Lisbon_7.jpg) 
+
+![test](../../../images/Portugal/Lisbon_4.jpg) 
 
 We stumbled across the **Convento do Carmo** after seeing the Elevador de Santa Justa, and I highly recommend entering. The ceiling of the convent has fallen due to an earthquake and left a direct view out to the sky. At the time of the earthquake, it was the largest church in Lisbon. The entrance fee was only **4 euros**, and we pretty much had the whole place for ourselves. 
 
@@ -88,7 +90,7 @@ If I had more than three days near the Lisbon area, I would have also seen **Cas
 *************************************************************
 ####**Where I Stayed**
 
-I stayed in an apartment with **Hello Lisbon** right on the famous **Pink Street**. While this meant I had to hear faint discotech music every night even on the fifth floor, I really felt like I was a local Portuguese living in Lisbon. We even made breakfast everyday using the fully equipped kitchen with groceries we had bought on the first day from a local store. 
+I stayed in an apartment with **Hello Lisbon** right on the famous **Pink Street**. Even though this meant I had to hear faint discotech music every night even on the fifth floor, I really felt like I was a local Portuguese living in Lisbon. We even made breakfast everyday using the fully equipped kitchen with groceries we had bought on the first day from a local store. 
 
 
 ![test](../../../images/Portugal/Lisbon_22.jpg) 

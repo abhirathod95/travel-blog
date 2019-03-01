@@ -17,51 +17,48 @@ Welcome to Marrakesh, the city of red. It's called the Red City because of the c
 &nbsp;
 
 *****************************************************************************
-#### Day 1 
+### **Day 1** 
 
-### Red Gate 
-
-![test](../../../images/Morocco/Morocco_18.jpg)
-
-### Moulay al Yazid Mosque
+#### **Moulay al Yazid Mosque**
 
 ![test](../../../images/Morocco/Morocco_17.jpg)
 
-### Koutoubia Mosque 
+#### **Koutoubia Mosque**
 
-### Souks
+#### **Souks**
 
 ![test](../../../images/Morocco/Morocco_13.jpg)
 
-### Jemaa al Fnaa
+#### **Jemaa al Fnaa**
 
 ![test](../../../images/Morocco/Morocco_24.jpg)
 
-```grid|2|
-![test](../../../images/Morocco/Morocco_11.jpg) 
-![test](../../../images/Morocco/Morocco_14.jpg) 
-```
+![test](../../../images/Morocco/Morocco_11.jpg)
 
 
 *****************************************************************************
-#### Day 2 
+### **Day 2**
 
-### Jardin Majorelle 
+#### **Red Gate**
+
+![test](../../../images/Morocco/Morocco_18.jpg)
+
+#### **Jardin Majorelle**
 
 ```grid|2|
-![test](../../../images/Morocco/Morocco_18.jpg) 
-![test](../../../images/Morocco/Morocco_18.jpg) 
+![test](../../../images/Morocco/Morocco_21.jpg) 
+![test](../../../images/Morocco/Morocco_22.jpg) 
 ```
 
-### Bahia Palace
+#### **Bahia Palace**
 
 ![test](../../../images/Morocco/Morocco_23.jpg)
 
-### Saadian Tombs
+#### **Saadian Tombs**
 
 ![test](../../../images/Morocco/Morocco_25.jpg)
 
-### Mamounia Hotel 
+#### **Mamounia Hotel**
 
 
 
