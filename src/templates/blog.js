@@ -8,10 +8,14 @@ import { graphql } from 'gatsby';
 import CardDeck from "../components/card_deck.js";
 import Layout from "../components/layout";
 import BlogHeader from "../components/blog_header.js";
+import PaginationNav from "../components/pagination.js";
 
 export default class DestinationTemplate extends React.Component {
 	constructor(props) {
 		super(props);
+
+		console.log(props)
+
 		// Check if any data was returned for the query
 		// May not be if there is no articles
 		if (this.props.data.allMarkdownRemark === undefined || this.props.data.allMarkdownRemark == null ) {
@@ -100,10 +104,13 @@ export default class DestinationTemplate extends React.Component {
 							{this.renderBlogPosts()}
 						</Col>
 					</Row>
+					
 					<Row>
 						<Col>
+							<PaginationNav numPages={this.props.pageContext.numPages} currentPage={this.props.pageContext.currentPage}/>
 						</Col>
 					</Row>
+					
 				</Container>
 			</Layout>
 		);
