@@ -105,8 +105,8 @@ export default class DestinationTemplate extends React.Component {
 						</Col>
 					</Row>
 					
-					<Row>
-						<Col>
+					<Row >
+						<Col md="11">
 							<PaginationNav numPages={this.props.pageContext.numPages} currentPage={this.props.pageContext.currentPage}/>
 						</Col>
 					</Row>

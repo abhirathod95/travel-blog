@@ -46,7 +46,7 @@ function paginate(createPage, numPages, path, blogType, graphqlFilter, headers) 
   //console.log(path)
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
-      path: i === 0 ? path + "/" : path + "/" + i,
+      path: i === 0 ? path + "/" : path + "/" + (i + 1),
       component: blogTemplate,
       context: { 
         numPages,

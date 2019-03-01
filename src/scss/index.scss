@@ -133,7 +133,7 @@ hr {
 .aspect-ratio-box-inside {
 	display: flex;
 	flex-direction: row;
-	align-items: start;
+	align-items: flex-start;
 	justify-content: stretch;
 	position: absolute;
 	width: 100%;
