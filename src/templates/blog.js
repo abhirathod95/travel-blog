@@ -106,7 +106,7 @@ export default class DestinationTemplate extends React.Component {
 					</Row>
 					
 					<Row >
-						<Col md="11">
+						<Col className="d-flex align-items-center justify-content-center">
 							<PaginationNav numPages={this.props.pageContext.numPages} currentPage={this.props.pageContext.currentPage}/>
 						</Col>
 					</Row>

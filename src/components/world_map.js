@@ -44,6 +44,8 @@ class WorldMap extends React.Component {
     // the country's got articles. Update count accordingly
     if (geography.properties.NAME in this.props.articleCount) {
       count = this.props.articleCount[geography.properties.NAME] + " Articles"
+    } else if (noBlogCountries.includes(geography.properties.NAME)) {
+      count = "Article Coming Soon!"
     }
 
     // Update state

@@ -7,6 +7,7 @@ module.exports = {
     `gatsby-plugin-catch-links`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -33,6 +34,13 @@ module.exports = {
       options: {
         path: `${__dirname}/src/blog/journal`,
         name: 'journal',
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/data/`,
+        name: 'data',
       },
     },
     {

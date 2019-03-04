@@ -16,10 +16,14 @@ import {
   faTumblr
 } from '@fortawesome/free-brands-svg-icons';
 import {
-  faEnvelope
+  fas,
+  faEnvelope,
+  faAngleLeft,
+  faAngleRight,
+  faIgloo
 } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faInstagram, faPinterest, faEnvelope, faTumblr)
+library.add(fas, faInstagram, faPinterest, faEnvelope, faTumblr, faAngleRight, faAngleLeft, faIgloo)
 
 
 export default ({ children }) => 

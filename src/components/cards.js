@@ -16,9 +16,14 @@ export default class CustomCard extends React.Component {
       <Row className="justify-content-center m-0 mb-5">
         <CustomCol md="6" lg="6" xl="4" xxl="3">
         <div className="aspect-ratio-box">
-          <Link to={this.props.item.link}>
-            <Img className="gatsby-img" position="absolute" fluid={this.props.item.fluid} alt={this.props.item.alt}/>
-          </Link> 
+          {
+            this.props.item.link ?
+            <Link to={this.props.item.link}>
+              <Img className="gatsby-img" position="absolute" fluid={this.props.item.fluid} alt={this.props.item.alt}> </Img>
+            </Link> 
+            :
+            <Img className="gatsby-img" position="absolute" fluid={this.props.item.fluid} alt={this.props.item.alt}> </Img>
+          }
         </div>
         </CustomCol>
         <Col md="6" lg="6">
@@ -40,9 +45,14 @@ export default class CustomCard extends React.Component {
     return (
       <div className="m-0 p-0">
         <div className="aspect-ratio-box">
-          <Link to={this.props.item.link}>
+          {
+            this.props.item.link ?
+            <Link to={this.props.item.link}>
+              <Img className="gatsby-img" position="absolute" fluid={this.props.item.fluid} alt={this.props.item.alt}> </Img>
+            </Link> 
+            :
             <Img className="gatsby-img" position="absolute" fluid={this.props.item.fluid} alt={this.props.item.alt}> </Img>
-          </Link> 
+          }
         </div>
         {this.props.item.date ? <div className="custom-raleway m-0 mt-2 mb-2 pl-2 pr-2 pt-1 pb-1" style={{'display':'inline-block', 'backgroundColor':'#229990'}}>{this.props.item.date} </div> : false}
         <h4 className="d-none d-lg-block m-0 mb-2 p-0"> 
@@ -66,7 +76,14 @@ export default class CustomCard extends React.Component {
     return (
       <div className="m-0 p-0">
         <div className="aspect-ratio-box">
-            <Img className="gatsby-img" position="absolute" fluid={this.props.item.fluid} alt={this.props.item.alt}/>
+          {
+            this.props.item.link ?
+            <Link to={this.props.item.link}>
+              <Img className="gatsby-img" position="absolute" fluid={this.props.item.fluid} alt={this.props.item.alt}> </Img>
+            </Link> 
+            :
+            <Img className="gatsby-img" position="absolute" fluid={this.props.item.fluid} alt={this.props.item.alt}> </Img>
+          }
           <div className="aspect-ratio-box-inside d-flex flex-row">
             <div className="text-box">
             <h6 className="d-block d-lg-none m-0 p-4">{this.props.item.title}</h6>
@@ -98,5 +115,5 @@ export default class CustomCard extends React.Component {
 }
 
 CustomCard.defaultProps = {
-  cardType: 'horizontal',  
+  cardType: 'horizontal',
 };
