@@ -17,7 +17,7 @@ const blogTemplate = path.resolve(`./src/templates/blog.js`);
 const blogPostTemplate = path.resolve(`./src/templates/blog_post.js`);
 
 // List of destinations
-const destinations = ["North America", "Europe", "Asia", "Africa", "Oceania", "South America"]
+const destinations = ["North America", "South America", "Europe", "Africa", "Asia", "Oceania"]
 
 // Categories for journal posts 
 const journalCategories = ["Travel", "Life", "Medicine"]

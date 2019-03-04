@@ -6,12 +6,11 @@ import {
 	Row, 
 	Col,
 } from 'reactstrap';
-import Banner from '../components/banner.js';
 import WorldMap from '../components/world_map.js';
 import HomeCarousel from '../components/carousel.js';
 import CardDeck from  '../components/card_deck.js';
-
-const CustomCol = (props) => <Col widths={['xs', 'sm', 'md', 'lg', 'xl', 'xxl']} {...props} />;
+import CustomCard from '../components/cards.js';
+import Gallery from '../components/gallery.js';
 
 
 export default class IndexPage extends React.Component {
@@ -19,6 +18,7 @@ export default class IndexPage extends React.Component {
 		super(props);
 		
 		let data = this.props.data;
+		console.log(data)
 
 		this.carouselItems = data.allMarkdownRemark.edges.map((item, index) => {
 			return ({
@@ -47,6 +47,17 @@ export default class IndexPage extends React.Component {
 		data.worldMap.groupByCountry.forEach((country) => {
 			this.mapCountData[country.fieldValue] = country.totalCount
 		});
+
+
+
+	  	this.bucketListItems = data.bucketList.edges.map((item, index) => (
+			{
+				'title': item.node.title,
+				'fluid': item.node.image.childImageSharp.fluid,
+				'alt': item.node.title,
+				"link": item.node.link ? item.node.link : null,
+			}
+		));
 
 	}
 
@@ -90,6 +101,20 @@ export default class IndexPage extends React.Component {
 			    			<WorldMap articleCount={this.mapCountData}/>	
 			  			</Col>
 					</Row>
+					<Row className="justify-content-center p-0 m-0 mb-5 p-5" style={{'backgroundColor':'#000000'}}>
+			  			<Col>
+			    			<h1 className="text-center m-0 p-0" style={{'color':'white'}}> Bucket List Experiences </h1>
+			  			</Col>
+					</Row>
+					<Row>
+			  			<Col>
+			  				<Gallery items={this.bucketListItems.map((item, i) => (
+							        <div key={i} className="bucket-list-gallery" > <CustomCard cardType="vertical" item={item}/></div>
+						      	))}
+		  					/>
+			  			</Col>
+					</Row>
+
 					{/*
 					<Row className="p-0 m-0 mb-5">
 			  			<Col>
@@ -160,4 +185,25 @@ export const query = graphql`
 			  }
 			}
 		}
+		bucketList: allBucketListJson {
+		    edges {
+				node {
+					title
+					link
+					image {
+				        childImageSharp {
+				          fluid(maxWidth: 2060) {
+		                    base64
+		                    aspectRatio
+		                    src
+		                    srcSet
+		                    sizes
+		                    originalImg
+		                    originalName
+				          }
+				        }
+					}
+				}
+		    }
+	  	}
   	}`

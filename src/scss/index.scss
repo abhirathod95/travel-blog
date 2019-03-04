@@ -372,6 +372,21 @@ hr {
 	background-color: rgba(245,245,245, .9);
 }
 
+// Home/Index page alice carousel
+.index-container .slick-slide h4{
+	text-align: center;
+}
+
+.index-container .bucket-list-gallery {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.index-container .slide-div {
+	display: flex;
+	align-items: center;
+}
+
 @import "bootstrap/bootstrap";
 
 // Override margin/padding set by bootstrap

@@ -18,9 +18,9 @@ export default class Footer extends React.Component {
       <div className="footer">
         <Container fluid>
           <Row>
-            <Col> 
-                Test
-              </Col>
+            <Col className="d-flex align-items-center justify-content-center"> 
+                Copyrighted
+            </Col>
           </Row>
         </Container>
       </div>
