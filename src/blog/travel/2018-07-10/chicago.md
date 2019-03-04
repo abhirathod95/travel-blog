@@ -122,9 +122,8 @@ Buy tickets in advance online; they sold out pretty quickly for every show on th
 ```grid |2|
 ![test](../../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_09.jpg)
 ![test](../../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_10.jpg)
-![test](../../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_12.jpg)
-![test](../../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_15.jpg)
 ```
+![test](../../../images/United&#32;States&#32;of&#32;America/Illinois/Chicago_15.jpg)
 
 This tour is one of those classic must dos while in Chicago for the first time. We quickly grabbed some breakfast to go from Argo Tea Café close to the meet point on Michigan Ave at the DuSable bridge. The tour group we went with was **Shoreline Sightseeing**, and our tour guide was hilarious! More importantly, he was really informative about the history of Chicago and how it got its name as the Second City and as the Windy City. You can expect to be on board for 1 hour and 3o minutes for the whole tour from boarding to getting off.
 

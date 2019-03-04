@@ -10,7 +10,7 @@ city: ["London"]
 featuredImage: "../../../images/UK/London/London_0.jpg"
 ---
 
-After getting over the fact I was actually going to LONDON, I planned for long days of exploring as much as possible in the 4 days (more like 3 and a half days) I was there. Short trip but this definitely won't be my last visit. 
+After getting over the fact I was actually going to LONDON, I planned for long days of exploring as much as possible in the 4 days (more like 3 and a half days) I was there. If there's one thing to be prepared for when visiting London in August is the loads of tourists you will see everywhere. There is still so much I want to do in London, so I know I will have to visit again. 
 
 &nbsp;
 
@@ -19,23 +19,22 @@ After getting over the fact I was actually going to LONDON, I planned for long d
 
 ![test](../../../images/UK/London/London_1.jpg)
 
-#### **Landing in London Heathrow**
-
-Heathrow is one of the largest airports in the world. Be sure to appreciate the modern amenities and
-
-#### **Find your way to the hotel**
+#### **Find your way to the hotel from Heathrow Airport**
 
 Figuring out transportation to your hotel and throughout your trip is important before arriving to London. I suggest getting the **Oyster card** and taking advantage of the extensive metro and bus system that ties the whole city together. 
 
 #### **First Glimpse at Trafalgar Square**
 ![test](../../../images/UK/London/London_11.jpg)
 
-Stretch out your legs at Trafalgar Square after that long flight if you flew like me from the US. Just sitting in Trafalgar square
+Stretch out your legs at Trafalgar Square after that long flight if you flew like me from the US. Just sitting in the square is a great place for people watching, and there are several restaurants to visit for dinner nearby.
 
 #### **Sunset on the London Eye**
 ![test](../../../images/UK/London/London_3.jpg)
 
-Walking from Trafalgar Square to the London eye takes about 20-30 minutes. On the way you can stop to see the 
+Walking from Trafalgar Square to the London eye takes about 20-30 minutes. On the way you can stop to see the Thames River while walking across the bridge towards the Eye. We ran into some street performers with a large crowd gathered around them to watch them pull off some crazy stunts before our specified time for the ride. We made sure to buy our tickets online to get a discount and get the specific time we wanted. 
+
+**Visit|** https://www.londoneye.com/
+**Tickets|** approx. 25 euros or more depending on which deal you choose
 
 &nbsp;
 
@@ -47,6 +46,8 @@ I normally don't like to book day trips with a tour guide in a bus, but it seeme
 #### **Windsor**
 ![test](../../../images/UK/London/London_4.jpg)
 
+
+
 #### **Stonehenge**
 ![test](../../../images/UK/London/London_5.jpg)
 
@@ -55,7 +56,7 @@ Definitely a bucket list item for me to visit Stonehenge. The story behind these
 #### **Oxford**
 ![test](../../../images/UK/London/London_6.jpg)
 
-Oxford is known as the city of dreaming spires where all the architecture seems to have you always looking up at the spires trying to reach the sky. 
+Oxford is known as the city of dreaming spires where all the architecture seems to have you always looking up at the spires trying to reach the sky. There are several important Harry Potter filming sites in Oxford such as the Great Hall and the infirmary.
 
 &nbsp;
 
@@ -66,8 +67,6 @@ We bought a ticket for the Hop On Hop Off Red bus to have easy access to all the
 
 #### **Buckingham Palace**
 ![test](../../../images/UK/London/London_12.jpg)
-
-We were able to see Buckingham Palace on our first day from the London Eye, but now we had the chance to see it up close. 
 
 #### **Westminster Abbey**
 ![test](../../../images/UK/London/London_7.jpg)
@@ -80,6 +79,8 @@ We were able to see Buckingham Palace on our first day from the London Eye, but 
 
 #### **Tower Bridge**
 ![test](../../../images/UK/London/London_13.jpg)
+
+#### **Harrods**
 
 #### **Piccadilly Circus**
 ![test](../../../images/UK/London/London_10.jpg)
