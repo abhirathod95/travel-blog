@@ -24,6 +24,8 @@ I landed on Monday afternoon, and flew out Friday noon, which gave me about four
 ********************************************
 ###**What to SEE & DO**
 
+&nbsp;
+
 ####**Anne Frank Haus**
 
 ![test](../../../images/Netherlands/Amsterdam_22.jpg)
@@ -139,6 +141,8 @@ If you love all things chocolate, then this one’s for you.
 ***************************************************** 
 ###**Where to STAY**
 
+&nbsp;
+
 **Yays Concierged Boutique Hotel** – I stayed in this adorable two-story apartment with a full kitchen right on the canal, located in the Zootkeetsgracht neighborhood. While the location was a little further from some of the main attractions, the chance to live more like a local was too good to pass up. Also, a nearby bus stop was enough to get places without having to spend more.  In the evenings, they even gave us a bicycle to borrow and take around the street. Yays have several locations around the city if you want to stay closer to a certain attraction.
 
 ![test](../../../images/Netherlands/Amsterdam_1.jpg) 
@@ -147,6 +151,8 @@ If you love all things chocolate, then this one’s for you.
 
 ****************************************************
 ###**DAY TRIPS**
+
+&nbsp;
 
 ####**Brussels, Belgium**
 

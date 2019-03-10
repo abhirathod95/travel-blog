@@ -18,7 +18,7 @@ Our 10-day trip required lots of long hours of driving and many early mornings, 
 
 All the photos in my article are taken with the iPhone 7.
 
-**PRO TIP**: Buy the National Parks Pass for $80 to cover the entrance of one car at all parks for a year. Normal entrance fee is $30 per car at each park. 
+**PRO TIP**: Buy the **National Parks Pass** for $80 to cover the entrance of one car at all parks for a year. Normal entrance fee is $30 per car at each park. 
 
 #### **Stop 1: White Sands, New Mexico**
 
@@ -40,11 +40,11 @@ Not a scheduled stop, but somewhere we just decided to stop and rest. Like the t
 
 Driving up from White Sands through Flagstaff, we finally reached our hotel in Williams, 30 minutes from the Grand Canyon South Rim. 6 AM, bright and early, we packed our hiking gear and got ready for our first serious hike half way down into the canyon on the **South Kaibab Trail**. With few people there so early, we were able to get decent parking spots. Funniest sight to see before heading in was deer drinking from the water taps used to fill up your water bottles. Maybe disgusting for later hikers planning to fill up, not knowing that there’s deer saliva all over the faucet but amusing to observe for sure. 
 
-Getting in early was critical for hiking because summer time can get really hot really fast. The South Kaibab trail is one of the trails that can take you all the way down to the canyon floor.  As soon as you start down the trail, the view of the canyon is so different than from up top. The Ooh Ahh Point was a 20-minute hike from the top to reach, which is a popular point for most people to turn back from, but we forged on. We didn’t have the time to go all the way down, and only made it about 1/3 of the way down before wanting to get out of the heat. Unfortunately, shade is a rare commodity, and the way back up is a long, steep incline. I made the mistake of intaking too much water without enough salt and ended up having to swallow an electrolyte tablet whole in order to feel better. The risk for a heat stroke is real. Don’t ignore the warning signs. 
+Getting in early was critical for hiking because summer time can get really hot really fast. The **South Kaibab trail** is one of the trails that can take you all the way down to the canyon floor.  As soon as you start down the trail, the view of the canyon is so different than from up top. The **Ooh Ahh Point** was a 20-minute hike from the top to reach, which is a popular point for most people to turn back from, but we forged on. We didn’t have the time to go all the way down, and only made it about 1/3 of the way down before wanting to get out of the heat. Unfortunately, shade is a rare commodity, and the way back up is a long, steep incline. I made the mistake of intaking too much water without enough salt and ended up having to swallow an electrolyte tablet whole in order to feel better. The risk for a heat stroke is real. Don’t ignore the warning signs. 
 
 After a quick, overpriced lunch at the small café in the park, we were rested enough to do a much easier walk along the **Rim Trail**. Talk about a piece of cake after the South Kaibab trail. However, the views were still just as stunning without requiring so much exertion. That sounds like a great deal to me! 
 
-The next morning, we had planned to head back in for a short hike. But plans always change, and we just rolled with it. Our first day of hiking left us more tired than we had anticipated (especially after all the driving we did), so we slept in and checked out at 11 PM. 
+The next morning, we had planned to head back in for a short hike. But plans always change, and we just rolled with it. Our first day of hiking left us more tired than we had anticipated (especially after all the driving we did), so we slept in and checked out at 11 AM. 
 
 #### **Stop 5: Hoover Dam**
 
@@ -70,7 +70,7 @@ Our next stop required leaving super early in the morning in order to secure a c
 ![test](../../../images/United&#32;States&#32;of&#32;America/Southwest_1/6.jpg) 
 ```
 
-Honestly, Zion was the highlight of our trip. Camping for two days in the South Campground under the Watchman, hiking the **Narrows**, surviving **Angel’s Landing**, cooling off in a brook branching off the Virgin River are my fondest memories from the trip. The Narrows was a wonderful trek to make to get out of the hot sun. Luckily, the day we were there, there wasn’t a possibility for flash flooding to worry about. We hiked 3 hours in the river before making the decision to turn back around because we were getting too cold! It made getting back into the sun feel so wonderful for once. 
+Honestly, Zion was the highlight of our trip. Camping for two days in the South Campground under the Watchman, hiking the **Narrows**, surviving **Angel’s Landing**, cooling off in a brook branching off the Virgin River are my fondest memories from the trip. The Narrows was a wonderful trek to make to get out of the hot sun. Luckily, the day we were there, there wasn’t a possibility for flash flooding to worry about, but it's always important to check before doing the hike. We hiked 3 hours in the river before making the decision to turn back around because we were getting too cold! It made getting back into the sun feel so wonderful for once. 
 
 ![test](../../../images/United&#32;States&#32;of&#32;America/Southwest_1/7.jpg) 
 

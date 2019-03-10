@@ -90,6 +90,8 @@ export default class DestinationTemplate extends React.Component {
 		return finalPosts;
 	}
 
+
+	// TODO: Remove Pagination bar if there is only one page
 	render() {
 		return (
 			<Layout>

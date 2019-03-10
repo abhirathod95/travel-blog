@@ -96,6 +96,9 @@ export default class PaginationNav extends React.Component {
 
   }
 
+
+  // TODO: Fix the URLs for the pagination so that it directs to the correct blog type. For example, clicking the numbers in the pagination
+  // in the NA page leads back to destinations.
   render() {
 
     return (

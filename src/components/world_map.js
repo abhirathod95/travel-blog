@@ -20,7 +20,7 @@ const maxStep = 8
 //const colorScale = chroma.scale(["#3A6186", "#89253E"]).domain([1, maxStep]).mode('lab')
 const colorScale = chroma.scale(["#D3CD17", "#8DC05D", "#1369FB"]).domain([1, maxStep])
 
-const noBlogCountries = ["France", "India", "Italy", "Canada", "Switzerland","Australia","New Zealand","United Arab Emirates"]
+const noBlogCountries = ["France", "India", "Italy", "Canada", "Switzerland","New Zealand","United Arab Emirates"]
 //const BlogCountries = ["United States of America", "Netherlands", "Portugal", "Turkey", "Morocco", "Mexico","Spain","Australia", "New Zealand"]
 
 class WorldMap extends React.Component {

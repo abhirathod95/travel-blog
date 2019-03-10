@@ -1,5 +1,5 @@
 ---
-title: "A Weekend in Lisbon"
+title: "Weekend in Lisbon"
 date: "2019-01-08"
 path: "/blog/weekend-in-lisbon"
 excerpt: "Lisbon is a beautiful European town to visit during the winter months, especially after a long semester of studying about the gastrointestinal system and neurology. Halfway through second year..."
@@ -50,7 +50,7 @@ This had to be my favorite day because we ended the day eating the famous **Past
 ```
 ![test](../../../images/Portugal/Lisbon_17.jpg) 
 
-The **Belem Tower** has to be the most famous structure near Lisbon, and it's easy to see why. The retired watch tower is striking sitting in the water at any time of day. Situated just less than a mile away is the **Monument of Discoveries,** also called Padrao dos Descobrientos, with Henry the Navigator at the forefront. Somehow, I had forgotten until I saw the Monument all about how Portugal had once been such a powerful world player. 
+The **Belem Tower** has to be the most famous structure near Lisbon, and it's easy to see why. The retired watch tower is striking sitting in the water at any time of day. Situated just less than a mile away is the **Monument of Discoveries,** also called Padrao dos Descobrientos, with Henry the Navigator at the forefront. Somehow, I had forgotten until I saw the Monument all about how Portugal had once been such a powerful world player. It's possible to enter inside both of these structures for a small price, but I chose to just admire it from outside.
 
 ```grid|2|
 ![test](../../../images/Portugal/Lisbon_10.jpg) 
@@ -62,7 +62,7 @@ The **Belem Tower** has to be the most famous structure near Lisbon, and it's ea
 
 ![test](../../../images/Portugal/Lisbon_8.jpg) 
 
-**Time Out Market** is a great place to eat. The market can seem a bit touristy, but the food is actually really good. The moment you enter, the busy atmosphere and smell of good food is enough to make you eager to eat. One of the benefit of eating here is that you're not restricted to one kind of cuisine and are able to pick and choose what dishes you would like from more than fifteen restaurants. The **codfish** is known to be one of the most famous dishes in Portugal, and a cab driver told us they even have a cookbook titled "1000 ways to cook Codfish." The Time Out Market is a great place to try some of the different ways the Portuguese cook codfish. I loved the codfish and cream a lot!
+**Time Out Market** is a great place to eat. The market can seem a bit touristy, but the food is actually really good. The moment you enter, the busy atmosphere and smell of good food is enough to make you eager to eat. One of the benefit of eating here is that you're not restricted to one kind of cuisine and are able to pick and choose what dishes you would like from more than fifteen restaurants. The **codfish** is known to be one of the most famous dishes in Portugal, and a cab driver told us they even have a cookbook titled "1000 ways to cook Codfish." The Time Out Market is a great place to try some of the different ways the Portuguese cook codfish. I loved the codfish and cream a lot! I would suggest finding seats first before standing in line for food because of how busy the place is; you might have to look around for a few minutes. 
 
 ![test](../../../images/Portugal/Lisbon_9.jpg) 
 
@@ -95,7 +95,7 @@ I stayed in an apartment with **Hello Lisbon** right on the famous **Pink Street
 
 ![test](../../../images/Portugal/Lisbon_22.jpg) 
 
-The location of the apartment was also ideal for sightseeing with many of the important spots within walking range, such as Praca do Commercio, Time Out Market, and Elevador Santa Justa! 
+The location of the apartment was also ideal for sightseeing with many of the important spots within walking range, such as Praca do Commercio, Time Out Market, and Elevador Santa Justa.
 
 &nbsp;
 
