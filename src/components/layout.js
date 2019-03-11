@@ -3,10 +3,10 @@ import {
   graphql,
   StaticQuery
 } from 'gatsby';
-import Helmet from 'react-helmet';
 import Header from '../components/header';
 import HeaderLeft from '../components/side_header.js';
-import Footer from '../components/footer.js'
+import Footer from '../components/footer.js';
+import SEO from '../components/seo.js';
 import '../scss/index.scss';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -39,8 +39,8 @@ export default ({ children }) =>
     `}
     render={data => (
       <div>
-        <Helmet titleTemplate={`%s | ${data.site.siteMetadata.title}`} defaultTitle={data.site.siteMetadata.title} />
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <SEO/>
+        <Header title={data.site.siteMetadata.title} />
         <HeaderLeft />
         <div>
           {children}

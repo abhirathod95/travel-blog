@@ -50,12 +50,13 @@ function paginate(createPage, numPages, path, blogType, graphqlFilter, headers) 
       component: blogTemplate,
       context: { 
         numPages,
+        blogType,
+        headers,
+        basePath: path,
         filter: graphqlFilter,
         limit:postsPerPage,
         skip: i * postsPerPage,
         currentPage: i + 1,
-        blogType: blogType,
-        headers: headers,
       }
     });
   });
@@ -144,8 +145,8 @@ exports.createPages = ({ actions, graphql }) => {
     }
   `).then(result => {
     if (result.errors) {
-      //console.log("Bad result!!!");
-      //console.log(result.errors);
+      console.log("Bad result!!!");
+      console.log(result.errors);
       return;
     }
 

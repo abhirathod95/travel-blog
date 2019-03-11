@@ -89,9 +89,7 @@ export default class DestinationTemplate extends React.Component {
 
 		return finalPosts;
 	}
-
-
-	// TODO: Remove Pagination bar if there is only one page
+	
 	render() {
 		return (
 			<Layout>
@@ -106,13 +104,13 @@ export default class DestinationTemplate extends React.Component {
 							{this.renderBlogPosts()}
 						</Col>
 					</Row>
-					
-					<Row >
-						<Col className="d-flex align-items-center justify-content-center">
-							<PaginationNav numPages={this.props.pageContext.numPages} currentPage={this.props.pageContext.currentPage}/>
-						</Col>
-					</Row>
-					
+					{this.posts &&
+						<Row >
+							<Col className="d-flex align-items-center justify-content-center">
+								<PaginationNav basePath={"/" + this.props.pageContext.basePath} numPages={this.props.pageContext.numPages} currentPage={this.props.pageContext.currentPage}/>
+							</Col>
+						</Row>
+					}
 				</Container>
 			</Layout>
 		);

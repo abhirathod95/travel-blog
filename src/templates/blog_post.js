@@ -14,6 +14,7 @@ export default class BlogPostTemplate extends React.Component {
 	constructor(props) {
 		super(props);
 		
+		this.tableOfContents = props.data.markdownRemark.tableOfContents;
 		this.frontmatter = props.data.markdownRemark.frontmatter;
 		this.html = props.data.markdownRemark.html;
 
@@ -56,8 +57,12 @@ export default class BlogPostTemplate extends React.Component {
 export const query = graphql`
 query getArticleById ($id:String!) {
 	markdownRemark(id: {eq: $id}) {
-	id
-    html
+		id
+    	html
+        tableOfContents(
+          pathToSlugField: "frontmatter.path"
+          maxDepth: 2
+        )
 		frontmatter {
 			title,
 			date(formatString: "MMMM DD, YYYY"),
