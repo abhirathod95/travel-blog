@@ -26,7 +26,7 @@ import {
 library.add(fas, faInstagram, faPinterest, faEnvelope, faTumblr, faAngleRight, faAngleLeft, faIgloo)
 
 
-export default ({ children }) => 
+export default ({children }) => 
   <StaticQuery
     query={graphql`
       query LayoutQuery {
@@ -40,12 +40,12 @@ export default ({ children }) =>
     render={data => (
       <div>
         <SEO/>
-        <Header title={data.site.siteMetadata.title} />
+        <Header/>
         <HeaderLeft />
         <div>
           {children}
         </div>
-        <Footer />
+        <Footer/>
       </div>
     )}
   />

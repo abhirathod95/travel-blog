@@ -118,7 +118,7 @@ export default class DestinationTemplate extends React.Component {
 }
 
 export const query = graphql`
-    query allArticles($skip: Int!, $limit: Int!, $filter: filterMarkdownRemark){
+    query allArticles($skip: Int!, $limit: Int!, $filter: MarkdownRemarkFilterInput){
       allMarkdownRemark(
         filter: $filter
         sort: { order: DESC, fields: [frontmatter___date] }

@@ -3,6 +3,20 @@ module.exports = {
     title: `Where to next, doc?`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: 'Where to Next, Doc?',
+        short_name: 'WTN Doc',
+        start_url: "/",
+        background_color: "#ffffff",
+        theme_color: "#000000",
+        display: "standalone",
+        icon: "src/images/favicon.png",
+        include_favicon: true,
+      },
+    },
+    `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-catch-links`,
     `gatsby-transformer-sharp`,
