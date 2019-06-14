@@ -27,9 +27,13 @@ Praca do Commercio is the main center of the city, and one of the first places w
 
 We stumbled across the **Convento do Carmo** after seeing the Elevador de Santa Justa, and I highly recommend entering. The ceiling of the convent has fallen due to an earthquake and left a direct view out to the sky. At the time of the earthquake, it was the largest church in Lisbon. The entrance fee was only **4 euros**, and we pretty much had the whole place for ourselves. 
 
+>  Take your student ID if you are still in school. I was able to get into several places such as the Convento do Carmo and Jeronimos Monestery at discounted prices. 
+
 ![test](../../../images/Portugal/Lisbon_2.jpg) 
 
 If you ever come across a sign pointing towards a Miradouro in the **Alfama district**, take the time to follow it. The path usually will lead to an impressive lookout of the hilly city. My favorite was **Miradoura de Santa Luzia** right at sunset. A band was playing jazz music to fill the air as the sun reflected rays off of the orange rooftops so characteristic of Lisbon. The moment was just so classic of a European vacation. Nearby, there's a well known wine spot called Porto do Sol which is great place to order a bottle and watch the sun set. There's also a famous drink called **ginza** sold all over the Alfama district to try! 
+
+> Best place to get a picture of the yellow Tram 28 is right near Miradoura de Santa Luzia!
 
 Dining at any of the small restaurants at every corner of Alfama district is never a bad idea. On certain nights, you'll even be able to hear the music, **fado,** without having to pay for a very touristy show. Fado is supposed to have a very melancholic tone and used to have lyrics filled with lines of longing and sad stories.  
 
@@ -59,6 +63,8 @@ The **Belem Tower** has to be the most famous structure near Lisbon, and it's ea
 ```
 
 **Rossio Square** was the centerpoint that we passed through several times while walking, but also a great place to do some souvenir shopping, grap a meal, and take a break from exploring. During the night, a small Christmas market was even set up offering much needed hot wine and roasted chestnuts. Walking down the streets from Rossio Square, there were Christmas light decorations everywhere, and even school children singing carols. 
+
+> If you're wondering what souvenirs to take home, I would recommend colorful tiles or the famous packaged salted sardines. 
 
 ![test](../../../images/Portugal/Lisbon_8.jpg) 
 
@@ -97,18 +103,7 @@ I stayed in an apartment with **Hello Lisbon** right on the famous **Pink Street
 
 The location of the apartment was also ideal for sightseeing with many of the important spots within walking range, such as Praca do Commercio, Time Out Market, and Elevador Santa Justa.
 
-&nbsp;
-
-####<center>**Tips & Tricks**</center>
-
-- If you're wondering what souvenirs to take home, I would recommend colorful tiles or the famous packaged **salted sardines**. 
-
-- Best place to get a picture of the yellow **Tram 28** or to even ride it back to Praca do Commericio is right near Miradoura de Santa Luzia!
-
-- If you're too tired to walk, take a **tuk tuk** to your next destination. 
-
-- Take your student ID if you are still in school. I was able to get into several places such as the Convento do Carmo and Jeronimos Monestery at discounted prices. 
-
+>  If you're too tired to walk, take a tuk tuk to your next destination. 
 
 
 

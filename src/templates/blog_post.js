@@ -59,10 +59,6 @@ query getArticleById ($id:String!) {
 	markdownRemark(id: {eq: $id}) {
 		id
     	html
-        tableOfContents(
-          pathToSlugField: "frontmatter.path"
-          maxDepth: 2
-        )
 		frontmatter {
 			title,
 			date(formatString: "MMMM DD, YYYY"),

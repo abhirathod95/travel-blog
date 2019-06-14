@@ -134,8 +134,14 @@ I enjoyed Madame Tussaud's, posing with all the famous actors, singers, athletes
 
 There are so many great museums to visit in London, that it can be hard to pick. However, if there is only one museum you can visit, I highly recommend visiting the Natural History Museum. It's exactly the kind of old, historic, antique building decor and design that makes you feel like you're in class at Hogwarts. 
 
+**Tickets|** </br>
+**Times|**
+
 #### **National Gallery**
 
 ![test](../../../images/UK/London/London_11.jpg)
+
+**Tickets|** </br>
+**Times|**
 
 

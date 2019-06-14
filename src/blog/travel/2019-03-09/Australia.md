@@ -1,13 +1,13 @@
 ---
-title: "10 Coolest Things to Do In Australia"
+title: "10 Best Things to Do In Sydney & Melbourne"
 date: "2016-12-29"
-path: "/blog/10-coolest-things-to-do-in-australia"
+path: "/blog/10-best-things-to-do-in-sydney-&-melbourne"
 excerpt: "..."
 tags: ["List", "Winter", "Family Trip"]
 continent: ["Oceania"]
 country: ["Australia"]
 city: [""]
-featuredImage: "../../../images/Australia/Australia_1.jpg"
+featuredImage: "../../../images/Australia/Australia_5.jpg"
 ---
 
 ![test](../../../images/Australia/Australia_2.jpg)
@@ -16,7 +16,7 @@ featuredImage: "../../../images/Australia/Australia_1.jpg"
 
 ![test](../../../images/Australia/Australia_4.jpg)
 
-![test](../../../images/Australia/Australia_5.jpg)
+![test](../../../images/Australia/Australia_1.jpg)
 
 ![test](../../../images/Australia/Australia_6.jpg)
 
