@@ -8,12 +8,13 @@ import {
 } from 'reactstrap';
 import { graphql } from 'gatsby';
 import Banner from '../components/banner.js';
+import SEO from '../components/seo.js';
 
 export default class BlogPostTemplate extends React.Component {
 
 	constructor(props) {
 		super(props);
-		
+
 		this.tableOfContents = props.data.markdownRemark.tableOfContents;
 		this.frontmatter = props.data.markdownRemark.frontmatter;
 		this.html = props.data.markdownRemark.html;
@@ -31,7 +32,7 @@ export default class BlogPostTemplate extends React.Component {
 
 		return (
 			<Layout>
-				<Helmet title={this.frontmatter.title} />
+        		<SEO url={this.props.location.href} description={this.frontmatter.excerpt} image={this.props.location.origin + this.frontmatter.featuredImage.childImageSharp.fluid.src} keywords={this.frontmatter.tags} title={this.frontmatter.title} type="article" date={new Date(this.frontmatter.date).toISOString()} category={this.frontmatter.continent[0] || this.frontmatter.category[0]}/>
 				<Container fluid className="blog-post">
 					<Row>
 						<Banner showTextBox={false} width="100%" height="50vh" item={{'fluid':this.frontmatter.featuredImage.childImageSharp.fluid, 'subHeading':'Better Ways To','heading':bannerTitle, 'buttonText':'Read More', 'link':'/'}}/>
