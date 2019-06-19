@@ -21,7 +21,7 @@ export default class SEO extends React.Component {
     }
 
     // TODO: Figure out if I need to add anymore tags
-
+    // TODO: Add SEO component and validate on all other pages
     render() {
 
         let metadata = [
