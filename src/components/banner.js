@@ -1,10 +1,10 @@
 import React from 'react';
 import {Link} from 'gatsby';
-import { 
+import {
 	Button,
-	Container, 
-	Row, 
-	Col 
+	Container,
+	Row,
+	Col
 } from 'reactstrap';
 
 import Img from "gatsby-image";
@@ -33,11 +33,15 @@ export default class Banner extends React.Component {
 								<h1 className="text-center display-4 custom-raleway">{this.props.item.heading}</h1>
 							</Col>
 						</Row>
-						<Row>
-							<Col className="text-center">
-		    					<Button outline color="dark" size="lg" tag={Link} to={this.props.item.link}>{this.props.item.buttonText}</Button>
-							</Col>
-						</Row>
+						{this.props.item.buttonText ?
+							<Row>
+								<Col className="text-center">
+			    					<Button outline color="dark" size="lg" tag={Link} to={this.props.item.link}>{this.props.item.buttonText}</Button>
+								</Col>
+							</Row>
+							:
+							true
+						}
 					</div>
 			</Container>
 	)

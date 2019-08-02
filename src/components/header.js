@@ -17,10 +17,10 @@ import Logo from '../images/logo.png'
 const navbarItemsLeft = [
   {"name" : "aboutMe", "path" : "/about_me", "visibleName": "ABOUT ME"},  ]
 
-const navbarItemsRight = [
-  {"name" : "journal", "path" : "/journal", "visibleName": "JOURNAL"},
-  {"name" : "photography", "path" : "/photography", "visibleName": "PHOTOGRAPHY"}
-  ]
+//const navbarItemsRight = [
+//  {"name" : "journal", "path" : "/journal", "visibleName": "JOURNAL"},
+//  {"name" : "photography", "path" : "/photography", "visibleName": "PHOTOGRAPHY"}
+//  ]
 
 const dropdownItems = [
   {"name" : "northAmerica", "path" : "/destinations/north-america", "visibleName": "North America"},
@@ -81,10 +81,12 @@ export default class Header extends React.Component {
                   navbarItemsLeft.map((item) => {
                     return (
                         <NavLink key={item.name} to={item.path} tag={Link}> {item.visibleName} </NavLink>
-
                     )
                   })
                 }
+              </Nav>
+              <NavbarBrand className="d-none d-lg-block" tag={Link} to="/"><img src={Logo} width="350" height="auto" alt=""/></NavbarBrand>
+              <Nav navbar className="align-items-center justify-content-center">
                 <Dropdown size="sm" nav inNavbar onMouseOver={this.onMouseEnter} onMouseLeave={this.onMouseLeave} isOpen={this.state.dropdownOpen} toggle={this.toggleDropDown} className="align-items-center justify-content-center">
                   <DropdownToggle nav to={"/destinations"} tag={Link}> DESTINATIONS </DropdownToggle>
                   <DropdownMenu>
@@ -97,17 +99,14 @@ export default class Header extends React.Component {
                     }
                   </DropdownMenu>
                 </Dropdown>
-              </Nav>
-              <NavbarBrand className="d-none d-lg-block" tag={Link} to="/"><img src={Logo} width="350" height="auto" alt=""/></NavbarBrand>
-              <Nav navbar className="align-items-center justify-content-center">
-                {
+
+                {/*
                   navbarItemsRight.map((item) => {
                     return (
                         <NavLink key={item.name} to={item.path} tag={Link}> {item.visibleName} </NavLink>
-
                     )
                   })
-                }
+                */}
               </Nav>
             </Collapse>
           </div>

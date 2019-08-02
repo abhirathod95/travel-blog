@@ -20,7 +20,7 @@ function NextArrow(props) {
 class Gallery extends React.Component {
 
   render() {
-    
+
     var settings = {
       dots: true,
       infinite: true,
@@ -72,8 +72,6 @@ class Gallery extends React.Component {
         }
       ]
     };
-
-    console.log(this.props.items)
 
     return (
       <Slider {...settings}>

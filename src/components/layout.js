@@ -6,7 +6,6 @@ import {
 import Header from '../components/header';
 import HeaderLeft from '../components/side_header.js';
 import Footer from '../components/footer.js';
-import SEO from '../components/seo.js';
 import '../scss/index.scss';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -26,7 +25,7 @@ import {
 library.add(fas, faInstagram, faPinterest, faEnvelope, faTumblr, faAngleRight, faAngleLeft, faIgloo)
 
 
-export default ({children }) => 
+export default ({children }) =>
   <StaticQuery
     query={graphql`
       query LayoutQuery {
@@ -39,7 +38,6 @@ export default ({children }) =>
     `}
     render={data => (
       <div>
-        <SEO/>
         <Header/>
         <HeaderLeft />
         <div>

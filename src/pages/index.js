@@ -1,9 +1,9 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from "../components/layout";
-import { 
-	Container, 
-	Row, 
+import {
+	Container,
+	Row,
 	Col,
 } from 'reactstrap';
 import WorldMap from '../components/world_map.js';
@@ -11,21 +11,21 @@ import HomeCarousel from '../components/carousel.js';
 import CardDeck from  '../components/card_deck.js';
 import CustomCard from '../components/cards.js';
 import Gallery from '../components/gallery.js';
-
+import SEO from '../components/seo.js';
 
 export default class IndexPage extends React.Component {
 	constructor(props) {
 		super(props);
-		
+
 		let data = this.props.data;
 
 		this.carouselItems = data.allMarkdownRemark.edges.map((item, index) => {
 			return ({
-				key: index, 
-				fluid: item.node.frontmatter.featuredImage.childImageSharp.fluid, 
-				alt: item.node.frontmatter.title, 
-				heading: item.node.frontmatter.title, 
-				link: item.node.frontmatter.path, 
+				key: index,
+				fluid: item.node.frontmatter.featuredImage.childImageSharp.fluid,
+				alt: item.node.frontmatter.title,
+				heading: item.node.frontmatter.title,
+				link: item.node.frontmatter.path,
 				subHeading: 'Explore', buttonText: 'Read More'
 			})
 		});
@@ -43,13 +43,12 @@ export default class IndexPage extends React.Component {
 		]
 
 		this.mapCountData = []
+
 		data.worldMap.groupByCountry.forEach((country) => {
 			this.mapCountData[country.fieldValue] = country.totalCount
 		});
 
-
-
-	  	this.bucketListItems = data.bucketList.edges.map((item, index) => (
+  	this.bucketListItems = data.bucketList.edges.map((item, index) => (
 			{
 				'title': item.node.title,
 				'fluid': item.node.image.childImageSharp.fluid,
@@ -58,14 +57,26 @@ export default class IndexPage extends React.Component {
 			}
 		));
 
+		this.seo = {
+			"title": "Home",
+			"description": "Description",
+			"image": this.props.location.origin + this.carouselItems[0].fluid.src,
+			"type": "website",
+			"date": new Date().toISOString(),
+			"category": "Home",
+			"keywords": [],
+			"canonUrl": "https://wheretonextdoc.com"
+		}
+
 	}
 
 	render() {
   		return(
 			<Layout>
+      	<SEO url={this.props.location.href} {...this.seo}/>
 				<Container fluid className="index-container">
 					<Row className="top-carousel mb-0">
-						<Col>	
+						<Col>
 			    			<HomeCarousel items={this.carouselItems}></HomeCarousel>
 			  			</Col>
 					</Row>
@@ -97,7 +108,7 @@ export default class IndexPage extends React.Component {
 					</Row>
 					<Row className="justify-content-center p-0 ">
 			  			<Col lg="12" xl="8">
-			    			<WorldMap articleCount={this.mapCountData}/>	
+			    			<WorldMap articleCount={this.mapCountData}/>
 			  			</Col>
 					</Row>
 					<Row className="justify-content-center p-0 m-0 mb-5 p-5" style={{'backgroundColor':'#000000'}}>
@@ -131,7 +142,7 @@ export default class IndexPage extends React.Component {
 			    		</CustomCol>
 					</Row>
 					*/}
-			
+
 				</Container>
 			</Layout>
 		)

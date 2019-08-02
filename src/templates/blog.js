@@ -1,7 +1,7 @@
 import React from "react";
-import { 
-	Container, 
-	Row, 
+import {
+	Container,
+	Row,
 	Col,
 } from 'reactstrap';
 import { graphql } from 'gatsby';
@@ -9,19 +9,29 @@ import CardDeck from "../components/card_deck.js";
 import Layout from "../components/layout";
 import BlogHeader from "../components/blog_header.js";
 import PaginationNav from "../components/pagination.js";
+import SEO from '../components/seo.js';
 
 export default class DestinationTemplate extends React.Component {
 	constructor(props) {
 		super(props);
 
-		console.log(props)
+    this.seo = {
+      "title" : "Destinations",
+      "description": "Description"
+    }
 
 		// Check if any data was returned for the query
 		// May not be if there is no articles
-		if (this.props.data.allMarkdownRemark === undefined || this.props.data.allMarkdownRemark == null ) {
+		if (this.props.data.allMarkdownRemark === undefined || this.props.data.allMarkdownRemark == null || this.props.data.allMarkdownRemark.edges === undefined || this.props.data.allMarkdownRemark.edges == null || this.props.data.allMarkdownRemark.edges < 1) {
 			this.posts = null;
+      this.seo.image = this.props.location.origin + this.props.data.imageSharp.fluid.src;
+      this.seo.keywords = ["Destinations", "North America", "South America", "Europe", "Africa", "Asia", "Oceania"];
+      this.seo.date = new Date().toISOString();
 		} else {
 			this.posts = this.props.data.allMarkdownRemark.edges;
+      this.seo.image = this.props.location.origin + this.posts[0].node.frontmatter.featuredImage.childImageSharp.fluid.src;
+      this.seo.keywords = ["Destinations", "North America", "South America", "Europe", "Africa", "Asia", "Oceania"];
+      this.seo.date = new Date(this.posts[0].node.frontmatter.date).toISOString();
 		}
 		this.blogType = this.props.pageContext.blogType;
 		this.renderBlogPosts = this.renderBlogPosts.bind(this);
@@ -30,8 +40,8 @@ export default class DestinationTemplate extends React.Component {
 	// Function to take the posts array and group them into chunks
 	renderBlogPosts() {
 
-		// No articles for this page, so all we need is one row 
-		// to let the users know 
+		// No articles for this page, so all we need is one row
+		// to let the users know
 		if (this.posts === undefined || this.posts == null || this.posts.length < 1 || this.posts[0] === false) {
 			return (
 				<Row>
@@ -39,7 +49,7 @@ export default class DestinationTemplate extends React.Component {
 						<h1>Articles coming soon...</h1>
 					</Col>
 				</Row>
-			); 
+			);
 		}
 
 		// number of posts for this page
@@ -59,7 +69,7 @@ export default class DestinationTemplate extends React.Component {
 			postGroup = postGroup.map((item) => {
 				let post = item.node.frontmatter;
 				let alt;
-				
+
 				// If it's a travel blog post, we want the alt of the image
 				// to be the city
 				if (this.blogType === "destinations") {
@@ -87,23 +97,26 @@ export default class DestinationTemplate extends React.Component {
 			)
 		}
 
-		return finalPosts;
+		return (
+      <Row className="no-marg-pad justify-content-center">
+        <Col md="11">
+          {finalPosts}
+        </Col>
+      </Row>
+    )
 	}
-	
+
 	render() {
 		return (
 			<Layout>
+				<SEO url={this.props.location.href} {...this.seo}/>
 				<Container fluid className="blog-list">
 					<Row className="destinations-navbar">
 						<Col>
 							<BlogHeader blogType={this.blogType} headers={this.props.pageContext.headers}/>
 						</Col>
 					</Row>
-					<Row className="no-marg-pad justify-content-center">
-						<Col md="11">
-							{this.renderBlogPosts()}
-						</Col>
-					</Row>
+					{this.renderBlogPosts()}
 					{this.posts &&
 						<Row >
 							<Col className="d-flex align-items-center justify-content-center">
@@ -152,6 +165,12 @@ export const query = graphql`
               }
             }
           }
+        }
+      }
+      imageSharp(fluid : {originalName : {regex : "/Image_4.jpg/"}}) {
+        fluid(maxWidth: 2060, cropFocus:SOUTH) {
+          ...GatsbyImageSharpFluid
+          originalName
         }
       }
     }

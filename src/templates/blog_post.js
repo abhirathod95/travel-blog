@@ -1,9 +1,9 @@
 import React from "react";
 import Helmet from 'react-helmet';
 import Layout from "../components/layout";
-import { 
-	Container, 
-	Row, 
+import {
+	Container,
+	Row,
 	Col,
 } from 'reactstrap';
 import { graphql } from 'gatsby';
@@ -32,7 +32,7 @@ export default class BlogPostTemplate extends React.Component {
 
 		return (
 			<Layout>
-        		<SEO url={this.props.location.href} description={this.frontmatter.excerpt} image={this.props.location.origin + this.frontmatter.featuredImage.childImageSharp.fluid.src} keywords={this.frontmatter.tags} title={this.frontmatter.title} type="article" date={new Date(this.frontmatter.date).toISOString()} category={this.frontmatter.continent[0] || this.frontmatter.category[0]}/>
+    		<SEO url={this.props.location.href} description={this.frontmatter.excerpt} image={this.props.location.origin + this.frontmatter.featuredImage.childImageSharp.fluid.src} keywords={this.frontmatter.tags} title={this.frontmatter.title} type="article" date={new Date(this.frontmatter.date).toISOString()} category={this.frontmatter.continent[0] || this.frontmatter.category[0]}/>
 				<Container fluid className="blog-post">
 					<Row>
 						<Banner showTextBox={false} width="100%" height="50vh" item={{'fluid':this.frontmatter.featuredImage.childImageSharp.fluid, 'subHeading':'Better Ways To','heading':bannerTitle, 'buttonText':'Read More', 'link':'/'}}/>

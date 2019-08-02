@@ -19,7 +19,11 @@ export default class Footer extends React.Component {
         <Container fluid>
           <Row>
             <Col className="d-flex align-items-center justify-content-center"> 
-                Copyrighted
+                <p className="text-center">
+                  Copyright © 2019 Ramya Krothapally. All rights reserved.
+                  <br></br>
+                  wheretonextdoc@gmail.com
+                </p>
             </Col>
           </Row>
         </Container>
