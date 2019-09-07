@@ -7,7 +7,7 @@ tags: ["Journal", "Winter", "Lessons", "Family Trip","Travel Tips"]
 continent: ["Africa"]
 country: ["Morocco"]
 city: [""]
-featuredImage: "../../../images/Morocco/Morocco_0.jpg"
+featuredImage: "../../../images/Morocco/Morocco_20.jpg"
 ---
 
 My first African country was an adventure! I got to do a lot of firsts like first time riding a camel, first time staying in a riad, and first time sleeping in the Sahara desert, but I also learned a lot of lessons about how to be a better traveler to navigate my way in Morocco. 
@@ -15,7 +15,7 @@ My first African country was an adventure! I got to do a lot of firsts like firs
 
 ##### **1 - “One thing leads to another.”**
 
-I was told this quote by a tourist couple I met while camping in the Sahara desert, and it made me laugh at how accurate it was. This sentence can seem relevant in many situations you might find yourself in while visiting Morocco. You will notice right away that people will be coming up to you constantly trying to sell you their merchandise, a hammam, to eat at their restaurant, etc. Even if you say "No thank you," expect that the conversation has not ended for the other individual. They will continue to try to sell to you, so don't be afraid to firmly say no and walk away. 
+I was told this quote by a tourist couple I met while camping in the Sahara desert, and it made me laugh at how accurate it was. This sentence can seem relevant in many situations you might find yourself in while visiting Morocco. You will notice right away that people will be coming up to you constantly trying to sell you their merchandise, a hammam, to eat at their restaurant, etc. Even if you say "No thank you," expect that the conversation has not ended for the other individual. They will continue to try to sell to you, so don't be afraid to firmly say no and walk away. And if you aren't able to say no, then expect a small adventure where you'll end up sitting and thinking to yourself, "How did I get here?" 
 
 ![test](../../../images/Morocco/Morocco_4.jpg) 
 

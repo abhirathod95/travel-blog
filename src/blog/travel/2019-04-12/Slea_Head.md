@@ -1,5 +1,5 @@
 ---
-title: "Scenic Slea Head Drive: What to See & Do"
+title: "Scenic Slea Head Drive in Ireland"
 date: "2019-04-12"
 path: "/blog/scenic-slea-head-drive"
 excerpt: "..."

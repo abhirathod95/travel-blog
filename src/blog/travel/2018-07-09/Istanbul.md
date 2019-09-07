@@ -1,8 +1,8 @@
 ---
-title: "Keeping it Short and Sweet in Istanbul"
+title: "Keeping it Short & Sweet in Istanbul"
 date: "2015-08-10"
 path: "/blog/short-and-sweet-in-turkey"
-excerpt: "I was in Istanbul for a short two days, but I was still able to see a lot of the European side of the city, which was pretty sweet. Here's.."
+excerpt: "I was in Istanbul, Turkey for a short two days, but I was still able to see a lot of the European side of the city, which was pretty sweet. Here's.."
 tags: ["Journal", "Summer", "Family Trip"]
 continent: ["Europe"]
 country: ["Turkey"]
@@ -10,7 +10,7 @@ city: ["Istanbul"]
 featuredImage: "../../../images/Turkey/Istanbul_6.jpg"
 ---
 
-I was in Istanbul for a short two days, but I was still able to see a lot of the European side of the city, which was pretty sweet. Here's a short and sweet article of all the best experiences I had in Istanbul!
+I was in Istanbul, Turkey for a short two days, but I was still able to see a lot of the European side of the city, which was pretty sweet. Here's a short and sweet article of all the best experiences I had in Istanbul!
 
 *************************************************** 
 #### **Blue Mosque**

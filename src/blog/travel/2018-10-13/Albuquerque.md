@@ -1,8 +1,8 @@
 ---
-title: "Flying High at Albuquerque's International Balloon Fiesta"
+title: "Albuquerque's International Balloon Fiesta"
 date: "2018-10-13"
 path: "/blog/albuquerque-balloon-fiesta"
-excerpt: "Even though I've been living in Texas for almost my entire life, I was only now able to make it to the amazing one-of-a-kind festival in my neighboring state of New Mexico. Albuquerque's..."
+excerpt: "I went to the one-of-a-kind festival in Albuquerque, New Mexico called the International Balloon Fiesta. Here's everything you need to know."
 tags: ["Travel Guide", "Fall", "Roadtrip", "Family","Hot Air Balloon", "Bucket List"]
 continent: ["North America"]
 country: ["United States of America"]
@@ -14,7 +14,7 @@ Even though I've been living in Texas for almost my entire life, I was only now 
 
 For more information about the balloon fiesta, visit the official site: https://www.balloonfiesta.com/
 
-![test](../../../images/United&#32;States&#32;of&#32;America/New&#32;Mexico/Albuquerque/13.jpg)
+![Hot air balloon being filled with air](../../../images/United&#32;States&#32;of&#32;America/New&#32;Mexico/Albuquerque/13.jpg)
 
 &nbsp;
 
@@ -23,7 +23,7 @@ For more information about the balloon fiesta, visit the official site: https://
 
 The best way to get to the park is by taking one of the many bus shuttles offered close by and avoid driving there. The Fiesta crew was amazing this year in getting people in and out of the park as quickly as possible with more than 200 buses at their disposal. Taking the bus allows you to avoid all the traffic and parking hassle which can get very frustrating. Also, it costs $15 to even park your car in the lot so this saves money too! In order to take advantage of this service, the **ticket is $5 per person** at each morning or evening session you attend. Assume getting to the park to take about **30 to 40 minutes** after parking your car at the drop off location. 
 
-![test](../../../images/United&#32;States&#32;of&#32;America/New&#32;Mexico/Albuquerque/6.jpg)
+![Early morning Mass Ascension in Albuquerque](../../../images/United&#32;States&#32;of&#32;America/New&#32;Mexico/Albuquerque/6.jpg)
 
 There are four locations around Albuquerque where you can board the buses, so book your hotels close to one of these to save traveling time in the mornings! These locations can be found on the Balloon Fiesta page. 
 
@@ -36,7 +36,7 @@ For the Special Shape Glowdeo™ which was on Friday of Balloon Fiesta week, we 
 ******************************************************************************
 #### **All about the Mass Ascension**
 
-![test](../../../images/United&#32;States&#32;of&#32;America/New&#32;Mexico/Albuquerque/8.jpg)
+![Mass Ascension](../../../images/United&#32;States&#32;of&#32;America/New&#32;Mexico/Albuquerque/8.jpg)
 
 Mass Ascension can be considered the most important event of the Balloon Fiesta. Every morning during the week of Balloon Fiesta, hundreds of hot air balloons decorate the sky like ornaments. In order to see the Mass Ascension at 7 AM, you should plan to be at the park for a good location by 6 AM. Buses begin by 4:30 AM for early birds. The best places to view the Mass Ascension in my opinion is on the balloon field itself among the hundreds of balloons or on a hill north of the field near the parking lot for a better panoramic type of view. 
 
@@ -48,9 +48,8 @@ During Mass Ascension, you can also be in one of the hot air balloons yourself a
 #### **Evening Events** 
 
 ```grid|1|
-![test](../../../images/United&#32;States&#32;of&#32;America/New&#32;Mexico/Albuquerque/1.jpg)
-![test](../../../images/United&#32;States&#32;of&#32;America/New&#32;Mexico/Albuquerque/2.jpg)
-![test](../../../images/United&#32;States&#32;of&#32;America/New&#32;Mexico/Albuquerque/4.jpg)
+![Colorful fun hot air balloons at the International Balloon Festival](../../../images/United&#32;States&#32;of&#32;America/New&#32;Mexico/Albuquerque/1.jpg)
+![Beach themed hot air balloon](../../../images/United&#32;States&#32;of&#32;America/New&#32;Mexico/Albuquerque/2.jpg)
 ```
 During the evening, all of the special shaped balloons are set up in the field at 6:15 pm. For the whole hour, you get to roam around and visit all of your funky favorites. I have to say my favorites were Tom and Jerry, the pink Lucky cat, and Spider Pig. Once it gets a little darker, the balloons turn up the fire to light all the balloons at once which is a pretty magical scene. 
 At the end of the night around 8 PM, there was an impressive firework show worth seeing. However, most people were trickling out by then, so we did too. We still got to see the fireworks from the line to board the buses without having to wait too long in line. 
@@ -60,7 +59,7 @@ At the end of the night around 8 PM, there was an impressive firework show worth
 *********************************************************************************
 #### **Weather Tips**
 
-![test](../../../images/United&#32;States&#32;of&#32;America/New&#32;Mexico/Albuquerque/14.jpg)
+![Rainbow hot air balloon](../../../images/United&#32;States&#32;of&#32;America/New&#32;Mexico/Albuquerque/14.jpg)
 
 Early October is the beginning of true fall in New Mexico, so the early mornings can be pretty chilly and windy. I would suggest dressing in layers to really feel comfortable throughout the day. However, by 11 AM, the weather warms up, and you're going to want to peel off all those extra layers. I would suggest a thick sweater with a shirt on underneath plus maybe a coat if needed would suffice.  
 
@@ -71,7 +70,7 @@ In case of rain, there may be a chance that the events of the day may be cancell
 ********************************************************************************
 #### **Photography Locations** 
 
-![test](../../../images/United&#32;States&#32;of&#32;America/New&#32;Mexico/Albuquerque/0.jpg)
+![Colorful hot air balloons at the International Balloon Festival](../../../images/United&#32;States&#32;of&#32;America/New&#32;Mexico/Albuquerque/0.jpg)
 
 The International Balloon Fiesta is one of the most photographed events in the world. Finding a good vantage point of the event can be difficult to decide on. I found two locations to really be the best when shooting depending on the kind of photos you want to take. 
 

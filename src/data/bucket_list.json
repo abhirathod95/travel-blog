@@ -1,47 +1,47 @@
 [
 	{
 		"title": "Glamping in the Sahara",
-		"image": "../images/tips.jpg",
+		"image": "../images/Morocco/Sahara_14.jpg",
 		"link": "/blog/roadtrip-to-the-sahara-desert" 
 	}, 
 	{ 
-		"title": "NYE in Sydney",
-		"image": "../images/tips.jpg",
-		"link": "/blog/roadtrip-to-the-sahara-desert" 
+		"title": "Great Ocean Road in Melbourne",
+		"image": "../images/Australia/Australia_8.jpg",
+		"link": "/blog/10-best-things-to-do-in-sydney-&-melbourne" 
 	}, 
 	{ 
-		"title": "Climbing Angel's Landing",
+		"title": "Hiking Angel's Landing",
 		"image": "../images/United States of America/Southwest_1/7.jpg",
-		"link": "/blog/roadtrip-to-the-sahara-desert"
+		"link": "/blog/american-southwest-roadtrip"
 	}, 
 	{ 
-		"title": "Austin's ACL",
-		"image": "../images/United States of America/Southwest_1/7.jpg",
-		"link": "/blog/roadtrip-to-the-sahara-desert"
+		"title": "Touring the Rock of Cashel",
+		"image": "../images/Ireland/Ireland_56.jpg",
+		"link": "/blog/driving-the-countryside-in-ireland"
 	}, 
 	{ 
-		"title": "Snorkling in the Great Barrier Reef",
-		"image": "../images/tips.jpg",
-		"link": "/blog/roadtrip-to-the-sahara-desert"
+		"title": "Chicago skyline at the Signature Lounge",
+		"image": "../images/United States of America/Illinois/Chicago_03.jpg",
+		"link": "/blog/chicago-itinerary"
 	}, 
 	{ 
 		"title": "International Balloon Festival",
-		"image": "../images/tips.jpg",
-		"link": "/blog/roadtrip-to-the-sahara-desert"
+		"image": "../images/United States of America/New Mexico/Albuquerque/6.jpg",
+		"link": "/blog/albuquerque-balloon-fiesta"
 	}, 
 	{ 
-		"title": "Road trip in New Zealand",
-		"image": "../images/tips.jpg",
-		"link": "/blog/roadtrip-to-the-sahara-desert"
+		"title": "Amsterdam Tulips",
+		"image": "../images/Netherlands/Amsterdam_14.jpg",
+		"link": "/blog/amsterdam-travel-guide"
 	}, 
 	{ 
-		"title": "California Highway 1",
-		"image": "../images/tips.jpg",
-		"link": "/blog/roadtrip-to-the-sahara-desert"
+		"title": "Chichen Itza",
+		"image": "../images/Mexico/Chichen_Itza_2.jpg",
+		"link": "/blog/day_trip_chichen_itza"
 	}, 
 	{ 
 		"title": "Exploring London",
-		"image": "../images/tips.jpg",
-		"link": "/blog/roadtrip-to-the-sahara-desert"
+		"image": "../images/UK/London/London_7.jpg",
+		"link": "/blog/london-memories"
 	}
 ]

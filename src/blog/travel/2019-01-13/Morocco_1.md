@@ -2,7 +2,7 @@
 title: "Visiting Four Cities in Morocco"
 date: "2019-01-19"
 path: "/blog/visiting-four-cities-in-morocco"
-excerpt: "I was so excited to visit finally visit my first African country. Morocco is a great place for an introduction to Africa since it is a primarily a touristy country. The cities are all so unique..."
+excerpt: "I was so excited to visit finally visit my first African country. Morocco is a great place for an introduction to Africa since it is a primarily a tourism heavy country. The cities are all so unique..."
 tags: ["Travel Guide", "Winter", "Family Trip"]
 continent: ["Africa"]
 country: ["Morocco"]
@@ -10,11 +10,11 @@ city: ["Marrakesh"]
 featuredImage: "../../../images/Morocco/Morocco_2.jpg"
 ---
 
-I was so excited to visit finally visit my first African country. Morocco is a great place for an introduction to Africa since it is a primarily a touristy country. The cities are all so unique from any place I've been before with lots of interesting history. I was able to visit four of the major cities in Morocco during my 8 days and learned lots of interesting lessons as a tourist in Morocco. 
+I was so excited to visit finally visit my first African country. Morocco is a great place for an introduction to Africa since it is a primarily a tourism centered country. The cities are all so unique from any place I've been before with lots of interesting history. I was able to visit four of the major cities in Morocco during my 8 days and learned lots of interesting lessons as a tourist in Morocco. 
 
 **Read More|** [Lessons Learned in Morocco](https://www.wheretonextdoc.com/blog/lessons-learned-in-morocco)
 
-Sadly, a few days before we had arrived to Morocco, two women hiking in the Atlas mountains had been brutally murdered by some remote villagers, which was disturbing to hear. It made us a little nervous to visit. However, the locals made sure to show tourists that this incidence was not condoned at all by Moroccans. Even a vigil was held for the two girls while we were around Jemaa al Fnaa. While we had a great experience spending a week in Morocco, I would still exercise caution if traveling on your own without a guide. While the major cities of Morocco are tolerant of Western culture, there are small pockets of Morocco may not be as accomodating. 
+Sadly, a few days before we had arrived to Morocco, two women hiking in the Atlas mountains had been murdered by some remote villagers, which was disturbing to hear. It made us a little nervous to visit. However, the locals made sure to show tourists that this incidence was not condoned at all by Moroccans. Even a vigil was held for the two girls while we were around Jemaa al Fnaa. While we had a great experience spending a week in Morocco, I would still exercise caution if traveling on your own without a guide. While the major cities of Morocco are tolerant of Western culture, there are small pockets of Morocco may not be as accomodating. 
 
 
 &nbsp;
@@ -30,34 +30,35 @@ Welcome to Marrakesh, the city of red. It's called the Red City because of the c
 
 &nbsp;
 
-![test](../../../images/Morocco/Morocco_17.jpg)
+![Moulay al Yazid Mosque, Marrakesh](../../../images/Morocco/Morocco_17.jpg)
 
 The **Saadian tombs** are next to the **Moulay al Yazid Mosque** if you're interested in visiting. I found the minaret of this mosque to be more beautiful than the Koutoubia Mosque. The well-known **Koutoubia Mosque** is a short 10 minute walk from the Moulay al Yazid mosque. On the way, we got some freshly squeezed pomagranate juice and sugar cane with ginger and lemon juice. So good and only for 20 Dirhams each. 
 
-![test](../../../images/Morocco/Morocco_18.jpg)
+![Bab Agnou, Marrakesh](../../../images/Morocco/Morocco_18.jpg)
 
 After our trip to Morocco, we watched The Mummy since it was filmed in Morocco, and the only sight we were able to recognize was the distinctive **Bab Agnou**, translating to Red Gate. There are several other gates throughout old city of Marrakesh but Bab Agnou is the most famous. 
 
-![test](../../../images/Morocco/Morocco_13.jpg)
+![Marrakesh souks](../../../images/Morocco/Morocco_13.jpg)
 
 ```grid|2|
-![test](../../../images/Morocco/Morocco_24.jpg) 
-![test](../../../images/Morocco/Morocco_11.jpg) 
+![Dried fruits stand at Jemaa al Fnaa](../../../images/Morocco/Morocco_24.jpg) 
+![Jemaa al Fnaa from above](../../../images/Morocco/Morocco_11.jpg) 
 ```
 
-There are several great restaurants in **Jemaa al Fnaa** to eat dinner at and get a good bird's eye view of the square. Walking through the square, the atmosphere is very lively and busy. Lots of stalls are set up in the evening selling dinner, fruit juice, mint, etc., and the smell of food and herbs fill the air. Some of the more sadder aspects of the square is seeing people with monkeys on leashes or in cages. I highly recommend not encouraging the behavior by avoiding these individuals. 
+There are several great restaurants in **Jemaa al Fnaa** to eat dinner at and get a good bird's eye view of the square. Walking through the square, the atmosphere is very lively and busy. Lots of stalls are set up in the evening selling dinner, fruit juice, mint, etc., and the smell of food and herbs fill the air. Some of the more unfortunate aspects of the square is seeing people with monkeys on leashes or in cages. I highly recommend not encouraging the behavior and avoid these individuals. 
 
-![test](../../../images/Morocco/Morocco_23.jpg)
+![Bahia Palace, Marrakesh](../../../images/Morocco/Morocco_23.jpg)
 
 Bahia Palace was built in the 19th century and has more of the classic colorful architecture that Morocco is known for. As you walk through the different spaces of the palace, there are different types of design to admire. 
 
 **Tickets|** 70 DH </br>
 **Times|**
 
+![Jardin Majorelle](../../../images/Morocco/Morocco_39.jpg)
 
 ```grid|2|
-![test](../../../images/Morocco/Morocco_21.jpg) 
-![test](../../../images/Morocco/Morocco_22.jpg) 
+![Jardin Majorelle](../../../images/Morocco/Morocco_21.jpg) 
+![Jardin Majorelle](../../../images/Morocco/Morocco_22.jpg) 
 ```
 The last stop was at the brilliant blue and yellow Jardin Majorelle where the famous YSL used to stay in after falling in love with Morocco. It gets really busy to the point there is a long line early in the morning to enter.
 
@@ -66,7 +67,7 @@ The last stop was at the brilliant blue and yellow Jardin Majorelle where the fa
 
 ####**Where to Stay**
 
-We stayed at a beautiful, homey riad called ____. We had a two bedroom place next to the pool and well decorated. A full breakfast with crepes, bread, fresh orange juice and more is offered at most riads, so let your host know the night before that you want breakfast prepared the next morning. 
+We stayed at a beautiful, homey riad called Riad Les Bougainvilleas. We had a two bedroom place next to the pool and well decorated. A full breakfast with crepes, bread, fresh orange juice and more is offered at most riads, so let your host know the night before that you want breakfast prepared the next morning. 
 
 &nbsp;
 
@@ -79,29 +80,28 @@ Fes was by far my favorite city in Morocco. Somehow, the souks were even more na
 
 &nbsp;
 
+![Me at the Golden doors](../../../images/Morocco/Morocco_40.jpg)
+
 ```grid|2|
-![test](../../../images/Morocco/Morocco_19.jpg) 
-![test](../../../images/Morocco/Morocco_31.jpg) 
+![Close up of Golden Door in Fes](../../../images/Morocco/Morocco_19.jpg) 
+![Golden Door of Fes](../../../images/Morocco/Morocco_31.jpg) 
 ```
 The seven golden gates are the only view you can get of the palace that the Moroccan king uses when in Fes. It's one of the most glamorous spots in Fes that lots of visitors come to. 
 
-![test](../../../images/Morocco/Morocco_32.jpg) 
+Soon after entering the souks of Fes, the crowds of people and stores become more concentrated. There are several interesting sites to see. Unfortunately, **Al Attarine Madrassa**, which has the oldest library in the world, was under construction when we visited and was only open for students of the university. However, **Bou Inania Madrassaa** was open to visit for tourists and the intricacy of the architecture was a taste of the beautiful design of one of the oldest universities in the world. 
 
+![Al Attarine Madrassa](../../../images/Morocco/Morocco_44.jpg) 
 
-Unfortunately, **Al Attarine Madrassa**, which has the oldest library in the world, was under construction when we visited and was only open for students of the university. However, **Bou Inania Madrassaa** was open to visit for tourists and the intricacy of the architecture was a taste of the beautiful design of one of the oldest universities in the world. 
-
-**Tickets|** 
+**Tickets|** </br>
 **Times|** 
-
-![test](../../../images/Morocco/Morocco_34.jpg) 
 
 Finding the famous **Chaoura tannery** built in the 14th century is a bit difficult to navigate to from the middle of the souks. Fortunately, we ran into a young boy who seemed trustworthy enough to take us to the tannery and show us a good place to grab lunch after. There are several leather shops that offer a view to the tannery, and all will offer a sprig of mint to combat the strong smell of ammonia. It took us under an hour to visit all three balconies. The smell wasn't too bad but maybe it's because I've been in an anatomy lab with 36 bodies preserved in some strong smelling formaldehyde, but I digress. One area is dedicated to stripping the lamb skin of the fat and hair, and the second area is dedicated to staining the leather after its done drying. When you are ready to leave the balcony, you might be asked several times to buy some leather products or provide a tip for getting a spot on the balcony. 
 
+![Chaora Tannery, Fes](../../../images/Morocco/Morocco_34.jpg) 
+
 #### **Where to Stay**
 
-When we arrived in Fes from a night in the Sahara, we were rebooked to a nicer riad, **Riad Yasmin**, after an overbooking issue at the riad we were supposed to stay at. 
-
-![test](../../../images/Morocco/Morocco_38.jpg) 
+When we arrived in Fes from a night in the Sahara, we stayed at **Riad Yasmin** which had really good service and extremely well decorated rooms. Just two streets down was a convenient spot to find taxis.
 
 
 ******************************************************************************
@@ -116,16 +116,14 @@ Meknes is not a city most people visit, but I would argue that it was one of the
 &nbsp;
 
 ```grid|2|
-![test](../../../images/Morocco/Morocco_29.jpg) 
-![test](../../../images/Morocco/Morocco_30.jpg) 
+![Square in Meknes](../../../images/Morocco/Morocco_29.jpg) 
+![Bab Mansour, "the prettiest gate in Africa"](../../../images/Morocco/Morocco_30.jpg) 
 ```
-
-#### **Where to Stay**
 
 ******************************************************************************
 ### **Casablanca**
 
-Casablanca is more of a metropolitan city that doesn't have the same historic vibe of Marrakesh, so it was quite different than the rest of Morrocco. Since most international flights are from Casablanca, it is easier to plan to explore Casablanca for a few hours. 
+Casablanca is more of a metropolitan city that doesn't have the same historic vibe of Marrakesh, so it was quite different than the rest of Morrocco. Since most international flights are from Casablanca, it is easy to plan to explore Casablanca for a few hours before flying out. 
 
 #### **What to See:** Hassan II Mosque
 
@@ -135,11 +133,11 @@ There are certain times allotted for when non-Muslims can enter the mosque, but 
 
 &nbsp;
 
-![test](../../../images/Morocco/Morocco_28.jpg)
+![Hassan II Mosque at night](../../../images/Morocco/Morocco_28.jpg)
 
 ```grid|2|
-![test](../../../images/Morocco/Morocco_26.jpg) 
-![test](../../../images/Morocco/Morocco_27.jpg) 
+![Hassan II Mosque at dusk](../../../images/Morocco/Morocco_26.jpg) 
+![Details of the Hassan II Mosque](../../../images/Morocco/Morocco_27.jpg) 
 ```
 
 *******************************************************************************

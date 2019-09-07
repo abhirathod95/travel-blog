@@ -2,7 +2,7 @@
 title: "7 Places You Must See in Barcelona"
 date: "2015-08-10"
 path: "/blog/barcelona-things-to-see"
-excerpt: "My trip to Barcelona was inspired by the late Antoni Gaudi and his remarkable architecture. During my freshman year of college, I was lucky enough to take a very popular class called Architecture and Society lead by Professor Speck. ..."
+excerpt: "My trip to Barcelona, Spain was inspired by the late Antoni Gaudi and his remarkable architecture. Here's a quick article for what to see while in Barcelona!"
 tags: ["Itinerary", "Summer", "Family", "Gaudi"]
 continent: ["Europe"]
 country: ["Spain"]
@@ -17,14 +17,9 @@ My trip to Barcelona was inspired by the late Antoni Gaudi and his remarkable ar
 
 #### **Basilica de la Sagrada Familia**
 
-```grid|1|
-![test](../../../images/Spain/Barcelona/Barcelona_2.jpg)
-![test](../../../images/Spain/Barcelona/Barcelona_4.jpg)
-```
-
 La Sagrada Familia is probably the most important site in Barcelona and for good reason. The high vault ceilings, unique colorful stained-glass windows, and the dramatic embellishments on the exterior are unlike any church architecture I’ve seen before. Finding the Sagrada Familia is not difficult; it towers over most of the buildings in Barcelona. As I walked up to the church, I was surprised by all the detail surrounding every inch around the door and towers. After minutes of standing there trying to piece together the details, I could say one thing already; there was incredible care and passion invested in this building. Gaudi was one of the major architects in the project, but he was not the only one since he died during the middle of the church’s construction. His plans for the church have been followed by the many architects after him, and more than 100 years later, the church is still not complete! There was still scaffolding draped around some of the towers and cranes visible in between. 
 
-![test](../../../images/Spain/Barcelona/Barcelona_3.jpg)
+![Interior of La Sagrada Familia](../../../images/Spain/Barcelona/Barcelona_3.jpg)
 
 The interior of the church was like another world. Bathed in the rainbow glow from the sunlight streaming through the stained-glass windows, I couldn’t resist the urge of just looking up forever at the ceiling, at the windows, at the tall columns. There was always something new to discover and enjoy. 
 
