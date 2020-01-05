@@ -19,6 +19,8 @@ export default class IndexPage extends React.Component {
 
 		let data = this.props.data;
 
+		console.log(data)
+
 		this.carouselItems = data.allMarkdownRemark.edges.map((item, index) => {
 			return ({
 				key: index,

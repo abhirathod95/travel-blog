@@ -232,3 +232,52 @@ exports.createPages = ({ actions, graphql }) => {
 
 
 }
+
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createFieldExtension, createTypes } = actions
+
+  createFieldExtension({
+    name: 'fileByDataPath',
+    extend: () => ({
+      resolve: function (src, args, context, info) {
+        const partialPath = src.featuredImage
+
+          if (!partialPath) {
+            return null
+          }
+
+        const filePath = path.join(__dirname, 'src', partialPath.replace("../../../", ""))
+        //console.log(filePath)
+        const fileNode = context.nodeModel.runQuery({
+          firstOnly: true,
+          type: 'File',
+          query: {
+            filter: {
+              absolutePath: {
+                eq: filePath
+              }
+            }
+          }
+        })
+
+        if (!fileNode) {
+          return null
+        }
+
+        return fileNode
+      }
+    })
+  })
+
+  const typeDefs = `
+    type Frontmatter @infer {
+      featuredImage: File @fileByDataPath
+    }
+
+    type MarkdownRemark implements Node @infer {
+      frontmatter: Frontmatter
+    }
+  `
+
+  createTypes(typeDefs)
+}
