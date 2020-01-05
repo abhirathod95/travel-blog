@@ -52,7 +52,6 @@ There are several great restaurants in **Jemaa al Fnaa** to eat dinner at and ge
 Bahia Palace was built in the 19th century and has more of the classic colorful architecture that Morocco is known for. As you walk through the different spaces of the palace, there are different types of design to admire. 
 
 **Tickets|** 70 DH </br>
-**Times|**
 
 ![Jardin Majorelle](../../../images/Morocco/Morocco_39.jpg)
 
@@ -63,7 +62,6 @@ Bahia Palace was built in the 19th century and has more of the classic colorful 
 The last stop was at the brilliant blue and yellow Jardin Majorelle where the famous YSL used to stay in after falling in love with Morocco. It gets really busy to the point there is a long line early in the morning to enter.
 
 **Tickets|** 70 DH </br>
-**Times|**
 
 ####**Where to Stay**
 
@@ -91,9 +89,6 @@ The seven golden gates are the only view you can get of the palace that the Moro
 Soon after entering the souks of Fes, the crowds of people and stores become more concentrated. There are several interesting sites to see. Unfortunately, **Al Attarine Madrassa**, which has the oldest library in the world, was under construction when we visited and was only open for students of the university. However, **Bou Inania Madrassaa** was open to visit for tourists and the intricacy of the architecture was a taste of the beautiful design of one of the oldest universities in the world. 
 
 ![Al Attarine Madrassa](../../../images/Morocco/Morocco_44.jpg) 
-
-**Tickets|** </br>
-**Times|** 
 
 Finding the famous **Chaoura tannery** built in the 14th century is a bit difficult to navigate to from the middle of the souks. Fortunately, we ran into a young boy who seemed trustworthy enough to take us to the tannery and show us a good place to grab lunch after. There are several leather shops that offer a view to the tannery, and all will offer a sprig of mint to combat the strong smell of ammonia. It took us under an hour to visit all three balconies. The smell wasn't too bad but maybe it's because I've been in an anatomy lab with 36 bodies preserved in some strong smelling formaldehyde, but I digress. One area is dedicated to stripping the lamb skin of the fat and hair, and the second area is dedicated to staining the leather after its done drying. When you are ready to leave the balcony, you might be asked several times to buy some leather products or provide a tip for getting a spot on the balcony. 
 
@@ -140,21 +135,6 @@ There are certain times allotted for when non-Muslims can enter the mosque, but 
 ![Details of the Hassan II Mosque](../../../images/Morocco/Morocco_27.jpg) 
 ```
 
-*******************************************************************************
-### **How to Travel Between Cities**
-
-There are several options to choose between to travel longer distances in Morocco. We went with several different options to get from place to place that each have their own pros and cons. 
-
-**Train:**
-
-**Grand Taxi:**
-
-**Self-drive:**
-
-**Bus:**
-
-**Book a Tour:**
-
 *****************************************************************************
 ### **How to Dress in Morocco**
 
@@ -166,6 +146,10 @@ Since I was a guest in another country and there to learn about the culture, it 
 ### **What to EAT**
 
 **Tajine** - It's most likely gonna be 75% of your meals in Morocco. Every touristy restaurant you go to will have tajine, so it might become a little repetitive towards the end of the trip. My personal favorite was the lamb tajine. The tajine is actually the name of the unique looking clay pot that the dish is cooked in over a fire, allowing for the steam to build up and cook the meat. Moroccans don't tend to cook with too many spices, so dishes might taste a little less seasoned to those like me who eat with lots of spices. 
+
+**Chicken Bastilla** - A savory chicken pie with a flaky crust topped with white powder sugar and cinnamon. 
+
+**Harira** - A warm comforting soup that is a delicious appetizer. 
 
 Surprisingly, there are not many sweets in Morocco, unlike Turkey. Most meals are served in three courses with the last course usually being a plate of fruits such as bananas, apples, and oranges. It was a good break from the processed sugar sweets we're always reaching for in America. 
 

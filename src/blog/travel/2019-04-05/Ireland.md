@@ -138,7 +138,7 @@ When we arrived at the **Cliffs of Moher**, we chose not to park at the crowded 
 
 ```grid|2|
 ![Me standing at the Cliffs of Moher](../../../images/Ireland/Ireland_32.jpg) 
-![Me taking in the sight of the Cliffs of Moher](../../../images/Ireland/Ireland_33.jpg) 
+![Cliffs of Moher](../../../images/Ireland/Ireland_29.jpg) 
 ```
 After two hours of walking along the dramatic coast of the Cliffs of Moher, we started making our way to Dingle. On the way is one of the most famous castles in Ireland called **Bunratty Castle**. We just missed the last time to make it inside, but we heard it was one of the more intact castles that we had seen so far. 
 
@@ -217,7 +217,7 @@ Finally, we began making our way back to Dublin with a stop at the famous and st
 
 &nbsp;
 
-Nearby to the Rock of Cashel is a lesser known ruin called Hore Abbey. Entrance is free, but finding a good place to park can be hard. If you have the time to walk over from the Rock of Cashel, the trip to the abbey is well worth it. From the abbey, I had a great view of the Rock of Cashel on top of the hill.
+Nearby to the Rock of Cashel is a lesser known Cistercian ruin called Hore Abbey. Entrance is free, but finding a good place to park can be hard. If you have the time to walk over from the Rock of Cashel, the trip to the abbey is well worth it. From the abbey, I had a great view of the Rock of Cashel on top of the hill.
 
 ![Hore Abbey](../../../images/Ireland/Ireland_68.jpg)
 
@@ -229,6 +229,4 @@ Nearby to the Rock of Cashel is a lesser known ruin called Hore Abbey. Entrance 
 *********************************************************
 ### **Day 8: Fly out of Dublin** 
 
-
-
-
+Last day in Ireland and last day to get a pint of Guinness before boarding the plane.  
