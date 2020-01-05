@@ -5,6 +5,7 @@ import {
   NavbarToggler,
   NavbarBrand,
   Nav,
+  NavItem,
   NavLink,
   Dropdown,
   DropdownToggle,
@@ -70,8 +71,8 @@ export default class Header extends React.Component {
     return (
       <div className="top-navbar">
         <Navbar dark expand="lg">
-          <NavbarBrand className="d-sm-none" tag={Link} to="/"><img src={Logo} width="230" height="auto" alt=""/></NavbarBrand>
-          <NavbarBrand className="d-none d-sm-block d-lg-none" tag={Link} to="/"><img src={Logo} width="350" height="auto" alt=""/></NavbarBrand>
+          <NavbarBrand className="d-sm-none" tag={Link} to="/" aria-label="Where to Next Doc? Logo"><img src={Logo} width="230" height="44" alt="Where to Next Doc? Logo"/></NavbarBrand>
+          <NavbarBrand className="d-none d-sm-block d-lg-none" tag={Link} to="/" aria-label="Where to Next Doc? Logo"><img src={Logo} width="350" height="66" alt="Where to Next Doc? Logo"/></NavbarBrand>
           <NavbarToggler className="d-sm-none small-icon" onClick={this.toggleNavbar} />
           <NavbarToggler className="d-none d-sm-block d-lg-none large-icon" onClick={this.toggleNavbar} />
           <div className="container">
@@ -80,12 +81,14 @@ export default class Header extends React.Component {
                 {
                   navbarItemsLeft.map((item) => {
                     return (
+                        <NavItem key={item.name}>
                         <NavLink key={item.name} to={item.path} tag={Link}> {item.visibleName} </NavLink>
+                        </NavItem>
                     )
                   })
                 }
               </Nav>
-              <NavbarBrand className="d-none d-lg-block" tag={Link} to="/"><img src={Logo} width="350" height="auto" alt=""/></NavbarBrand>
+              <NavbarBrand className="d-none d-lg-block" tag={Link} to="/" aria-label="Where to Next Doc? Logo"><img src={Logo} width="350" height="66" alt="Where to Next Doc? Logo"/></NavbarBrand>
               <Nav navbar className="align-items-center justify-content-center">
                 <Dropdown size="sm" nav inNavbar onMouseOver={this.onMouseEnter} onMouseLeave={this.onMouseLeave} isOpen={this.state.dropdownOpen} toggle={this.toggleDropDown} className="align-items-center justify-content-center">
                   <DropdownToggle nav to={"/destinations"} tag={Link}> DESTINATIONS </DropdownToggle>
@@ -103,7 +106,9 @@ export default class Header extends React.Component {
                 {/*
                   navbarItemsRight.map((item) => {
                     return (
-                        <NavLink key={item.name} to={item.path} tag={Link}> {item.visibleName} </NavLink>
+                        <NavItem key={item.name}>
+                          <NavLink key={item.name} to={item.path} tag={Link}> {item.visibleName} </NavLink>
+                        </NavItem>
                     )
                   })
                 */}

@@ -152,7 +152,7 @@ export const query = graphql`
               city,
               featuredImage {
                 childImageSharp {
-                  fluid(maxWidth: 2060) {
+                  fluid(maxWidth: 768, srcSetBreakpoints: [173, 230, 298, 360, 576, 768]) {
                     base64
                     aspectRatio
                     src
@@ -168,7 +168,7 @@ export const query = graphql`
         }
       }
       imageSharp(fluid : {originalName : {regex : "/Image_4.jpg/"}}) {
-        fluid(maxWidth: 2060, cropFocus:SOUTH) {
+        fluid(maxWidth:768, srcSetBreakpoints: [173, 230, 298, 360, 576, 768], cropFocus:SOUTH) {
           ...GatsbyImageSharpFluid
           originalName
         }

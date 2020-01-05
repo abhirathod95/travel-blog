@@ -71,14 +71,8 @@ query getArticleById ($id:String!) {
 			city,
 			featuredImage {
 				childImageSharp {
-					fluid(maxWidth: 2060) {
-						base64
-						aspectRatio
-						src
-						srcSet
-						sizes
-						originalImg
-						originalName
+					fluid(maxWidth: 2545, srcSetBreakpoints: [573, 764, 986, 1193, 1909, 2545]) {
+						...GatsbyImageSharpFluid
 					}
 				}
 			}
