@@ -50,7 +50,7 @@ export default function AboutMe(props) {
 export const query = graphql`
   query AboutMeImage {
     imageSharp(fluid : {originalName : {regex : "/Image_4.jpg/"}}) {
-      fluid(maxWidth: 2060, cropFocus:SOUTH) {
+      fluid(maxWidth: 2545, srcSetBreakpoints: [573, 764, 986, 1193, 1909, 2545], cropFocus:SOUTH) {
         ...GatsbyImageSharpFluid
         originalName
       }

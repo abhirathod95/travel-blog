@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Raleway|Playfair+Display');
+//@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Raleway|Playfair+Display');
 
 @import "bootstrap/functions";
 @import "bootstrap/variables";
@@ -22,6 +22,28 @@ $container-max-widths: (
   xxl: 1620px,
   xxxl: 2060px,
 );
+
+@font-face {
+  font-family: 'EB Garamond';
+  font-display: swap; /* Read next point */
+  src: url('../fonts/eb-garamond-v11-latin-regular.woff2') format('woff2'),
+       url('../fonts/eb-garamond-v11-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-display: swap; /* Read next point */
+  src: url('../fonts/raleway-v14-latin-regular.woff2') format('woff2'),
+       url('../fonts/raleway-v14-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-display: swap; /* Read next point */
+  src: url('../fonts/playfair-display-v15-latin-regular.woff2') format('woff2'),
+       url('../fonts/playfair-display-v15-latin-regular.woff') format('woff');
+}
+
 
 $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $font-family-base: EB Garamond, $font-family-sans-serif;
@@ -103,7 +125,7 @@ $navbar-dark-toggler-border-color:  rgba($white, .9);
 }
 
 hr {
-	@extend %no-margin-padding; 
+	@extend %no-margin-padding;
 }
 
 
@@ -153,20 +175,20 @@ hr {
 	background-color: rgba(245,245,245, .9);
 }
 
-// CSS for the banner. 
+// CSS for the banner.
 
-// Container for the banner. 
+// Container for the banner.
 // Initial Width and height are decided inline using min-width and min-height
 .banner{
 	display: flex;
 	@extend %no-margin-padding;
 	@extend %align-center;
 	position: relative;
-	width: auto; 
+	width: auto;
 	height: auto;
 }
 
-// Set CSS for image tag within banner container 
+// Set CSS for image tag within banner container
 // Position absolute so we can put text over it
 // object-fit cover to scale/zoom picture correctly
 // height/width to 100% to fit container
@@ -177,7 +199,7 @@ hr {
 	width: 100%;
 	height: 100%;
 	z-index: -5;
-} 
+}
 
 // Set CSS for the textbox and it's colored background
 .banner > .text-box {
@@ -187,7 +209,7 @@ hr {
 	max-width: 50rem;
 }
 
-// Set no margin/padding and align content center in text box 
+// Set no margin/padding and align content center in text box
 .banner > .text-box > .row{
 	@extend %no-margin-padding;
 	@extend %align-center;
@@ -205,7 +227,7 @@ hr {
 	width: auto !important;
 }
 
-// Top navigation bar 
+// Top navigation bar
 
 .top-navbar {
 	z-index: $zindex-fixed;
@@ -230,8 +252,8 @@ hr {
 }
 
 // Use flex, and assign to type 1. This allows each part of navbar to be same space.
-// text-align center aligns each item to be centered in the space. 
-.top-navbar .navbar,.navbar-brand,.navbar-nav,.nav-link,.dropdown-toggle, .dropdown{
+// text-align center aligns each item to be centered in the space.
+.top-navbar .navbar,.navbar-brand,.navbar-nav,.nav-link,.nav-item,.dropdown-toggle, .dropdown{
 	display: flex;
 	flex: 1;
 	text-align: center;
@@ -293,21 +315,21 @@ hr {
 }
 
 // Cases where we don't want the row to have any padding at all
-// Used for last row, footer, cards, etc. 
+// Used for last row, footer, cards, etc.
 .no-marg-pad.row {
 	@extend %no-margin-padding;
 }
 
 
 // Sets the spacing to be handled by columns instead of rows
-// Allows us to scale to different window sizes when 
+// Allows us to scale to different window sizes when
 // column overflows
-.no-marg-pad.row > .spaced-col {	
+.no-marg-pad.row > .spaced-col {
 	margin-bottom: 3rem;
 }
 
 
-// Container that holds blog post. Used to apply settings 
+// Container that holds blog post. Used to apply settings
 // to all blog post pages.
 
 .blog-post > .row {
@@ -338,9 +360,9 @@ hr {
 	position:absolute !important;
 	width:100%;
 	height:100%;
-} 
+}
 .gatsby-img {
-	position:absolute !important; 
+	position:absolute !important;
 	width:100%;
 	height:100%;
 }

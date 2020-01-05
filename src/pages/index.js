@@ -180,14 +180,8 @@ export const query = graphql`
 			      path,
 			      featuredImage {
 			        childImageSharp {
-			          fluid(maxWidth: 2060) {
-	                    base64
-	                    aspectRatio
-	                    src
-	                    srcSet
-	                    sizes
-	                    originalImg
-	                    originalName
+			          fluid(maxWidth: 2545, srcSetBreakpoints: [573, 764, 986, 1193, 1909, 2546]) {
+	              	...GatsbyImageSharpFluid
 			          }
 			        }
 			      }
@@ -196,24 +190,19 @@ export const query = graphql`
 			}
 		}
 		bucketList: allBucketListJson {
-		    edges {
+	    edges {
 				node {
 					title
 					link
 					image {
-				        childImageSharp {
-				          fluid(maxWidth: 2060) {
-		                    base64
-		                    aspectRatio
-		                    src
-		                    srcSet
-		                    sizes
-		                    originalImg
-		                    originalName
-				          }
-				        }
+		        childImageSharp {
+		          fluid(maxWidth: 572, srcSetBreakpoints: [130, 173, 223, 270, 432, 572]) {
+                ...GatsbyImageSharpFluid
+		          }
+		        }
 					}
 				}
-		    }
-	  	}
-  	}`
+	    }
+  	}
+	}
+`

@@ -1,10 +1,11 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import { 
+import {
   Collapse,
   Navbar,
   NavbarToggler,
   Nav,
+  NavItem,
   NavLink,
 } from 'reactstrap';
 import {Link} from 'gatsby';
@@ -71,7 +72,7 @@ export default class BlogHeader extends React.Component {
 
           console.log(data)
 
-          // Catch the appropriate data from the query result 
+          // Catch the appropriate data from the query result
           // and set the correct preamable shared by all the images for a
           // blog type
           if (props.blogType === "destinations") {
@@ -86,7 +87,7 @@ export default class BlogHeader extends React.Component {
           }
 
           // Create a dictionary where the key is the continent/category
-          // and value is the image icon for that continent/category 
+          // and value is the image icon for that continent/category
           items.forEach(image => {
             let name = image.node.fixed.originalName.replace(preamble,"").replace(".png","")
             images[name] = image.node.fixed
@@ -98,18 +99,22 @@ export default class BlogHeader extends React.Component {
               <NavbarToggler className="d-none d-sm-block d-lg-none large-icon" onClick={toggleNavbar} />
               <Collapse isOpen={state.isOpen} navbar>
                 <Nav navbar >
-                  <NavLink key={props.blogType} to={"/" + props.blogType} tag={Link}> 
-                    <div>
-                      <Img fixed={images["all"]} alt={"All"}/> 
-                      <div> All </div>
-                    </div>
-                  </NavLink>
+                  <NavItem key={props.blogType}>
+                    <NavLink key={props.blogType} to={"/" + props.blogType} tag={Link}>
+                      <div>
+                        <Img fixed={images["all"]} alt={"All"}/>
+                        <div> All </div>
+                      </div>
+                    </NavLink>
+                  </NavItem>
                   {
-                    props.headers.map((header, index) => 
-                        <NavLink key={index} to={"/" + props.blogType + "/" + header.toLowerCase().replace(" ", "-")} tag={Link}> 
-                              <Img fixed={images[header.toLowerCase().replace(" ", "_")]} alt={header}/> 
-                              <div> {header}</div>
-                        </NavLink>
+                    props.headers.map((header, index) =>
+                        <NavItem key={index} >
+                          <NavLink key={index} to={"/" + props.blogType + "/" + header.toLowerCase().replace(" ", "-")} tag={Link}>
+                                <Img fixed={images[header.toLowerCase().replace(" ", "_")]} alt={header}/>
+                                <div> {header}</div>
+                          </NavLink>
+                        </NavItem>
                     )
                   }
                 </Nav>
@@ -119,6 +124,6 @@ export default class BlogHeader extends React.Component {
         }}
       />
     )
-  } 
+  }
 
 }

@@ -19,7 +19,7 @@ const blogPostTemplate = path.resolve(`./src/templates/blog_post.js`);
 // List of destinations
 const destinations = ["North America", "South America", "Europe", "Africa", "Asia", "Oceania"]
 
-// Categories for journal posts 
+// Categories for journal posts
 const journalCategories = ["Travel", "Life", "Medicine"]
 
 
@@ -48,7 +48,7 @@ function paginate(createPage, numPages, path, blogType, graphqlFilter, headers) 
     createPage({
       path: i === 0 ? path + "/" : path + "/" + (i + 1),
       component: blogTemplate,
-      context: { 
+      context: {
         numPages,
         blogType,
         headers,
@@ -69,16 +69,16 @@ function createPagesForGroups(currItem, origItems, groupByObject, createPage, pa
   groupItem = groupByObject.filter(function(e) { return e.fieldValue === currItem; })
 
   // If there are no blog posts for this continent, we only need 1 page
-  numPages = 1;   
+  numPages = 1;
 
   // If the item showed up in the query results, we know there exists at least
-  // one blog post for that item. 
+  // one blog post for that item.
   // Calculate the number of pages based on the count of blog posts
   if (groupItem.length > 0) {
-    numPages = Math.ceil(groupItem[0].totalCount / postsPerPage);        
+    numPages = Math.ceil(groupItem[0].totalCount / postsPerPage);
   }
 
-  // Paginate this item's blog post page 
+  // Paginate this item's blog post page
   paginate(createPage, numPages, path, blogType, graphqlFilter, origItems);
 
 }
@@ -91,7 +91,13 @@ function replaceAll(str,replaceWhat,replaceTo){
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
-  
+
+
+  // for adding journal categories, add the following to query
+  // groupByCategory: group(field: frontmatter___category) {
+  //   fieldValue
+  //   totalCount
+  // }
   return graphql(`
     query travelArticlesCount{
       allMarkdownRemark {
@@ -101,10 +107,6 @@ exports.createPages = ({ actions, graphql }) => {
           totalCount
         }
         groupByContinent: group(field: frontmatter___continent) {
-          fieldValue
-          totalCount
-        }
-        groupByCategory: group(field: frontmatter___category) {
           fieldValue
           totalCount
         }
@@ -165,63 +167,63 @@ exports.createPages = ({ actions, graphql }) => {
 
     // Create and paginate main destinations page
     createPagesForGroups(
-      "travel", 
-      destinations, 
-      result.data.allMarkdownRemark.groupByBlogType, 
-      createPage, 
-      "destinations", 
-      "destinations", 
+      "travel",
+      destinations,
+      result.data.allMarkdownRemark.groupByBlogType,
+      createPage,
+      "destinations",
+      "destinations",
       {"fields" : {"collection": {"eq": "travel"}}}
     )
-    
+
 
     // Create and paginate for each continent's destination page
     destinations.forEach((destination) => createPagesForGroups(
-      destination, 
-      destinations, 
-      result.data.allMarkdownRemark.groupByContinent, 
-      createPage, 
-      "destinations/" + replaceAll(destination.toLowerCase(), " ", "-"), 
-      "destinations", 
+      destination,
+      destinations,
+      result.data.allMarkdownRemark.groupByContinent,
+      createPage,
+      "destinations/" + replaceAll(destination.toLowerCase(), " ", "-"),
+      "destinations",
       {"frontmatter" : {"continent": {"eq": destination}}}
     ))
 
     // Create journal related blog pages
 
     // Create and paginate main journal page
-    createPagesForGroups(
-      "journal", 
-      journalCategories, 
-      result.data.allMarkdownRemark.groupByBlogType, 
-      createPage, 
-      "journal", 
-      "journal", 
-      {"fields" : {"collection": {"eq": "journal"}}}
-    )
+    // createPagesForGroups(
+    //   "journal",
+    //   journalCategories,
+    //   result.data.allMarkdownRemark.groupByBlogType,
+    //   createPage,
+    //   "journal",
+    //   "journal",
+    //   {"fields" : {"collection": {"eq": "journal"}}}
+    // )
 
-    // Create and paginate for each journal category 
-    journalCategories.forEach((category) => createPagesForGroups(
-      category, 
-      journalCategories, 
-      result.data.allMarkdownRemark.groupByCategory, 
-      createPage, 
-      "journal/" + replaceAll(category.toLowerCase(), " ", "-"), 
-      "journal", 
-      {"frontmatter" : {"category": {"eq": category}}}
-    ))
+    // // Create and paginate for each journal category
+    // journalCategories.forEach((category) => createPagesForGroups(
+    //   category,
+    //   journalCategories,
+    //   result.data.allMarkdownRemark.groupByCategory,
+    //   createPage,
+    //   "journal/" + replaceAll(category.toLowerCase(), " ", "-"),
+    //   "journal",
+    //   {"frontmatter" : {"category": {"eq": category}}}
+    // ))
 
 
     // Create pages for country tags (for the world map on home page)
     result.data.allMarkdownRemark.groupByCountry.forEach((countryItem) => {
-      numPages = Math.ceil(countryItem.totalCount / postsPerPage);        
-      
-      // Paginate this item's blog post page 
+      numPages = Math.ceil(countryItem.totalCount / postsPerPage);
+
+      // Paginate this item's blog post page
       paginate(
-        createPage, 
-        numPages, 
-        "country/" + replaceAll(countryItem.fieldValue.toLowerCase(), " ", "-"), 
-        "country", 
-        {"frontmatter" : {"country": {"eq": countryItem.fieldValue}}}, 
+        createPage,
+        numPages,
+        "country/" + replaceAll(countryItem.fieldValue.toLowerCase(), " ", "-"),
+        "country",
+        {"frontmatter" : {"country": {"eq": countryItem.fieldValue}}},
         null
       );
     })
