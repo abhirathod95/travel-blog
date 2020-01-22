@@ -34,18 +34,18 @@ We arrived early enough that there weren't many people around yet. We chose the 
 
 ![Hexagonal shaped stones at Giant's Causeway in Northern Ireland](../../../images/Ireland/Ireland_17.jpg)
 
-After the short hike and breakfast at the Giant's Causeway, we went to the **Carrick-a-Rede Rope Bridge** attraction that was 20 minutes away. I would recommend buying tickets (**9 euros/person**) before hand to avoid any disappointment about crossing the bridge. Even though it is a sturdy rope bridge now, it used to only have one rope to hold onto for fisherman to carry their catch across. While crossing the bridge was a fun touristy activity to take part in, the views from the other side of the bridge was incredible.
+After the short hike and breakfast at the Giant's Causeway, we went to the **Carrick-a-Rede Rope Bridge** attraction that was 20 minutes away. I would recommend buying tickets (**9 euros/person**) before hand to avoid any disappointment about crossing the bridge. Even though it is a sturdy rope bridge now, it used to only have one rope to hold onto for fisherman to carry their catch across. While crossing the bridge was a fun touristy activity to take part in, the views from the other side of the bridge were incredible.
 
 
-![Yellow flowers at Carrick-a-rede bridge](../../../images/Ireland/Ireland_64.jpg)
+![Fantastic views of Northern Ireland cliffs at Carrick-a-rede bridge](../../../images/Ireland/Ireland_24.jpg)
 
 ```grid|2|
-![Fantastic views of Northern Ireland cliffs at Carrick-a-rede bridge](../../../images/Ireland/Ireland_24.jpg)
+![Yellow flowers at Carrick-a-rede bridge](../../../images/Ireland/Ireland_64.jpg)
 ![More cliff views at Carrick-a-rede bridge](../../../images/Ireland/Ireland_25.jpg)
 ```
 ![Fisherman boat at Carrick-a-rede bridge](../../../images/Ireland/Ireland_26.jpg)
 
-Finally, we decided to end our day in Northern Ireland by visiting **Dunluce Castle** only 15 minutes away from the Carrick-a-Rede bridge. The castle ruins were by far one of my favorites during my trip. We explored every nook and cranny of the ruins with no one else there. I wasn't able to make it inside every castle, but I was glad to have visited Dunluce Castle since it is situated a beautiful location right on the cliff and has an interesting history. The first record of the castle was in the 1500s and passed from family to family throughout the years. As I walked through the castle, I could imagine the dining hall restored and the horse stables. The site was actually used for one of the castles in Game of Thrones. 
+Finally, we decided to end our day in Northern Ireland by visiting **Dunluce Castle** only 15 minutes away from the Carrick-a-Rede bridge. The castle ruins were by far one of my favorites during my trip. We explored every nook and cranny of the ruins with no one else there. I wasn't able to make it inside every castle, but I was glad to have visited Dunluce Castle since it is situated a beautiful location right on the cliff and has an interesting history. The first record of the castle was in the 1500s and passed from family to family throughout the years. As I walked through the castle, I could imagine the dining hall and the horse stables. The site was actually used for one of the castles in Game of Thrones. 
 
 
 ![Dunluce Castle](../../../images/Ireland/Ireland_0.jpg)
@@ -56,7 +56,7 @@ Finally, we decided to end our day in Northern Ireland by visiting **Dunluce Cas
 ```
 ![Dunluce castle](../../../images/Ireland/Ireland_47.jpg)
 
-While these coasts are not as tall as Cliffs of Moher, they are still lovely to watch the waves come in. Imagining why the Irish had wanted to build a castle at this location is not difficult. The castle can be quite windy, especially at these viewpoints so having a coat on hand is necessary. 
+While these cliffs are not as tall as Cliffs of Moher, they are still lovely to watch the waves come in. Imagining why the Irish had wanted to build a castle at this location is not difficult. The castle can be quite windy, especially at these viewpoints so having a coat on hand is necessary. 
 
 ![Dramatic northern Ireland coast](../../../images/Ireland/Ireland_48.jpg)
 

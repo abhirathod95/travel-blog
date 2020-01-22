@@ -14,14 +14,14 @@ With a relaxing night in old city Meknes to refresh, my family and I were lookin
 
 **Read More|** [Visiting Four Cities in Morocco](https://www.wheretonextdoc.com/blog/visiting-four-cities-in-morocco)
 
-We found a taxi driver willing to take us to Volubilis at **Bab Mansour**, also known as the prettiest gate in all of Africa. We negotiated with the driver of a grand taxi to come with us and stay for an hour an half at the ruins before taking us back to Meknes for a reasonable price of **300 dirhams**. The drive was a short 25 minutes on winding roads that took us right to the entrance of Volubilis.  
+We found a taxi driver willing to take us to Volubilis at **Bab Mansour**, also known as the prettiest gate in all of Africa. We negotiated with the driver of a grand taxi to come with us and stay for an hour and a half at the ruins before taking us back to Meknes for a reasonable price of **300 dirhams**. The drive was a short 25 minutes on winding roads that took us right to the entrance of Volubilis.  
 
 **Times|** 8:30 AM until 60 minutes before dusk </br>
 **Ticket|** 70 Dh
 
 ![Olives in Volubilis](../../../images/Morocco/Morocco_37.jpg)
 
-When we arrived, only a few people were trickling in. Volubilis usually does not make into many people's itinerary in Morocco since there are many other famous spots in Morocco to see. The weather was beautiful as we walked through the small olive tree grove to the ruins. Olive oil and olives used to be the primary export when the city was still functioning. 
+When we arrived, only a few people were trickling in. Volubilis usually does not make into many people's itinerary in Morocco since there are many other famous spots to see. The weather was beautiful as we walked through the small olive tree grove to the ruins. Olive oil and olives used to be the primary export when the city was still functioning so it was appropriate to appreciate these trees on the way. 
 
 The main city center used to be where the trading happened, and the travelers passed through with their wares. On one of the columns, a pair of nesting storks had built an impressive nest, which we learned can hold up to 40 kg of weight. Behind these colums, there's still a lot of different ruins to discover while in Volubilis!
 

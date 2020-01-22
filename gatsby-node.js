@@ -7,6 +7,7 @@
  // You can delete this file if you're not using it
 
 const path = require ('path');
+const slash = require('slash');
 
 // Number of pages per blog page
 const postsPerPage = 9;
@@ -246,7 +247,7 @@ exports.createSchemaCustomization = ({ actions }) => {
             return null
           }
 
-        const filePath = path.join(__dirname, 'src', partialPath.replace("../../../", ""))
+        const filePath = slash(path.posix.join(__dirname, 'src', partialPath.replace("../../../", "")))
         //console.log(filePath)
         const fileNode = context.nodeModel.runQuery({
           firstOnly: true,
@@ -259,6 +260,10 @@ exports.createSchemaCustomization = ({ actions }) => {
             }
           }
         })
+
+        //console.log(context.nodeModel.getAllNodes({ type: `File` }))
+
+        //console.log(fileNode)
 
         if (!fileNode) {
           return null

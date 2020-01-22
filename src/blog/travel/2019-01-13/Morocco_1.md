@@ -10,11 +10,11 @@ city: ["Marrakesh"]
 featuredImage: "../../../images/Morocco/Morocco_2.jpg"
 ---
 
-I was so excited to visit finally visit my first African country. Morocco is a great place for an introduction to Africa since it is a primarily a tourism centered country. The cities are all so unique from any place I've been before with lots of interesting history. I was able to visit four of the major cities in Morocco during my 8 days and learned lots of interesting lessons as a tourist in Morocco. 
+I was so excited to finally visit my first African country. Morocco is a great place for an introduction to Africa since it is primarily a tourism centered country. The cities are all so unique from any place I've been before with lots of interesting history. I was able to visit four of the major cities in Morocco during my 8 days and learned lots of interesting lessons as a tourist in Morocco. 
 
 **Read More|** [Lessons Learned in Morocco](https://www.wheretonextdoc.com/blog/lessons-learned-in-morocco)
 
-Sadly, a few days before we had arrived to Morocco, two women hiking in the Atlas mountains had been murdered by some remote villagers, which was disturbing to hear. It made us a little nervous to visit. However, the locals made sure to show tourists that this incidence was not condoned at all by Moroccans. Even a vigil was held for the two girls while we were around Jemaa al Fnaa. While we had a great experience spending a week in Morocco, I would still exercise caution if traveling on your own without a guide. While the major cities of Morocco are tolerant of Western culture, there are small pockets of Morocco may not be as accomodating. 
+Sadly, a few days before we had arrived to Morocco, two women hiking in the Atlas mountains had been murdered by some remote villagers, which was disturbing to hear. It made us a little nervous to visit. However, the locals made sure to show tourists that this incidence was not condoned at all by Moroccans. A vigil was held for the two girls while we were around Jemaa al Fnaa. While we had a great experience spending a week in Morocco, I would still exercise caution if traveling on your own without a guide. While the major cities of Morocco are tolerant of Western culture, there are small pockets of Morocco may not be as accomodating. 
 
 
 &nbsp;
@@ -45,7 +45,7 @@ After our trip to Morocco, we watched The Mummy since it was filmed in Morocco, 
 ![Jemaa al Fnaa from above](../../../images/Morocco/Morocco_11.jpg) 
 ```
 
-There are several great restaurants in **Jemaa al Fnaa** to eat dinner at and get a good bird's eye view of the square. Walking through the square, the atmosphere is very lively and busy. Lots of stalls are set up in the evening selling dinner, fruit juice, mint, etc., and the smell of food and herbs fill the air. Some of the more unfortunate aspects of the square is seeing people with monkeys on leashes or in cages. I highly recommend not encouraging the behavior and avoid these individuals. 
+There are several great restaurants in **Jemaa al Fnaa** to eat dinner at and get a good bird's eye view of the square. Walking through the square, the atmosphere is very lively and busy. Lots of stalls are set up in the evening selling dinner, fruit juice, mint, etc., and the smell of food and herbs fill the air. Some of the more unfortunate aspects of the square is seeing people with monkeys on leashes or in cages. I highly recommend not encouraging this behavior and avoiding these individuals. 
 
 ![Bahia Palace, Marrakesh](../../../images/Morocco/Morocco_23.jpg)
 
@@ -59,13 +59,15 @@ Bahia Palace was built in the 19th century and has more of the classic colorful 
 ![Jardin Majorelle](../../../images/Morocco/Morocco_21.jpg) 
 ![Jardin Majorelle](../../../images/Morocco/Morocco_22.jpg) 
 ```
-The last stop was at the brilliant blue and yellow Jardin Majorelle where the famous YSL used to stay in after falling in love with Morocco. It gets really busy to the point there is a long line early in the morning to enter.
+The last stop was at the brilliant blue and yellow Jardin Majorelle where the famous YSL used to stay in after falling in love with Morocco. It gets really busy to the point there was already a long line early in the morning to enter, so I would recommend making this your first stop of the day. 
 
 **Tickets|** 70 DH </br>
 
 ####**Where to Stay**
 
-We stayed at a beautiful, homey riad called Riad Les Bougainvilleas. We had a two bedroom place next to the pool and well decorated. A full breakfast with crepes, bread, fresh orange juice and more is offered at most riads, so let your host know the night before that you want breakfast prepared the next morning. 
+We stayed at a beautiful, homey riad called **Riad Les Bougainvilleas**. We had a two bedroom place next to the pool and well decorated. The location was convenient for visiting the different sites around Marrakesh. A full breakfast with crepes, bread, fresh orange juice and more is offered at most riads, so let your host know the night before that you want breakfast prepared the next morning. 
+
+If you have a room in your budget to stay at a 5 star hotel in Marrakesh, I recommend the popular hotel, La Mamounia, which has great picture spots for a small photoshoot and a great location close to the medina. 
 
 &nbsp;
 
@@ -84,9 +86,9 @@ Fes was by far my favorite city in Morocco. Somehow, the souks were even more na
 ![Close up of Golden Door in Fes](../../../images/Morocco/Morocco_19.jpg) 
 ![Golden Door of Fes](../../../images/Morocco/Morocco_31.jpg) 
 ```
-The seven golden gates are the only view you can get of the palace that the Moroccan king uses when in Fes. It's one of the most glamorous spots in Fes that lots of visitors come to. 
+The seven golden gates are the only view you can get of the palace that the Moroccan king uses when in Fes. It's one of the most glamorous spots in Fes that lots of visitors come to see. 
 
-Soon after entering the souks of Fes, the crowds of people and stores become more concentrated. There are several interesting sites to see. Unfortunately, **Al Attarine Madrassa**, which has the oldest library in the world, was under construction when we visited and was only open for students of the university. However, **Bou Inania Madrassaa** was open to visit for tourists and the intricacy of the architecture was a taste of the beautiful design of one of the oldest universities in the world. 
+Soon after entering the souks of Fes, the crowds of people and stores become more concentrated. There are several interesting sites to see. Unfortunately, **Al Attarine Madrassa**, which has the oldest library in the world, was under construction when we visited and was only open for students of the university. However, **Bou Inania Madrassaa** was open to visit for tourists and the intricacy of the architecture was just a small taste of the beautiful design of one of the oldest universities in the world. 
 
 ![Al Attarine Madrassa](../../../images/Morocco/Morocco_44.jpg) 
 
@@ -96,13 +98,13 @@ Finding the famous **Chaoura tannery** built in the 14th century is a bit diffic
 
 #### **Where to Stay**
 
-When we arrived in Fes from a night in the Sahara, we stayed at **Riad Yasmin** which had really good service and extremely well decorated rooms. Just two streets down was a convenient spot to find taxis.
+When we arrived in Fes from a night in the Sahara, we stayed at **Riad Yasmin** which had really good service and extremely overly decorated rooms. To be totally transparent, we did not spend much time in the riad to relax and only came back to sleep at night. Also, just two streets down was a convenient spot to find taxis.
 
 
 ******************************************************************************
 ### **Meknes**
 
-Meknes is not a city most people visit, but I would argue that it was one of the more authentic Moroccan cities we visited. The souks were selling more local necessities of undergarnments and children's toys than tourist souvenirs. From Meknes, you can also find a taxi to Volubilis from Bab Mansour.
+Meknes is not a city most people visit, but I would argue that it was one of the more authentic Moroccan cities we visited. The souks were selling more local necessities of cooking ware, undergarnments, and children's toys than tourist souvenirs. From Meknes, you can also find a taxi to Volubilis from Bab Mansour.
 
 **Read More|** [Volubilis: Roman Ruins in Morocco](https://www.wheretonextdoc/blog/volubilis-roman-ruins-in-morocco)
 
@@ -140,7 +142,7 @@ There are certain times allotted for when non-Muslims can enter the mosque, but 
 
 The last thing you want to do while visiting a conservative country is to stick out like a sore thumb by showing too much skin. While there were some tourists that chose to dress less conservatively in Marrakesh, I did not see many throughout the rest of Morocco. 
 
-Since I was a guest in another country and there to learn about the culture, it didn't feel appropriate to not cover up shoulders and wear shorts/dresses at least past my knees. Most mosques do not allow non-Muslims to enter, and the ones that do did not require covering the head. 
+Since I was a guest in another country and there to learn about the culture, it didn't feel appropriate to not cover up shoulders and wear shorts/dresses shorter than my knees. Most mosques do not allow non-Muslims to enter, and the ones that do did not require covering the head. 
 
 ***************************************************************************
 ### **What to EAT**
