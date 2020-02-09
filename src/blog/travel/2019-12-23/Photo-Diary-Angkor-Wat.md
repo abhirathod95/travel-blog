@@ -3,7 +3,7 @@ title: "Photo Tour of Angkor Wat and More"
 date: "2019-12-23"
 path: "/blog/photo-tour-angkor-wat"
 excerpt: "As much as I can try to describe the feeling of being at Angkor Wat, climbing the old stones, and standing in musty long corridors, picutres are still worth a thousand words."
-tags: ["Itinerary", "Christmas", "Ruins"]
+tags: ["Photo", Christmas", "Ruins"]
 continent: ["Asia"]
 country: ["Cambodia"]
 city: ["Siem Reap"]
@@ -12,7 +12,7 @@ featuredImage: "../../../images/Cambodia/Angkor_Wat_11.jpg"
 
 As much as I can try to describe the feeling of being at Angkor Wat, climbing the old stones, and standing in musty long corridors, picutres are still worth a thousand words. So, I'll let the pictures speak for themselves. The camera we used to shoot these photograpghs is the Canon 5D. For more information about how to plan your trip to Angkor Wat, please read my other article!
 
-**Read|** [Exploring Angkor Wat, Siem Reap: Two Day Itinerary]"(https://www.wheretonextdoc.com/blog/exploring-angkor-wat")
+**Read|** [Exploring Angkor Wat, Siem Reap: Two Day Itinerary]("https://www.wheretonextdoc.com/blog/exploring-angkor-wat")
 
 ![Sunrise at Angkor Wat](../../../images/Cambodia/Angkor_Wat_12.jpg)
 
@@ -35,8 +35,6 @@ As much as I can try to describe the feeling of being at Angkor Wat, climbing th
 ![More lotuses](../../../images/Cambodia/Angkor_Wat_18.jpg) 
 ```
 ![Man sitting under a tree](../../../images/Cambodia/Angkor_Wat_19.jpg)
-
-![Devata pulling on the snake bannister](../../../images/Cambodia/Angkor_Wat_20.jpg)
 
 ![Close up of Bayon face](../../../images/Cambodia/Angkor_Wat_21.jpg)
 

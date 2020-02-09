@@ -3,7 +3,7 @@ title: "Weekend in Lisbon, Portugal"
 date: "2019-01-08"
 path: "/blog/weekend-in-lisbon"
 excerpt: "Lisbon is a beautiful European town in Portugal to visit during the winter months with delicious seafood, amazing live music, and a salty ocean breeze in the air."
-tags: ["Winter","Family Trip","Guide","Journal"]
+tags: ["Winter","Family Trip","Travel Guide","Journal"]
 continent: ["Europe"]
 country: ["Portugal"]
 city: ["Lisbon"]

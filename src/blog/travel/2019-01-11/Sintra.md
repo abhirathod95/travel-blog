@@ -3,7 +3,7 @@ title: "A Day in Magical Sintra"
 date: "2019-01-09"
 path: "/blog/a-day-in-magical-sintra"
 excerpt: "Spending a day in Sintra with its romantic architecture is different from the city of Lisbon. The historic palaces and gardens are all considered UNESCO heritage sites and used to be where the Portuguese royals..."
-tags: ["Winter","Family Trip","Itinerary",""]
+tags: ["Winter","Family Trip","Itinerary"]
 continent: ["Europe"]
 country: ["Portugal"]
 city: ["Sintra"]

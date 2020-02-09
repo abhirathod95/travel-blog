@@ -7,5 +7,5 @@ tags: ["Christmas", "City", "Food"]
 continent: ["Asia"]
 country: ["Thailand, Singapore"]
 city: ["Bangkok, Singapore"]
-featuredImage: "../../../images/Thailand/Bangkok_1.jpg"
+featuredImage: "../../../images/Singapore/Singapore_2.jpg"
 ---

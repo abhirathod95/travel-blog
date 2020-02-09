@@ -3,7 +3,7 @@ title: "Driving the Countryside in Ireland"
 date: "2019-04-05"
 path: "/blog/driving-the-countryside-in-ireland"
 excerpt: "This spring break, I decided to visit the fair isle, Ireland. Some of the highlights of our roadtrip were Dublin, Cliffs of Moher, Slea head drive, and so much more."
-tags: ["Road Trip", "Spring Break", "Country"]
+tags: ["Road Trip", "Spring Break", "Country", "Itinerary"]
 continent: ["Europe"]
 country: ["Ireland"]
 city: [""]
@@ -117,7 +117,7 @@ We reached just around sunset and got the chance to see the **River Corrib**, th
 
 If there was one place I had flown all the way to Ireland for, it would be the Cliffs of Moher. I was quite excited for this day.  
 
-On the way from Galway to the Cliffs of Moher, we stopped at **Dunguaire Castle** and **Corcomroe Abbey**. Unfortunately Dungauire Castle was closed to the public for a documentary filming when we arrived, but really, the impressive part of the castle was its location right on the water. Corcomroe Abbey was a little bit out of the way, but was well worth taking the time to drive out to it. When we arrived, a small group of 6 people were just leaving, so we had the abbey all to ourselves to explore. I was surprised to learn that the abbey was actually not well funded in its time, despite how impressive it was to walk through today. 
+On the way from Galway to the Cliffs of Moher, we stopped at **Dunguaire Castle** and **Corcomroe Abbey**. Unfortunately, Dungauire Castle was closed to the public for a documentary filming when we arrived, but really, the impressive part of the castle was its location right on the water. Corcomroe Abbey was a little bit out of the way, but was well worth taking the time to drive out to it. When we arrived, a small group of 6 people were just leaving, so we had the abbey all to ourselves to explore. I was surprised to learn that the abbey was actually not well funded in its time, despite how impressive it was to walk through today. 
 
 ![Looking out at Dunguaire Castle](../../../images/Ireland/Ireland_20.jpg)
 
@@ -183,7 +183,7 @@ Once we made it back, we made a spontaneous decision to drive part of the ROK to
 
 ![Ballycarbery Castle on Ring of Kerry](../../../images/Ireland/Ireland_42.jpg)
 
-Once we had returned to Killarney, we decided to see Muckross House. However, the real highlight of the area was visiting Muckross Abbey which is free. If you want a very impressive and kind of creepy abbey to visit, definitely see Muckross Abbey. The center of the abbey had a yew tree growing that is over 500 years old. Muckross Abbey was also frequently visited by Bram Stoker, the Irish author who wrote Dracula. There's even a morbid legend about a man   . All I could think seeing the yew tree bark was that it was used in Voldemort's wand...
+Once we had returned to Killarney, we decided to see Muckross House. However, the real highlight of the area was visiting Muckross Abbey which is free. If you want a very impressive and kind of creepy abbey to visit, definitely see Muckross Abbey. The center of the abbey had a yew tree growing that is over 500 years old, and it is thought that the abbey was built around the tree, which is seen as a sign of immortality. Muckross Abbey was also frequently visited by Bram Stoker, the Irish author who wrote Dracula, who may have used the Muckross Abbey graveyard as inspiration for his book. There's even a morbid legend about a man who was seen eating a corpse by his wife. All I could think seeing the yew tree bark was that it had been used in Voldemort's wand...
 
 ![Muckross House](../../../images/Ireland/Ireland_46.jpg)
 
@@ -195,7 +195,7 @@ Once we had returned to Killarney, we decided to see Muckross House. However, th
 
 ![Muckross Abbey on Ring of Kerry](../../../images/Ireland/Ireland_62.jpg)
 
-With all the sightseeing over, we made our way to our fanciest hotel, the Hayfield Manor, in Cork. Since we missed out on staying in a castle, we decided to atleast stay in manor for a night. 
+With all the sightseeing over, we made our way to our fanciest hotel, the Hayfield Manor, in Cork. Since we missed out on staying in a castle, we decided to atleast stay in manor for a night. Nearby to the hotel was Cork University, which we took a short stroll through before getting dinner. 
 
 ![Hayfield Manor in Cork, Ireland](../../../images/Ireland/Ireland_51.jpg)
 
@@ -206,7 +206,7 @@ With all the sightseeing over, we made our way to our fanciest hotel, the Hayfie
 
 Before leaving the region around Cork, we woke up very early to drive into Cobh to see the famous Deck of Cards. If you have an extra day, Cobh is another interesting place to visit. If you recognize the picture from Cobh, it's a classic picture that many try to get while in Cobh. The best spot to stand is at the Spyhill Street. 
 
-Finally, we began making our way back to Dublin with a stop at the famous and stunning Rock of Cashel. There are several important Irish legends that are about the Rock of Cashel which gained importance as a fortress. 
+Finally, we began making our way back to Dublin with a stop at the famous and stunning Rock of Cashel. There are several important Irish legends that are about the Rock of Cashel which gained importance as a fortress. Right before we were planning to leave the car, the wind started picking up and the clouds were dark and heavy. Instead of raining, it started to snow! After 15 minutes, the snow stopped and the clouds disappeared for a blue sky. It was all very odd, and it was our only true rainfall, more like snow fall, of our entire trip.
 
 ![Rock of Cashel, Ireland](../../../images/Ireland/Ireland_56.jpg)
 
@@ -229,4 +229,4 @@ Nearby to the Rock of Cashel is a lesser known Cistercian ruin called Hore Abbey
 *********************************************************
 ### **Day 8: Fly out of Dublin** 
 
-Last day in Ireland and last day to get a pint of Guinness before boarding the plane.  
+Last day in Ireland and last day to get a pint of Guinness before boarding the plane. Hope that my jam packed itinerary driving across Ireland  
