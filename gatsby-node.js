@@ -225,7 +225,7 @@ exports.createPages = ({ actions, graphql }) => {
         "country/" + replaceAll(countryItem.fieldValue.toLowerCase(), " ", "-"),
         "country",
         {"frontmatter" : {"country": {"eq": countryItem.fieldValue}}},
-        null
+        [countryItem["fieldValue"]]
       );
     })
 

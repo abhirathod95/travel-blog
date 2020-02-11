@@ -71,6 +71,21 @@ export default class BlogHeader extends React.Component {
           let items, preamble;
 
           console.log(data)
+          console.log(props)
+
+          if (props.blogType === "country") {
+            return (
+              <Navbar expand="lg">
+                  <Nav navbar>
+                    <NavItem key={props.blogType} className="country-bar">
+                        <h2>
+                          {props.headers[0].toUpperCase()}
+                        </h2>
+                    </NavItem>
+                  </Nav>
+              </Navbar>
+            )
+          }
 
           // Catch the appropriate data from the query result
           // and set the correct preamable shared by all the images for a
@@ -83,6 +98,7 @@ export default class BlogHeader extends React.Component {
             items = data.journal.edges;
             preamble = "journal_header_";
           } else {
+            //console.log("Returning empty with type: " + props.blogType)
             return
           }
 
