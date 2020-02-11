@@ -26,9 +26,9 @@ Welcome to Marrakesh, the city of red. It's called the Red City because of the c
 
 **Read More|** [Roadtrip to the Sahara Desert](https://www.wheretonextdoc.com/blog/roadtrip-to-the-sahara-desert) 
 
-##### **Must See:** Moulay al Yazid Mosque, Koutoubia Mosque, Bab Agnou, Jemaa al Fnaa & souks, Bahia Palace,  Jardin Majorelle
-
 &nbsp;
+
+#### **Must See:** Moulay al Yazid Mosque, Koutoubia Mosque, Bab Agnou, Jemaa al Fnaa & souks, Bahia Palace,  Jardin Majorelle
 
 ![Moulay al Yazid Mosque, Marrakesh](../../../images/Morocco/Morocco_17.jpg)
 
@@ -51,7 +51,6 @@ There are several great restaurants in **Jemaa al Fnaa** to eat dinner at and ge
 
 Bahia Palace was built in the 19th century and has more of the classic colorful architecture that Morocco is known for. As you walk through the different spaces of the palace, there are different types of design to admire. 
 
-**Tickets|** 70 DH </br>
 
 ![Jardin Majorelle](../../../images/Morocco/Morocco_39.jpg)
 
@@ -61,9 +60,9 @@ Bahia Palace was built in the 19th century and has more of the classic colorful 
 ```
 The last stop was at the brilliant blue and yellow Jardin Majorelle where the famous YSL used to stay in after falling in love with Morocco. It gets really busy to the point there was already a long line early in the morning to enter, so I would recommend making this your first stop of the day. 
 
-**Tickets|** 70 DH </br>
+&nbsp;
 
-####**Where to Stay**
+#### **Where to Stay**
 
 We stayed at a beautiful, homey riad called **Riad Les Bougainvilleas**. We had a two bedroom place next to the pool and well decorated. The location was convenient for visiting the different sites around Marrakesh. A full breakfast with crepes, bread, fresh orange juice and more is offered at most riads, so let your host know the night before that you want breakfast prepared the next morning. 
 
@@ -76,9 +75,9 @@ If you have a room in your budget to stay at a 5 star hotel in Marrakesh, I reco
 
 Fes was by far my favorite city in Morocco. Somehow, the souks were even more narrow than in Marrakesh, but that much more interesting. We kept finding little historical places that we didn't plan on seeing. Once we entered through the famous Blue Gate of Fes (Bab Bou Jeloud), there were all kinds of shops as far as the eye could see. As the souks slope downwards, you are heading deeper into the labyrinth. 
 
-##### **Must See:** Blue Gate, Seven Golden Doors, Souks, Chouara Tannery, Bou Inania Madrassa, Al Attarine Madrassa
-
 &nbsp;
+
+#### **Must See:** Blue Gate, Seven Golden Doors, Souks, Chouara Tannery, Bou Inania Madrassa, Al Attarine Madrassa
 
 ![Me at the Golden doors](../../../images/Morocco/Morocco_40.jpg)
 
@@ -86,9 +85,9 @@ Fes was by far my favorite city in Morocco. Somehow, the souks were even more na
 ![Close up of Golden Door in Fes](../../../images/Morocco/Morocco_19.jpg) 
 ![Golden Door of Fes](../../../images/Morocco/Morocco_31.jpg) 
 ```
-The seven golden gates are the only view you can get of the palace that the Moroccan king uses when in Fes. It's one of the most glamorous spots in Fes that lots of visitors come to see. 
+The seven golden gates are the only view you can get of the palace that the Moroccan king uses when in Fes. It's probably the most glamorous spot in Fes that lots of visitors come to see. 
 
-Soon after entering the souks of Fes, the crowds of people and stores become more concentrated. There are several interesting sites to see. Unfortunately, **Al Attarine Madrassa**, which has the oldest library in the world, was under construction when we visited and was only open for students of the university. However, **Bou Inania Madrassaa** was open to visit for tourists and the intricacy of the architecture was just a small taste of the beautiful design of one of the oldest universities in the world. 
+Soon after entering the souks of Fes, the crowds of people and stores become more concentrated. There are several interesting sites to see in between the stalls. Unfortunately, **Al Attarine Madrassa**, which has the oldest library in the world, was under construction when we visited and was only open for students of the university. However, **Bou Inania Madrassaa** was open to visit for tourists and the intricacy of the architecture was provided a small taste of the beautiful design of one of the oldest universities in the world to enjoy. 
 
 ![Al Attarine Madrassa](../../../images/Morocco/Morocco_44.jpg) 
 
@@ -100,17 +99,18 @@ Finding the famous **Chaoura tannery** built in the 14th century is a bit diffic
 
 When we arrived in Fes from a night in the Sahara, we stayed at **Riad Yasmin** which had really good service and extremely overly decorated rooms. To be totally transparent, we did not spend much time in the riad to relax and only came back to sleep at night. Also, just two streets down was a convenient spot to find taxis.
 
+&nbsp;
 
 ******************************************************************************
 ### **Meknes**
 
-Meknes is not a city most people visit, but I would argue that it was one of the more authentic Moroccan cities we visited. The souks were selling more local necessities of cooking ware, undergarnments, and children's toys than tourist souvenirs. From Meknes, you can also find a taxi to Volubilis from Bab Mansour.
+Meknes is not a city most people visit, but I would argue that it was the most authentic Moroccan city we visited. The souks were selling more local necessities of cooking ware, undergarnments, and children's toys than tourist souvenirs. From Meknes, you can also find a taxi to Volubilis from Bab Mansour.
 
 **Read More|** [Volubilis: Roman Ruins in Morocco](https://www.wheretonextdoc/blog/volubilis-roman-ruins-in-morocco)
 
-##### **Must See:** Bab Mansour "Prettiest Gate of Africa" 
-
 &nbsp;
+
+#### **Must See:** Bab Mansour "Prettiest Gate of Africa" 
 
 ```grid|2|
 ![Square in Meknes](../../../images/Morocco/Morocco_29.jpg) 

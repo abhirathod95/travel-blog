@@ -36,10 +36,7 @@ The architect for both of these buildings was also Gaudi. They both stand out co
 
 #### **Park Guell** 
 
-```grid|1|
 ![test](../../../images/Spain/Barcelona/Barcelona_9.jpg)
-![test](../../../images/Spain/Barcelona/Barcelona_10.jpg)
-```
 
 Another one of Gaudi’s masterpieces with many colorful tiles. It’s a collection of unique buildings, gardens, and sculptures all inspired by the natural landscape of Spain. When I went, it just started to rain, and I had to duck behind the columns to avoid getting wet! I was so worried that that was going to be the end of my visit. But just as I was losing hope, the skies cleared up and the sun came out. All of sudden, there was a rainbow stretching across the sky, as if reflecting the colorful tiles decorating the whole park. 
 
@@ -47,8 +44,6 @@ The Casa Del Guarda is the home in the front of the park that was made for the g
 Just like for the Sagrada Familia, I would suggest buying tickets ahead of time to avoid waiting in the long lines and guaranteeing getting in. 
 
 #### **Las Ramblas**
-
-![test](../../../images/Spain/Barcelona/Barcelona_7.jpg)
 
 It’s a street to walk down surrounded by tourists and Barcelona natives and soak in the sun filtering through the green canopy above. There were all sorts of restaurants, bars, souvenir shops, and more lining the street. At the end of Las Ramblas, there is La Playa Catalunya, one of the many beautiful beaches to line the northern end of Barcelona. 
 The tall monument for Christopher Columbus. He is definitely a controversial figure in my opinion since his discovery led to the unfortunate death of many Native Americans by disease. 

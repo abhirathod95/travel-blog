@@ -49,7 +49,7 @@ Today is the longer day of the two in order to cover the small circuit of Angkor
 
 If you are interested in learning about Angkor Wat, finding a tour guide at the entrance of each of the temples is easy. The ticket checkers might ask you or guides might offer you their services themselves. If you are not interested in a guide, there is an app, **Angkor Wat Smart Guide**, that can be used even without data to explain the history behind each of the temples. 
 
-Other temples and structures we visited this day include Thommanon, Terrace of the Elephants, and the Khleangs.
+Other temples and structures we visited this day that I don't write about include Thommanon, Terrace of the Elephants, and the Khleangs.
 
 ##### **Angkor Wat for Sunrise**
 
@@ -73,7 +73,7 @@ Nearby Bayon Temple is **Baphuon Temple** which was originally a temple dedicate
 
 ![Famous tree of Ta Prohm](../../../images/Cambodia/Angkor_Wat_5.jpg)
 
-The famous temple featured in the movie, Lara Croft. Due to its on screen appearance, this temple sees many more tourists than some of the other temples. The archeologists left the large cotton silk trees growing into the temple walls to give visitors an idea of the wildness the temples were originally found in. While it is an awesome temple to visit, there were definitely more cooler temples to visit with the cotton silk trees and less visitors.  
+The famous temple featured in the movie, Lara Croft. Due to its on screen appearance, this temple sees many more tourists than some of the other temples. The archeologists left the large cotton silk trees growing into the temple walls to give visitors an idea of the wild state the temples were originally found in. While it is an awesome temple to visit, there were definitely more cooler temples to visit with the overgrown cotton silk trees and less visitors.  
 
 ##### **Banteay Srei**
 
@@ -96,7 +96,7 @@ The most popular place to watch the sunset is at Phnom Bakheng which sits on top
 
 Day 2 will be a shorter day with this itinerary. We were done with temples by noon in order to escape the heat. The temples we covered on the second day were on the Big Circuit. The benefit of the Big Circuit is that there are way fewer tourists since most people only get the one day pass to cover the main temples in the Small Circuit and the temples are actually much cooler, with the exception of Angkor Wat and Bayon. 
 
-Other only other place we visited today was Neak Pean. 
+Other only other place we visited today that I don't write about was Neak Pean. 
 
 ##### **Inside Angkor Wat** 
 

@@ -215,9 +215,7 @@ Finally, we began making our way back to Dublin with a stop at the famous and st
 ![Rock of Cashel](../../../images/Ireland/Ireland_54.jpg) 
 ```
 
-&nbsp;
-
-Nearby to the Rock of Cashel is a lesser known Cistercian ruin called Hore Abbey. Entrance is free, but finding a good place to park can be hard. If you have the time to walk over from the Rock of Cashel, the trip to the abbey is well worth it. From the abbey, I had a great view of the Rock of Cashel on top of the hill.
+Nearby to the Rock of Cashel is a lesser known Cistercian ruin called Hore Abbey. It easily made it into my list of top three Irish ruins we visted, so I highly recommend visiting if you get the chance. Entrance is free, but finding a good place to park can be hard. If you have the time to walk over from the Rock of Cashel, the trip to the abbey is well worth it and most likely you'll have the place to yourself. From the abbey, I also had a great view of the Rock of Cashel on top of the hill.
 
 ![Hore Abbey](../../../images/Ireland/Ireland_68.jpg)
 
@@ -229,4 +227,4 @@ Nearby to the Rock of Cashel is a lesser known Cistercian ruin called Hore Abbey
 *********************************************************
 ### **Day 8: Fly out of Dublin** 
 
-Last day in Ireland and last day to get a pint of Guinness before boarding the plane. Hope that my jam packed itinerary driving across Ireland  
+Last day in Ireland and last day to get a pint of Guinness before boarding the plane. Hope that my jam packed itinerary driving across Ireland gets you excited to visit soon! 

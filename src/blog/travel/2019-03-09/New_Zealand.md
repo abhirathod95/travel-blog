@@ -1,6 +1,6 @@
 ---
 title: "One Week Roadtrip through New Zealand"
-date: "2019-03-09"
+date: "2016-12-15"
 path: "/blog/roadtrip-through-new-zealand"
 excerpt: ""
 tags: ["Diary", "Winter", "Family Trip"]
