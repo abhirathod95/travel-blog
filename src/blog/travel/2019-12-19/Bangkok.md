@@ -21,7 +21,7 @@ Bangkok, Thailand is an exciting place with lots of spicy tastes, colorful sight
 
 ##### **Grand Palace, Wat Pho, and other Temples**
 
-For the history buffs of the group, visiting the luxuriously built temples in Bangkok is a must. The Grand Palace and Wat Pho are close to one another in location making it easy to visit both temples in the same day. The best way to get to the temples from your hotel is with Grab or local transportation via train. I would avoid getting a taxi since they tend to have high standard rates instead of using meters. In order to navigate to the temple entrance, either follow the crowds of people heading that way or use your own navigation system. There may be local Thai trying to convince you that it is Buddha day and the temples are closed for a few hours, but trust what Google says about the temple hours. We were almost tricked to pay 1000 baht per person for a boat ride since they claimed the temples were closed from 11 AM to 12 PM, which was not at all true. 
+For the history buffs of the group, visiting the luxuriously built temples in Bangkok is a must. The Grand Palace and Wat Pho are close to one another in location making it easy to visit both temples in the same day. The best way to get to the temples from your hotel is with Grab or local transportation via train. I would avoid getting a taxi since they tend to have high standard rates instead of using meters. In order to navigate to the temple entrance, either follow the crowds of people heading that way or use your own navigation system. There may be some vendors trying to convince you that it is Buddha day and the temples are closed for a few hours, but trust what Google says about the temple hours. We were almost tricked to pay 1000 baht per person for a boat ride since they claimed the temples were closed from 11 AM to 12 PM, which was not at all true. 
 
 Once you've figured out getting into the Grand Palace, it's time to take in all the splendid colors and tall spires adorning every structure you see. There's a lot of people at all times at these temples, so having a strategy in place in case your group gets separated is a good idea. All temples require you to remove shoes at a designated area and being properly covered up before entering. 
 
@@ -53,7 +53,6 @@ For those interested in seeing more temples that are not as popular but just as 
 ![](../../../images/Thailand/Bangkok_3.jpg) 
 ![](../../../images/Thailand/Bangkok_4.jpg) 
 ```
-![Sunset at Wat Arun](../../../images/Thailand/Bangkok_5.jpg)
 
 &nbsp;
 
@@ -114,7 +113,7 @@ One of the more touristy things to do in Bangkok is to find a rooftop bar with t
 
 Eat anywhere and everywhere you find street food, and try a little bit of everything. Especially on Khao San Road. We definitely found things we loved like coconut ice cream, Pad thai, sticky rice, and things we were not so impressed with as well. We didn't eat in restaurants as much as we did street food, so have a look in my other article for more details!
 
-**Read|** [Street Food Diary of Bangkok!](https://www.wheretonextdoc.com/blog/food-diary-of-bangkok)
+**Read|** [Street Food Diary of Bangkok and Singapore!](https://www.wheretonextdoc.com/blog/food-diary-of-bangkok-and-singapore)
 
 ![](../../../images/Thailand/Bangkok_12.jpg) 
 

@@ -94,7 +94,7 @@ If I had more than three days near the Lisbon area, I would have also seen **Cas
 *************************************************************
 ####**Where I Stayed**
 
-I stayed in an apartment with **Hello Lisbon** right on the famous **Pink Street**. Even though this meant I had to hear faint discotech music every night even on the fifth floor, I really felt like I was a local Portuguese living in Lisbon. We even made breakfast everyday using the fully equipped kitchen with groceries we had bought on the first day from a local store. 
+I stayed in an apartment with **Hello Lisbon** right on the famous **Pink Street**. Even though this meant I had to hear faint discotech music every night on the fifth floor, I really felt like I was a local Portuguese citizen living in Lisbon. We even made breakfast everyday using the fully equipped kitchen with groceries we had bought on the first day from a local store. 
 
 
 ![Pink Street](../../../images/Portugal/Lisbon_22.jpg) 

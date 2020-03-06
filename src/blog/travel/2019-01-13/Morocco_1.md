@@ -38,7 +38,7 @@ The **Saadian tombs** are next to the **Moulay al Yazid Mosque** if you're inter
 
 After our trip to Morocco, we watched The Mummy since it was filmed in Morocco, and the only sight we were able to recognize was the distinctive **Bab Agnou**, translating to Red Gate. There are several other gates throughout old city of Marrakesh but Bab Agnou is the most famous. 
 
-![Marrakesh souks](../../../images/Morocco/Morocco_13.jpg)
+![Marrakesh souks](../../../images/Morocco/Morocco_47.jpg)
 
 ```grid|2|
 ![Dried fruits stand at Jemaa al Fnaa](../../../images/Morocco/Morocco_24.jpg) 

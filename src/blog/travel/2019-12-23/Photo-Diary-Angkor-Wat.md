@@ -91,7 +91,5 @@ As much as I can try to describe the feeling of being at Angkor Wat, climbing th
 
 ![Lounging cat at Ta Som](../../../images/Cambodia/Angkor_Wat_43.jpg)
 
-![Tree at Ta Som](../../../images/Cambodia/Angkor_Wat_44.jpg)
-
 Hopefully, you are able to appreciate the beauty of Angkor Wat from these images, but they are nothing compared to being there in person. If I have somehow inspired you to visit Cambodia or have reaffirmed your decision to go, I hope to help your travel plans be exciting and more efficient!
 

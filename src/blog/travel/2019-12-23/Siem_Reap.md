@@ -10,11 +10,11 @@ city: ["Siem Reap"]
 featuredImage: "../../../images/Cambodia/Angkor_Wat_0.jpg"
 ---
 
-If you're looking for history, ruins, and the feeling that you are an archeologist in the 20th century, then definitely consider coming to Siem Reap to visit Angkor Wat. The mysterious morning mist, the overgrown trees taking over the ancient stones, and that one special moment when you find a spot in the temple with no other visitors; it all makes it worth visiting Angkor Wat. Most of the temples were built in the 12th century under the rule of King Jayavarman, but you will also find several temples that are dated even older. There are obvious Hindu influences in the early temples with many depictions of gods such as Vishnu, Shiva, Rama and classical stories from the Ramayana and Mahabharat. Later temples are more Buddhist influenced with different architecture involving faces. 
+If you're looking for history, ruins, and the feeling that you are an archeologist in the 20th century, then definitely consider coming to Siem Reap to visit Angkor Wat. The mysterious morning mist, the overgrown trees taking over the ancient stones, and that one special moment when you find yourself alone in the quiet temple; it all makes it worth visiting Angkor Wat. Most of the temples were built in the 12th century under the rule of King Jayavarman, but you will also find several temples that are dated even older. There are obvious Hindu influences in the early temples with many depictions of gods such as Vishnu, Shiva, Rama and classical stories from the Ramayana and Mahabharat. Later temples are more Buddhist influenced with a vert different architecture style involving faces. 
 
 **Read|** [Photo Tour of Angkor Wat and More](https://www.wheretonextdoc.com/blog/photo-tour-angkor-wat)
 
-The best time to visit is **November to early April** when the temperatures are not soaring high. Even visiting around Christmas time, the temperatures would reach 91 degrees Farenheit by noon, so planning your day is critical to avoid the heat from sapping your energy. Despite the heat, it is important to keep in mind the dress code while visiting the temples - **all shoulders and knees must be covered for both men and women**. 
+The best time to visit is **November to early April** when the temperatures are not soaring high and less humidity. Even visiting around Christmas time, the temperatures would reach 91 degrees Farenheit by noon, so planning your day is critical to avoid the heat from sapping your energy. Despite the heat, it is important to keep in mind the dress code while visiting the temples - **all shoulders and knees must be covered for both men and women**. 
 
 ![Standing in front of Preah Khan](../../../images/Cambodia/Angkor_Wat_1.jpg)
 
@@ -36,7 +36,7 @@ The most popular way to see Angkor Wat is by **tuk tuk**. You can talk to your h
 
 ![Tuk tuk](../../../images/Cambodia/Angkor_Wat_2.jpg)
 
-The other way to see Angkor Wat is to have a driver with a **4WD car** that can also be arranged through the hotel, which was quoted at $80/day with additional $15 to see Banteay Srei. Booking on your own or through the hotel generally did not seem to make a huge difference in cost.   
+The other way to see Angkor Wat is to have a driver with a **car** that can also be arranged through the hotel, which was quoted at $80/day with additional $15 to see Banteay Srei. Booking on your own or through the hotel generally did not seem to make a huge difference in cost.   
 
 Most drivers will ask for cash. Interestingly, Cambodians **prefer Riel or even USD** for payment. However, if you choose to pay in USD, they only accept bills without any tears, ink marks, or too many creases. This was true at most places that required cash. Within the city, you can use the app **Grab**, which is similar to Uber, if you prefer to pay with card. 
 
