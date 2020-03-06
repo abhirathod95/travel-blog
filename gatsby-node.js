@@ -145,6 +145,12 @@ exports.createPages = ({ actions, graphql }) => {
           }
         }
       }
+      guides: allMarkdownRemark(filter: {frontmatter : {tags : {in : "Travel Guide"}}}) {
+        totalCount
+      }
+      itineraries: allMarkdownRemark(filter: {frontmatter : {tags : {in : "Itinerary"}}}) {
+        totalCount
+      }
     }
   `).then(result => {
     if (result.errors) {
@@ -229,8 +235,28 @@ exports.createPages = ({ actions, graphql }) => {
       );
     })
 
-  });
+    // Create page for articles tagged travel guide (image navigation on home page)
+    numPages = Math.ceil(result.data.guides.totalCount / postsPerPage);
+    paginate(
+      createPage,
+      numPages,
+      "tags/" + replaceAll("Travel Guide".toLowerCase(), " ", "-"),
+      "country",
+      {frontmatter : {tags : {in : "Travel Guide"}}},
+      ["Travel Guide"]
+    );
 
+    // Create page for articles tagged itineraries (image navigation on home page)
+    numPages = Math.ceil(result.data.itineraries.totalCount / postsPerPage);
+    paginate(
+      createPage,
+      numPages,
+      "tags/" + replaceAll("Itinerary".toLowerCase(), " ", "-"),
+      "country",
+      {frontmatter : {tags : {in : "Itinerary"}}},
+      ["Itinerary"]
+    );
+  });
 
 }
 

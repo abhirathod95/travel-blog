@@ -12,6 +12,7 @@ import SEO from '../components/seo.js';
 
 export default class BlogPostTemplate extends React.Component {
 
+
 	constructor(props) {
 		super(props);
 
@@ -23,6 +24,7 @@ export default class BlogPostTemplate extends React.Component {
 
 	render() {
 
+		const CustomCol = (props) => <Col widths={['xs', 'sm', 'md', 'lg', 'xl', 'xxl']} {...props} />;
 		let bannerTitle;
 		if (!Array.isArray(this.frontmatter.city) || !this.frontmatter.city.length) {
 			bannerTitle = this.frontmatter.title
@@ -44,9 +46,9 @@ export default class BlogPostTemplate extends React.Component {
 						</Col>
 					</Row>
 					<Row>
-						<Col xs="9">
+						<CustomCol xs="9" xl="7" xxl="6">
 							<div className="blog-post-content" dangerouslySetInnerHTML={{ __html: this.html }}/>
-						</Col>
+						</CustomCol>
 					</Row>
 				</Container>
 			</Layout>
