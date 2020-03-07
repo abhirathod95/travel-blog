@@ -33,7 +33,7 @@ Driving a car to Sintra is highly not recommended because parking is really diff
 ******************************
 #### **How to Get Around Sintra** 
 
-![test](../../../images/Portugal/Sintra_8.jpg) 
+![Walking to the train station in Sintra](../../../images/Portugal/Sintra_8.jpg) 
 
 The **434 Bus** is a great affordable option that stops at most of the important sights to visit in Sintra. The main stops on the route are at Pena Palace, Moorish Palace, and the National Palace of Sintra. 
 
@@ -55,13 +55,12 @@ The garden of Quinta da Regalaira is unparalleled by any of the other gardens in
 **Times|** 9:30 AM - 5 PM/winter or 7 PM/summer
 
 ```grid|2|
-![test](../../../images/Portugal/Sintra_1.jpg) 
-
-![test](../../../images/Portugal/Sintra_2.jpg) 
+![Initiation Well](../../../images/Portugal/Sintra_1.jpg) 
+![Labyrinthic Grotto](../../../images/Portugal/Sintra_2.jpg) 
 ```
 The gardens have several spots to visit, so be sure to grap a map when you buy tickets. My favorite spots were the **Initiation Well, the Guardian's Gate, the Labyrinthic Grotto and the Regalaira Tower.** 
 
-![test](../../../images/Portugal/Sintra_9.jpg) 
+![Quinta da Regalaira](../../../images/Portugal/Sintra_9.jpg) 
 
 &nbsp;
 &nbsp;
@@ -74,14 +73,13 @@ The walk through the gardens takes about 20-30 minutes to reach the top where th
 **Times|** 9:30 AM - 8 PM
 
 ```grid|2|
-![test](../../../images/Portugal/Sintra_4.jpg) 
-
-![test](../../../images/Portugal/Sintra_5.jpg) 
+![Contrasting walls at Pena Palace](../../../images/Portugal/Sintra_6.jpg) 
+![Pena Palace grandeur](../../../images/Portugal/Sintra_5.jpg) 
 ```
 
 The fairytale atmosphere of Sintra is well portrayed with the whimsical colors and tall towers of Pena Palace. Seeing the palace as the sun was setting only enhanced the Disney-esque feeling of walking around the grounds. 
 
-![test](../../../images/Portugal/Sintra_3.jpg) 
+![Sun rays and Pena Palace](../../../images/Portugal/Sintra_3.jpg) 
 
 &nbsp;
 &nbsp;
@@ -90,7 +88,7 @@ The fairytale atmosphere of Sintra is well portrayed with the whimsical colors a
 
 The town center is right outside of the National Palace of Sintra and has several small boutiques and cafes to grab something warm to drink or do a little bit of shopping. 
 
-![test](../../../images/Portugal/Sintra_7.jpg) 
+![The cute town center of Sintra](../../../images/Portugal/Sintra_7.jpg) 
 
 That's all for Sintra! We headed back to Lisbon for dinner using the train which had a ticket station to buy. The stop to get off at is Rossio Station to be back where you started.
 

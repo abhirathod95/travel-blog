@@ -17,7 +17,7 @@ My first African country was an adventure! I got to do a lot of firsts like firs
 
 I was told this quote by a tourist couple I met while camping in the Sahara desert, and it made me laugh at how accurate it was. This sentence can seem relevant in many situations you might find yourself in while visiting Morocco. You will notice right away that people will be coming up to you constantly trying to sell you their merchandise, a hammam, to eat at their restaurant, etc. Even if you say "No thank you," expect that the conversation has not ended for the other individual. They will continue to try to sell to you, so don't be afraid to firmly say no and walk away. And if you aren't able to say no, then expect a small adventure with one thing leading to another where you'll end up sitting and thinking to yourself, "How did I get here?" 
 
-![test](../../../images/Morocco/Morocco_4.jpg) 
+![Store selling leather goods](../../../images/Morocco/Morocco_4.jpg) 
 
 ##### **2 - Never accept the first price**
 
@@ -31,7 +31,7 @@ This is quite important to keep in mind since ATM machines are not available eve
 
 You are expected to tip everyone who offers help to you. This includes someone who helps you flag down a taxi, someone who tells you directions or any piece of information, and someone who helps you with your luggage to the riad. If you don't want to find yourself in the awkward position of telling someone you don't have any change or to avoid giving away larger bills, try to exchange 200 to 300 dirhams into coins at the beginning of your trip.
 
-![test](../../../images/Morocco/Morocco_1.jpg) 
+![Tajine at local restaurant](../../../images/Morocco/Morocco_1.jpg) 
 
 ##### **5 - Local food is much more affordable**
 
@@ -43,7 +43,7 @@ If you are traveling between cities without a rental car or a driver, consider t
 
 Also, small taxis will only take up to three people in a car, so if there are more people in your group, like we had, then you will have to negotiate for two small taxis or a grand taxi. Sometimes, we found it difficult to find two small taxis to drive us, especially when there weren't as many grand taxis inside the city. Try to locate the taxi stand closest to where you are staying by asking the riad/hotel staff to make this process a little easier. 
 
-![test](../../../images/Morocco/Morocco_7.jpg) 
+![Sahara desert](../../../images/Morocco/Morocco_7.jpg) 
 
 ##### **7 - Driving to the Sahara on your own is not as hard as you might think**
 
@@ -55,7 +55,7 @@ I was hesitant about driving a car in Morocco since this is the first time we've
 
 We're laughing about it now, but we unfortunately fell for this scheme by following a "guide" in Marrakesh. Instead of telling us any Marrakesh history as promised, we were taken to a Berber carpet shop and a pharmacy selling argan oil to be wooed/guilt tripped into buying something. When we had finally pulled ourself away from buying anything, the guide had abandoned us in a random alley. Luckily, we were close by to the main square, Jemaa al Fna, to find our way with the help of some locals. 
 
-![test](../../../images/Morocco/Morocco_8.jpg)
+![Architecture inside the Fez souks](../../../images/Morocco/Morocco_8.jpg)
 
 ##### **9 - Navigating the medina is possible without a guide**
 
@@ -63,13 +63,13 @@ You will get lost, but isn’t that part of the adventure? I came across buildin
 
 I wanted to include this tip because we were told by multiple staff members at our riad that we would definitely need a guide to get anywhere. However, this is simply not true. If you do want a guide, I would advice booking your own guide with a company you trust and have done research for before your trip to avoid paying higher prices by booking through the riad or getting a guide that might be scamming you. 
 
-![test](../../../images/Morocco/Morocco_10.jpg)
+![Moroccan riad](../../../images/Morocco/Morocco_10.jpg)
 
 ##### **10 - Have your passports handy when you arrive at a riad**
 
 You have to stay in a riad during your time in Morocco. It's a completely different experience from staying in a hotel, and you really see the hospitality of the Moroccan people. When you arrive at your riad, they will need to see your passports and you will need to fill out a form for every member in your party. This is a government requirement no matter where you go. For me, this was something I never had to do before and didn't read about it anywhere before I arrived. 
 
-![test](../../../images/Morocco/Morocco_5.jpg)
+![Entertainer encouraging tourists to take photos](../../../images/Morocco/Morocco_5.jpg)
 
 ##### **11 - Don't take photographs of the locals or their shops unless they say it is okay.**
 

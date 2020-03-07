@@ -57,15 +57,15 @@ I probably didn't take full advantage of the Bangkok food scene as I should have
 **KHAOSAN ROAD.** The pad thai I got on Khaosan Road cost only 40 baht (about a $1.50), made in 5 minutes right in front of us, but it was some of the best noodles I had all trip. Taste = Priceless.
 
 ```grid|2|
-![](../../../images/Thailand/Bangkok_22.jpg) 
-![](../../../images/Thailand/Bangkok_12.jpg) 
+![Delicious egg pad thai](../../../images/Thailand/Bangkok_22.jpg) 
+![Final egg pad thai](../../../images/Thailand/Bangkok_12.jpg) 
 ```
 
 **TALING CHAN FLOATING MARKET.** At the Taling Chan floating market, there were several stalls selling different street food to locals living nearby. There were several tourists scattered here and there, but not as many as we expected. We tried the coconut pancakes, takoyaki, and chicken satay. However, the fish dishes here are the specialty to look for if you enjoy seafood.
 
 **NEAR WAT PHO.** When we got off the boat near Wat Pho, we saw a stall selling grilled crocodile meat. We were not adventurous enough to try it but some of the people eating it looked like they were really enjoying the meat.
 
-![Interesting choice of street food](../../../images/Thailand/Bangkok_21.jpg) 
+![Interesting choice of street food near Wat Pho](../../../images/Thailand/Bangkok_21.jpg) 
 
 **ICONSIAM.** Even though its not technically street food, the bottom floor of the mall has several local food vendors selling the classic street food indoors. It's quite easy to get overwhelmed in here. For dinner on our last night, we went to a nice restaurant inside ICONSIAM selling Thai street food. The sukhothai noodle soup was just what the (future) doctor ordered. Literally. The dish was comforting and super delicious after a long day of exploring. 
 

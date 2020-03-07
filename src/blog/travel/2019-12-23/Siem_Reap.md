@@ -47,15 +47,15 @@ Most drivers will ask for cash. Interestingly, Cambodians **prefer Riel or even 
 
 Today is the longer day of the two in order to cover the small circuit of Angkor Wat and see a few additional temples. Plan to wake up around 4 AM to prepare to reach the ticket office by 5 AM. Important things to pack include handkerchief, water bottles, battery powered hand fan, and hat to fend off the heat. 
 
-If you are interested in learning about Angkor Wat, finding a tour guide at the entrance of each of the temples is easy. The ticket checkers might ask you or guides might offer you their services themselves. If you are not interested in a guide, there is an app, **Angkor Wat Smart Guide**, that can be used even without data to explain the history behind each of the temples. 
+If you are interested in learning about Angkor Wat, finding a tour guide at the entrance of each of the temples is easy. The ticket checkers might ask you if you would like a guide or guides might offer you their services directly. If you are not interested in a guide, there is an app, **Angkor Wat Smart Guide**, that can be used even without data to explain the history behind each of the temples. 
 
-Other temples and structures we visited this day that I don't write about include Thommanon, Terrace of the Elephants, and the Khleangs.
+Other temples and structures we visited this day that I don't write about include Thommanon, Terrace of the Elephants, and the Khleangs, which are all part of the small circuit.
 
 ##### **Angkor Wat for Sunrise**
 
 ![Sunrise at Angkor Wat](../../../images/Cambodia/Angkor_Wat_3.jpg)
 
-As I walked with hundreds of other people across the moat in total darkness, I felt excited. I found my place in front of the pond, but I could barely make out the outline of the temple in front of me. The moon was just a sliver in the sky, giving off enough light to not trip over anything but otherwise not giving away anything until sunrise. By 5:30 AM, the place was packed with a small crowd around the pond. As the sky began to change colors, the number of clicks of photography also began to increase. Just drown them out, this is an incredible moment that we are all sharing together. From purple to pink to orange and finally, the sun peeks through. The temple finally appears in all its ancient, mysterious glory. I can see the pink lotuses blooming in the water in front of me. The early morning was completely worth it. 
+As I walked with hundreds of other people across the moat in total darkness, I felt excited. I found my place in front of the pond, but I could barely make out the outline of the temple in front of me. The moon was just a sliver in the sky, giving off enough light to not trip over anything but otherwise not giving away anything until sunrise. By 5:30 AM, the place was packed with a small crowd around the pond. As the sky began to change colors, the number of clicks of photography also began to increase. I just drowned them out, this was an incredible moment that we were all sharing together. From purple to pink to orange and finally, the sun peeked through. The temple finally appeared in all its ancient, mysterious glory. I could see the pink lotuses blooming in the water in front of me. The early morning was completely worth it. 
 
 After roaming the outer grounds of Angkor Wat in awe until 7 AM, I decided to leave instead of entering Angkor Wat to make my way to the next famous temple. While the hordes that were standing with us entered Angkor Wat, we were going to try to get ahead of the crowd by heading to Bayon temple next.  
 
@@ -63,7 +63,7 @@ After roaming the outer grounds of Angkor Wat in awe until 7 AM, I decided to le
 
 ![Faces of Bayon Temple](../../../images/Cambodia/Angkor_Wat_4.jpg)
 
-As we drove from Angkor Wat, we pass through the Southern Gate into Angkor Thom. The path leading up to the gate is lined by demons on one side and gods on the other side gripping a snake which makes up the banister, a common feature seen at many of the temples. 
+As we drove from Angkor Wat, we pass through the Southern Gate into Angkor Thom. The path leading up to the gate is lined by demons on one side and gods on the other side both gripping a snake which makes up the banister, a common feature seen at many of the temples. 
 
 Within 15 minutes from Angkor Wat, we arrived at Bayon temple with a few minutes to spare. The temple opens at 7:30 AM, and by 7:25 there were already 15 of us waiting to be let in. Visiting Bayon Temple at this time is simply magical with the morning sunlight coming through the mist and temperatures still bearable enough to not be soaking wet just yet. The first thought I had walking in was just how many smiling stone faces are at Bayon Temple? The answer to that is 50 in total according to our driver, Yuri. 
 
@@ -108,9 +108,11 @@ Though the exterior of Angkor Wat is so beautiful at sunrise, the interior is st
 
 ![The best tree in all of Angkor Wat](../../../images/Cambodia/Angkor_Wat_9.jpg)
 
-My favorite temple by far! Since Ta Prohm is the temple dedicated to the mother, then Preah Khan is kind of like its sister temple dedicated to the father. The temple was essentially long corridors extending in all four directions with photo frame like doorways, so I could see all the way through the temple standing at the entrance to the exit. When you find yourself at the exit depending on how you came, there is a large cotton silk tree roots clinging to the temple. 
+My favorite temple by far! Since Ta Prohm is the temple dedicated to the mother, then Preah Khan is kind of like its sister temple dedicated to the father. The temple was essentially long corridors extending in all four directions with photo frame like doorways, so I could see all the way through the temple standing at the entrance to the exit. When you find yourself at the exit depending on how you came, there is a large cotton silk tree clinging to the temple. 
 
-I suggest visiting Preah Khan over Ta Prohm if you have limited time to visit Angkor Wat. There were less visitors, and the overgrown tree was much more impressive to see. It's easiest to visit Preah Khan from Bayon Temple; you will pass through the Northern gate which is similar to the famous Victory gate and South gate. However, I also liked the Northern Gate more than the others since there was less traffic passing through and more forest greenery all around. 
+I suggest visiting Preah Khan over Ta Prohm if you have limited time to visit Angkor Wat. There were less visitors, and the overgrown tree was much more impressive to see. It's easiest to visit Preah Khan after Bayon Temple; you will pass through the Northern gate which is similar to the famous Victory gate and South gate. However, I liked the Northern Gate more than the others since there was less traffic passing through and more forest greenery all around. 
+
+![Tree roots near North Victory Gate](../../../images/Cambodia/Angkor_Wat_34.jpg)
 
 ##### **Ta Som**
 
