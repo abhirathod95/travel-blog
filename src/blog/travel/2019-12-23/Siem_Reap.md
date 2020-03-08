@@ -12,7 +12,7 @@ featuredImage: "../../../images/Cambodia/Angkor_Wat_0.jpg"
 
 If you're looking for history, ruins, and the feeling that you are an archeologist in the 20th century, then definitely consider coming to Siem Reap to visit Angkor Wat. The mysterious morning mist, the overgrown trees taking over the ancient stones, and that one special moment when you find yourself alone in the quiet temple; it all makes it worth visiting Angkor Wat. Most of the temples were built in the 12th century under the rule of King Jayavarman, but you will also find several temples that are dated even older. There are obvious Hindu influences in the early temples with many depictions of gods such as Vishnu, Shiva, Rama and classical stories from the Ramayana and Mahabharat. Later temples are more Buddhist influenced with a vert different architecture style involving faces. 
 
-**Read|** [Photo Tour of Angkor Wat and More](https://www.wheretonextdoc.com/blog/photo-tour-angkor-wat)
+**Read|** [Photo Tour of Angkor Wat and More](/blog/photo-tour-angkor-wat)
 
 The best time to visit is **November to early April** when the temperatures are not soaring high and less humidity. Even visiting around Christmas time, the temperatures would reach 91 degrees Farenheit by noon, so planning your day is critical to avoid the heat from sapping your energy. Despite the heat, it is important to keep in mind the dress code while visiting the temples - **all shoulders and knees must be covered for both men and women**. 
 

@@ -12,7 +12,7 @@ featuredImage: "../../../images/Cambodia/Angkor_Wat_11.jpg"
 
 As much as I can try to describe the feeling of being at Angkor Wat, climbing the old stones, and standing in musty long corridors, picutres are still worth a thousand words. So, I'll let the pictures speak for themselves. The camera we used to shoot these photograpghs is the Canon 5D. For more information about how to plan your trip to Angkor Wat, please read my other article!
 
-**Read|** [Exploring Angkor Wat, Siem Reap: Two Day Itinerary]("https://www.wheretonextdoc.com/blog/exploring-angkor-wat")
+**Read|** [Exploring Angkor Wat, Siem Reap: Two Day Itinerary](/blog/exploring-angkor-wat)
 
 ![Sunrise at Angkor Wat](../../../images/Cambodia/Angkor_Wat_12.jpg)
 

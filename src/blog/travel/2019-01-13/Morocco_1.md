@@ -12,7 +12,7 @@ featuredImage: "../../../images/Morocco/Morocco_2.jpg"
 
 I was so excited to finally visit my first African country. Morocco is a great place for an introduction to Africa since it is primarily a tourism centered country. The cities are all so unique from any place I've been before with lots of interesting history. I was able to visit four of the major cities in Morocco during my 8 days and learned lots of interesting lessons as a tourist in Morocco. 
 
-**Read More|** [Lessons Learned in Morocco](https://www.wheretonextdoc.com/blog/lessons-learned-in-morocco)
+**Read More|** [Lessons Learned in Morocco](/blog/lessons-learned-in-morocco)
 
 Sadly, a few days before we had arrived to Morocco, two women hiking in the Atlas mountains had been murdered by some remote villagers, which was disturbing to hear. It made us a little nervous to visit. However, the locals made sure to show tourists that this incidence was not condoned at all by Moroccans. A vigil was held for the two girls while we were around Jemaa al Fnaa. While we had a great experience spending a week in Morocco, I would still exercise caution if traveling on your own without a guide. While the major cities of Morocco are tolerant of Western culture, there are small pockets of Morocco may not be as accomodating. 
 
@@ -24,7 +24,7 @@ Sadly, a few days before we had arrived to Morocco, two women hiking in the Atla
 
 Welcome to Marrakesh, the city of red. It's called the Red City because of the color of the clay buildings, but really what made it unique for me from the other cities were the narrow and busy medinas, tall minarets, and beautiful riads. Fun fact: none of the buildings in Marrakesh can be taller than the minaret at the  main mosque, Koutoubia mosque. Here's how I spent my two days in Marrakesh before leaving for the Sahara.
 
-**Read More|** [Roadtrip to the Sahara Desert](https://www.wheretonextdoc.com/blog/roadtrip-to-the-sahara-desert) 
+**Read More|** [Roadtrip to the Sahara Desert](/blog/roadtrip-to-the-sahara-desert) 
 
 &nbsp;
 
@@ -106,7 +106,7 @@ When we arrived in Fes from a night in the Sahara, we stayed at **Riad Yasmin** 
 
 Meknes is not a city most people visit, but I would argue that it was the most authentic Moroccan city we visited. The souks were selling more local necessities of cooking ware, undergarnments, and children's toys than tourist souvenirs. From Meknes, you can also find a taxi to Volubilis from Bab Mansour.
 
-**Read More|** [Volubilis: Roman Ruins in Morocco](https://www.wheretonextdoc/blog/volubilis-roman-ruins-in-morocco)
+**Read More|** [Volubilis: Roman Ruins in Morocco](/volubilis-roman-ruins-in-morocco)
 
 &nbsp;
 

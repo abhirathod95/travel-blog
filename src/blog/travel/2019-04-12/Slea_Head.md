@@ -12,7 +12,7 @@ featuredImage: "../../../images/Ireland/Ireland_59.jpg"
 
 The Slea Head Drive is one of the best road trip to take while in Ireland and can easily rival the more famous Ring of Kerry. We drove into the area to stay in a cute bed and breakfast near Dingle the night before and spent the evening going to some of the bars in town. With the hearty Irish breakfast the next morning, we were ready to start our drive. Finding the sign out of Dingle pointing us in the direction of the drive was easy, and from there the way around is simple. The 30 miles of narrow roads hugging the Irish coast offer beautiful views of the ocean and some of the famous nearby islands, such as Blasket Islands.
 
-**Read More|** [Driving the Countryside in Ireland](https://www.wheretonextdoc.com/blog/driving-the-countryside-in-ireland) 
+**Read More|** [Driving the Countryside in Ireland](/blog/driving-the-countryside-in-ireland) 
 
 There are several stops on the way to feed sheep, rams, and horses for small fees which help support the local sheepherders in the area. Each sheepherder can have up to 250 sheep that they herd. You may notice that that the sheep have different colored markings on them with spray paint, and this is to help remind which sheep belong to which herder in case they roam too far. 
 

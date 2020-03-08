@@ -103,7 +103,7 @@ Tan Teng Niah's House is a popular destination in Little India with its bright c
 
 We went to three hawker centers to try the famous street food with Michelin stars and more. It was an experience to say the least! If you're in Singapore, you better be geared up to try all sorts of interesting food with an open mind. It's important to take a box of tissues or wipes to use as placeholder to reserve a table. If you see a table with tissues on it, it means its taken. The hawker centers are also pretty stingy with giving napkins to use so having your own is the best way to keep things clean. 
 
-**Read|** [Street Food Diary of Bangkok and Singapore!]("https://www.wheretonextdoc.com//blog/food-diary-of-bangkok-and-singapore")
+**Read|** [Street Food Diary of Bangkok and Singapore!](/blog/food-diary-of-bangkok-and-singapore)
 
 ![Famous stall at Newton Hawker Centre with Michelin star](../../../images/Singapore/Singapore_2.jpg)
 

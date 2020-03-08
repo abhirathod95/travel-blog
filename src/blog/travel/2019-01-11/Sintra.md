@@ -12,7 +12,7 @@ featuredImage: "../../../images/Portugal/Sintra_7.jpg"
 
 Spending a day in Sintra with its romantic fairy tale architecture is quite different from the city of Lisbon. The historic palaces and gardens are all considered UNESCO heritage sites and used to be where the Portuguese royals used to vacation at. The city itself is still considered an expensive area to live in and has been consistently ranked one of the best places to live in Portugal. After two days in Lisbon, visiting Sintra was a nice change of pace with more greenery and fresh air. 
 
-**Read More|** [Weekend in Lisbon](https://www.wheretonextdoc.com/blog/weekend-in-lisbon)
+**Read More|** [Weekend in Lisbon](/blog/weekend-in-lisbon)
 
 While I was only able to visit two of the many sites in Sintra, I wish I had also been able to visit some of the other places such as Montserrate Palace. Visit https://www.parquesdesintra.pt/en/ for more information about all the different parks, palaces, and gardens in Sintra that I was not able to see in case you have more than one day to visit Sintra. 
 

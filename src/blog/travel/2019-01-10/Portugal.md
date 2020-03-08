@@ -80,7 +80,7 @@ The **Belem Tower** has to be the most famous structure near Lisbon, and it's ea
 
 Sintra is always a highly recommended day trip from Lisbon because of the romantic and mystical architecture of the many palaces and parks, with Pena palace being the most famous. The town is a quick 40 minute train ride from Rossio Station. 
 
-**Read More|** [A Day in Magical Sintra](https://www.wheretonextdoc.com/blog/a-day-in-magical-sintra)
+**Read More|** [A Day in Magical Sintra](/blog/a-day-in-magical-sintra)
 
 
 ##### **Places to Visit:** Quinta da Regalaira, Pena Palace, Montserrate Palace

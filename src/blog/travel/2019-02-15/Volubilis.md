@@ -12,7 +12,7 @@ featuredImage: "../../../images/Morocco/Morocco_35.jpg"
 
 With a relaxing night in old city Meknes to refresh, my family and I were looking forward to visiting the Roman ruins at Volubilis. The ancient structures show a rare glimpse of how life was back then. After a week of the desert, souks, tajine, camels, and other very Moroccan experiences, Volubilis was different and far away from the throngs of people.  
 
-**Read More|** [Visiting Four Cities in Morocco](https://www.wheretonextdoc.com/blog/visiting-four-cities-in-morocco)
+**Read More|** [Visiting Four Cities in Morocco](/blog/visiting-four-cities-in-morocco)
 
 We found a taxi driver willing to take us to Volubilis at **Bab Mansour**, also known as the prettiest gate in all of Africa. We negotiated with the driver of a grand taxi to come with us and stay for an hour and a half at the ruins before taking us back to Meknes for a reasonable price of **300 dirhams**. The drive was a short 25 minutes on winding roads that took us right to the entrance of Volubilis.  
 

@@ -49,7 +49,7 @@ Also, small taxis will only take up to three people in a car, so if there are mo
 
 I was hesitant about driving a car in Morocco since this is the first time we've been to the country. My family and I went with a tour guide from Amazing Sahara Tours instead which was a great experience. However, the tour meant that we had predetermined stops that every single tourist bus, car, taxi, van stops at. While the tourist stops provided amazing vistas, there were many spots that we had to settle to see through the window of a moving car because extra stops were not too welcomed by our tour guide. Looking back, the roads were great, the traffic was minimal, and the directions were really straightforward, so it's really feasible to plan a road trip on your own. 
 
-**Read more|** [Roadtrip to the Sahara Desert](https://www.wheretonextdoc.com/blog/roadtrip-to-the-sahara-desert) 
+**Read more|** [Roadtrip to the Sahara Desert](/blog/roadtrip-to-the-sahara-desert) 
 
 ##### **8 - Don’t always believe it when he says he’s a “government official guide”**
 

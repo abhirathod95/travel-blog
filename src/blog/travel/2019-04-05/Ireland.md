@@ -89,7 +89,7 @@ Even though the museum was closed by the time we reached Belfast, there were sti
 
 Just two hours north of Belfast is Giant's Causeway and several other interesting spots to visit that showcased the natural beauty and lush countryside of Northern Ireland. While I enjoyed exploring Dublin, driving through the small towns and looking at old ruins was what I had been looking forward to the most in the weeks before our trip. 
 
-**Read More|** [Seeing Giant's Causeway and More in Northern Ireland](https://www.wheretonextdoc.com/blog/seeing-giants-causeway-and-more)
+**Read More|** [Seeing Giant's Causeway and More in Northern Ireland](/blog/seeing-giants-causeway-and-more)
 
 ![Giant's Causeway](../../../images/Ireland/Ireland_17.jpg)
 
@@ -153,7 +153,7 @@ After two hours of walking along the dramatic coast of the Cliffs of Moher, we s
 
 There's always a discussion about Slea Head Drive versus the Ring of Kerry, and I'm all for Team Slea Head Drive. The smaller peninsula was a bit more isolated without the large tour buses, but still had so many scenic turnouts and interesting stops along the way. While the road was narrow, the drive was manageable with the small turnouts to move out of the way from cars. Buses are required to drive clockwsise on the Slea Head Drive so driving clockwise can also prevent having to drive against the bus traffic. 
 
-**Read More|** [Scenic Slea Head Drive: What to See & Do](https://www.wheretonextdoc.com/blog/scenic-slea-head-drive)
+**Read More|** [Scenic Slea Head Drive: What to See & Do](/blog/scenic-slea-head-drive)
 
 ![Slea Head Drive on the Dingle Peninsula, Ireland](../../../images/Ireland/Ireland_59.jpg)
 

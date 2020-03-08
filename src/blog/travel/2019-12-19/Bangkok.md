@@ -113,7 +113,7 @@ One of the more touristy things to do in Bangkok is to find a rooftop bar with t
 
 Eat anywhere and everywhere you find street food, and try a little bit of everything. Especially on Khao San Road. We definitely found things we loved like coconut ice cream, Pad thai, sticky rice, and things we were not so impressed with as well. We didn't eat in restaurants as much as we did street food, so have a look in my other article for more details!
 
-**Read|** [Street Food Diary of Bangkok and Singapore!](https://www.wheretonextdoc.com/blog/food-diary-of-bangkok-and-singapore)
+**Read|** [Street Food Diary of Bangkok and Singapore!](/blog/food-diary-of-bangkok-and-singapore)
 
 ![](../../../images/Thailand/Bangkok_12.jpg) 
 
