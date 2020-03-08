@@ -54,9 +54,6 @@ export default class SEO extends React.Component {
             metadata.push(<link key="19" rel="canonical" href={this.seo.canonUrl}/>)
         }
 
-        console.log("SEO: ")
-        console.log(metadata)
-
         return (
             <Helmet>
                 {metadata}

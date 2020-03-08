@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'gatsby';
-import { 
+import {
   Row,
   Col,
   Button
@@ -20,7 +20,7 @@ export default class CustomCard extends React.Component {
             this.props.item.link ?
             <Link to={this.props.item.link}>
               <Img className="gatsby-img" position="absolute" fluid={this.props.item.fluid} alt={this.props.item.alt}> </Img>
-            </Link> 
+            </Link>
             :
             <Img className="gatsby-img" position="absolute" fluid={this.props.item.fluid} alt={this.props.item.alt}> </Img>
           }
@@ -28,7 +28,7 @@ export default class CustomCard extends React.Component {
         </CustomCol>
         <Col md="6" lg="6">
             {this.props.item.date ? <div className="custom-raleway m-0 mt-2 mb-2 pl-2 pr-2 pt-1 pb-1" style={{'display':'inline-block', 'backgroundColor':'#229990'}}>{this.props.item.date} </div> : false}
-            <h2 className="m-0 mb-2 p-0"> 
+            <h2 className="m-0 mb-2 p-0">
               {this.props.item.title}
             </h2>
             {this.props.item.subtitle ? <div>{this.props.item.subtitle}</div> : false}
@@ -49,16 +49,16 @@ export default class CustomCard extends React.Component {
             this.props.item.link ?
             <Link to={this.props.item.link}>
               <Img className="gatsby-img" position="absolute" fluid={this.props.item.fluid} alt={this.props.item.alt}> </Img>
-            </Link> 
+            </Link>
             :
             <Img className="gatsby-img" position="absolute" fluid={this.props.item.fluid} alt={this.props.item.alt}> </Img>
           }
         </div>
         {this.props.item.date ? <div className="custom-raleway m-0 mt-2 mb-2 pl-2 pr-2 pt-1 pb-1" style={{'display':'inline-block', 'backgroundColor':'#229990'}}>{this.props.item.date} </div> : false}
-        <h4 className="d-none d-lg-block m-0 mb-2 p-0"> 
+        <h4 className="d-none d-lg-block m-0 mb-2 p-0">
           {this.props.item.title}
         </h4>
-        <h6 className="d-block d-lg-none m-0 mb-2 p-0"> 
+        <h6 className="d-block d-lg-none m-0 mb-2 p-0">
           {this.props.item.title}
         </h6>
         {this.props.item.subtitle ? <div>{this.props.subtitle}</div> : false}
@@ -75,22 +75,30 @@ export default class CustomCard extends React.Component {
   getOverlayCard() {
     return (
       <div className="m-0 p-0">
-        <div className="aspect-ratio-box">
-          {
-            this.props.item.link ?
-            <Link to={this.props.item.link}>
+        {
+          this.props.item.link ?
+          <Link to={this.props.item.link} style={{'color':'inherit'}}>
+            <div className="aspect-ratio-box">
               <Img className="gatsby-img" position="absolute" fluid={this.props.item.fluid} alt={this.props.item.alt}> </Img>
-            </Link> 
-            :
+              <div className="aspect-ratio-box-inside d-flex flex-row">
+                <div className="text-box">
+                <h6 className="d-block d-lg-none m-0 p-4">{this.props.item.title}</h6>
+                <h5 className="d-none d-lg-block m-0 p-4">{this.props.item.title}</h5>
+                </div>
+              </div>
+            </div>
+          </Link>
+          :
+          <div className="aspect-ratio-box">
             <Img className="gatsby-img" position="absolute" fluid={this.props.item.fluid} alt={this.props.item.alt}> </Img>
-          }
-          <div className="aspect-ratio-box-inside d-flex flex-row">
-            <div className="text-box">
-            <h6 className="d-block d-lg-none m-0 p-4">{this.props.item.title}</h6>
-            <h5 className="d-none d-lg-block m-0 p-4">{this.props.item.title}</h5>
+            <div className="aspect-ratio-box-inside d-flex flex-row">
+              <div className="text-box">
+              <h6 className="d-block d-lg-none m-0 p-4">{this.props.item.title}</h6>
+              <h5 className="d-none d-lg-block m-0 p-4">{this.props.item.title}</h5>
+              </div>
             </div>
           </div>
-        </div>
+        }
       </div>
     )
   }

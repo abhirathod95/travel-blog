@@ -1,3 +1,5 @@
+const siteAddress = new URL("https://www.wheretonextdoc.com")
+
 module.exports = {
   siteMetadata: {
     title: `Where to next, doc?`,
@@ -90,6 +92,20 @@ module.exports = {
           },
         ],
       },
+    },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "wheretonextdoc.com",
+        protocol: siteAddress.protocol.slice(0, -1),
+        hostname: siteAddress.hostname,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+          siteUrl: siteAddress.href.slice(0, -1),
+      }
     },
   ],
 }

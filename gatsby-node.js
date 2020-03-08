@@ -45,6 +45,11 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
 function paginate(createPage, numPages, path, blogType, graphqlFilter, headers) {
   //console.log(path)
+
+  // Set apge count to at least one in case no results were found
+  // template will handle outputting coming soon if no articles exist
+  numPages = Math.max(numPages, 1)
+
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
       path: i === 0 ? path + "/" : path + "/" + (i + 1),
@@ -151,6 +156,9 @@ exports.createPages = ({ actions, graphql }) => {
       itineraries: allMarkdownRemark(filter: {frontmatter : {tags : {in : "Itinerary"}}}) {
         totalCount
       }
+      health: allMarkdownRemark(filter: {frontmatter : {tags : {in : "Health"}}}) {
+        totalCount
+      }
     }
   `).then(result => {
     if (result.errors) {
@@ -235,7 +243,7 @@ exports.createPages = ({ actions, graphql }) => {
       );
     })
 
-    // Create page for articles tagged travel guide (image navigation on home page)
+    // Create page for articles tagged Travel Guide (image navigation on home page)
     numPages = Math.ceil(result.data.guides.totalCount / postsPerPage);
     paginate(
       createPage,
@@ -246,7 +254,7 @@ exports.createPages = ({ actions, graphql }) => {
       ["Travel Guide"]
     );
 
-    // Create page for articles tagged itineraries (image navigation on home page)
+    // Create page for articles tagged Itinerary (image navigation on home page)
     numPages = Math.ceil(result.data.itineraries.totalCount / postsPerPage);
     paginate(
       createPage,
@@ -256,6 +264,18 @@ exports.createPages = ({ actions, graphql }) => {
       {frontmatter : {tags : {in : "Itinerary"}}},
       ["Itinerary"]
     );
+
+    // Create page for articles tagged Health (image navigation on home page)
+    numPages = Math.ceil(result.data.health.totalCount / postsPerPage);
+    paginate(
+      createPage,
+      numPages,
+      "tags/" + replaceAll("Health".toLowerCase(), " ", "-"),
+      "country",
+      {frontmatter : {tags : {in : "Health"}}},
+      ["Health & Travel"]
+    );
+
   });
 
 }
