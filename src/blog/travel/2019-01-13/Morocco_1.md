@@ -10,7 +10,7 @@ city: ["Marrakesh"]
 featuredImage: "../../../images/Morocco/Morocco_2.jpg"
 ---
 
-I was so excited to finally visit my first African country. Morocco is a great place for an introduction to Africa since it is primarily a tourism centered country. The cities are all so unique from any place I've been before with lots of interesting history. I was able to visit four of the major cities in Morocco during my 8 days and learned lots of interesting lessons as a tourist in Morocco. 
+I was so excited to finally visit my first African country. Morocco is a great place for an introduction to Africa. The cities are all so unique from any place I've been before with lots of interesting history. I was able to visit four of the major cities in Morocco during my 8 days and learned lots of interesting lessons as a tourist in Morocco. 
 
 **Read More|** [Lessons Learned in Morocco](/blog/lessons-learned-in-morocco)
 
@@ -28,14 +28,16 @@ Welcome to Marrakesh, the city of red. It's called the Red City because of the c
 
 &nbsp;
 
-#### **Must See:** Moulay al Yazid Mosque, Koutoubia Mosque, Bab Agnou, Jemaa al Fnaa & souks, Bahia Palace,  Jardin Majorelle
+#### **Must See Places**
 
 ![Moulay al Yazid Mosque, Marrakesh](../../../images/Morocco/Morocco_17.jpg)
 
+MOULAY AL YAZID MOSQUE, KOUTUBIA MOSQUE. 
 The **Saadian tombs** are next to the **Moulay al Yazid Mosque** if you're interested in visiting. I found the minaret of this mosque to be more beautiful than the Koutoubia Mosque. The well-known **Koutoubia Mosque** is a short 10 minute walk from the Moulay al Yazid mosque. On the way, we got some freshly squeezed pomagranate juice and sugar cane with ginger and lemon juice. So good and only for 20 Dirhams each. 
 
 ![Bab Agnou, Marrakesh](../../../images/Morocco/Morocco_18.jpg)
 
+BAB AGNOU. 
 After our trip to Morocco, we watched The Mummy since it was filmed in Morocco, and the only sight we were able to recognize was the distinctive **Bab Agnou**, translating to Red Gate. There are several other gates throughout old city of Marrakesh but Bab Agnou is the most famous. 
 
 ![Marrakesh souks](../../../images/Morocco/Morocco_47.jpg)
@@ -45,10 +47,13 @@ After our trip to Morocco, we watched The Mummy since it was filmed in Morocco, 
 ![Jemaa al Fnaa from above](../../../images/Morocco/Morocco_11.jpg) 
 ```
 
+JEMAA AL FNAA. 
 There are several great restaurants in **Jemaa al Fnaa** to eat dinner at and get a good bird's eye view of the square. Walking through the square, the atmosphere is very lively and busy. Lots of stalls are set up in the evening selling dinner, fruit juice, mint, etc., and the smell of food and herbs fill the air. Some of the more unfortunate aspects of the square is seeing people with monkeys on leashes or in cages. I highly recommend not encouraging this behavior and avoiding these individuals. 
 
 ![Bahia Palace, Marrakesh](../../../images/Morocco/Morocco_23.jpg)
 
+
+BAHIA PALACE. 
 Bahia Palace was built in the 19th century and has more of the classic colorful architecture that Morocco is known for. As you walk through the different spaces of the palace, there are different types of design to admire. 
 
 
@@ -58,6 +63,8 @@ Bahia Palace was built in the 19th century and has more of the classic colorful 
 ![Jardin Majorelle](../../../images/Morocco/Morocco_21.jpg) 
 ![Jardin Majorelle](../../../images/Morocco/Morocco_22.jpg) 
 ```
+
+JARDIN MAJORELLE. 
 The last stop was at the brilliant blue and yellow Jardin Majorelle where the famous YSL used to stay in after falling in love with Morocco. It gets really busy to the point there was already a long line early in the morning to enter, so I would recommend making this your first stop of the day. 
 
 &nbsp;

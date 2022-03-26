@@ -98,7 +98,7 @@ export default class IndexPage extends React.Component {
 					<Row className="justify-content-center p-0">
 						<Col lg="12" xl="8" className="text-center">
 							<p> Welcome to “Where to Next, Doc?” your all-purpose travel guide and itinerary helper to make sure you get the most out of your every trip.</p>
-							<p> My name is Ramya, and I’m a third-year medical student (almost a doctor) that just can’t cure my own travel bug. Even though I’m very busy with school, I am here to tell you it is possible to plan a well thought out itinerary/budget plan for your adventure on top of school or a full-time job. <br/>Especially with a little bit of my help! </p>
+							<p> My name is Ramya, and I’m a Neurology resident that just can’t cure my own travel bug. Even though I’m very busy with school, I am here to tell you it is possible to plan a well thought out itinerary/budget plan for your adventure on top of school or a full-time job. <br/>Especially with a little bit of my help! </p>
 							<p> What I really want my readers to know is that life doesn’t stop. If you are serious about experiencing the world, don’t put it off any longer. Learn something new, understand life around you a little better, and have fun. That is the purpose of travel. </p>
 							<p className="m-0 p-0">All I have left to ask is, <br/> <span className="font-weight-bold">Where to next, friend?</span></p>
 						</Col>

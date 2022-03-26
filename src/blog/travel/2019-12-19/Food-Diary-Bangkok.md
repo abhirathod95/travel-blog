@@ -2,7 +2,7 @@
 title: "Street Food Diary of Bangkok and Singapore!"
 date: "2019-12-19"
 path: "/blog/food-diary-of-bangkok-and-singapore"
-excerpt: "My mood after visiting Bangkok and Singapore, If you're not going to try all sorts of food, then why are you even here?"
+excerpt: "My mood after visiting Bangkok and Singapore: If you're not going to try all sorts of food, then why are you even here?"
 tags: ["Christmas", "City", "Food"]
 continent: ["Asia"]
 country: ["Thailand, Singapore"]

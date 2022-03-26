@@ -2,7 +2,7 @@
 title: "Giant's Causeway in Northern Ireland"
 date: "2019-04-05"
 path: "/blog/seeing-giants-causeway-and-more"
-excerpt: "We drove to Northern Ireland to stop at the Giant's Causeway, but found so there's more to see with Carrick-a-Rede bridge and Dunluce Castle."
+excerpt: "We drove to Northern Ireland to stop at the Giant's Causeway, but found so much more to see with Carrick-a-Rede bridge and Dunluce Castle."
 tags: ["Road Trip", "Spring Break"]
 continent: ["Europe"]
 country: ["Ireland"]
