@@ -70,8 +70,8 @@ export default class BlogHeader extends React.Component {
           let images = {};
           let items, preamble;
 
-          console.log(data)
-          console.log(props)
+          // console.log(data)
+          // console.log(props)
 
           if (props.blogType === "country") {
             return (

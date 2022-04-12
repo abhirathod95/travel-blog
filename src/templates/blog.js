@@ -17,7 +17,7 @@ export default class DestinationTemplate extends React.Component {
 
     this.seo = {
       "title" : "Destinations",
-      "description": "Description"
+      "description": "Read about the next big adventure on Where to Next, Doc? to help plan your next vacation."
     }
 
 		// Check if any data was returned for the query

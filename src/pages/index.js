@@ -19,7 +19,7 @@ export default class IndexPage extends React.Component {
 
 		let data = this.props.data;
 
-		console.log(data)
+		//console.log(data)
 
 		this.carouselItems = data.allMarkdownRemark.edges.map((item, index) => {
 			return ({
@@ -35,7 +35,7 @@ export default class IndexPage extends React.Component {
 		this.cardItems = [
 			{'title':'TRAVEL GUIDES', 'fluid':data.allImageSharp.edges[0].node.fluid, alt: 'Amsterdam', 'date': 'March 10, 2018', 'content': 'This is some quick example text to build on the card title and yeah.', link: '/tags/travel-guide'},
 			{'title':'ITINERARIES', 'fluid':data.allImageSharp.edges[1].node.fluid, alt: 'Amsterdam', 'date': 'March 10, 2018', 'content': 'This is some quick example text to build on the card title and yeah.', link: '/tags/itinerary'},
-			{'title':'HEALTH & TRAVEL', 'fluid':data.allImageSharp.edges[2].node.fluid, alt: 'Amsterdam', 'date': 'March 10, 2018', 'content': 'This is some quick example text to build on the card title and yeah.'},
+			{'title':'HEALTH & TRAVEL', 'fluid':data.allImageSharp.edges[2].node.fluid, alt: 'Amsterdam', 'date': 'March 10, 2018', 'content': 'This is some quick example text to build on the card title and yeah.', link: '/tags/health'},
 		];
 
 		this.tipCards = [
@@ -61,7 +61,7 @@ export default class IndexPage extends React.Component {
 
 		this.seo = {
 			"title": "Home",
-			"description": "Description",
+			"description": "Where to Next, Doc? is a personal travel blog written by a future doctor featuring itineraries, photography, and adventures from around the world to help you plan your next adventure!",
 			"image": this.props.location.origin + this.carouselItems[0].fluid.src,
 			"type": "website",
 			"date": new Date().toISOString(),
