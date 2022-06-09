@@ -21,9 +21,20 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-catch-links`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaults: {
+          formats: [`auto`, `webp`],
+          placeholder: `blurred`,
+          quality: 100,
+          breakpoints: [750, 1080, 1366, 1920, 2546],
+        },
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -62,22 +73,20 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sass`,
       options: {
-        precision: 8,
+        sassOptions: {
+          precision: 8,
+        },
       },
     },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
+        // Footnotes mode (default: true)
+        footnotes: true,
+        // GitHub Flavored Markdown mode (default: true)
+        gfm: true,
         plugins: [
           {
-            // CommonMark mode (default: true)
-            commonmark: true,
-            // Footnotes mode (default: true)
-            footnotes: true,
-            // Pedantic mode (default: true)
-            pedantic: true,
-            // GitHub Flavored Markdown mode (default: true)
-            gfm: true,
             resolve: `gatsby-remark-images-grid`,
             options: {
               gridGap: "20px",
@@ -92,6 +101,9 @@ module.exports = {
           },
         ],
       },
+    },
+    {
+      resolve: 'gatsby-remark-related-posts'
     },
     {
       resolve: `gatsby-plugin-s3`,

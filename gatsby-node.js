@@ -104,63 +104,42 @@ exports.createPages = ({ actions, graphql }) => {
   //   fieldValue
   //   totalCount
   // }
-  return graphql(`
-    query travelArticlesCount{
-      allMarkdownRemark {
-        totalCount
-        groupByBlogType: group(field: fields___collection) {
-          fieldValue
-          totalCount
+  return graphql(`query travelArticlesCount {
+  allMarkdownRemark {
+    totalCount
+    groupByBlogType: group(field: fields___collection) {
+      fieldValue
+      totalCount
+    }
+    groupByContinent: group(field: frontmatter___continent) {
+      fieldValue
+      totalCount
+    }
+    groupByCountry: group(field: frontmatter___country) {
+      fieldValue
+      totalCount
+    }
+    edges {
+      node {
+        id
+        frontmatter {
+          date(formatString: "MMMM DD, YYYY")
+          path
         }
-        groupByContinent: group(field: frontmatter___continent) {
-          fieldValue
-          totalCount
-        }
-        groupByCountry: group(field: frontmatter___country) {
-          fieldValue
-          totalCount
-        }
-        edges {
-          node {
-            id
-            html
-            frontmatter {
-              title,
-              date(formatString: "MMMM DD, YYYY"),
-              path,
-              excerpt,
-              tags,
-              continent,
-              country,
-              city,
-              featuredImage {
-                childImageSharp {
-                  fluid(maxWidth: 2060) {
-                    base64
-                    aspectRatio
-                    src
-                    srcSet
-                    sizes
-                    originalImg
-                    originalName
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-      guides: allMarkdownRemark(filter: {frontmatter : {tags : {in : "Travel Guide"}}}) {
-        totalCount
-      }
-      itineraries: allMarkdownRemark(filter: {frontmatter : {tags : {in : "Itinerary"}}}) {
-        totalCount
-      }
-      health: allMarkdownRemark(filter: {frontmatter : {tags : {in : "Health"}}}) {
-        totalCount
       }
     }
-  `).then(result => {
+  }
+  guides: allMarkdownRemark(filter: {frontmatter: {tags: {in: "Travel Guide"}}}) {
+    totalCount
+  }
+  itineraries: allMarkdownRemark(filter: {frontmatter: {tags: {in: "Itinerary"}}}) {
+    totalCount
+  }
+  health: allMarkdownRemark(filter: {frontmatter: {tags: {in: "Health"}}}) {
+    totalCount
+  }
+}
+`).then(result => {
     if (result.errors) {
       console.log("Bad result!!!");
       console.log(result.errors);
@@ -248,21 +227,21 @@ exports.createPages = ({ actions, graphql }) => {
     paginate(
       createPage,
       numPages,
-      "tags/" + replaceAll("Travel Guide".toLowerCase(), " ", "-"),
+      "tags/" + replaceAll("Travel Guides".toLowerCase(), " ", "-"),
       "country",
       {frontmatter : {tags : {in : "Travel Guide"}}},
-      ["Travel Guide"]
+      ["Travel Guides"]
     );
 
-    // Create page for articles tagged Itinerary (image navigation on home page)
+    // Create page for articles tagged accomodations (image navigation on home page)
     numPages = Math.ceil(result.data.itineraries.totalCount / postsPerPage);
     paginate(
       createPage,
       numPages,
-      "tags/" + replaceAll("Itinerary".toLowerCase(), " ", "-"),
+      "tags/" + replaceAll("Accomodations".toLowerCase(), " ", "-"),
       "country",
-      {frontmatter : {tags : {in : "Itinerary"}}},
-      ["Itinerary"]
+      {frontmatter : {tags : {in : "Accomodation"}}},
+      ["Accomodations"]
     );
 
     // Create page for articles tagged Health (image navigation on home page)
@@ -270,10 +249,10 @@ exports.createPages = ({ actions, graphql }) => {
     paginate(
       createPage,
       numPages,
-      "tags/" + replaceAll("Health".toLowerCase(), " ", "-"),
+      "tags/" + replaceAll("Photography".toLowerCase(), " ", "-"),
       "country",
-      {frontmatter : {tags : {in : "Health"}}},
-      ["Health & Travel"]
+      {frontmatter : {tags : {in : "Photography"}}},
+      ["Photography"]
     );
 
   });

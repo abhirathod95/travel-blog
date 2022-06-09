@@ -1,51 +1,56 @@
-import React from 'react';
+import React from 'react'
 import {
   Carousel,
   CarouselItem,
   CarouselControl,
   CarouselIndicators,
-} from 'reactstrap';
-import Banner from '../components/banner.js';
-
+} from 'reactstrap'
+import Banner from '../components/banner.js'
 
 class HomeCarousel extends React.Component {
   constructor(props) {
-    super(props);
-    this.state = { activeIndex: 0 };
-    this.next = this.next.bind(this);
-    this.previous = this.previous.bind(this);
-    this.goToIndex = this.goToIndex.bind(this);
-    this.onExiting = this.onExiting.bind(this);
-    this.onExited = this.onExited.bind(this);
+    super(props)
+    this.state = { activeIndex: 0 }
+    this.next = this.next.bind(this)
+    this.previous = this.previous.bind(this)
+    this.goToIndex = this.goToIndex.bind(this)
+    this.onExiting = this.onExiting.bind(this)
+    this.onExited = this.onExited.bind(this)
   }
 
   onExiting() {
-    this.animating = true;
+    this.animating = true
   }
 
   onExited() {
-    this.animating = false;
+    this.animating = false
   }
 
   next() {
-    if (this.animating) return;
-    const nextIndex = this.state.activeIndex === this.props.items.length - 1 ? 0 : this.state.activeIndex + 1;
-    this.setState({ activeIndex: nextIndex });
+    if (this.animating) return
+    const nextIndex =
+      this.state.activeIndex === this.props.items.length - 1
+        ? 0
+        : this.state.activeIndex + 1
+    this.setState({ activeIndex: nextIndex })
   }
 
   previous() {
-    if (this.animating) return;
-    const nextIndex = this.state.activeIndex === 0 ? this.props.items.length - 1 : this.state.activeIndex - 1;
-    this.setState({ activeIndex: nextIndex });
+    if (this.animating) return
+    const nextIndex =
+      this.state.activeIndex === 0
+        ? this.props.items.length - 1
+        : this.state.activeIndex - 1
+    this.setState({ activeIndex: nextIndex })
   }
 
   goToIndex(newIndex) {
-    if (this.animating) return;
-    this.setState({ activeIndex: newIndex });
+    if (this.animating) return
+    this.setState({ activeIndex: newIndex })
   }
 
   render() {
-    const { activeIndex } = this.state;
+    const { activeIndex } = this.state
 
     const slides = this.props.items.map((item, i) => {
       return (
@@ -54,10 +59,10 @@ class HomeCarousel extends React.Component {
           onExited={this.onExited}
           key={i}
         >
-          <Banner width="100%" height="100vh" item={item}/>
+          <Banner width="100%" height="100vh" item={item} />
         </CarouselItem>
-      );
-    });
+      )
+    })
 
     return (
       <Carousel
@@ -65,14 +70,25 @@ class HomeCarousel extends React.Component {
         next={this.next}
         previous={this.previous}
       >
-        <CarouselIndicators items={this.props.items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
+        <CarouselIndicators
+          items={this.props.items}
+          activeIndex={activeIndex}
+          onClickHandler={this.goToIndex}
+        />
         {slides}
-        <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
-        <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
+        <CarouselControl
+          direction="prev"
+          directionText="Previous"
+          onClickHandler={this.previous}
+        />
+        <CarouselControl
+          direction="next"
+          directionText="Next"
+          onClickHandler={this.next}
+        />
       </Carousel>
-    );
+    )
   }
 }
 
-
-export default HomeCarousel;
+export default HomeCarousel
