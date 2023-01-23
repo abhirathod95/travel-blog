@@ -104,18 +104,13 @@ export default class IndexPage extends React.Component {
               <p>
                 {' '}
                 My name is Ramya, and I’m a Neurology resident that just can’t
-                cure my own travel bug. Even though I’m very busy with school, I
-                am here to tell you it is possible to plan a well thought out
-                itinerary/budget plan for your adventure on top of school or a
-                full-time job. <br />
-                Especially with a little bit of my help!{' '}
+                cure my own travel bug. Even though I’m very busy, I am always looking forward for that next trip.
+                 <br />
               </p>
               <p>
                 {' '}
-                What I really want my readers to know is that life doesn’t stop.
-                If you are serious about experiencing the world, don’t put it
-                off any longer. Learn something new, understand life around you
-                a little better, and have fun. That is the purpose of travel.{' '}
+                My goal is to always learn something new, understand life around you
+                a little better, and have fun. That is the purpose of travel. I'd like to share these stories and lessons with you.{' '}
               </p>
               <p className="m-0 p-0">
                 All I have left to ask is, <br />{' '}
