@@ -3,7 +3,7 @@ title: "Our Weekend Getaway Cabin in Austin"
 date: "2021-04-07"
 path: "/blog/getaway-cabin-in-austin"
 excerpt: "Our short two day stay at the Getaway Cabin near Austin, Texas was relaxing and a great way to disconnect from our busy lives for a little bit!"
-tags: ["Weekend, couples, outdoor"]
+tags: ["Weekend", "couples", "outdoor", "Accomodation"]
 continent: ["North America"]
 country: ["United States of America"]
 city: ["Austin"]
@@ -16,15 +16,15 @@ The price for our cabin was $199/day for the weekend, and this seems to be the s
 
 ![](../../../images/United&#32;States&#32;of&#32;America/Texas/Austin_10.jpg)
 
-Upon arriving, we got settled into the cabin and busted out all our marinated meat and tortillas to barbecue over a campfire. There's a box outside each cabin with fresh firewood and firestarters to start a fire. If the supplies aren't stocked or you run out of them, there's a number provided so someone can drop more off within a quick 5-10 minutes. When we struggled with starting a fire on the second night, the woman also helped get our fire going as well.
+Upon arriving, we got settled into the cabin and busted out all our marinated meat and tortillas to cook over a campfire. There was a box outside each cabin with fresh firewood and firestarters to start a fire. If the supplies weren't stocked or if we had run out of them, there's a number provided so someone can drop more off within a quick 5-10 minutes. When we struggled with starting a fire on the second night, the woman also helped get our fire going as well.
 
 ![](../../../images/United&#32;States&#32;of&#32;America/Texas/Austin_6.jpg)
 
 ![](../../../images/United&#32;States&#32;of&#32;America/Texas/Austin_5.jpg)
 
-The highlight of the night was getting to make and devour smores. All the ingredients and sticks to roast over the fire were ready to go in the cabin as well and we didn't need to bring anything!
+The highlight of the night was getting to make and devour smores. All the ingredients and sticks to roast over the fire were ready to go in the cabin as well, and we didn't need to bring anything!
 
-Everything you could want is provided in the cabin. The bathroom is stocked with fresh smelling shampoo, conditioner, and body wash as well as toilet paper. The kitchen has several pots, pans, cups, and utensils to utilize as well. Merlin even had a water bowl and doggie smores waiting for him.
+Everything you could want was provided in the cabin. The bathroom was stocked with fresh smelling shampoo, conditioner, and body wash as well as toilet paper. The kitchen has several pots, pans, cups, and utensils to utilize as well. Merlin even had a water bowl and doggie smores waiting for him.
 
 ```grid|3|
 ![](../../../images/United&#32;States&#32;of&#32;America/Texas/Austin_1.jpg)
@@ -32,7 +32,7 @@ Everything you could want is provided in the cabin. The bathroom is stocked with
 ![](../../../images/United&#32;States&#32;of&#32;America/Texas/Austin_3.jpg)
 ```
 
-We had two lazy morning with leftovers for breakfast and cup of coffee with the pour over bags given to us. We stored everything in the small refrigerator and heated our food up on the convection stove with a pan. The pickled onions, cotija cheese, and fresh cilantro in a warm toasted tortilla and smoky fajita chicken was so delicious and easy to prepare before we left for the cabin.
+We had two lazy morning with leftovers for breakfast and cup of coffee with the pour over bags given to us. We stored everything in the small refrigerator and heated our food up on the convection stove with a pan. The pickled onions, cotija cheese, and fresh cilantro in a warm toasted tortilla and smoky fajita chicken was so delicious and easy to prepare.
 
 ![Our leftover tacos](../../../images/United&#32;States&#32;of&#32;America/Texas/Austin_8.jpg)
 

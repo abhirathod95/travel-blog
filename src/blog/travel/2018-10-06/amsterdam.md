@@ -19,35 +19,41 @@ I landed on Monday afternoon, and flew out Friday noon, which gave me about four
 &nbsp;
 
 ********************************************
-###**What to SEE & DO**
+### <center> **What to SEE & DO**
 
 &nbsp;
 
-####**Anne Frank Haus**
+##### **ANNE FRANK HAUS**
 
 ![Anne Frank Haus front door](../../../images/Netherlands/Amsterdam_22.jpg)
 
-The second I knew I was going to Amsterdam, visiting the Anne Frank Haus was the first thing I planned to see. While I knew the museum was going to be a somber experience, I didn’t expect to feel as many emotions as I did walking through the house. If you have ever read Anne Frank’s diary, you will greatly appreciate this museum. Moving through the house puts into perspective how small the space that the two families were hiding in all those years ago. I thought the experience was carefully orchestrated to be informative, respectful, and thought provoking, and I really treasured my time here because of it. 
+The second I knew I was going to Amsterdam, visiting the Anne Frank Haus was the first thing I planned to do. While I knew the museum was going to be a somber experience, I didn’t expect to feel as many emotions as I did walking through the house. If you have ever read Anne Frank’s diary, you will greatly appreciate this museum. Moving through the house puts into perspective how small the space that the two families were hiding in all those years ago. I thought the experience was carefully orchestrated to be informative, respectful, and thought provoking, and I really treasured my time here because of it. 
 
 Tickets must be bought online. They become available two months in advance and sell out quickly. Plan to buy your tickets the day they get released for the date you want to go! You can still find some tickets available on the day of, but chances are less likely you will get the number of tickets or times you want.  There is no photography allowed inside to respect other visitor’s museum experience and the artifacts. 
 
 **Tickets|** 10 Euros/Adult & 5 Euros/Child   
 **Times|** 9 AM – 7 PM most days, check calendar if later openings 
 
-####**I Amsterdam Sign**
+&nbsp;
+
+##### **I AMSTERDAM SIGN**
 
 ![I Amsterdam sign](../../../images/Netherlands/Amsterdam_7.jpg)
 
 You can’t visit Amsterdam for the first time without the classic picture at the I Amsterdam sign. If you don’t want too many people in your picture, I would suggest arriving early, taking some photos, and enjoying the rest of the day close by at the **Museumplein and Vondelpark**. 
 
-####**Van Gogh Museum**
+&nbsp;
 
-Vincent Van Gogh is a world-renowned artist now, even though he died thinking his paintings would be forgotten. He didn’t get the respect he deserved during his life, and I was really looking forward to the museum showcasing his talent with the largest collection of Van Gogh’s art. Again, this museum also does a wonderful job at explaining Vincent Van Gogh and his life experiences. 
+##### **VAN GOGH MUSEUM**
+
+Vincent Van Gogh is a world-renowned artist in the present day, even though he died thinking his paintings would be forgotten. I was really looking forward to the museum showcasing his talent with the largest collection of Van Gogh’s art. This museum also does a wonderful job at explaining Vincent Van Gogh and his life experiences to pay homage to his talent.  
 
 **Tickets|** 18 Euros/Adult or FREE with City Card  
 **Times|** Mon – Thurs, Sun 9 AM – 7 PM; Fri, Sat 9 AM – 9 PM
 
-####**Rijksmuseum** 
+&nbsp;
+
+##### **RIJKSMUSEUM** 
 
 ![Rijksmuseum library](../../../images/Netherlands/Amsterdam_8.jpg)
 
@@ -56,13 +62,17 @@ The Rijksmuseum is the national museum of Amsterdam celebrating the rich art and
 **Tickets|** 17.5 Euros/Adult or FREE with City Card  
 **Times|** Mon-Sun 9 AM – 5 PM
 
-####**Dam Square** 
+&nbsp;
+
+##### **DAM SQUARE** 
 
 ![Royal Palace of Amsterdam in Dam Square](../../../images/Netherlands/Amsterdam_11.jpg)
 
 As you walk into Dam Square, the **Royal Palace of Amsterdam** is on display. On this perfect summer day, there were lots of people socializing and enjoying the sun around this area. I wasn’t able to squeeze in a visit to see the interior of the palace during my short stay, and I wasn’t too upset about that. The most impressive part was the exterior standing tall over Dam Square anyways. There were a lot of souvenir stores around here since it is a touristy spot if you want to do a little shopping. 
 
-####**Oude Kerk**
+&nbsp;
+
+##### **OUDE KERK**
 
 ![Oude Kerk in the Red light district](../../../images/Netherlands/Amsterdam_12.jpg)
 
@@ -71,7 +81,9 @@ I wandered into the **Red Light District** during the day to see the oldest buil
 **Tickets|** 10 Euros/Adult or FREE with City Card   
 **Times|** Mon – Sat, 10 AM – 6 PM; Sunday 1 – 5:30 PM
 
-####**Bloemenmarkt**
+&nbsp;
+
+##### **BLOEMENMARKT**
 
 ![Bloemenmarkt lining the canal](../../../images/Netherlands/Amsterdam_15.jpg)
 
@@ -84,13 +96,20 @@ It’s the world’s largest and only floating flower market! The local’s love
 
 **Times|** Mon - Sat 9 AM - 5:30 PM, Sun 11:30 AM - 5:30 PM
 
-####**Jordaan District**
+&nbsp;
+
+##### **JORDAAN DISTRICT**
 
 ![Jordaan district canal](../../../images/Netherlands/Amsterdam_4.jpg)
 
-One of the more upscale neighborhoods of Amsterdam, the Jordaan district puts the canals on spotlight. If you want, this would be a wonderful place to hop on a bike and explore the district like a local. Also a great place to find good restaurants and cafes. 
+One of the more upscale neighborhoods of Amsterdam, the Jordaan district puts the canals on spotlight. If you want, this would be a wonderful place to hop on a bike and explore the district like a local. Also a great place to find good restaurants and cafes. Here are some recommended options below.
+- La Olivia
+- Toscanini
+- Cafe de Prins  
 
-####**Canal Tour**
+&nbsp;
+
+##### **CANAL TOUR**
 
 ![Amsterdam train station](../../../images/Netherlands/Amsterdam_10.jpg)
 
@@ -103,31 +122,33 @@ Simply the best way to see the city and get a brief introduction and history of 
 &nbsp;
 
 ****************************************************
-###**Where to EAT**
+### <center> **Where to EAT**
+
+&nbsp;
 
 The one thing you have to try is a Dutch specialty, a **STROOPWAFEL**. My sweet tooth was incredibly satisfied with the thin wafer sandwich with caramel like you can’t imagine. I bought a bunch at the local grocery store near my hotel to snack on throughout the trip, especially with coffee in the morning. You can also find them in almost every café. 
 
 ![Tiny stroopwafel, best thing in the world](../../../images/Netherlands/Amsterdam_2.jpg) 
 
-####**Pancake Bakery** 
+##### **Pancake Bakery** 
 
 Located close to the Anne Frank Haus, we stopped by to grab some lunch only to be turned away due to the high number of customers there already. Instead, we made a reservation to come back the next day. Totally worth it. They make both sweet and savory pancakes of all sorts for you to enjoy.
 
 **Address|** Prinsengracht 191, 1015 DS Amsterdam, Netherlands
     
-####**Moeders Restaurant**
+##### **Moeders Restaurant**
 
 This was a really good restaurant with Dutch recipes to try! 
 
 **Address|** Singel, 1012 DH Amsterdam, Netherlands
     
-####**Café MADS**
+##### **Café MADS**
 
 This café was located close to our hotel and was a great place to eat dinner when we arrived. 
 
 **Address|** Zoutkeetsplein 1h, 1013 LD Amsterdam, Netherlands
     
-####**Ice Bakery by Nutella** 
+##### **Ice Bakery by Nutella** 
 
 If you love all things chocolate, then this one’s for you. 
 
@@ -136,26 +157,30 @@ If you love all things chocolate, then this one’s for you.
 &nbsp;
 
 ***************************************************** 
-###**Where to STAY**
+### <center> **Where to STAY**
 
 &nbsp;
 
-**Yays Concierged Boutique Hotel** – I stayed in this adorable two-story apartment with a full kitchen right on the canal, located in the Zootkeetsgracht neighborhood. While the location was a little further from some of the main attractions, the chance to live more like a local was too good to pass up. Also, a nearby bus stop was enough to get places without having to spend more.  In the evenings, they even gave us a bicycle to borrow and take around the street. Yays have several locations around the city if you want to stay closer to a certain attraction.
+##### **Yays Concierged Boutique Hotel** 
+
+I stayed in this adorable two-story apartment with a full kitchen right on the canal, located in the Zootkeetsgracht neighborhood. While the location was a little further from some of the main attractions, the chance to live more like a local was too good to pass up. Also, a nearby bus stop was enough to get places without having to spend more.  In the evenings, they even gave us a bicycle to borrow and take around the street. Yays have several locations around the city if you want to stay closer to a certain attraction.
 
 ![Canal view from our Yays hotel room](../../../images/Netherlands/Amsterdam_1.jpg) 
 
 &nbsp;
 
 ****************************************************
-###**DAY TRIPS**
+### <center> **DAY TRIPS**
 
 &nbsp;
 
-####**Brussels, Belgium**
+##### **BRUSSELS, BELGIUM**
 
-We thought about doing this if we had just one more day (isn’t that always the case) and knocking off another country on our long, long list. Except, we enjoyed Amsterdam too much to want to leave. Take a train from Centraal Station; they run pretty much all hours of the day. A quick 2-3 hours later, you are in Brussels admiring the famous **Mannekan Pis** 😉. 
+We thought about doing this if we had just one more day (isn’t that always the case) and knocking off another country on our long, long list. Except, we enjoyed Amsterdam too much to want to leave. Take a train from Centraal Station; they run pretty much all hours of the day. A quick 2-3 hours later, you are in Brussels admiring the famous **Mannekan Pis**. 
 
-####**Zaanse Schans**
+&nbsp;
+
+##### **ZAANSE SCHANS**
 
 ![Windmills at Zaanse Schans](../../../images/Netherlands/Amsterdam_17.jpg)
 
@@ -166,16 +191,17 @@ We thought about doing this if we had just one more day (isn’t that always the
 
 There are several places to visit in Amsterdam to see the iconic windmills. We picked to go to Zaanse, a small touristy village with five working windmills highlighting the simpler way of life in the 17th and 18th century. There are loads of cool shops, some of my favorite being the clog shop to watch how they make those wooden shoes, cheese shop to try many samples, and a chocolate shop. You can also enter the windmills for a small fee to see how they work at making dyes, flour, oil, and more!
 
-A local train from **Amsterdam Centraal** will take you the station **Zaandijk-Zaanse Schans** in 17 minutes, from which you walk 15 minutes to reach the town. There are tickets associated with each of the museums and windmills to enter if you want to pick and choose. The Amsterdam City Card does give you free admission to some of the sights 
+A local train from **Amsterdam Centraal** will take you the station **Zaandijk-Zaanse Schans** in 17 minutes, from which you walk 15 minutes to reach the town. There are tickets associated with each of the museums and windmills to enter if you want to pick and choose. The Amsterdam City Card does give you free admission to some of the sights.
 
-####**The Keukenhof**
+&nbsp;
+
+##### **THE KEUKENHOF**
 
 Located only 30 minutes from Amsterdam is the best gardens to see the tulips. The park is only open during a certain time of year, tulip season. From mid-March to late May, the Keukenhof sees millions of visitors who have come for the millions of tulips planted on the land. If you are in town during this time of year, I would highly suggest visiting. There are also several other locations around here to see the rows of tulips while bicycling.   
 
 &nbsp;
-&nbsp;
 
-##<center>**TIPS & TRICKS**</center>
+### <center>**TIPS & TRICKS**
 
 - There are coffeeshops, and there are cafes. They are two different things entirely. If you only want coffee, go to a café because it’s not all you’ll find any in a coffeeshop. 
 

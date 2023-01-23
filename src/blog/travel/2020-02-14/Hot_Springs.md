@@ -3,7 +3,7 @@ title: "Weekend in Hot Springs, Arkansas"
 date: "2020-02-14"
 path: "/blog/weekend-in-hot-spring-arkansas"
 excerpt: "Hot Springs, Arkansas is home to the smallest national park in the United States. Just a four and a half drive away from Dallas to do some hiking and get some fresh air. "
-tags: ["National park", "Valentine's Day", "City","Travel Guide"]
+tags: ["National park", "Valentine's Day", "City"]
 continent: ["North America"]
 country: ["United States of America"]
 city: ["Hot Springs"]

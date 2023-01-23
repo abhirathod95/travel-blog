@@ -3,7 +3,7 @@ title: "Photo Tour of Angkor Wat and More"
 date: "2019-12-23"
 path: "/blog/photo-tour-angkor-wat"
 excerpt: "As much as I can try to describe the feeling of being at Angkor Wat, climbing the old stones, and standing in musty long corridors, pictures are still worth a thousand words."
-tags: ["Photo", Christmas", "Ruins"]
+tags: ["Photo", "Christmas", "Ruins"]
 continent: ["Asia"]
 country: ["Cambodia"]
 city: ["Siem Reap"]

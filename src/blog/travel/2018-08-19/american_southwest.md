@@ -3,7 +3,7 @@ title: "SUMMER ROADTRIP THROUGH THE AMERICAN SOUTHWEST"
 date: "2017-06-20"
 path: "/blog/american-southwest-roadtrip"
 excerpt: "The summer after graduating college was a time of living with a heightened sense of “I can do anything in the world!” for me. I wanted to be out there, exploring the world and making my mark. I used to think I had to go abroad to New..."
-tags: ["Travel Journal", "Summer", "Roadtrip", "Girls Trip","Camping","Nature"]
+tags: ["Travel Journal", "Summer", "Roadtrip", "Girls Trip","Camping","Nature", "National park"]
 continent: ["North America"]
 country: ["United States of America"]
 city: ["Southwest"]
@@ -20,21 +20,29 @@ All the photos in my article are taken with the iPhone 7.
 
 **PRO TIP**: Buy the **National Parks Pass** for $80 to cover the entrance of one car at all parks for a year. Normal entrance fee is $30 per car at each park. 
 
-#### **Stop 1: White Sands, New Mexico**
+&nbsp;
+
+##### **STOP 1: White Sands, New Mexico**
 
 ![White Sands, NM](../../../images/United&#32;States&#32;of&#32;America/Southwest_1/1.jpg) 
 
-Our first dusty stop was seeing the pure white sand dunes in the middle of an orange red desert landscape. Years of erosion of the gypsum salt rocks had caused these dunes to form. At certain times in the day, free tours given by the park rangers to learn more about why the dunes move, what kind of wild life takes up residence, and how the plants survive the tough environment. However, the coolest thing to do here is to **sand board** down those sweet dunes. You can rent a sled from the front office. 
+Our first dusty stop was seeing the pure white sand dunes in the middle of an orange red desert landscape. Years of erosion of the gypsum salt rocks had caused these dunes to form. At certain times in the day, free tours given by the park rangers to learn more about why the dunes move, what kind of wild life takes up residence, and how the plants survive the tough environment. However, the coolest thing to do here is to **sand board** down those sweet dunes. You can rent a sled from the front office.
 
-#### **Stop 2: Truth or Consequences, New Mexico**
+&nbsp; 
+
+##### **STOP 2: Truth or Consequences, New Mexico**
 
 A town called Truth or Consequences has to peak your interest. I mean, what happens if a town person were to tell a lie? The real story is not as dramatic. The name actually comes from a radio show. The town, originally called Hot Springs, renamed themselves after the host of the show called   Truth or Consequences claimed to air his 10th anniversary show from the town to change its name to his show’s name first. 
 
-#### **Stop 3: Pie Town, New Mexico**
+&nbsp;
+
+##### **STOP 3: Pie Town, New Mexico**
 
 Not a scheduled stop, but somewhere we just decided to stop and rest. Like the town before, Pie Town was a name that caught our eye. It’s practically one of the smallest towns I’ve ever seen with one main feature. A shop of pies. It’s actually a stop that a lot of people apparently make because they had a map covered in pushpins that visitors had placed from practically every corner of the world. I had a delicious slice of peach pie and drank some coffee before hitting the road. Best choice I ever made. 
 
-#### **Stop 4: Grand Canyon, Arizona** 
+&nbsp;
+
+##### **STOP 4: Grand Canyon, Arizona** 
 
 ![Ooh Ahh Point on the South Kaibab Trail](../../../images/United&#32;States&#32;of&#32;America/Southwest_1/3.jpg) 
 
@@ -46,22 +54,28 @@ After a quick, overpriced lunch at the small café in the park, we were rested e
 
 The next morning, we had planned to head back in for a short hike. But plans always change, and we just rolled with it. Our first day of hiking left us more tired than we had anticipated (especially after all the driving we did), so we slept in and checked out at 11 AM. 
 
-#### **Stop 5: Hoover Dam**
+&nbsp;
+
+##### **STOP 5: Hoover Dam**
 
 ![Hoover Dam](../../../images/United&#32;States&#32;of&#32;America/Southwest_1/4.jpg) 
 
 When a sign for the Hoover Dam came up on our way to Las Vegas, we decided to take a little detour and check it out. Even though it wasn’t a planned stop, we welcomed the small break in driving to see the largest dam in the USA. 
 
-#### **Stop 6: Las Vegas, Nevada**
+&nbsp;
+
+##### **STOP 6: Las Vegas, Nevada**
 
 ![Las Vegas lights](../../../images/United&#32;States&#32;of&#32;America/Southwest_1/18.jpg) 
 
 Las Vegas is not a city that can be done in half a day, but it was all the time we could spare for fun and games on our outdoor adventure road trip. If you had more than 10 days to do this trip, Las Vegas would be a good place to add a few more days to.
 For lunch, we had the best burritos at **Taco Y Taco Mexican Eatery** that we had ever tasted. Literally the best ever. I thought I was stuffed but stepping back into the whooping 113-degree heat (cookies baking on the sidewalk heat), we couldn’t resist stopping again at the vintage frozen custard shop, **Nielson’s**, next door to cool down.  
 
-With the little time we had left in the evening, we decided to get one cocktail, tour two casinos, and watch the Bellagio water show before hitting the sack for an early morning drive. 
+With the little time we had left in the evening, we decided to get one cocktail, tour two casinos, and watch the Bellagio water show before hitting the sack for an early morning drive.
 
-#### **Stop 7: Zion National Park, Utah**
+&nbsp; 
+
+##### **STOP 7: Zion National Park, Utah**
 
 Our next stop required leaving super early in the morning in order to secure a camp site. Like 3 AM early in the morning. As you can imagine, coffee was a must this morning. However, seeing the sunrise while driving through the rocky terrain helped ease the pain of waking up too early. After arriving around 5:30 AM at the park, we slept in the car until 8 AM waiting for a camp site to free up. And luckily, we got one! 
 
@@ -82,7 +96,9 @@ After each full day of hiking and pushing our bodies to their literal extreme, w
 
 Zion was a green oasis in the middle of the hot arid desert, and we welcomed the brief change in scenery the two days we were there before driving back into Arizona. Our way out was taking the scenic drive that allows you to have a glimpse at the Checkerboard Mesa cliffs and more. 
 
-#### **Stop 8: Lower Antelope Canyon, Arizona**
+&nbsp;
+
+##### **STOP 8: Lower Antelope Canyon, Arizona**
 
 ![Lower Antelope Canyon](../../../images/United&#32;States&#32;of&#32;America/Southwest_1/9.jpg) 
 
@@ -90,41 +106,59 @@ What trip to the Southwest would be complete without stopping at the famous Ante
 
 Usually people head to Bryce Canyon after Zion, but our tour slots and the fact that Page, Arizona (town closest to the slot canyons) isn't too far from either park convinced us to squeeze in the Antelope Canyons in between. 
 
-#### **Stop 9: Horseshoe Bend, Arizona**
+&nbsp;
+
+##### **STOP 9: Horseshoe Bend, Arizona**
 
 ![Horseshoe Bend](../../../images/United&#32;States&#32;of&#32;America/Southwest_1/19.jpg) 
 
 Just 15 minutes from the Antelope Canyons is one of the best parts of the Colorado River, Horseshoe Bend. The river does this crazy turn that has turned into one of the most photographed destinations in America. There is a short hike to get there, nothing too difficult, so it’s really accessible for most people. Be prepared to hunt for a parking spot for a little while. 
 
-#### **Stop 10: Bryce Canyon National Park, Utah**
+&nbsp;
+
+##### **STOP 10: Bryce Canyon National Park, Utah**
 
 ![Bryce Canyon](../../../images/United&#32;States&#32;of&#32;America/Southwest_1/21.jpg) 
 
 Here’s a park dedicated to showcasing the funniest named formations called the **hoodoos**. Despite being a smaller park, the amphitheater has an impressive view looking out over the Utah landscape, especially impressive at sunrise and sunset. Before the golden hour, M and I went a little way down the **Queen’s Garden Trail** to get a closer look at the hoodoos before heading back up at sunset. We stood, a captive audience at the edge of the amphitheater, and saw an orchestra of colors play out in the sky, lighting up the hoodoos at sunset. It truly was a magical sight to see. 
 
-##### **Stop 11: Arches National Park, Utah**
+&nbsp;
+
+##### **STOP 11: Arches National Park, Utah**
 
 ![Arches](../../../images/United&#32;States&#32;of&#32;America/Southwest_1/12.jpg) 
 
 To be honest, we stayed in our car for the most part due to the extremely high temperatures outside, just getting out at the important spots and walking in a little to appreciate the arches. After seeing the last few incredible stops, I have to say that I wasn’t as impressed with this park. Or maybe its just me being biased due to the heat. Also, plan to have a lot of water on you before heading into the park because there aren’t many places to fill up. If I were to pick out a few highlights, the **Double Arch** and the famous **Delicate Arch** were worth seeing. Next time, I plan to come during cooler weather to actually hike closer to the Delicate Arch and some of the other trails. You win this time, sun, but next time, I’ll come more prepared. 
 
-##### **Stop 12: Canyonland National Park, Utah**
+&nbsp;
+
+##### **STOP 12: Canyonland National Park, Utah**
 
 ![Canyonland](../../../images/United&#32;States&#32;of&#32;America/Southwest_1/11.jpg) 
 
 Since we didn’t spend too much time at Arches National Park, we were able to squeeze in a quick visit to Canyonlands that we weren’t originally planning. This park would have been a great place to camp for the night because it’s so dark out that all the stars really show up in the sky. But for our quick visit, the **Mesa Arch** was the one thing we chose to see. It perfectly frames the canyonlands spreading out far and wide behind it. And the trail to see the arch was short and easy. Win win! 
 
-#### **Stop 13: Monument Valley**
+&nbsp;
+
+##### **STOP 13: Monument Valley**
 
 ![Sunset in Monument Valley](../../../images/United&#32;States&#32;of&#32;America/Southwest_1/13.jpg) 
 
 Driving through Monument Valley in the evening was so beautiful. The sky was shaded in colors of purple, pink, orange, and yellow, enhancing the orange rock of the tall standing formations. Once it got a little darker, the monuments stood as silhouettes in the purple light. In that moment, it was striking how appropriate the name Monument Valley really was. 
 
-#### **Stop 14: Santa Fe, New Mexico**
+&nbsp;
+
+##### **STOP 14: Santa Fe, New Mexico**
 
 ```grid|1|
 ![Santa Fe](../../../images/United&#32;States&#32;of&#32;America/Southwest_1/15.jpg) 
 ![Santa Fes](../../../images/United&#32;States&#32;of&#32;America/Southwest_1/16.jpg) 
 ```
 
-Good food, colorful mesa buildings, and friendly people. That is Santa Fe. I thought one day was enough to enjoy the city and all it had to offer. We got brunch at one of the many Mexican restaurants in the city center before doing a little window shopping and appreciating all of the local wares. Afterwards, we decided to check out a museum showcasing an artist’s work we both really liked, the **Georgia O’ Keefe Museum**. Then, we went to an attraction that was quite different from anything we had been to before called **Meow Wolf**. It’s an interactive modern art experience, and I’ll leave it at that. I don’t want to ruin the surprise for you if you decide to go, but what a way to end our trip before finally heading home.  
+Good food, colorful mesa buildings, and friendly people. That is Santa Fe. I thought one day was enough to enjoy the city and all it had to offer. We got brunch at one of the many Mexican restaurants in the city center before doing a little window shopping and appreciating all of the local wares. Afterwards, we decided to check out a museum showcasing an artist’s work we both really liked, the **Georgia O’ Keefe Museum**. Then, we went to an attraction that was quite different from anything we had been to before called **Meow Wolf**. It’s an interactive modern art experience, and I’ll leave it at that. I don’t want to ruin the surprise for you if you decide to go, but what a way to end our trip before finally heading home. 
+
+&nbsp;
+
+*******
+
+It was a long trip but an incredible one with lots of new experiences and memories before starting medical school. A road trip through the southwest is a real treat and a must do for one of the quintessential experiences in America. 

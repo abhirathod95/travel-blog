@@ -14,7 +14,7 @@ Abhi and I got married! For our honeymoon, we decided to go to Iceland for the d
 
 Going in November had its pros and cons. Although we had more time at night to chase Northern lights, we had a hard time seeing them through dense cloud cover common at this time of year. We also had only 6 hours of daylight each day which meant we had to plan our itinerary efficiently. However, the best time to go is honestly whenever you can! Each season offers a very different experience so it depends on what you want to see and do. 
 
-For this trip, Abhi and I decided not to do any tours this visit to Iceland, including the famed ice caves, because of the pandemic. Instead, we opted for hiking and driving our hearts out enjoying each others company. However, we are certainly planning a return trip in the future for everything we missed!
+For this trip, Abhi and I decided not to do any tours this visit to Iceland, including the famed ice caves, because of the pandemic and recent spike in cases while we were there. Instead, we opted for hiking and driving our hearts out enjoying each others company. However, we are certainly planning a return trip in the future for everything we missed!
 
 &nbsp;
 
@@ -23,7 +23,7 @@ For this trip, Abhi and I decided not to do any tours this visit to Iceland, inc
 
 After a red eye flight into Keflavik International Airport, we drove to a cluster of small cabins in Sandgerdi called iStay cottages that reminded us of the Getaway cabin we stayed in near Austin to sleep and freshen up for a few hours before being on our way to Reykjavik.
 
-Our first stop was at Braud & Co, a well known famous bakery close to Hallgrimskirkja. There was more than enough paid parking on the next street over to park nearby. We grabbed some hot coffee and several pastries to devour as our lunch before climbing to the top of the church for a small fee and snapping a classic pic of the city below.
+Our first stop was at Braud & Co, a well known famous bakery close to Hallgrimskirkja. There was more than enough paid parking on the next street over that was convenient. We grabbed some hot coffee and several pastries to devour as our lunch before climbing to the top of the church for a small fee and snapping a classic pic of the city below.
 
 ![](../../../images/Iceland/Iceland_1.jpg)
 
@@ -63,15 +63,15 @@ We were excited to start our first day on the Southern coast with a well known t
 
 ![](../../../images/Iceland/Iceland_9.jpg)
 
-While I'm glad I did the Golden Circle, I felt it was not as impressive as what was there to discover beyond it. If you have limited time and a car, I would strongly consider skipping the Golden Circle for another time and head further down the Ring Road. Other stops you may consider nearby are Hrunalaug Hot Springs, Kerid Crater, and Selfoss also located around this area.
+While I'm glad I did the Golden Circle, I felt it was not as impressive as what was there to discover beyond it. If you have limited time and a car, I would strongly consider skipping the Golden Circle for another time and head further down the Ring Road. Other stops nearby you may consider if you have more time are Hrunalaug Hot Springs, Kerid Crater, and Selfoss also located around this area.
 
-Even though the weather was terrible all day, it slowed to a drizzle by the time we checked into our hotel. We decided to chase down a small patch of cloudless sky on the vedur.is, a local website with latest aurora forecasts, in hopes to see the Northern lights. This took us onto a pretty sketchy road. About 30 minutes into driving in the pitch black up a mountain with no side rails, the wind and rain started to pick up. The sky above was horribly cloudy. We decided to turn around after spooking ourselves several times turning each corner slowly. Its not always worth the hunt when the chances for lights are predicted to be abysmally low. 
+Even though the weather was terrible all day, it slowed to a drizzle by the time we checked into our hotel. We decided to chase down a small patch of cloudless sky on the **vedur.is**, a local website with latest aurora forecasts, in hopes to see the Northern lights. This took us onto a pretty sketchy road. About 30 minutes into driving in the pitch black up a mountain with no side rails, the wind and rain started to pick up. The sky above was horribly cloudy. We decided to turn around after spooking ourselves several times turning each corner slowly. Its not always worth the hunt when the chances for lights are predicted to be abysmally low. 
 
 &nbsp;
 
 ##### **Day 4: Chasing Waterfalls and More**
 
-In Iceland, I ignored TLC and definitely went chasing waterfalls. Today, all we saw were waterfalls! We started with Skogafoss which was by far the most picturesque waterfall I had ever seen. Making our way to the top, we got a closer look at all the birds nestling in the side of the rock. 
+In Iceland, I ignored TLC and went chasing waterfalls. Today, all we saw were waterfalls! We started with Skogafoss which was by far the most picturesque waterfall I had ever seen. Making our way to the top, we got a closer look at all the birds nestling in the side of the rock. 
 
 ![](../../../images/Iceland/Iceland_10.jpg)
 ![](../../../images/Iceland/Iceland_11.jpg)
@@ -80,7 +80,7 @@ Afterwards, we made our way to Seljalandfoss and a nearby hidden waterfall calle
 
 ![](../../../images/Iceland/Iceland_12.jpg)
 
-Finally, we had a clear sky and a predicted KPS of 3 for the night which meant Northern lights hunting. We got a glimpse of the magical Northern lights although it was rather faint. This was the best we got all week so we were glad to have caught it on our own at all. Also, a lot of the fun was the anticipation and working together to find the optimal location and time for the lights. If you're not planning to drive around in the middle of the night, most hotels also offer a wake up call when the Northern lights are occuring outside. Just be sure to let them know you'd like to be called when checking in. 
+Finally, we had a clear sky and a predicted KPS of 3 for the night which meant Northern lights hunting. We got a glimpse of the magical Northern lights although it was rather faint. This was the best we got all week so we were glad to have caught it at all on our own. Also, a lot of the fun was the anticipation and working together to find the optimal location and time for the lights. If you're not planning to drive around in the middle of the night, most hotels also offer a wake up call when the Northern lights are occuring outside. Just be sure to let them know you'd like to be called when checking in. 
 
 ![](../../../images/Iceland/Iceland_13.jpg)
 
@@ -96,17 +96,11 @@ We enjoyed the viewpoints at Dyrhólaey more than we expected. Seeing the black 
 
 ![](../../../images/Iceland/Iceland_15.jpg)
 
-```grid|2|
-![](../../../images/Iceland/Iceland_17.jpg)
 ![](../../../images/Iceland/Iceland_16.jpg) 
-```
 
 Then, we took a short 10 minute drive to reach the famous Black Sand Beach also known as Reynisfjara beach we were admiring from above. We were met with basalt columns creating a cool geometric backdrop to the powerful Atlantic ocean. We stayed far from the water in order to steer clear of those sneaker waves from dragging us out the sea. 
 
-```grid|2|
-![](../../../images/Iceland/Iceland_18.jpg)
 ![](../../../images/Iceland/Iceland_19.jpg) 
-```
 
 Vik was a great town to stay nearby for a several days to use as a base. We were able to stock up on groceries at the Krona which was the grocery store we preferred over Bonus for snacks and quicks meals on the road. The iconic red roof church sits at the highest point of the town and has an amazing overlook of the town below. However, after two days of exploring here, we were moving on.
 
@@ -118,7 +112,7 @@ We ended the night spending an hour the hot tub under a clear sky full of stars 
 
 ##### **Day 6: Glaciers Galore**
 
-The next morning, we woke up to a fresh blanket of snow outside. Our hotel looked so striking against the white. AS we were leaving, we found a small waterfall next to our hotel to explore.
+The next morning, we woke up to a fresh blanket of snow outside. Our hotel looked so striking against the white. As we were leaving, we found a small waterfall next to our hotel to explore.
 
 ```grid|2|
 ![Fosshotel Glacier Lagoon](../../../images/Iceland/Iceland_21.jpg)
@@ -127,10 +121,10 @@ The next morning, we woke up to a fresh blanket of snow outside. Our hotel looke
 
 We made our way to the famous Jökulsárlón and Diamond Beach which are right across from each other. It may have been the time of year, but we didn't get to see a fully studded beach like we were led to believe. The few icebergs floating in Jökulsárlón were colored in bright blue.
 
-![Blue glacier in Jökulsárlón](../../../images/Iceland/Iceland_24.jpg) 
+![Blue glacier in Jökulsárlón](../../../images/Iceland/Iceland_25.jpg) 
 
 ```grid|2|
-![](../../../images/Iceland/Iceland_25.jpg)
+![](../../../images/Iceland/Iceland_24.jpg)
 ![](../../../images/Iceland/Iceland_26.jpg) 
 ```
 
@@ -165,13 +159,14 @@ We spent the night right outside Selfoss, a city about an hour away from Reykjav
 
 ##### **Day 8: Land of Fire and Ice**
 
-Even though we were bummed waking up on our last day without seeing more dramatic Northern lights, we were also ready to get back to our lives and see our pets again. We woke up pretty early in order to drive back to Reykjavik to get Covid tested before heading to Fagradallsfjall volcano only 30 minutes away from Keflavik airport. It was known as a "tourist eruption" after becoming active on March 19, 2021, but the eruption was officially declared finished in September 2021. There are several hiking options of different lengths that can fit each individuals preferences. We still had to get to the airport by 2:30 PM so we opted to do Path C which goes to the lava field but not the actual crater.  It's important to also check the local websites to be sure that the danger of the poisonous gases constantly being released is not too high.
+Even though we were bummed waking up on our last day without seeing more dramatic Northern lights, we were also ready to get back to our lives and see our pets again. We woke up pretty early in order to drive back to Reykjavik to get Covid tested before heading to Fagradallsfjall volcano only 30 minutes away from Keflavik airport. It was known as a "tourist eruption" after becoming active on March 19, 2021, but the eruption was officially declared finished in September 2021. There are several hiking options of different lengths that can fit each individuals preferences. We still had to get to the airport later in the early afternoon so we opted to do Path C which goes to the lava field but not the actual crater.  It's important to also check the local websites to be sure that the danger of the poisonous gases constantly being released is not too high.
 
 ![](../../../images/Iceland/Iceland_32.jpg)
 
-```grid|2|
+```grid|3|
 ![](../../../images/Iceland/Iceland_33.jpg)
-![](../../../images/Iceland/Iceland_34.jpg) 
+![](../../../images/Iceland/Iceland_34.jpg)
+![](../../../images/Iceland/Iceland_37.jpg) 
 ```
 
 Finally, we stopped at Gardur Lighthouse as our last stop to complete our roadtrip. At night, this would have been a great spot for some Northern lights! As we got back in the car to head to the airport, we promised we would be back again to experience the aurora and complete the Ring Road by heading North. 

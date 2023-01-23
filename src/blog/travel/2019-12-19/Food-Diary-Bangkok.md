@@ -45,7 +45,6 @@ At the entrance of the Newton Hawker Centre, there is a board with all the class
 Other great places to try food while in Singapore is at Haji Lane, China Town, Clarke Quay, Old Airport Hawker Center, and inside 313@Somerset Mall.
 
 &nbsp;
-&nbsp;
 
 *************************
 

@@ -2,7 +2,7 @@
 title: "72 Hours in Denver, Colorado"
 date: "2021-04-07"
 path: "/blog/72-hours-in-denver-colorado"
-excerpt: "Find out more about my itinerary visiting the Mile High City in April!"
+excerpt: "This was my first trip post pandemic. Find out more about my itinerary visiting the Mile High City in April!"
 tags: ["Itinerary", "Girls Trip", "Roadtrip"]
 continent: ["North America"]
 country: ["United States of America"]
@@ -27,7 +27,7 @@ LoDo is a popular area in Denver packed with great restaturants and stores to ex
 
 ![Union Station](../../../images/United&#32;States&#32;of&#32;America/Colorado/Denver_4.jpg)
 
-Be sure to stop at the Capitol Building and the Coors if you have more time in this area than we did!
+Be sure to stop at the Capitol Building and the Coors stadium if you have more time in this area than we did!
 
 ##### **Afternoon Delight at Little Man Ice Cream**
 
@@ -73,7 +73,7 @@ The drive from Boulder to Estes Park was about 2 hours going the scenic route, b
 
 ##### **Rocky Mountain National Park**
 
-Finally, we made it to Rocky Mountain National Park. Even though temperatures were already soaring in our own state, there was a full on snow flurry visiting the higher spots of the park. We hiked to Bear Lake and walked around for a bit before we started to lose all feeling in our fingers and toes. During our drive, we had to stop and wait for deer crossing. Don't forget to stop by the visitor center to grab a little souvenir as remembrance of the trip!
+Finally, we made it to Rocky Mountain National Park! Even though temperatures were already soaring in our own state, there was a full on snow flurry visiting the higher spots of the park. We hiked to Bear Lake and walked around for a bit before we started to lose all feeling in our fingers and toes. During our drive, we had to stop and wait for deer crossing. Don't forget to stop by the visitor center to grab a little souvenir as remembrance of the trip!
 
 ![Whiteout at Rocky Mountain National Park](../../../images/United&#32;States&#32;of&#32;America/Colorado/Estes_Park_6.jpg)
 
