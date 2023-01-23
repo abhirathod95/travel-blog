@@ -428,6 +428,19 @@ hr {
 	height:100%;
 }
 
+// Pagination bar
+.pagination .page-link {
+	color: black;
+	border: none;
+}
+
+.pagination .page-item.active .page-link {
+	background-color: #FADA5E;
+	border: 1px solid;
+	border-color: black;
+	color: black;
+}
+
 // Footer
 
 .footer {
@@ -437,28 +450,6 @@ hr {
 
 .footer .row {
 	margin: 0;
-}
-
-
-// Scrolling banner
-.test123 {
-    background-attachment: fixed;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 800px;
-    left: calc(-50vw + 50%);
-    position: relative;
-    width: 100%;
-}
-
-.testthis {
-	display: flex;
-	flex: 1 1 auto;
-	justify-content: center;
-	align-items: center;
-	margin: 3rem;
-	background-color: rgba(245,245,245, .9);
 }
 
 // Home/Index page alice carousel

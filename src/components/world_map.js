@@ -1,10 +1,12 @@
 import React, { memo, useState } from 'react'
 import Map_110m from '../static/world-110m.json'
-import ReactTooltip from 'react-tooltip'
+import { Tooltip } from 'react-tooltip'
 import chroma from 'chroma-js'
 import { navigate } from 'gatsby'
 
 import { ComposableMap, Geographies, Geography } from 'react-simple-maps'
+
+import 'react-tooltip/dist/react-tooltip.css'
 
 const wrapperStyles = {
   margin: '0 auto',
@@ -50,7 +52,7 @@ const WorldMap = ({ articleCount }) => {
   }
   return (
     <div style={wrapperStyles}>
-      <ComposableMap data-tip="" height="500">
+      <ComposableMap id="tooltip" data-tooltip-variant="error" height={ 500 }>
         <Geographies geography={Map_110m}>
           {({ geographies }) =>
             geographies.map((geo) => (
@@ -109,7 +111,7 @@ const WorldMap = ({ articleCount }) => {
           }
         </Geographies>
       </ComposableMap>
-      <ReactTooltip type="error">
+      <Tooltip float="true" anchorId="tooltip">
         {countryName === '' ? (
           ''
         ) : (
@@ -119,7 +121,7 @@ const WorldMap = ({ articleCount }) => {
             {artCount}
           </div>
         )}
-      </ReactTooltip>
+      </Tooltip>
     </div>
   )
 }

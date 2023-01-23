@@ -19,12 +19,13 @@ export default class IndexPage extends React.Component {
 
     this.destinations = ["North America", "South America", "Europe", "Africa", "Asia", "Oceania"]
 
-    this.carouselItems = data.allMarkdownRemark.edges.map((item, index) => {
+    this.carouselItems = data.latestArticles.edges.map((item, index) => {
       return {
         key: index,
         childImageSharp: item.node.frontmatter.featuredImage.childImageSharp,
         alt: item.node.frontmatter.title,
         heading: item.node.frontmatter.title,
+        title: item.node.frontmatter.title,
         link: item.node.frontmatter.path,
         subHeading: 'Explore',
         buttonText: 'Read More',
@@ -66,7 +67,16 @@ export default class IndexPage extends React.Component {
         <Container fluid className="index-container">
           <Row className="top-carousel mb-0">
             <Col>
-              <Banner width="100%" height="100vh" item={this.carouselItems[0]} />
+              {/* <Banner width="100%" height="100vh" item={this.carouselItems[0]} /> */}
+              <Banner
+                showTextBox={false}
+                width="100%"
+                height="60vh"
+                item={{
+                  childImageSharp: this.props.data.banner.childImageSharp,
+                  heading: 'About Us',
+                }}
+              />
             </Col>
           </Row>
           <Row
@@ -88,11 +98,12 @@ export default class IndexPage extends React.Component {
 							</blockquote>
 		  				</Col>
 					</Row> */}
-          {/* <Row className="justify-content-center no-marg-pad">
-            <Col lg="9">
-              <CardDeck items={this.cardItems} type={'overlay'} />
+          <Row className="justify-content-center no-marg-pad">
+            <Col lg="10">
+              <CardDeck items={this.carouselItems} type={'vertical'} />
             </Col>
-          </Row> */}
+          </Row>
+
           <Row className="justify-content-center p-0">
             <Col lg="12" xl="8" className="text-center">
               <p>
@@ -130,21 +141,43 @@ export default class IndexPage extends React.Component {
             </Col>
           </Row>
           <Row className="justify-content-center p-0">
-            <Col lg="1">
-              <ListGroup>
-                {
-                  this.destinations.map((destination) => {
-                    return (
-                      <ListGroupItem>
-                        {destination}
-                      </ListGroupItem>
-                    )
-                  })
-                }
-              </ListGroup>
+            <Col lg="3" className="d-flex flex-column justify-content-center p-0">
+              <h3 className="text-center m-0 p-0">
+                Continents Visited 
+                <br></br>
+              </h3>
+              <h1 className="text-center m-0 p-0">
+              <b className="visited-num">{this.props.data.worldMap.visitedContinents.length}</b>
+                <br></br>
+              </h1>
+              <div style={{ height: '5vh' }}></div>
+              <h3 className="text-center m-0 p-0">
+                Countries Visited
+              </h3>
+              <h1 className="text-center m-0 p-0">
+              <b className="visited-num">{this.props.data.worldMap.visitedCountries.length}</b>
+                <br></br>
+              </h1>
             </Col>
             <Col lg="6">
               <WorldMap articleCount={this.mapCountData} />
+            </Col>
+            <Col lg="3" className="d-flex flex-column justify-content-center p-0">
+              <h3 className="text-center m-0 p-0">
+                Cities Visited
+              </h3>
+              <h1 className="text-center m-0 p-0">
+              <b className="visited-num">{this.props.data.worldMap.visitedCities.length}</b>
+                <br></br>
+              </h1>
+              <div style={{ height: '5vh' }}></div>
+              <h3 className="text-center m-0 p-0">
+                National Parks Visited
+              </h3>
+              <h1 className="text-center m-0 p-0">
+              <b className="visited-num">{this.props.data.visitedParks.totalCount}</b>
+                <br></br>
+              </h1>
             </Col>
           </Row>
           <Row
@@ -194,58 +227,50 @@ export default class IndexPage extends React.Component {
   }
 }
 
-export const query = graphql`
-  query test {
-    allImages: allFile(
-      filter: { relativePath: { regex: "/Image_/" } }
-      sort: { fields: [relativePath] }
-    ) {
-      edges {
-        node {
-          id
-          childImageSharp {
-            gatsbyImageData(layout: CONSTRAINED)
-          }
-        }
-      }
+export const query = graphql`query {
+  banner: file(relativePath: { regex: "/home_banner/" }) {
+    childImageSharp {
+      gatsbyImageData(layout: CONSTRAINED)
     }
-
-    worldMap: allMarkdownRemark {
-      groupByCountry: group(field: frontmatter___country) {
-        fieldValue
-        totalCount
-      }
+  }
+  worldMap: allMarkdownRemark {
+    groupByCountry: group(field: {frontmatter: {country: SELECT}}) {
+      fieldValue
+      totalCount
     }
-    allMarkdownRemark(
-      limit: 3
-      sort: { order: DESC, fields: [frontmatter___date] }
-    ) {
-      edges {
-        node {
-          frontmatter {
-            title
-            path
-            featuredImage {
-              childImageSharp {
-                gatsbyImageData(layout: FULL_WIDTH)
-              }
-            }
-          }
-        }
-      }
-    }
-    bucketList: allBucketListJson {
-      edges {
-        node {
+    visitedContinents: distinct(field:{frontmatter: {continent:SELECT}}) 
+    visitedCountries: distinct(field:{frontmatter: {country:SELECT}})
+    visitedCities: distinct(field:{frontmatter: {city:SELECT}})
+  }
+  latestArticles: allMarkdownRemark(limit: 3, sort: {frontmatter: {date: DESC}}) {
+    edges {
+      node {
+        frontmatter {
           title
-          link
-          image {
+          path
+          featuredImage {
             childImageSharp {
-              gatsbyImageData(width: 572, layout: CONSTRAINED)
+              gatsbyImageData(layout: FULL_WIDTH)
             }
           }
         }
       }
     }
   }
-`
+  visitedParks: allMarkdownRemark(filter: {frontmatter: {tags: {in: "National park"}}}){
+    totalCount
+  }
+  bucketList: allBucketListJson {
+    edges {
+      node {
+        title
+        link
+        image {
+          childImageSharp {
+            gatsbyImageData(width: 572, layout: CONSTRAINED)
+          }
+        }
+      }
+    }
+  }
+}`

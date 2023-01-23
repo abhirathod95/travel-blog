@@ -161,43 +161,37 @@ export default class DestinationTemplate extends React.Component {
   }
 }
 
-export const query = graphql`
-  query allArticles(
-    $skip: Int!
-    $limit: Int!
-    $filter: MarkdownRemarkFilterInput
+export const query = graphql`query allArticles($skip: Int!, $limit: Int!, $filter: MarkdownRemarkFilterInput) {
+  allMarkdownRemark(
+    filter: $filter
+    sort: {frontmatter: {date: DESC}}
+    skip: $skip
+    limit: $limit
   ) {
-    allMarkdownRemark(
-      filter: $filter
-      sort: { order: DESC, fields: [frontmatter___date] }
-      skip: $skip
-      limit: $limit
-    ) {
-      edges {
-        node {
-          html
-          frontmatter {
-            title
-            date(formatString: "MMMM DD, YYYY")
-            path
-            excerpt
-            tags
-            continent
-            country
-            city
-            featuredImage {
-              childImageSharp {
-                gatsbyImageData(width: 768, layout: CONSTRAINED)
-              }
+    edges {
+      node {
+        html
+        frontmatter {
+          title
+          date(formatString: "MMMM DD, YYYY")
+          path
+          excerpt
+          tags
+          continent
+          country
+          city
+          featuredImage {
+            childImageSharp {
+              gatsbyImageData(width: 768, layout: CONSTRAINED)
             }
           }
         }
       }
     }
-    file(relativePath: { regex: "/Image_4.jpg/" }) {
-      childImageSharp {
-        gatsbyImageData(layout: CONSTRAINED)
-      }
+  }
+  file(relativePath: {regex: "/Image_4.jpg/"}) {
+    childImageSharp {
+      gatsbyImageData(layout: CONSTRAINED)
     }
   }
-`
+}`

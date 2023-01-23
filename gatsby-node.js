@@ -107,15 +107,15 @@ exports.createPages = ({ actions, graphql }) => {
   return graphql(`query travelArticlesCount {
   allMarkdownRemark {
     totalCount
-    groupByBlogType: group(field: fields___collection) {
+    groupByBlogType: group(field: {fields: {collection: SELECT}}) {
       fieldValue
       totalCount
     }
-    groupByContinent: group(field: frontmatter___continent) {
+    groupByContinent: group(field: {frontmatter: {continent: SELECT}}) {
       fieldValue
       totalCount
     }
-    groupByCountry: group(field: frontmatter___country) {
+    groupByCountry: group(field: {frontmatter: {country: SELECT}}) {
       fieldValue
       totalCount
     }
@@ -138,8 +138,7 @@ exports.createPages = ({ actions, graphql }) => {
   health: allMarkdownRemark(filter: {frontmatter: {tags: {in: "Health"}}}) {
     totalCount
   }
-}
-`).then(result => {
+}`).then(result => {
     if (result.errors) {
       console.log("Bad result!!!");
       console.log(result.errors);
@@ -274,7 +273,7 @@ exports.createSchemaCustomization = ({ actions }) => {
 
         const filePath = slash(path.posix.join(__dirname, 'src', partialPath.replace("../../../", "")))
         //console.log(filePath)
-        const fileNode = context.nodeModel.runQuery({
+        const fileNode = context.nodeModel.findOne({
           firstOnly: true,
           type: 'File',
           query: {

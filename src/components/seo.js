@@ -52,7 +52,7 @@ export default class SEO extends React.Component {
         <meta
           key="16"
           property="article:author"
-          content="https://wheretonextdoc.com/about_me"
+          content="https://wheretonextdoc.com/about_us"
         />,
         <meta
           key="17"
